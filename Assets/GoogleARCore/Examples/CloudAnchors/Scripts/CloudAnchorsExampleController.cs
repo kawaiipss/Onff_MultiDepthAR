@@ -22,9 +22,14 @@ namespace GoogleARCore.Examples.CloudAnchors
 {
     using GoogleARCore;
     using UnityEngine;
+    using System.Collections;
+    using System.Collections.Generic;
     using UnityEngine.EventSystems;
     using UnityEngine.Networking;
     using UnityEngine.SceneManagement;
+    using Photon.Pun;
+    using Photon.Realtime;
+    using ExitGames.Client.Photon;
 
 #if UNITY_EDITOR
     // Set up touch input propagation while using Instant Preview in the editor.
@@ -37,7 +42,7 @@ namespace GoogleARCore.Examples.CloudAnchors
     /// <a href="https://developers.google.com/ar/develop/unity/cloud-anchors/overview-unity">
     /// Share AR experiences with Cloud Anchors</a>
     /// </summary>
-    public class CloudAnchorsExampleController : MonoBehaviour
+    public class CloudAnchorsExampleController : MonoBehaviourPunCallbacks
     {
         [Header("ARCore")]
 
@@ -95,6 +100,17 @@ namespace GoogleARCore.Examples.CloudAnchors
         /// The Status Screen to display the connection status and cloud anchor instructions.
         /// </summary>
         public GameObject StatusScreen;
+
+        //sspark 게임용 버튼
+        //public GameObject _joystickBtn;
+        //public GameObject _fireBtn;
+        //
+
+        //sspark 총알 오브젝트 관련
+        public GameObject bullet;
+        public GameObject _player;
+        public Transform _firePos;
+        //
 
         /// <summary>
         /// The key name used in PlayerPrefs which indicates whether
@@ -214,6 +230,11 @@ namespace GoogleARCore.Examples.CloudAnchors
         /// </summary>
         public bool IsOriginPlaced { get; private set; }
 
+        public enum RaiseEventCodes
+        {
+            PlayerSpawnEventCode = 0
+        }
+
         /// <summary>
         /// Callback handling Start Now button click event.
         /// </summary>
@@ -246,6 +267,8 @@ namespace GoogleARCore.Examples.CloudAnchors
         /// </summary>
         public void Start()
         {
+            PhotonNetwork.NetworkingClient.EventReceived += OnEvent;
+
 #pragma warning disable 618
             _networkManager = NetworkUIController.GetComponent<CloudAnchorsNetworkManager>();
 #pragma warning restore 618
@@ -260,6 +283,16 @@ namespace GoogleARCore.Examples.CloudAnchors
             //
             ARKitRoot.SetActive(false);
             ResetStatus();
+
+            //sspark 총알발사 관련
+            //StartCoroutine(playerCoroutine());
+            //_firePos = _player.GetComponent<CharacterMove>()._firePos;
+            //
+        }
+
+        private void OnDestroy()
+        {
+            PhotonNetwork.NetworkingClient.EventReceived -= OnEvent;
         }
 
         /// <summary>
@@ -345,6 +378,7 @@ namespace GoogleARCore.Examples.CloudAnchors
                 if (CanPlaceStars())
                 {
                     InstantiateStar();
+                    //OnJoinedRoom();
                 }
                 else if (!IsOriginPlaced && _currentMode == ApplicationMode.Hosting)
                 {
@@ -363,7 +397,23 @@ namespace GoogleARCore.Examples.CloudAnchors
                     OnAnchorInstantiated(true);
                 }
             }
+            //else if(Input.GetKey(KeyCode.Return))
+            //{
+            //    InstantiateStar();
+            //}
         }
+
+        //sspark 플레이어가 생성되면 player변수에 오브젝트 할당
+        IEnumerator playerCoroutine()
+        {
+            yield return null;
+            if(_starObj)
+            {
+                //_player = GameObject.FindWithTag("Player");
+                _firePos = bullet.GetComponent<CharacterMove>()._firePos;
+            }
+        }
+        //
 
         /// <summary>
         /// Indicates whether the resolving prepare time has passed so the AnchorController
@@ -454,6 +504,15 @@ namespace GoogleARCore.Examples.CloudAnchors
             }
 
             _currentMode = ApplicationMode.Hosting;
+
+            //if (!_joystickBtn.activeSelf)
+            //{
+            //    _joystickBtn.SetActive(true);
+            //}
+            //if(!_fireBtn.activeSelf)
+            //{
+            //    _fireBtn.SetActive(true);
+            //}
         }
 
         /// <summary>
@@ -470,6 +529,15 @@ namespace GoogleARCore.Examples.CloudAnchors
             }
 
             _currentMode = ApplicationMode.Resolving;
+
+            //if(!_joystickBtn.activeSelf)
+            //{
+            //    _joystickBtn.SetActive(true);
+            //}
+            //if (!_fireBtn.activeSelf)
+            //{
+            //    _fireBtn.SetActive(true);
+            //}
         }
 
         /// <summary>
@@ -543,12 +611,27 @@ namespace GoogleARCore.Examples.CloudAnchors
                 "Please start the app again and try another room.");
         }
 
+        //sspark 오브젝트 1개만 생성하기 위한 변수
+        //private bool _anchorObj = false;
+        private bool _starObj = false;
+        //
+
         /// <summary>
         /// Instantiates the anchor object at the pose of the _lastPlacedAnchor Anchor. This will
         /// host the Cloud Anchor.
         /// </summary>
         private void InstantiateAnchor()
         {
+            //if (!_anchorObj)
+            //{
+            //    // The anchor will be spawned by the host, so no networking Command is needed.
+            //    GameObject.Find("LocalPlayer").GetComponent<LocalPlayerController>()
+            //        .SpawnAnchor(Vector3.zero, Quaternion.identity, _worldOriginAnchor);
+            //    _anchorObj = true;
+            //}
+            //else
+            //    return;
+
             // The anchor will be spawned by the host, so no networking Command is needed.
             GameObject.Find("LocalPlayer").GetComponent<LocalPlayerController>()
                 .SpawnAnchor(Vector3.zero, Quaternion.identity, _worldOriginAnchor);
@@ -559,10 +642,66 @@ namespace GoogleARCore.Examples.CloudAnchors
         /// </summary>
         private void InstantiateStar()
         {
-            // Star must be spawned in the server so a networking Command is used.
+            ////sspark 오브젝트를 한개만 소환
+            //if (!_starObj)
+            //{
+            //    // Star must be spawned in the server so a networking Command is used.
+            //    GameObject.Find("LocalPlayer").GetComponent<LocalPlayerController>()
+            //        .CmdSpawnStar(_lastHitPose.Value.position, _lastHitPose.Value.rotation);
+
+            //    _player = GameObject.FindWithTag("Player");
+
+            //    _starObj = true;
+            //}
+            //else
+            //    return;
+            ////
+
             GameObject.Find("LocalPlayer").GetComponent<LocalPlayerController>()
-                .CmdSpawnStar(_lastHitPose.Value.position, _lastHitPose.Value.rotation);
+                    .CmdSpawnStar(_lastHitPose.Value.position, _lastHitPose.Value.rotation);
+            
+            _player = GameObject.FindWithTag("Player");
+
+            //PhotonView _photonView = _player.GetComponent<PhotonView>();
+
+            //if(PhotonNetwork.AllocateViewID(_photonView))
+            //{
+            //    object[] data = new object[]
+            //    {
+            //        _player.transform.position, _player.transform.rotation, _photonView.ViewID
+            //    };
+
+            //    RaiseEventOptions raiseEventOptions = new RaiseEventOptions
+            //    {
+            //        Receivers = ReceiverGroup.Others,
+            //        CachingOption = EventCaching.AddToRoomCache
+            //    };
+
+            //    SendOptions sendOptions = new SendOptions
+            //    {
+            //        Reliability = true
+            //    };
+
+            //    PhotonNetwork.RaiseEvent((byte)RaiseEventCodes.PlayerSpawnEventCode, data, raiseEventOptions, sendOptions);
+            //}
+            //else
+            //{
+            //    Debug.Log("Failed to allocate a viewID");
+            //    Destroy(_player);
+            //}
+
+            //GameObject.Find("LocalPlayer").GetComponent<LocalPlayerController>()
+            //        .CmdSpawnStar(Vector3.zero, Quaternion.identity);
+            //PhotonNetwork.Instantiate("Star",_lastHitPose.Value.position,_lastHitPose.Value.rotation);
+            //// Star must be spawned in the server so a networking Command is used.
+            //GameObject.Find("LocalPlayer").GetComponent<LocalPlayerController>()
+            //    .CmdSpawnStar(_lastHitPose.Value.position, _lastHitPose.Value.rotation);
         }
+
+        //public override void OnJoinedRoom()
+        //{
+        //    InstantiateStar();
+        //}
 
         /// <summary>
         /// Sets the corresponding platform active.
@@ -738,5 +877,40 @@ namespace GoogleARCore.Examples.CloudAnchors
 #pragma warning restore 618
             SceneManager.LoadScene("CloudAnchors");
         }
+
+        //sspark 총알발사 함수
+        public void OnClickFire()
+        {
+            Instantiate(bullet, _firePos.position, Quaternion.identity);
+        }
+        //
+
+        #region Photon 콜백 함수
+
+        void OnEvent(EventData photonEvent)
+        {
+            if(photonEvent.Code == (byte)RaiseEventCodes.PlayerSpawnEventCode)
+            {
+                object[] data = (object[])photonEvent.CustomData;
+                Vector3 receivedPosition = (Vector3)data[0];
+                Quaternion receivedRotation = (Quaternion)data[1];
+                int receivedPlayerSelectionData = (int)data[3];
+
+                GameObject _photonPlayer = GameObject.FindWithTag("Player");
+                PhotonView _photonView = _photonPlayer.GetComponent<PhotonView>();
+                _photonView.ViewID = (int)data[2];
+
+            }
+        }
+
+        public override void OnJoinedRoom()
+        {
+            if(PhotonNetwork.IsConnectedAndReady)
+            {
+                InstantiateStar();
+            }
+        }
+
+        #endregion
     }
 }

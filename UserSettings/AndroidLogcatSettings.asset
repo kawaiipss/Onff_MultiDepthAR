@@ -3,51 +3,45 @@
     "m_SelectedPackage": {
         "deviceId": "192.168.0.27:4444",
         "name": "com.caCorp.caAnchor",
-        "processId": 28679,
+        "processId": 28437,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "192.168.0.27:4444",
-            "name": "com.sec.android.app.launcher",
-            "processId": 6989,
-            "exited": false
-        },
-        {
-            "deviceId": "192.168.0.27:4444",
             "name": "com.caCorp.caAnchor",
-            "processId": 1528,
+            "processId": 23503,
             "exited": true
         },
         {
             "deviceId": "192.168.0.27:4444",
             "name": "com.caCorp.caAnchor",
-            "processId": 7388,
+            "processId": 5026,
             "exited": true
         },
         {
             "deviceId": "192.168.0.27:4444",
             "name": "com.caCorp.caAnchor",
-            "processId": 8019,
-            "exited": true
-        },
-        {
-            "deviceId": "192.168.0.27:4444",
-            "name": "com.sec.android.app.myfiles",
-            "processId": 24022,
+            "processId": 5284,
             "exited": true
         },
         {
             "deviceId": "192.168.0.27:4444",
             "name": "com.caCorp.caAnchor",
-            "processId": 23935,
+            "processId": 21120,
             "exited": true
         },
         {
             "deviceId": "192.168.0.27:4444",
             "name": "com.caCorp.caAnchor",
-            "processId": 28679,
+            "processId": 25216,
+            "exited": true
+        },
+        {
+            "deviceId": "192.168.0.27:4444",
+            "name": "com.caCorp.caAnchor",
+            "processId": 28437,
             "exited": false
         }
     ],

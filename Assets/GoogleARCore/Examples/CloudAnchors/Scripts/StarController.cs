@@ -70,7 +70,6 @@ namespace GoogleARCore.Examples.CloudAnchors
             {
                 return;
             }
-
             _starMesh.SetActive(true);
         }
     }

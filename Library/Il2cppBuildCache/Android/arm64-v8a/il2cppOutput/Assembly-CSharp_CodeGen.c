@@ -1389,3381 +1389,4293 @@ extern void WaterGridManager_Update_m4958222D5A201A51D759ED5ACA7E07FED87A76F6 (v
 extern void WaterGridManager_OnDestroy_m8439D64DE6936E7C6862AC9C6C2131C8F1142789 (void);
 // 0x000002B6 System.Void WaterGridManager::.ctor()
 extern void WaterGridManager__ctor_m08C8B00CAE6EB0B82EF96250A9D4887FB480ACD7 (void);
-// 0x000002B7 System.Boolean GoogleARCoreInternal.InstantPreviewManager::get_IsProvidingPlatform()
+// 0x000002B7 System.Void JoystickPlayerExample::FixedUpdate()
+extern void JoystickPlayerExample_FixedUpdate_m3D7D2B1BE8C20574423088EF0C338700444B04B2 (void);
+// 0x000002B8 System.Void JoystickPlayerExample::.ctor()
+extern void JoystickPlayerExample__ctor_mEE8014E341485D43F0629DE22DB9F407E47FC49B (void);
+// 0x000002B9 System.Void JoystickSetterExample::ModeChanged(System.Int32)
+extern void JoystickSetterExample_ModeChanged_m79A8E404B1B30FAEECF0A21A55933659F664249B (void);
+// 0x000002BA System.Void JoystickSetterExample::AxisChanged(System.Int32)
+extern void JoystickSetterExample_AxisChanged_mE5DDF00D9E76A95282555A47E8789961A708642F (void);
+// 0x000002BB System.Void JoystickSetterExample::SnapX(System.Boolean)
+extern void JoystickSetterExample_SnapX_mD9AF3A51530489B40CACB5C4CE390B7BB930D7C7 (void);
+// 0x000002BC System.Void JoystickSetterExample::SnapY(System.Boolean)
+extern void JoystickSetterExample_SnapY_m16DC4EBA6DAFCDDEF054FCF901169B33AB7B01BF (void);
+// 0x000002BD System.Void JoystickSetterExample::Update()
+extern void JoystickSetterExample_Update_m0DEB8289C3A0133C8FAE885C6698C6082C51E3F6 (void);
+// 0x000002BE System.Void JoystickSetterExample::.ctor()
+extern void JoystickSetterExample__ctor_m2E65CFF997EC9703B4049E1F3870FC0AB3739C84 (void);
+// 0x000002BF System.Single Joystick::get_Horizontal()
+extern void Joystick_get_Horizontal_m1AE640531EE5E28A63A8D5AC757F9753DDA56321 (void);
+// 0x000002C0 System.Single Joystick::get_Vertical()
+extern void Joystick_get_Vertical_m56B4D1C75DABA23923EF2E9C20543858E90D23C2 (void);
+// 0x000002C1 UnityEngine.Vector2 Joystick::get_Direction()
+extern void Joystick_get_Direction_mF002E7B698C393FF866864D4A552357C535D36C5 (void);
+// 0x000002C2 System.Single Joystick::get_HandleRange()
+extern void Joystick_get_HandleRange_mF0843B8C3E187FB08DD7EFF63F4AA4E9D30F4C99 (void);
+// 0x000002C3 System.Void Joystick::set_HandleRange(System.Single)
+extern void Joystick_set_HandleRange_m7C2C550DE23BA7D39DD2015EFAC0DBB53087E0DD (void);
+// 0x000002C4 System.Single Joystick::get_DeadZone()
+extern void Joystick_get_DeadZone_m9CFD309045AF6FC6F40430F2E84B04AF644A7355 (void);
+// 0x000002C5 System.Void Joystick::set_DeadZone(System.Single)
+extern void Joystick_set_DeadZone_m9A107FE7A8EF41E9FBEB6979B1B17FD79C3F127C (void);
+// 0x000002C6 AxisOptions Joystick::get_AxisOptions()
+extern void Joystick_get_AxisOptions_m3098305D1A5F1F48444A1ADAEC7BD46E980E274B (void);
+// 0x000002C7 System.Void Joystick::set_AxisOptions(AxisOptions)
+extern void Joystick_set_AxisOptions_m671D494CBF07962B24BF4024059715FA650BB9EF (void);
+// 0x000002C8 System.Boolean Joystick::get_SnapX()
+extern void Joystick_get_SnapX_mE645B0DB8C99081261ED3DF264B9AB41E92769E6 (void);
+// 0x000002C9 System.Void Joystick::set_SnapX(System.Boolean)
+extern void Joystick_set_SnapX_m710022BEA478442D17908F10F5BA53375705AC3B (void);
+// 0x000002CA System.Boolean Joystick::get_SnapY()
+extern void Joystick_get_SnapY_mF8086B253937812A6BF0BA6D0818313899CBA564 (void);
+// 0x000002CB System.Void Joystick::set_SnapY(System.Boolean)
+extern void Joystick_set_SnapY_mAD4C6843FD698B99D23F21C3A15D9CE928289508 (void);
+// 0x000002CC System.Void Joystick::Start()
+extern void Joystick_Start_m3B4EEAA0389B5CCCA1479ACC4A167376E74BC275 (void);
+// 0x000002CD System.Void Joystick::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void Joystick_OnPointerDown_mB2A665CAD2B74565B6A1ACE2CA5A98A66020CE18 (void);
+// 0x000002CE System.Void Joystick::OnDrag(UnityEngine.EventSystems.PointerEventData)
+extern void Joystick_OnDrag_m1127276AFCEF63DE869AC5156DE7712810B6C46D (void);
+// 0x000002CF System.Void Joystick::HandleInput(System.Single,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Camera)
+extern void Joystick_HandleInput_m38CE2907CF406D1F4B327F197E0CCED1C6DD8CC7 (void);
+// 0x000002D0 System.Void Joystick::FormatInput()
+extern void Joystick_FormatInput_m6EAB109EE0C7D5EB1389E2277AD72335EF140826 (void);
+// 0x000002D1 System.Single Joystick::SnapFloat(System.Single,AxisOptions)
+extern void Joystick_SnapFloat_m0A47278C9A57AC4A6696C0C13450F8F404580C19 (void);
+// 0x000002D2 System.Void Joystick::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+extern void Joystick_OnPointerUp_m84FA57FCD3325BDEE02FED329B1C963C4DA2A037 (void);
+// 0x000002D3 UnityEngine.Vector2 Joystick::ScreenPointToAnchoredPosition(UnityEngine.Vector2)
+extern void Joystick_ScreenPointToAnchoredPosition_mAD769BA610FABC0D9C47294736AB0832C558D3FD (void);
+// 0x000002D4 System.Void Joystick::.ctor()
+extern void Joystick__ctor_mF7C14D62A9A6B3BD77F6365BB88DE406A9CE4E08 (void);
+// 0x000002D5 System.Single DynamicJoystick::get_MoveThreshold()
+extern void DynamicJoystick_get_MoveThreshold_m58D7166511D10A9933A62403E6BD58A85A22FE11 (void);
+// 0x000002D6 System.Void DynamicJoystick::set_MoveThreshold(System.Single)
+extern void DynamicJoystick_set_MoveThreshold_m5A53DE83993960EA2650FB12F596E8C48C561199 (void);
+// 0x000002D7 System.Void DynamicJoystick::Start()
+extern void DynamicJoystick_Start_mA61574C0A57F93B6604DFD076E6D2B8959637FF6 (void);
+// 0x000002D8 System.Void DynamicJoystick::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void DynamicJoystick_OnPointerDown_m86184227C74C293693A120601730591FE892D477 (void);
+// 0x000002D9 System.Void DynamicJoystick::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+extern void DynamicJoystick_OnPointerUp_m19326842BD55962349FA84108425A679F320166A (void);
+// 0x000002DA System.Void DynamicJoystick::HandleInput(System.Single,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Camera)
+extern void DynamicJoystick_HandleInput_m9E141917F78D7887B05AEE4933F803D43F8A82AA (void);
+// 0x000002DB System.Void DynamicJoystick::.ctor()
+extern void DynamicJoystick__ctor_m30E27EBE028214E9F514F3788463A74511DC651D (void);
+// 0x000002DC System.Void FixedJoystick::.ctor()
+extern void FixedJoystick__ctor_mC4A98EB3129E3091007AD83B5B93672E7E9151B6 (void);
+// 0x000002DD System.Void FloatingJoystick::Start()
+extern void FloatingJoystick_Start_m290C93EC665E6DB28F837EE06CA2606EBA99C016 (void);
+// 0x000002DE System.Void FloatingJoystick::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void FloatingJoystick_OnPointerDown_m8C00303A73289775A64DC879CCC9182B5BC849C5 (void);
+// 0x000002DF System.Void FloatingJoystick::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+extern void FloatingJoystick_OnPointerUp_m26F0DEE158E1947EE053FE21B01ADA413FF3D4A2 (void);
+// 0x000002E0 System.Void FloatingJoystick::.ctor()
+extern void FloatingJoystick__ctor_mA6F4B5F4A0C881759BFAD91256D5BE5E90399F8F (void);
+// 0x000002E1 System.Single VariableJoystick::get_MoveThreshold()
+extern void VariableJoystick_get_MoveThreshold_m417DCAF09D8B811441FED64D4AE2854B00217EFA (void);
+// 0x000002E2 System.Void VariableJoystick::set_MoveThreshold(System.Single)
+extern void VariableJoystick_set_MoveThreshold_mBF85E683260C0609A921EE7A1AD636E34B8FF5A0 (void);
+// 0x000002E3 System.Void VariableJoystick::SetMode(JoystickType)
+extern void VariableJoystick_SetMode_m600C4C6E1FA830CF452EE33155AD60671BBEB04C (void);
+// 0x000002E4 System.Void VariableJoystick::Start()
+extern void VariableJoystick_Start_m6BDC051D277BBFA7C373186E2825DE5429219169 (void);
+// 0x000002E5 System.Void VariableJoystick::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void VariableJoystick_OnPointerDown_m1C27A5FF5BB7149FB39CC27B69DCBF3FB4F45ADB (void);
+// 0x000002E6 System.Void VariableJoystick::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+extern void VariableJoystick_OnPointerUp_mFD7BF52D93B0B573E9227D5E971778EC003A1AC2 (void);
+// 0x000002E7 System.Void VariableJoystick::HandleInput(System.Single,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Camera)
+extern void VariableJoystick_HandleInput_m868BD21C589C135310923B8C794AD5BA316C2D3A (void);
+// 0x000002E8 System.Void VariableJoystick::.ctor()
+extern void VariableJoystick__ctor_m1E03B9859AAB8461C7A42706AE4E31606969C25F (void);
+// 0x000002E9 Photon.Chat.ChatAppSettings AppSettingsExtensions::GetChatSettings(Photon.Realtime.AppSettings)
+extern void AppSettingsExtensions_GetChatSettings_m547048BD6E0B67404CD9EEE88C00F2396DF93BFC (void);
+// 0x000002EA System.Void ChannelSelector::SetChannel(System.String)
+extern void ChannelSelector_SetChannel_m73C936B325A97928B7A90D7C263923DB1608AD3E (void);
+// 0x000002EB System.Void ChannelSelector::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+extern void ChannelSelector_OnPointerClick_mF2CE1256B4C1587300BC65F68C57871E9D04EF5B (void);
+// 0x000002EC System.Void ChannelSelector::.ctor()
+extern void ChannelSelector__ctor_m955A69F0C09110A7184264FC4A400625C9C3712B (void);
+// 0x000002ED System.Void ChatAppIdCheckerUI::Update()
+extern void ChatAppIdCheckerUI_Update_m3E0F22639A6DC1534C8E37925CAD3F7F0C169A69 (void);
+// 0x000002EE System.Void ChatAppIdCheckerUI::.ctor()
+extern void ChatAppIdCheckerUI__ctor_m810602E0BA6ACAF276B84807C7531EDF0AA7895A (void);
+// 0x000002EF System.String ChatGui::get_UserName()
+extern void ChatGui_get_UserName_mFC72D99B3857A2A850E610182954EF21BFDD656B (void);
+// 0x000002F0 System.Void ChatGui::set_UserName(System.String)
+extern void ChatGui_set_UserName_m2A5D15C5A2C57BF815E69DEBD12771BBF5F28F0E (void);
+// 0x000002F1 System.Void ChatGui::Start()
+extern void ChatGui_Start_m39521BDC549E6122372E4BD4057244FE97C85F54 (void);
+// 0x000002F2 System.Void ChatGui::Connect()
+extern void ChatGui_Connect_m085418B018B9DC3121B4B4F763086FE181F7CCF0 (void);
+// 0x000002F3 System.Void ChatGui::OnDestroy()
+extern void ChatGui_OnDestroy_m374C72D03D08B9C92F382B4AC9B5C7ECFCB0E33E (void);
+// 0x000002F4 System.Void ChatGui::OnApplicationQuit()
+extern void ChatGui_OnApplicationQuit_mF07E706B4A1A3DD845DDD336D2FD8D67556BDC66 (void);
+// 0x000002F5 System.Void ChatGui::Update()
+extern void ChatGui_Update_mEE5D2E3175984AC39518A58153C7961BB30F90BD (void);
+// 0x000002F6 System.Void ChatGui::OnEnterSend()
+extern void ChatGui_OnEnterSend_mC29FE6FC78C35108FD2E3D44A5FE158744F09EFB (void);
+// 0x000002F7 System.Void ChatGui::OnClickSend()
+extern void ChatGui_OnClickSend_m2FA72879D41DD1187AA3ED5084D818ABFA2B6E49 (void);
+// 0x000002F8 System.Void ChatGui::SendChatMessage(System.String)
+extern void ChatGui_SendChatMessage_m5CEA1D17144CE9652A8B65E8860D0DA2E369594A (void);
+// 0x000002F9 System.Void ChatGui::PostHelpToCurrentChannel()
+extern void ChatGui_PostHelpToCurrentChannel_mFFA856F30EAABC8F6CC153BB4BB0B42760EB102D (void);
+// 0x000002FA System.Void ChatGui::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String)
+extern void ChatGui_DebugReturn_m8754F5B02E2B4ED03413E4CD95B810CC86617A4A (void);
+// 0x000002FB System.Void ChatGui::OnConnected()
+extern void ChatGui_OnConnected_m3EAFCA54E75B6AB28C363E920AE048EF5DCB4521 (void);
+// 0x000002FC System.Void ChatGui::OnDisconnected()
+extern void ChatGui_OnDisconnected_m3003FC2C479F5537B1AA6F75747DA866D02B5532 (void);
+// 0x000002FD System.Void ChatGui::OnChatStateChange(Photon.Chat.ChatState)
+extern void ChatGui_OnChatStateChange_mBC049CFBD2000061938736E7CCE03C1C91C0CB63 (void);
+// 0x000002FE System.Void ChatGui::OnSubscribed(System.String[],System.Boolean[])
+extern void ChatGui_OnSubscribed_m20D1F15C70C822E6AB5560B8E5140F9BD88596F1 (void);
+// 0x000002FF System.Void ChatGui::OnSubscribed(System.String,System.String[],System.Collections.Generic.Dictionary`2<System.Object,System.Object>)
+extern void ChatGui_OnSubscribed_mA4CCF32073DDB115C554FDD5920B31620BB88B4D (void);
+// 0x00000300 System.Void ChatGui::InstantiateChannelButton(System.String)
+extern void ChatGui_InstantiateChannelButton_m3848B8D380461CD3C4DDF9A90FE3EDD2E332ACDB (void);
+// 0x00000301 System.Void ChatGui::InstantiateFriendButton(System.String)
+extern void ChatGui_InstantiateFriendButton_m7F07EDAD1DA6F0F76A44AFF743B7C4F459D9A849 (void);
+// 0x00000302 System.Void ChatGui::OnUnsubscribed(System.String[])
+extern void ChatGui_OnUnsubscribed_mCCCE787B3F97594074B62E14C601AFCAB61A47A2 (void);
+// 0x00000303 System.Void ChatGui::OnGetMessages(System.String,System.String[],System.Object[])
+extern void ChatGui_OnGetMessages_m399FFB8E1300C33A9EB374F9F2787374FEC80D1F (void);
+// 0x00000304 System.Void ChatGui::OnPrivateMessage(System.String,System.Object,System.String)
+extern void ChatGui_OnPrivateMessage_m7E046C5EE238E0B998565EB88D5EC7CB0B62D76F (void);
+// 0x00000305 System.Void ChatGui::OnStatusUpdate(System.String,System.Int32,System.Boolean,System.Object)
+extern void ChatGui_OnStatusUpdate_mD19AEAB3025B776571DC5DA3AE50FFFB1C383AF1 (void);
+// 0x00000306 System.Void ChatGui::OnUserSubscribed(System.String,System.String)
+extern void ChatGui_OnUserSubscribed_mE99340D2BD23C7D636899E650E54C37D0507DAD6 (void);
+// 0x00000307 System.Void ChatGui::OnUserUnsubscribed(System.String,System.String)
+extern void ChatGui_OnUserUnsubscribed_m2E16B304BDD24E9D2C8D1A7914AEED529FF6EE7F (void);
+// 0x00000308 System.Void ChatGui::OnChannelPropertiesChanged(System.String,System.String,System.Collections.Generic.Dictionary`2<System.Object,System.Object>)
+extern void ChatGui_OnChannelPropertiesChanged_m4E67A6E7A06ED0D03CA74B530C63AE494F68FF24 (void);
+// 0x00000309 System.Void ChatGui::OnUserPropertiesChanged(System.String,System.String,System.String,System.Collections.Generic.Dictionary`2<System.Object,System.Object>)
+extern void ChatGui_OnUserPropertiesChanged_m5B403AC9F8175C04040510BCE6F7CEDD3B7D366B (void);
+// 0x0000030A System.Void ChatGui::OnErrorInfo(System.String,System.String,System.Object)
+extern void ChatGui_OnErrorInfo_m3C8983C40CEAD6BAFEC82A3997729AEBFC369C83 (void);
+// 0x0000030B System.Void ChatGui::AddMessageToSelectedChannel(System.String)
+extern void ChatGui_AddMessageToSelectedChannel_m171FB1F09B4D53912B39728479F91056E18323E7 (void);
+// 0x0000030C System.Void ChatGui::ShowChannel(System.String)
+extern void ChatGui_ShowChannel_m48BBE9EA44EC7992C42B584E7CD2E05352789551 (void);
+// 0x0000030D System.Void ChatGui::OpenDashboard()
+extern void ChatGui_OpenDashboard_m27812C12469AD5A0D2CA52D2B7E11593BCF9EC90 (void);
+// 0x0000030E System.Void ChatGui::.ctor()
+extern void ChatGui__ctor_mE9C452C98CEA2FA3D5007EAB2B295C57B4DCE205 (void);
+// 0x0000030F System.Void ChatGui::.cctor()
+extern void ChatGui__cctor_m7D892708067CB07DB58081A631DA9DFBAC7B3083 (void);
+// 0x00000310 System.Void FriendItem::set_FriendId(System.String)
+extern void FriendItem_set_FriendId_m8E9861AA8C28705ED7855791487BB3C012F60CBA (void);
+// 0x00000311 System.String FriendItem::get_FriendId()
+extern void FriendItem_get_FriendId_mEF088D10E35110124CC84308164FA4F5E5096DA3 (void);
+// 0x00000312 System.Void FriendItem::Awake()
+extern void FriendItem_Awake_m6CC1DB18190F7F5A79029BE4AB4F6F29F519BDA0 (void);
+// 0x00000313 System.Void FriendItem::OnFriendStatusUpdate(System.Int32,System.Boolean,System.Object)
+extern void FriendItem_OnFriendStatusUpdate_mCC056D85F3DD38A7C9869E7919F64729ED0551B3 (void);
+// 0x00000314 System.Void FriendItem::.ctor()
+extern void FriendItem__ctor_mB9DE36BE9496080F797F23BCC813AC66857692B0 (void);
+// 0x00000315 System.Boolean IgnoreUiRaycastWhenInactive::IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
+extern void IgnoreUiRaycastWhenInactive_IsRaycastLocationValid_mE22106037E41083C28AE240A56C2571C1A98D531 (void);
+// 0x00000316 System.Void IgnoreUiRaycastWhenInactive::.ctor()
+extern void IgnoreUiRaycastWhenInactive__ctor_m23CB38907F86355773CE8F77CC5AA54CC5854BD7 (void);
+// 0x00000317 System.Void NamePickGui::Start()
+extern void NamePickGui_Start_m51D755E15E2717751111AB4747BE1116B6493729 (void);
+// 0x00000318 System.Void NamePickGui::EndEditOnEnter()
+extern void NamePickGui_EndEditOnEnter_m5FB829C5A26086E594AC805A82CD29B8F7C2D89E (void);
+// 0x00000319 System.Void NamePickGui::StartChat()
+extern void NamePickGui_StartChat_mE4FE987367755FCE2168B2883873504901E3319C (void);
+// 0x0000031A System.Void NamePickGui::.ctor()
+extern void NamePickGui__ctor_m40BA9A6C50F204FB90838B67DE6C01D345A5FAD6 (void);
+// 0x0000031B System.Void BulletScript::OnEnable()
+extern void BulletScript_OnEnable_mD0EE0858734FE0157AE9B1FE65D02938E20D176D (void);
+// 0x0000031C System.Collections.IEnumerator BulletScript::BulletDestroy()
+extern void BulletScript_BulletDestroy_m2D515648C5859BA6FC68C86861A105574E5E16D8 (void);
+// 0x0000031D System.Void BulletScript::Update()
+extern void BulletScript_Update_mEEA5A09DE25F213593101C9F9B0BBB3D20348EAF (void);
+// 0x0000031E System.Void BulletScript::OnTriggerEnter(UnityEngine.Collider)
+extern void BulletScript_OnTriggerEnter_m2AAE0602F5DD3B8214F2FFE0E7A0DFED1BC7EA29 (void);
+// 0x0000031F System.Void BulletScript::.ctor()
+extern void BulletScript__ctor_m100E1C957FFAB49CD0E873E7A47EF15F8DCD5E19 (void);
+// 0x00000320 System.Void BulletScript/<BulletDestroy>d__1::.ctor(System.Int32)
+extern void U3CBulletDestroyU3Ed__1__ctor_m8A0B46FCA4C92BC9A6ACFB921B30AF054DDFF268 (void);
+// 0x00000321 System.Void BulletScript/<BulletDestroy>d__1::System.IDisposable.Dispose()
+extern void U3CBulletDestroyU3Ed__1_System_IDisposable_Dispose_mE70AC2EE60F2C16DAB6FBE15D62443EA9A318EC5 (void);
+// 0x00000322 System.Boolean BulletScript/<BulletDestroy>d__1::MoveNext()
+extern void U3CBulletDestroyU3Ed__1_MoveNext_m53891F5C8B99554BAFDCFD3A05240A08273D2E26 (void);
+// 0x00000323 System.Object BulletScript/<BulletDestroy>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CBulletDestroyU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD4DA91EBF4E20D9019203C9972490A60BA14E478 (void);
+// 0x00000324 System.Void BulletScript/<BulletDestroy>d__1::System.Collections.IEnumerator.Reset()
+extern void U3CBulletDestroyU3Ed__1_System_Collections_IEnumerator_Reset_mCD6AC3195AE8AF2A9FF1DB946D21521ADC5480EE (void);
+// 0x00000325 System.Object BulletScript/<BulletDestroy>d__1::System.Collections.IEnumerator.get_Current()
+extern void U3CBulletDestroyU3Ed__1_System_Collections_IEnumerator_get_Current_mD84F7BD0E0ADF036A3C1E84AD264374596ADCE8E (void);
+// 0x00000326 System.Void CharacterMove::Start()
+extern void CharacterMove_Start_m3251498CAD39B9EA666C785524A5FB080F68DFA1 (void);
+// 0x00000327 System.Void CharacterMove::OnEnable()
+extern void CharacterMove_OnEnable_m830A8ED3C6B26B1B2DD7B1E11465D0F118C06826 (void);
+// 0x00000328 System.Void CharacterMove::Update()
+extern void CharacterMove_Update_m4AD1549460617DDFFCF192E4154461AAF277371B (void);
+// 0x00000329 System.Void CharacterMove::Move(UnityEngine.Vector3)
+extern void CharacterMove_Move_mF1C81CFA3EF839E1BF57C77BF3715AC2EB6BADD6 (void);
+// 0x0000032A System.Void CharacterMove::FixedUpdate()
+extern void CharacterMove_FixedUpdate_m28488F92A80AAB8230AE1C9F8A28922972919B1A (void);
+// 0x0000032B System.Void CharacterMove::OnTriggerEnter(UnityEngine.Collider)
+extern void CharacterMove_OnTriggerEnter_m7B229D2C1124693E57D5537962C39A292B54BC6B (void);
+// 0x0000032C System.Void CharacterMove::.ctor()
+extern void CharacterMove__ctor_m6477C49AF6E86E0A771370DAF094CB4DA0AD0E80 (void);
+// 0x0000032D System.Void PhotonInit::Awake()
+extern void PhotonInit_Awake_m49730136DC495DC3BFC1344DB0674D479FE7FAEE (void);
+// 0x0000032E System.Void PhotonInit::Start()
+extern void PhotonInit_Start_m1B5287E2C639F12F8AF2D1D3C786F92917C8B202 (void);
+// 0x0000032F System.Void PhotonInit::OnConnected()
+extern void PhotonInit_OnConnected_m5E811E6E50FF1097BA91521E70D8A9A81771A5AB (void);
+// 0x00000330 System.Void PhotonInit::OnConnectedToMaster()
+extern void PhotonInit_OnConnectedToMaster_m99B4BFC1D014D5C235A0151C3F603B2C6B716E98 (void);
+// 0x00000331 System.Void PhotonInit::OnJoinedRoom()
+extern void PhotonInit_OnJoinedRoom_mFB114EC395EE95042925D3AA17EDB11D4ED10143 (void);
+// 0x00000332 System.Void PhotonInit::OnJoinRandomFailed(System.Int16,System.String)
+extern void PhotonInit_OnJoinRandomFailed_m2D30D61E32EDDE5595DBDC5F74EA73FCF3EEAC34 (void);
+// 0x00000333 System.Void PhotonInit::.ctor()
+extern void PhotonInit__ctor_mA039617984587B3D5B0CE643B5D95A9C11EED08E (void);
+// 0x00000334 System.Void PlayerSetting::Start()
+extern void PlayerSetting_Start_mF266408E19AF5ACB20268EBB0C833D6701BAA60C (void);
+// 0x00000335 System.Void PlayerSetting::.ctor()
+extern void PlayerSetting__ctor_m4278BA9684EB10EA5142791EFC03DED5825D6E10 (void);
+// 0x00000336 System.Void ReaderClass::Update()
+extern void ReaderClass_Update_m55EFB63C7FC2895A04286D83F109E5931AC2CCDF (void);
+// 0x00000337 System.Void ReaderClass::.ctor()
+extern void ReaderClass__ctor_m21691A15223CCECDB7F780FD1C88BCBA6EBD7BA0 (void);
+// 0x00000338 System.Int32 SingletoneClass::get_SINGLETONINT()
+extern void SingletoneClass_get_SINGLETONINT_mEFB4021F70633A79221B3C202CFAC9939919E6CF (void);
+// 0x00000339 System.Void SingletoneClass::set_SINGLETONINT(System.Int32)
+extern void SingletoneClass_set_SINGLETONINT_mA335793DA15EFC327A2B2F11DF32EE634FBCFED5 (void);
+// 0x0000033A System.Void SingletoneClass::.ctor()
+extern void SingletoneClass__ctor_m558CA26B0F694555C9CF46830C7C16A5D56F120D (void);
+// 0x0000033B System.Void SpawnStar::Start()
+extern void SpawnStar_Start_m3F5F9EA8B5B2426BE9A36B9B98EEB00A94577904 (void);
+// 0x0000033C System.Void SpawnStar::OnClickMasterSpawn()
+extern void SpawnStar_OnClickMasterSpawn_mF84AF520A9362314BCA8AE1ACD8EAE3345BBE912 (void);
+// 0x0000033D System.Void SpawnStar::OnClickSpawn()
+extern void SpawnStar_OnClickSpawn_m34C8E9E98A76F413417F486BDF4A732756F59776 (void);
+// 0x0000033E System.Void SpawnStar::.ctor()
+extern void SpawnStar__ctor_mCA93EB59DC91E8C666AD77D2FEC87302C78DE6E4 (void);
+// 0x0000033F System.Void SyncronizePhoton::Awake()
+extern void SyncronizePhoton_Awake_m74A7960744983925D5C6ABC06D66B458FFEB99B4 (void);
+// 0x00000340 System.Void SyncronizePhoton::Update()
+extern void SyncronizePhoton_Update_m12ED518213F91BB9835956EC234950B72883493C (void);
+// 0x00000341 System.Void SyncronizePhoton::OnPhotonSerializeView(Photon.Pun.PhotonStream,Photon.Pun.PhotonMessageInfo)
+extern void SyncronizePhoton_OnPhotonSerializeView_m4CC233B48D2D58BE180CF36B564798976A0AE9FF (void);
+// 0x00000342 System.Void SyncronizePhoton::.ctor()
+extern void SyncronizePhoton__ctor_m5DE29E92A4BAA495EAB119E2ADC5285B416E369C (void);
+// 0x00000343 System.Void ChatController::OnEnable()
+extern void ChatController_OnEnable_mBC3BFC05A1D47069DFA58A4F0E39CFF8FAD44FF2 (void);
+// 0x00000344 System.Void ChatController::OnDisable()
+extern void ChatController_OnDisable_m268A7488A3FDEB850FC3BC91A0BBDA767D42876B (void);
+// 0x00000345 System.Void ChatController::AddToChatOutput(System.String)
+extern void ChatController_AddToChatOutput_m43856EEA133E04C24701A2616E7F10D7FFA68371 (void);
+// 0x00000346 System.Void ChatController::.ctor()
+extern void ChatController__ctor_m3B66A5F749B457D865E8BDA1DE481C8CF1158026 (void);
+// 0x00000347 System.Void DropdownSample::OnButtonClick()
+extern void DropdownSample_OnButtonClick_m97641451A2EAC4FC6682897A948A37FDD6BF9EA6 (void);
+// 0x00000348 System.Void DropdownSample::.ctor()
+extern void DropdownSample__ctor_m87664E3DC75A1A9AA19FEE6ED6B993AB1E50E2B9 (void);
+// 0x00000349 System.Void EnvMapAnimator::Awake()
+extern void EnvMapAnimator_Awake_mFFC04BC5320F83CA8C45FF36A11BF43AC17C6B93 (void);
+// 0x0000034A System.Collections.IEnumerator EnvMapAnimator::Start()
+extern void EnvMapAnimator_Start_mC0D348CAB0F0DC920EF3D3A008688B533F66D1BE (void);
+// 0x0000034B System.Void EnvMapAnimator::.ctor()
+extern void EnvMapAnimator__ctor_mC151D673A394E2E7CEA8774C4004985028C5C3EC (void);
+// 0x0000034C System.Void EnvMapAnimator/<Start>d__4::.ctor(System.Int32)
+extern void U3CStartU3Ed__4__ctor_m4D65F4FC2207AE4B6BE963AF9B5EDC55C7E29B23 (void);
+// 0x0000034D System.Void EnvMapAnimator/<Start>d__4::System.IDisposable.Dispose()
+extern void U3CStartU3Ed__4_System_IDisposable_Dispose_mFEE2ACED70A3D825988E28CC61FEF8DCD7660A5B (void);
+// 0x0000034E System.Boolean EnvMapAnimator/<Start>d__4::MoveNext()
+extern void U3CStartU3Ed__4_MoveNext_m2F1A8053A32AD86DA80F86391EC32EDC1C396AEE (void);
+// 0x0000034F System.Object EnvMapAnimator/<Start>d__4::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CStartU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF03E2A57659B8F598AC450183F55D43F903C0A1E (void);
+// 0x00000350 System.Void EnvMapAnimator/<Start>d__4::System.Collections.IEnumerator.Reset()
+extern void U3CStartU3Ed__4_System_Collections_IEnumerator_Reset_m268BA538CF6812C56EB281C0CE29D5AA2E9A2CAB (void);
+// 0x00000351 System.Object EnvMapAnimator/<Start>d__4::System.Collections.IEnumerator.get_Current()
+extern void U3CStartU3Ed__4_System_Collections_IEnumerator_get_Current_mFE9CA9F52F9AFA1E4C9DBADA2064F854D6931CFF (void);
+// 0x00000352 System.Char TMPro.TMP_DigitValidator::Validate(System.String&,System.Int32&,System.Char)
+extern void TMP_DigitValidator_Validate_m5D303EB8CD6E9E7D526D633BA1021884051FE226 (void);
+// 0x00000353 System.Void TMPro.TMP_DigitValidator::.ctor()
+extern void TMP_DigitValidator__ctor_m1E838567EF38170662F1BAF52A847CC2C258333E (void);
+// 0x00000354 System.Char TMPro.TMP_PhoneNumberValidator::Validate(System.String&,System.Int32&,System.Char)
+extern void TMP_PhoneNumberValidator_Validate_mF0E90A277E9E91BC213DD02DC60088D03C9436B1 (void);
+// 0x00000355 System.Void TMPro.TMP_PhoneNumberValidator::.ctor()
+extern void TMP_PhoneNumberValidator__ctor_mB3C36CAAE3B52554C44A1D19194F0176B5A8EED3 (void);
+// 0x00000356 TMPro.TMP_TextEventHandler/CharacterSelectionEvent TMPro.TMP_TextEventHandler::get_onCharacterSelection()
+extern void TMP_TextEventHandler_get_onCharacterSelection_m90C39320C726E8E542D91F4BBD690697349F5385 (void);
+// 0x00000357 System.Void TMPro.TMP_TextEventHandler::set_onCharacterSelection(TMPro.TMP_TextEventHandler/CharacterSelectionEvent)
+extern void TMP_TextEventHandler_set_onCharacterSelection_m5ED7658EB101C6740A921FA150DE18C443BDA0C4 (void);
+// 0x00000358 TMPro.TMP_TextEventHandler/SpriteSelectionEvent TMPro.TMP_TextEventHandler::get_onSpriteSelection()
+extern void TMP_TextEventHandler_get_onSpriteSelection_m0E645AE1DFE19B011A3319474D0CF0DA612C8B7B (void);
+// 0x00000359 System.Void TMPro.TMP_TextEventHandler::set_onSpriteSelection(TMPro.TMP_TextEventHandler/SpriteSelectionEvent)
+extern void TMP_TextEventHandler_set_onSpriteSelection_m4AFC6772C3357218956A5D33B3CD19F3AAF39788 (void);
+// 0x0000035A TMPro.TMP_TextEventHandler/WordSelectionEvent TMPro.TMP_TextEventHandler::get_onWordSelection()
+extern void TMP_TextEventHandler_get_onWordSelection_mA42B89A37810FB659FCFA8539339A3BB8037203A (void);
+// 0x0000035B System.Void TMPro.TMP_TextEventHandler::set_onWordSelection(TMPro.TMP_TextEventHandler/WordSelectionEvent)
+extern void TMP_TextEventHandler_set_onWordSelection_m4A839FAFFABAFECD073B82BA8826E1CD033C0076 (void);
+// 0x0000035C TMPro.TMP_TextEventHandler/LineSelectionEvent TMPro.TMP_TextEventHandler::get_onLineSelection()
+extern void TMP_TextEventHandler_get_onLineSelection_mB701B6C713AD4EFC61E1B30A564EE54ADE31F58D (void);
+// 0x0000035D System.Void TMPro.TMP_TextEventHandler::set_onLineSelection(TMPro.TMP_TextEventHandler/LineSelectionEvent)
+extern void TMP_TextEventHandler_set_onLineSelection_m0B2337598350E51D0A17B8FCB3AAA533F312F3DA (void);
+// 0x0000035E TMPro.TMP_TextEventHandler/LinkSelectionEvent TMPro.TMP_TextEventHandler::get_onLinkSelection()
+extern void TMP_TextEventHandler_get_onLinkSelection_mF5C3875D661F5B1E3712566FE16D332EA37D15BB (void);
+// 0x0000035F System.Void TMPro.TMP_TextEventHandler::set_onLinkSelection(TMPro.TMP_TextEventHandler/LinkSelectionEvent)
+extern void TMP_TextEventHandler_set_onLinkSelection_m200566EDEB2C9299647F3EEAC588B51818D360A5 (void);
+// 0x00000360 System.Void TMPro.TMP_TextEventHandler::Awake()
+extern void TMP_TextEventHandler_Awake_m43EB03A4A6776A624F79457EC49E78E7B5BA1C70 (void);
+// 0x00000361 System.Void TMPro.TMP_TextEventHandler::LateUpdate()
+extern void TMP_TextEventHandler_LateUpdate_mE1D989C40DA8E54E116E3C60217DFCAADD6FDE11 (void);
+// 0x00000362 System.Void TMPro.TMP_TextEventHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+extern void TMP_TextEventHandler_OnPointerEnter_m8FC88F25858B24CE68BE80C727A3F0227A8EE5AC (void);
+// 0x00000363 System.Void TMPro.TMP_TextEventHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+extern void TMP_TextEventHandler_OnPointerExit_mBB2A74D55741F631A678A5D6997D40247FE75D44 (void);
+// 0x00000364 System.Void TMPro.TMP_TextEventHandler::SendOnCharacterSelection(System.Char,System.Int32)
+extern void TMP_TextEventHandler_SendOnCharacterSelection_m78983D3590F1B0C242BEAB0A11FDBDABDD1814EC (void);
+// 0x00000365 System.Void TMPro.TMP_TextEventHandler::SendOnSpriteSelection(System.Char,System.Int32)
+extern void TMP_TextEventHandler_SendOnSpriteSelection_m10C257A74F121B95E7077F7E488FBC52380A6C53 (void);
+// 0x00000366 System.Void TMPro.TMP_TextEventHandler::SendOnWordSelection(System.String,System.Int32,System.Int32)
+extern void TMP_TextEventHandler_SendOnWordSelection_m95A4E5A00E339E5B8BA9AA63B98DB3E81C8B8F66 (void);
+// 0x00000367 System.Void TMPro.TMP_TextEventHandler::SendOnLineSelection(System.String,System.Int32,System.Int32)
+extern void TMP_TextEventHandler_SendOnLineSelection_mE85BA6ECE1188B666FD36839B8970C3E0130BC43 (void);
+// 0x00000368 System.Void TMPro.TMP_TextEventHandler::SendOnLinkSelection(System.String,System.String,System.Int32)
+extern void TMP_TextEventHandler_SendOnLinkSelection_m299E6620DFD835C8258A3F48B4EA076C304E9B77 (void);
+// 0x00000369 System.Void TMPro.TMP_TextEventHandler::.ctor()
+extern void TMP_TextEventHandler__ctor_m6345DC1CEA2E4209E928AD1E61C3ACA4227DD9B8 (void);
+// 0x0000036A System.Void TMPro.TMP_TextEventHandler/CharacterSelectionEvent::.ctor()
+extern void CharacterSelectionEvent__ctor_m06BC183AF31BA4A2055A44514BC3FF0539DD04C7 (void);
+// 0x0000036B System.Void TMPro.TMP_TextEventHandler/SpriteSelectionEvent::.ctor()
+extern void SpriteSelectionEvent__ctor_m0F760052E9A5AF44A7AF7AC006CB4B24809590F2 (void);
+// 0x0000036C System.Void TMPro.TMP_TextEventHandler/WordSelectionEvent::.ctor()
+extern void WordSelectionEvent__ctor_m106CDEB17C520C9D20CE7120DE6BBBDEDB48886C (void);
+// 0x0000036D System.Void TMPro.TMP_TextEventHandler/LineSelectionEvent::.ctor()
+extern void LineSelectionEvent__ctor_m5D735FDA9B71B9147C6F791B331498F145D75018 (void);
+// 0x0000036E System.Void TMPro.TMP_TextEventHandler/LinkSelectionEvent::.ctor()
+extern void LinkSelectionEvent__ctor_m7AB7977D0D0F8883C5A98DD6BB2D390BC3CAB8E0 (void);
+// 0x0000036F System.Collections.IEnumerator TMPro.Examples.Benchmark01::Start()
+extern void Benchmark01_Start_mE7E5146B0D8D926CC410CAA48F3B617A0A7D955C (void);
+// 0x00000370 System.Void TMPro.Examples.Benchmark01::.ctor()
+extern void Benchmark01__ctor_mB92568AA7A9E13B92315B6270FCA23584A7D0F7F (void);
+// 0x00000371 System.Void TMPro.Examples.Benchmark01/<Start>d__10::.ctor(System.Int32)
+extern void U3CStartU3Ed__10__ctor_mBE5D8B4B98C372BD6DC3936437999DF3048DE3AB (void);
+// 0x00000372 System.Void TMPro.Examples.Benchmark01/<Start>d__10::System.IDisposable.Dispose()
+extern void U3CStartU3Ed__10_System_IDisposable_Dispose_m1F4180A7FDAE9AC5F11F30B67F813B3D7CD56D73 (void);
+// 0x00000373 System.Boolean TMPro.Examples.Benchmark01/<Start>d__10::MoveNext()
+extern void U3CStartU3Ed__10_MoveNext_mF3B1D38CD37FD5187C3192141DB380747C66AD3C (void);
+// 0x00000374 System.Object TMPro.Examples.Benchmark01/<Start>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CStartU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m22B2975D42326E3DE437174BBE4F0E8790CB6591 (void);
+// 0x00000375 System.Void TMPro.Examples.Benchmark01/<Start>d__10::System.Collections.IEnumerator.Reset()
+extern void U3CStartU3Ed__10_System_Collections_IEnumerator_Reset_m514DA545ECA10AA62BFC239BB582FF0017B91D2B (void);
+// 0x00000376 System.Object TMPro.Examples.Benchmark01/<Start>d__10::System.Collections.IEnumerator.get_Current()
+extern void U3CStartU3Ed__10_System_Collections_IEnumerator_get_Current_m6904A738F04118BA24E473F1809B3D69E711627E (void);
+// 0x00000377 System.Collections.IEnumerator TMPro.Examples.Benchmark01_UGUI::Start()
+extern void Benchmark01_UGUI_Start_m2F8F9E1798943DA8086A7C7E73BA9D7C67482BD4 (void);
+// 0x00000378 System.Void TMPro.Examples.Benchmark01_UGUI::.ctor()
+extern void Benchmark01_UGUI__ctor_mACFE8D997EAB50FDBD7F671C1A25A892D9F78376 (void);
+// 0x00000379 System.Void TMPro.Examples.Benchmark01_UGUI/<Start>d__10::.ctor(System.Int32)
+extern void U3CStartU3Ed__10__ctor_m653B757B49A674E239C804FFF4EDEF325B5DB651 (void);
+// 0x0000037A System.Void TMPro.Examples.Benchmark01_UGUI/<Start>d__10::System.IDisposable.Dispose()
+extern void U3CStartU3Ed__10_System_IDisposable_Dispose_mAD0BC985E1E01C8369A7A955A60D3E545B0B3561 (void);
+// 0x0000037B System.Boolean TMPro.Examples.Benchmark01_UGUI/<Start>d__10::MoveNext()
+extern void U3CStartU3Ed__10_MoveNext_mF9B2C8D290035BC9A79C4347772B5B7B9D404DE1 (void);
+// 0x0000037C System.Object TMPro.Examples.Benchmark01_UGUI/<Start>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CStartU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF438D42D7C5A811FF9A283F8780F015FF55826CD (void);
+// 0x0000037D System.Void TMPro.Examples.Benchmark01_UGUI/<Start>d__10::System.Collections.IEnumerator.Reset()
+extern void U3CStartU3Ed__10_System_Collections_IEnumerator_Reset_m65545EB5B6DDDDAB5ACF92600137C1C754B322BA (void);
+// 0x0000037E System.Object TMPro.Examples.Benchmark01_UGUI/<Start>d__10::System.Collections.IEnumerator.get_Current()
+extern void U3CStartU3Ed__10_System_Collections_IEnumerator_get_Current_mD4523BE1D1014AAF1C0709EB767C0B0F47D739D2 (void);
+// 0x0000037F System.Void TMPro.Examples.Benchmark02::Start()
+extern void Benchmark02_Start_m315C0DF3A9AC66B4F5802FDAED056E7E5F3D2046 (void);
+// 0x00000380 System.Void TMPro.Examples.Benchmark02::.ctor()
+extern void Benchmark02__ctor_m526B38D3B7E75905208E4E57B168D8AC1900F4E5 (void);
+// 0x00000381 System.Void TMPro.Examples.Benchmark03::Awake()
+extern void Benchmark03_Awake_mD23429C1EE428EEF4ED9A753385BF194BAA41A77 (void);
+// 0x00000382 System.Void TMPro.Examples.Benchmark03::Start()
+extern void Benchmark03_Start_m19E638DED29CB7F96362F3C346DC47217C4AF516 (void);
+// 0x00000383 System.Void TMPro.Examples.Benchmark03::.ctor()
+extern void Benchmark03__ctor_m89F9102259BE1694EC418E9023DC563F3999B0BE (void);
+// 0x00000384 System.Void TMPro.Examples.Benchmark04::Start()
+extern void Benchmark04_Start_mEABD467C12547066E33359FDC433E8B5BAD43DB9 (void);
+// 0x00000385 System.Void TMPro.Examples.Benchmark04::.ctor()
+extern void Benchmark04__ctor_m5015375E0C8D19060CB5DE14CBF4AC02DDD70E7C (void);
+// 0x00000386 System.Void TMPro.Examples.CameraController::Awake()
+extern void CameraController_Awake_m420393892377B9703EC97764B34E32890FC5283E (void);
+// 0x00000387 System.Void TMPro.Examples.CameraController::Start()
+extern void CameraController_Start_m32D90EE7232BE6DE08D224F824F8EB9571655610 (void);
+// 0x00000388 System.Void TMPro.Examples.CameraController::LateUpdate()
+extern void CameraController_LateUpdate_m6D81DEBA4E8B443CF2AD8288F0E76E3A6B3B5373 (void);
+// 0x00000389 System.Void TMPro.Examples.CameraController::GetPlayerInput()
+extern void CameraController_GetPlayerInput_m6695FE20CFC691585A6AC279EDB338EC9DD13FE3 (void);
+// 0x0000038A System.Void TMPro.Examples.CameraController::.ctor()
+extern void CameraController__ctor_m09187FB27B590118043D4DC7B89B93164124C124 (void);
+// 0x0000038B System.Void TMPro.Examples.ObjectSpin::Awake()
+extern void ObjectSpin_Awake_mC1EB9630B6D3BAE645D3DD79C264F71F7B18A1AA (void);
+// 0x0000038C System.Void TMPro.Examples.ObjectSpin::Update()
+extern void ObjectSpin_Update_mD39DCBA0789DC0116037C442F0BA1EE6752E36D3 (void);
+// 0x0000038D System.Void TMPro.Examples.ObjectSpin::.ctor()
+extern void ObjectSpin__ctor_m1827B9648659746252026432DFED907AEC6007FC (void);
+// 0x0000038E System.Void TMPro.Examples.ShaderPropAnimator::Awake()
+extern void ShaderPropAnimator_Awake_mE04C66A41CA53AB73733E7D2CCD21B30A360C5A8 (void);
+// 0x0000038F System.Void TMPro.Examples.ShaderPropAnimator::Start()
+extern void ShaderPropAnimator_Start_mC5AC59C59AF2F71E0CF65F11ACD787488140EDD2 (void);
+// 0x00000390 System.Collections.IEnumerator TMPro.Examples.ShaderPropAnimator::AnimateProperties()
+extern void ShaderPropAnimator_AnimateProperties_mAF49CD157AD41377CE00AA10F0C06C8BF5AA0469 (void);
+// 0x00000391 System.Void TMPro.Examples.ShaderPropAnimator::.ctor()
+extern void ShaderPropAnimator__ctor_mAA626BC8AEEB00C5AE362FE8690D3F2200CE6E64 (void);
+// 0x00000392 System.Void TMPro.Examples.ShaderPropAnimator/<AnimateProperties>d__6::.ctor(System.Int32)
+extern void U3CAnimatePropertiesU3Ed__6__ctor_mFAC0F8A7368D9D35AD2780C118E13414DA79B56A (void);
+// 0x00000393 System.Void TMPro.Examples.ShaderPropAnimator/<AnimateProperties>d__6::System.IDisposable.Dispose()
+extern void U3CAnimatePropertiesU3Ed__6_System_IDisposable_Dispose_m628EECBFCBC49087298185F17BC2AE7A73FC8A7B (void);
+// 0x00000394 System.Boolean TMPro.Examples.ShaderPropAnimator/<AnimateProperties>d__6::MoveNext()
+extern void U3CAnimatePropertiesU3Ed__6_MoveNext_m8A58CCFDAE59F55AB1BB2C103800886E62C807CF (void);
+// 0x00000395 System.Object TMPro.Examples.ShaderPropAnimator/<AnimateProperties>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAnimatePropertiesU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0742A0FA62C518EBD119ED5FEBF849F918E12390 (void);
+// 0x00000396 System.Void TMPro.Examples.ShaderPropAnimator/<AnimateProperties>d__6::System.Collections.IEnumerator.Reset()
+extern void U3CAnimatePropertiesU3Ed__6_System_Collections_IEnumerator_Reset_mC076F281DD17668D6CE42EB04EA974DE1FFB3F6B (void);
+// 0x00000397 System.Object TMPro.Examples.ShaderPropAnimator/<AnimateProperties>d__6::System.Collections.IEnumerator.get_Current()
+extern void U3CAnimatePropertiesU3Ed__6_System_Collections_IEnumerator_get_Current_mA585E786DA86D2589EBCA029AD9E64E8B5135362 (void);
+// 0x00000398 System.Void TMPro.Examples.SimpleScript::Start()
+extern void SimpleScript_Start_m75CD9CEDCAFA9A991753478D7C28407C7329FB8F (void);
+// 0x00000399 System.Void TMPro.Examples.SimpleScript::Update()
+extern void SimpleScript_Update_mE8C3930DCC1767C2DF59B622FABD188E6FB91BE5 (void);
+// 0x0000039A System.Void TMPro.Examples.SimpleScript::.ctor()
+extern void SimpleScript__ctor_mEB370A69544227EF04C48C604A28502ADAA73697 (void);
+// 0x0000039B System.Void TMPro.Examples.SkewTextExample::Awake()
+extern void SkewTextExample_Awake_m6FBA7E7DC9AFDD3099F0D0B9CDE91574551105DB (void);
+// 0x0000039C System.Void TMPro.Examples.SkewTextExample::Start()
+extern void SkewTextExample_Start_m536F82F3A5D229332694688C59F396E07F88153F (void);
+// 0x0000039D UnityEngine.AnimationCurve TMPro.Examples.SkewTextExample::CopyAnimationCurve(UnityEngine.AnimationCurve)
+extern void SkewTextExample_CopyAnimationCurve_m555177255F5828DBC7E677ED06F7EFFC052886B3 (void);
+// 0x0000039E System.Collections.IEnumerator TMPro.Examples.SkewTextExample::WarpText()
+extern void SkewTextExample_WarpText_m0E0C46988600673F0E5DFA3133534DC6CA5950D3 (void);
+// 0x0000039F System.Void TMPro.Examples.SkewTextExample::.ctor()
+extern void SkewTextExample__ctor_m945059906734DD38CF860CD32B3E07635D0E1F86 (void);
+// 0x000003A0 System.Void TMPro.Examples.SkewTextExample/<WarpText>d__7::.ctor(System.Int32)
+extern void U3CWarpTextU3Ed__7__ctor_mEAD3C39209B75514446A44B6C2FA76F8097EBD6F (void);
+// 0x000003A1 System.Void TMPro.Examples.SkewTextExample/<WarpText>d__7::System.IDisposable.Dispose()
+extern void U3CWarpTextU3Ed__7_System_IDisposable_Dispose_m32AA7120BE15547799BDC515FA3486488952BDCF (void);
+// 0x000003A2 System.Boolean TMPro.Examples.SkewTextExample/<WarpText>d__7::MoveNext()
+extern void U3CWarpTextU3Ed__7_MoveNext_mB832E4A3DFDDFECC460A510BBC664F218B3D7FCF (void);
+// 0x000003A3 System.Object TMPro.Examples.SkewTextExample/<WarpText>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CWarpTextU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3CF506B740C16FEDE58B6E1BE4556CAC2C6AEAD1 (void);
+// 0x000003A4 System.Void TMPro.Examples.SkewTextExample/<WarpText>d__7::System.Collections.IEnumerator.Reset()
+extern void U3CWarpTextU3Ed__7_System_Collections_IEnumerator_Reset_mDDCDBB794F21DF70178A75747D8D8398F38A9C2F (void);
+// 0x000003A5 System.Object TMPro.Examples.SkewTextExample/<WarpText>d__7::System.Collections.IEnumerator.get_Current()
+extern void U3CWarpTextU3Ed__7_System_Collections_IEnumerator_get_Current_m6D89CF1910F76577E23C924B535E93FD1B01CF0A (void);
+// 0x000003A6 System.Void TMPro.Examples.TMP_ExampleScript_01::Awake()
+extern void TMP_ExampleScript_01_Awake_m381EF5B50E1D012B8CA1883DEFF604EEAE6D95F4 (void);
+// 0x000003A7 System.Void TMPro.Examples.TMP_ExampleScript_01::Update()
+extern void TMP_ExampleScript_01_Update_m31611F22A608784F164A24444195B33B714567FB (void);
+// 0x000003A8 System.Void TMPro.Examples.TMP_ExampleScript_01::.ctor()
+extern void TMP_ExampleScript_01__ctor_m3641F2E0D25B6666CE77773A4A493C4C4D3D3A12 (void);
+// 0x000003A9 System.Void TMPro.Examples.TMP_FrameRateCounter::Awake()
+extern void TMP_FrameRateCounter_Awake_m958B668086DB4A38D9C56E3F8C2DCCB6FF11FAA3 (void);
+// 0x000003AA System.Void TMPro.Examples.TMP_FrameRateCounter::Start()
+extern void TMP_FrameRateCounter_Start_mC642CA714D0FB8482D2AC6192D976DA179EE3720 (void);
+// 0x000003AB System.Void TMPro.Examples.TMP_FrameRateCounter::Update()
+extern void TMP_FrameRateCounter_Update_m5E41B55573D86C3D345BFE11C489B00229BCEE21 (void);
+// 0x000003AC System.Void TMPro.Examples.TMP_FrameRateCounter::Set_FrameCounter_Position(TMPro.Examples.TMP_FrameRateCounter/FpsCounterAnchorPositions)
+extern void TMP_FrameRateCounter_Set_FrameCounter_Position_mA72ECDE464E3290E4F533491FC8113B8D4068BE1 (void);
+// 0x000003AD System.Void TMPro.Examples.TMP_FrameRateCounter::.ctor()
+extern void TMP_FrameRateCounter__ctor_mC79D5BF3FAE2BB7D22D9955A75E3483725BA619C (void);
+// 0x000003AE System.Void TMPro.Examples.TMP_TextEventCheck::OnEnable()
+extern void TMP_TextEventCheck_OnEnable_mE6D5125EEE0720E6F414978A496066E7CF1592DF (void);
+// 0x000003AF System.Void TMPro.Examples.TMP_TextEventCheck::OnDisable()
+extern void TMP_TextEventCheck_OnDisable_m94F087C259890C48D4F5464ABA4CD1D0E5863A9A (void);
+// 0x000003B0 System.Void TMPro.Examples.TMP_TextEventCheck::OnCharacterSelection(System.Char,System.Int32)
+extern void TMP_TextEventCheck_OnCharacterSelection_mDA044F0808D61A99CDA374075943CEB1C92C253D (void);
+// 0x000003B1 System.Void TMPro.Examples.TMP_TextEventCheck::OnSpriteSelection(System.Char,System.Int32)
+extern void TMP_TextEventCheck_OnSpriteSelection_mE8FFA550F38F5447CA37205698A30A41ADE901E0 (void);
+// 0x000003B2 System.Void TMPro.Examples.TMP_TextEventCheck::OnWordSelection(System.String,System.Int32,System.Int32)
+extern void TMP_TextEventCheck_OnWordSelection_m6037166D18A938678A2B06F28A5DCB3E09FAC61B (void);
+// 0x000003B3 System.Void TMPro.Examples.TMP_TextEventCheck::OnLineSelection(System.String,System.Int32,System.Int32)
+extern void TMP_TextEventCheck_OnLineSelection_mD2BAA6C8ABD61F0442A40C5448FA7774D782C363 (void);
+// 0x000003B4 System.Void TMPro.Examples.TMP_TextEventCheck::OnLinkSelection(System.String,System.String,System.Int32)
+extern void TMP_TextEventCheck_OnLinkSelection_m184B11D5E35AC4EA7CDCE3340AB9FEE3C14BF41C (void);
+// 0x000003B5 System.Void TMPro.Examples.TMP_TextEventCheck::.ctor()
+extern void TMP_TextEventCheck__ctor_mA5E82EE7CE8F8836FC6CF3823CBC7356005B898B (void);
+// 0x000003B6 System.Void TMPro.Examples.TMP_TextInfoDebugTool::.ctor()
+extern void TMP_TextInfoDebugTool__ctor_mF6AA30660FBD4CE708B6147833853498993CB9EE (void);
+// 0x000003B7 System.Void TMPro.Examples.TMP_TextSelector_A::Awake()
+extern void TMP_TextSelector_A_Awake_mD7252A5075E30E3BF9BEF4353F7AA2A9203FC943 (void);
+// 0x000003B8 System.Void TMPro.Examples.TMP_TextSelector_A::LateUpdate()
+extern void TMP_TextSelector_A_LateUpdate_mDBBC09726332EDDEAF7C30AB6C08FB33261F79FD (void);
+// 0x000003B9 System.Void TMPro.Examples.TMP_TextSelector_A::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+extern void TMP_TextSelector_A_OnPointerEnter_mC19B85FB5B4E6EB47832C39F0115A513B85060D0 (void);
+// 0x000003BA System.Void TMPro.Examples.TMP_TextSelector_A::OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+extern void TMP_TextSelector_A_OnPointerExit_mE51C850F54B18A5C96E3BE015DFBB0F079E5AE66 (void);
+// 0x000003BB System.Void TMPro.Examples.TMP_TextSelector_A::.ctor()
+extern void TMP_TextSelector_A__ctor_mEB83D3952B32CEE9A871EC60E3AE9B79048302BF (void);
+// 0x000003BC System.Void TMPro.Examples.TMP_TextSelector_B::Awake()
+extern void TMP_TextSelector_B_Awake_m7E413A43C54DF9E0FE70C4E69FC682391B47205A (void);
+// 0x000003BD System.Void TMPro.Examples.TMP_TextSelector_B::OnEnable()
+extern void TMP_TextSelector_B_OnEnable_m0828D13E2D407B90038442228D54FB0D7B3D29FB (void);
+// 0x000003BE System.Void TMPro.Examples.TMP_TextSelector_B::OnDisable()
+extern void TMP_TextSelector_B_OnDisable_m2B559A85B52C8CAFC7350CC7B4F8E5BC773EF781 (void);
+// 0x000003BF System.Void TMPro.Examples.TMP_TextSelector_B::ON_TEXT_CHANGED(UnityEngine.Object)
+extern void TMP_TextSelector_B_ON_TEXT_CHANGED_m1597DBE7C7EBE7CFA4DC395897A4779387B59910 (void);
+// 0x000003C0 System.Void TMPro.Examples.TMP_TextSelector_B::LateUpdate()
+extern void TMP_TextSelector_B_LateUpdate_m8BA10E368C7F3483E9EC05589BBE45D7EFC75691 (void);
+// 0x000003C1 System.Void TMPro.Examples.TMP_TextSelector_B::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+extern void TMP_TextSelector_B_OnPointerEnter_m0A0064632E4C0E0ADCD4358AD5BC168BFB74AC4D (void);
+// 0x000003C2 System.Void TMPro.Examples.TMP_TextSelector_B::OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+extern void TMP_TextSelector_B_OnPointerExit_m667659102B5B17FBAF56593B7034E5EC1C48D43F (void);
+// 0x000003C3 System.Void TMPro.Examples.TMP_TextSelector_B::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+extern void TMP_TextSelector_B_OnPointerClick_m8DB2D22EE2F4D3965115791C81F985D82021469F (void);
+// 0x000003C4 System.Void TMPro.Examples.TMP_TextSelector_B::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+extern void TMP_TextSelector_B_OnPointerUp_m303500BE309B56F3ADCE8B461CEC50C8D5ED70BC (void);
+// 0x000003C5 System.Void TMPro.Examples.TMP_TextSelector_B::RestoreCachedVertexAttributes(System.Int32)
+extern void TMP_TextSelector_B_RestoreCachedVertexAttributes_m3D637CF2C6CA663922EBE56FFD672BE582E9F1F2 (void);
+// 0x000003C6 System.Void TMPro.Examples.TMP_TextSelector_B::.ctor()
+extern void TMP_TextSelector_B__ctor_mE654F9F1570570C4BACDA79640B8DB3033D91C33 (void);
+// 0x000003C7 System.Void TMPro.Examples.TMP_UiFrameRateCounter::Awake()
+extern void TMP_UiFrameRateCounter_Awake_m83DBE22B6CC551BE5E385048B92067679716179E (void);
+// 0x000003C8 System.Void TMPro.Examples.TMP_UiFrameRateCounter::Start()
+extern void TMP_UiFrameRateCounter_Start_m59DA342A492C9EF8AD5C4512753211BF3796C944 (void);
+// 0x000003C9 System.Void TMPro.Examples.TMP_UiFrameRateCounter::Update()
+extern void TMP_UiFrameRateCounter_Update_m28FC233C475AA15A3BE399BF9345977089997749 (void);
+// 0x000003CA System.Void TMPro.Examples.TMP_UiFrameRateCounter::Set_FrameCounter_Position(TMPro.Examples.TMP_UiFrameRateCounter/FpsCounterAnchorPositions)
+extern void TMP_UiFrameRateCounter_Set_FrameCounter_Position_m2025933902F312C0EC4B6A864196A8BA8D545647 (void);
+// 0x000003CB System.Void TMPro.Examples.TMP_UiFrameRateCounter::.ctor()
+extern void TMP_UiFrameRateCounter__ctor_m5774BF4B9389770FC34991095557B24417600F84 (void);
+// 0x000003CC System.Void TMPro.Examples.TMPro_InstructionOverlay::Awake()
+extern void TMPro_InstructionOverlay_Awake_m2444EA8749D72BCEA4DC30A328E3745AB19062EC (void);
+// 0x000003CD System.Void TMPro.Examples.TMPro_InstructionOverlay::Set_FrameCounter_Position(TMPro.Examples.TMPro_InstructionOverlay/FpsCounterAnchorPositions)
+extern void TMPro_InstructionOverlay_Set_FrameCounter_Position_m62B897E4DB2D6B1936833EC54D9C246D68D50EEB (void);
+// 0x000003CE System.Void TMPro.Examples.TMPro_InstructionOverlay::.ctor()
+extern void TMPro_InstructionOverlay__ctor_m7AB5B851B4BFB07547E460D6B7B9D969DEB4A7CF (void);
+// 0x000003CF System.Void TMPro.Examples.TeleType::Awake()
+extern void TeleType_Awake_m099FCB202F2A8299B133DC56ECB9D01A16C08DFE (void);
+// 0x000003D0 System.Collections.IEnumerator TMPro.Examples.TeleType::Start()
+extern void TeleType_Start_m72DE9DE597F4FA0B1CA02115CBC1E74EB53F63F7 (void);
+// 0x000003D1 System.Void TMPro.Examples.TeleType::.ctor()
+extern void TeleType__ctor_m12A79B34F66CBFDCA8F582F0689D1731586B90AF (void);
+// 0x000003D2 System.Void TMPro.Examples.TeleType/<Start>d__4::.ctor(System.Int32)
+extern void U3CStartU3Ed__4__ctor_mF3575DBEBF4F153F6A899AF3362940298C11B629 (void);
+// 0x000003D3 System.Void TMPro.Examples.TeleType/<Start>d__4::System.IDisposable.Dispose()
+extern void U3CStartU3Ed__4_System_IDisposable_Dispose_m6DABFDBC2A313BF6DD90AA1C43B4EF9D6249CBE9 (void);
+// 0x000003D4 System.Boolean TMPro.Examples.TeleType/<Start>d__4::MoveNext()
+extern void U3CStartU3Ed__4_MoveNext_mEF7A3215376BDFB52C3DA9D26FF0459074E89715 (void);
+// 0x000003D5 System.Object TMPro.Examples.TeleType/<Start>d__4::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CStartU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m66DC06D52865D30DAA78DBD70B6554D13E2EA70B (void);
+// 0x000003D6 System.Void TMPro.Examples.TeleType/<Start>d__4::System.Collections.IEnumerator.Reset()
+extern void U3CStartU3Ed__4_System_Collections_IEnumerator_Reset_mE854A2CECA0E01F3C2D90DA4F720CF0F387994F8 (void);
+// 0x000003D7 System.Object TMPro.Examples.TeleType/<Start>d__4::System.Collections.IEnumerator.get_Current()
+extern void U3CStartU3Ed__4_System_Collections_IEnumerator_get_Current_m77D3936B94684C817EE9F6D2C903238A457D5261 (void);
+// 0x000003D8 System.Void TMPro.Examples.TextConsoleSimulator::Awake()
+extern void TextConsoleSimulator_Awake_mA51EE182A528CCA5CAEA8DBE8AD30E43FDFAE7B0 (void);
+// 0x000003D9 System.Void TMPro.Examples.TextConsoleSimulator::Start()
+extern void TextConsoleSimulator_Start_m429701BE4C9A52AA6B257172A4D85D58E091E7DA (void);
+// 0x000003DA System.Void TMPro.Examples.TextConsoleSimulator::OnEnable()
+extern void TextConsoleSimulator_OnEnable_m3397FBCDA8D9DA264D2149288BE4DCF63368AB50 (void);
+// 0x000003DB System.Void TMPro.Examples.TextConsoleSimulator::OnDisable()
+extern void TextConsoleSimulator_OnDisable_m43DF869E864789E215873192ECFCDC51ABA79712 (void);
+// 0x000003DC System.Void TMPro.Examples.TextConsoleSimulator::ON_TEXT_CHANGED(UnityEngine.Object)
+extern void TextConsoleSimulator_ON_TEXT_CHANGED_m51F06EE5DD9B32FEFB529743F209C6E6C41BE3B8 (void);
+// 0x000003DD System.Collections.IEnumerator TMPro.Examples.TextConsoleSimulator::RevealCharacters(TMPro.TMP_Text)
+extern void TextConsoleSimulator_RevealCharacters_mE8E415644F7BD2056D0809F7BB0FA9A2F9FE8534 (void);
+// 0x000003DE System.Collections.IEnumerator TMPro.Examples.TextConsoleSimulator::RevealWords(TMPro.TMP_Text)
+extern void TextConsoleSimulator_RevealWords_mFDBC863D30BC63ADCF2860F303AF252E27D0F4F4 (void);
+// 0x000003DF System.Void TMPro.Examples.TextConsoleSimulator::.ctor()
+extern void TextConsoleSimulator__ctor_m4719FB9D4D89F37234757D93876DF0193E8E2848 (void);
+// 0x000003E0 System.Void TMPro.Examples.TextConsoleSimulator/<RevealCharacters>d__7::.ctor(System.Int32)
+extern void U3CRevealCharactersU3Ed__7__ctor_mD45A85F5F50909F70C80AC8CE460F4FD261CDE9D (void);
+// 0x000003E1 System.Void TMPro.Examples.TextConsoleSimulator/<RevealCharacters>d__7::System.IDisposable.Dispose()
+extern void U3CRevealCharactersU3Ed__7_System_IDisposable_Dispose_m85F270FDC11A4D79E9CF47AADC9FA1FBF032F86C (void);
+// 0x000003E2 System.Boolean TMPro.Examples.TextConsoleSimulator/<RevealCharacters>d__7::MoveNext()
+extern void U3CRevealCharactersU3Ed__7_MoveNext_mA9A6555E50889A7AA73F20749F25989165023DE3 (void);
+// 0x000003E3 System.Object TMPro.Examples.TextConsoleSimulator/<RevealCharacters>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CRevealCharactersU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5BBAE6868EB7F1C11BE5DF001641E18C9D625F83 (void);
+// 0x000003E4 System.Void TMPro.Examples.TextConsoleSimulator/<RevealCharacters>d__7::System.Collections.IEnumerator.Reset()
+extern void U3CRevealCharactersU3Ed__7_System_Collections_IEnumerator_Reset_mA9F4893381AB24E01EAEBFC38A88AF363A9A0691 (void);
+// 0x000003E5 System.Object TMPro.Examples.TextConsoleSimulator/<RevealCharacters>d__7::System.Collections.IEnumerator.get_Current()
+extern void U3CRevealCharactersU3Ed__7_System_Collections_IEnumerator_get_Current_mFD0B7538B1A650FB389FFE9296B0E51AEA5B6B6F (void);
+// 0x000003E6 System.Void TMPro.Examples.TextConsoleSimulator/<RevealWords>d__8::.ctor(System.Int32)
+extern void U3CRevealWordsU3Ed__8__ctor_m22FF9E770988107A928C5D1EA639F60239BFFEF0 (void);
+// 0x000003E7 System.Void TMPro.Examples.TextConsoleSimulator/<RevealWords>d__8::System.IDisposable.Dispose()
+extern void U3CRevealWordsU3Ed__8_System_IDisposable_Dispose_m3EAF6EF4A8C99A71FEED251BF3F28A26BF6AD7F8 (void);
+// 0x000003E8 System.Boolean TMPro.Examples.TextConsoleSimulator/<RevealWords>d__8::MoveNext()
+extern void U3CRevealWordsU3Ed__8_MoveNext_m3811753E2384D4CBBAD6BD712EBA4FAF00D73210 (void);
+// 0x000003E9 System.Object TMPro.Examples.TextConsoleSimulator/<RevealWords>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CRevealWordsU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA3F93E4AA532F15D52D68B7121805C014AB2D7FB (void);
+// 0x000003EA System.Void TMPro.Examples.TextConsoleSimulator/<RevealWords>d__8::System.Collections.IEnumerator.Reset()
+extern void U3CRevealWordsU3Ed__8_System_Collections_IEnumerator_Reset_mCDC8982948ED5F7743567569CA1D4A354218714F (void);
+// 0x000003EB System.Object TMPro.Examples.TextConsoleSimulator/<RevealWords>d__8::System.Collections.IEnumerator.get_Current()
+extern void U3CRevealWordsU3Ed__8_System_Collections_IEnumerator_get_Current_mF39E492D576810F58DB9031556CFD6806FD32E27 (void);
+// 0x000003EC System.Void TMPro.Examples.TextMeshProFloatingText::Awake()
+extern void TextMeshProFloatingText_Awake_m679E597FF18E192C1FBD263D0E5ECEA392412046 (void);
+// 0x000003ED System.Void TMPro.Examples.TextMeshProFloatingText::Start()
+extern void TextMeshProFloatingText_Start_m68E511DEEDA883FE0F0999B329451F3A8A7269B1 (void);
+// 0x000003EE System.Collections.IEnumerator TMPro.Examples.TextMeshProFloatingText::DisplayTextMeshProFloatingText()
+extern void TextMeshProFloatingText_DisplayTextMeshProFloatingText_m3C381B8A53C58CF001D7A9212B8BDA6F368CC2C7 (void);
+// 0x000003EF System.Collections.IEnumerator TMPro.Examples.TextMeshProFloatingText::DisplayTextMeshFloatingText()
+extern void TextMeshProFloatingText_DisplayTextMeshFloatingText_m22691E6EA41B7FCF782B03954865D8E3B890E4DF (void);
+// 0x000003F0 System.Void TMPro.Examples.TextMeshProFloatingText::.ctor()
+extern void TextMeshProFloatingText__ctor_m968E2691E21A93C010CF8205BC3666ADF712457E (void);
+// 0x000003F1 System.Void TMPro.Examples.TextMeshProFloatingText/<DisplayTextMeshProFloatingText>d__12::.ctor(System.Int32)
+extern void U3CDisplayTextMeshProFloatingTextU3Ed__12__ctor_mA27BBC06A409A9D9FB03E0D2C74677486B80D168 (void);
+// 0x000003F2 System.Void TMPro.Examples.TextMeshProFloatingText/<DisplayTextMeshProFloatingText>d__12::System.IDisposable.Dispose()
+extern void U3CDisplayTextMeshProFloatingTextU3Ed__12_System_IDisposable_Dispose_m510FB73335FCBCBEC6AC61A4F2A0217722BF27FC (void);
+// 0x000003F3 System.Boolean TMPro.Examples.TextMeshProFloatingText/<DisplayTextMeshProFloatingText>d__12::MoveNext()
+extern void U3CDisplayTextMeshProFloatingTextU3Ed__12_MoveNext_m8DFB6850F5F9B8DF05173D4CB9C76B997EC87B57 (void);
+// 0x000003F4 System.Object TMPro.Examples.TextMeshProFloatingText/<DisplayTextMeshProFloatingText>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CDisplayTextMeshProFloatingTextU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCD7B5218C81C0872AB501CD54626F1284A4F73BF (void);
+// 0x000003F5 System.Void TMPro.Examples.TextMeshProFloatingText/<DisplayTextMeshProFloatingText>d__12::System.Collections.IEnumerator.Reset()
+extern void U3CDisplayTextMeshProFloatingTextU3Ed__12_System_Collections_IEnumerator_Reset_mD2D32B94CA8D5A6D502BA38BDE1969C856368F73 (void);
+// 0x000003F6 System.Object TMPro.Examples.TextMeshProFloatingText/<DisplayTextMeshProFloatingText>d__12::System.Collections.IEnumerator.get_Current()
+extern void U3CDisplayTextMeshProFloatingTextU3Ed__12_System_Collections_IEnumerator_get_Current_m59B2488B0E3C72CE97659E8D19BB13C6E0A44E90 (void);
+// 0x000003F7 System.Void TMPro.Examples.TextMeshProFloatingText/<DisplayTextMeshFloatingText>d__13::.ctor(System.Int32)
+extern void U3CDisplayTextMeshFloatingTextU3Ed__13__ctor_m359EAC129649F98C759B341846A6DC07F95230D2 (void);
+// 0x000003F8 System.Void TMPro.Examples.TextMeshProFloatingText/<DisplayTextMeshFloatingText>d__13::System.IDisposable.Dispose()
+extern void U3CDisplayTextMeshFloatingTextU3Ed__13_System_IDisposable_Dispose_m36DE8722B670A7DDD9E70107024590B20A4E0B18 (void);
+// 0x000003F9 System.Boolean TMPro.Examples.TextMeshProFloatingText/<DisplayTextMeshFloatingText>d__13::MoveNext()
+extern void U3CDisplayTextMeshFloatingTextU3Ed__13_MoveNext_mB7D320C272AAA835590B8460DA89DEBC0A243815 (void);
+// 0x000003FA System.Object TMPro.Examples.TextMeshProFloatingText/<DisplayTextMeshFloatingText>d__13::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CDisplayTextMeshFloatingTextU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m891591B80D28B1DF2CF9EB78C19DA672A81231A2 (void);
+// 0x000003FB System.Void TMPro.Examples.TextMeshProFloatingText/<DisplayTextMeshFloatingText>d__13::System.Collections.IEnumerator.Reset()
+extern void U3CDisplayTextMeshFloatingTextU3Ed__13_System_Collections_IEnumerator_Reset_m5EF21CA1E0C64E67D18D9355B5E064C93452F5B2 (void);
+// 0x000003FC System.Object TMPro.Examples.TextMeshProFloatingText/<DisplayTextMeshFloatingText>d__13::System.Collections.IEnumerator.get_Current()
+extern void U3CDisplayTextMeshFloatingTextU3Ed__13_System_Collections_IEnumerator_get_Current_m4850A72D887C4DA3F53CA1A1A2BEAD5C5C6605A1 (void);
+// 0x000003FD System.Void TMPro.Examples.TextMeshSpawner::Awake()
+extern void TextMeshSpawner_Awake_mDF8CCC9C6B7380D6FA027263CDC3BC00EF75AEFB (void);
+// 0x000003FE System.Void TMPro.Examples.TextMeshSpawner::Start()
+extern void TextMeshSpawner_Start_m7CC21883CA786A846A44921D2E37C201C25439BA (void);
+// 0x000003FF System.Void TMPro.Examples.TextMeshSpawner::.ctor()
+extern void TextMeshSpawner__ctor_m1255777673BE591F62B4FC55EB999DBD7A7CB5A1 (void);
+// 0x00000400 System.Void TMPro.Examples.VertexColorCycler::Awake()
+extern void VertexColorCycler_Awake_m84B4548078500DA811F3ADFF66186373BE8EDABC (void);
+// 0x00000401 System.Void TMPro.Examples.VertexColorCycler::Start()
+extern void VertexColorCycler_Start_mC3FF90808EDD6A02F08375E909254778D5268B66 (void);
+// 0x00000402 System.Collections.IEnumerator TMPro.Examples.VertexColorCycler::AnimateVertexColors()
+extern void VertexColorCycler_AnimateVertexColors_m6960F777E4876DFCA726BCAE7A8163850D58FA42 (void);
+// 0x00000403 System.Void TMPro.Examples.VertexColorCycler::.ctor()
+extern void VertexColorCycler__ctor_m09990A8066C8A957A96CDBEBDA980399283B45E9 (void);
+// 0x00000404 System.Void TMPro.Examples.VertexColorCycler/<AnimateVertexColors>d__3::.ctor(System.Int32)
+extern void U3CAnimateVertexColorsU3Ed__3__ctor_m0038B1054BCC928D35F8C0021ED7D2E1C533E35F (void);
+// 0x00000405 System.Void TMPro.Examples.VertexColorCycler/<AnimateVertexColors>d__3::System.IDisposable.Dispose()
+extern void U3CAnimateVertexColorsU3Ed__3_System_IDisposable_Dispose_m5BAD394A0B09B3E0FF19E91521E02C2B3ADD6007 (void);
+// 0x00000406 System.Boolean TMPro.Examples.VertexColorCycler/<AnimateVertexColors>d__3::MoveNext()
+extern void U3CAnimateVertexColorsU3Ed__3_MoveNext_m2842AF5B12AFC17112D1AE75E46AB1B12776D2A6 (void);
+// 0x00000407 System.Object TMPro.Examples.VertexColorCycler/<AnimateVertexColors>d__3::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAnimateVertexColorsU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAE810D7968957A09C88E61C29DAAEC68E4AF1E51 (void);
+// 0x00000408 System.Void TMPro.Examples.VertexColorCycler/<AnimateVertexColors>d__3::System.Collections.IEnumerator.Reset()
+extern void U3CAnimateVertexColorsU3Ed__3_System_Collections_IEnumerator_Reset_m72ABAC50E9E4D972FB44CAFF387F3E23FEC5D932 (void);
+// 0x00000409 System.Object TMPro.Examples.VertexColorCycler/<AnimateVertexColors>d__3::System.Collections.IEnumerator.get_Current()
+extern void U3CAnimateVertexColorsU3Ed__3_System_Collections_IEnumerator_get_Current_m8DE595A1D01F3A507A356F8BCE020D0851412B52 (void);
+// 0x0000040A System.Void TMPro.Examples.VertexJitter::Awake()
+extern void VertexJitter_Awake_m9C5586A35BD9C928455D6479C93C1CE095447D8F (void);
+// 0x0000040B System.Void TMPro.Examples.VertexJitter::OnEnable()
+extern void VertexJitter_OnEnable_m97ED60DBD350C72D1436ADFB8009A6F33A78C825 (void);
+// 0x0000040C System.Void TMPro.Examples.VertexJitter::OnDisable()
+extern void VertexJitter_OnDisable_mF8D32D6E02E41A73C3E958FB6EE5D1D659D2A846 (void);
+// 0x0000040D System.Void TMPro.Examples.VertexJitter::Start()
+extern void VertexJitter_Start_m8A0FED7ED16F90DBF287E09BFCBD7B26E07DBF97 (void);
+// 0x0000040E System.Void TMPro.Examples.VertexJitter::ON_TEXT_CHANGED(UnityEngine.Object)
+extern void VertexJitter_ON_TEXT_CHANGED_mC7AB0113F6823D4FF415A096314B55D9C1BE9549 (void);
+// 0x0000040F System.Collections.IEnumerator TMPro.Examples.VertexJitter::AnimateVertexColors()
+extern void VertexJitter_AnimateVertexColors_mECAE037FC0CBA52CAC71C0B61E88829FF18BCC16 (void);
+// 0x00000410 System.Void TMPro.Examples.VertexJitter::.ctor()
+extern void VertexJitter__ctor_m550C9169D6FCD6F60D6AABCB8B4955DF58A12DCE (void);
+// 0x00000411 System.Void TMPro.Examples.VertexJitter/<AnimateVertexColors>d__11::.ctor(System.Int32)
+extern void U3CAnimateVertexColorsU3Ed__11__ctor_m0222C3457F5ACA497FE3A8EC829DE4AD11A169F8 (void);
+// 0x00000412 System.Void TMPro.Examples.VertexJitter/<AnimateVertexColors>d__11::System.IDisposable.Dispose()
+extern void U3CAnimateVertexColorsU3Ed__11_System_IDisposable_Dispose_m717E79A39A8161ADDA9E62F7CDFB67B8F2D65099 (void);
+// 0x00000413 System.Boolean TMPro.Examples.VertexJitter/<AnimateVertexColors>d__11::MoveNext()
+extern void U3CAnimateVertexColorsU3Ed__11_MoveNext_m169A75C7E2147372CB933520B670AF77907C1C6B (void);
+// 0x00000414 System.Object TMPro.Examples.VertexJitter/<AnimateVertexColors>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAnimateVertexColorsU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m920EBA43D59A1A88E27FED92CF0AC0DF90179479 (void);
+// 0x00000415 System.Void TMPro.Examples.VertexJitter/<AnimateVertexColors>d__11::System.Collections.IEnumerator.Reset()
+extern void U3CAnimateVertexColorsU3Ed__11_System_Collections_IEnumerator_Reset_m6C045A6DD0B60F1512457448E615877EAB86D75D (void);
+// 0x00000416 System.Object TMPro.Examples.VertexJitter/<AnimateVertexColors>d__11::System.Collections.IEnumerator.get_Current()
+extern void U3CAnimateVertexColorsU3Ed__11_System_Collections_IEnumerator_get_Current_m017345FE58B497EAFC9D0CB1FB733F76EB3449AF (void);
+// 0x00000417 System.Void TMPro.Examples.VertexShakeA::Awake()
+extern void VertexShakeA_Awake_m005C6F9EE8A8FD816CD3A736D6AF199CD2B615A2 (void);
+// 0x00000418 System.Void TMPro.Examples.VertexShakeA::OnEnable()
+extern void VertexShakeA_OnEnable_m9F60F3951A7D0DF4201A0409F0ADC05243D324EA (void);
+// 0x00000419 System.Void TMPro.Examples.VertexShakeA::OnDisable()
+extern void VertexShakeA_OnDisable_m59B86895C03B278B2E634A7C68CC942344A8D2D2 (void);
+// 0x0000041A System.Void TMPro.Examples.VertexShakeA::Start()
+extern void VertexShakeA_Start_m3E623C28F873F54F4AC7579433C7C50B2A3319DE (void);
+// 0x0000041B System.Void TMPro.Examples.VertexShakeA::ON_TEXT_CHANGED(UnityEngine.Object)
+extern void VertexShakeA_ON_TEXT_CHANGED_m7AD31F3239351E0916E4D02148F46A80DC148D7E (void);
+// 0x0000041C System.Collections.IEnumerator TMPro.Examples.VertexShakeA::AnimateVertexColors()
+extern void VertexShakeA_AnimateVertexColors_mC451E2732A4E3E90E2553811AD75903EEF974599 (void);
+// 0x0000041D System.Void TMPro.Examples.VertexShakeA::.ctor()
+extern void VertexShakeA__ctor_m7E6FD1700BD08616532AF22B3B489A18B88DFB62 (void);
+// 0x0000041E System.Void TMPro.Examples.VertexShakeA/<AnimateVertexColors>d__11::.ctor(System.Int32)
+extern void U3CAnimateVertexColorsU3Ed__11__ctor_m92612416BEC0EBF5E9849FB603629C0F2F95FEF2 (void);
+// 0x0000041F System.Void TMPro.Examples.VertexShakeA/<AnimateVertexColors>d__11::System.IDisposable.Dispose()
+extern void U3CAnimateVertexColorsU3Ed__11_System_IDisposable_Dispose_m77D966994D4717EAFD8EFE169F3E8A4EE8B05B81 (void);
+// 0x00000420 System.Boolean TMPro.Examples.VertexShakeA/<AnimateVertexColors>d__11::MoveNext()
+extern void U3CAnimateVertexColorsU3Ed__11_MoveNext_mCEEDE03667D329386BB4AE7B8252B7A9B54F443F (void);
+// 0x00000421 System.Object TMPro.Examples.VertexShakeA/<AnimateVertexColors>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAnimateVertexColorsU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDCCD3645ACF9B18D760B341C863F853996FA9BCE (void);
+// 0x00000422 System.Void TMPro.Examples.VertexShakeA/<AnimateVertexColors>d__11::System.Collections.IEnumerator.Reset()
+extern void U3CAnimateVertexColorsU3Ed__11_System_Collections_IEnumerator_Reset_mB9444B5E58B4E97105C447F547C0F74C51BCFBFA (void);
+// 0x00000423 System.Object TMPro.Examples.VertexShakeA/<AnimateVertexColors>d__11::System.Collections.IEnumerator.get_Current()
+extern void U3CAnimateVertexColorsU3Ed__11_System_Collections_IEnumerator_get_Current_m5CC464185D5C0251C6206E20AFFA681BA0525A7E (void);
+// 0x00000424 System.Void TMPro.Examples.VertexShakeB::Awake()
+extern void VertexShakeB_Awake_m99C9A0474DBFE462DC88C898F958C1805376F9D5 (void);
+// 0x00000425 System.Void TMPro.Examples.VertexShakeB::OnEnable()
+extern void VertexShakeB_OnEnable_m64299258797D745CDFE7F3CBEC4708BDBC7C3971 (void);
+// 0x00000426 System.Void TMPro.Examples.VertexShakeB::OnDisable()
+extern void VertexShakeB_OnDisable_m07D520A8D7BCD8D188CE9F5CC7845F47D5AD6EF4 (void);
+// 0x00000427 System.Void TMPro.Examples.VertexShakeB::Start()
+extern void VertexShakeB_Start_m9642281210FA5F701A324B78850331E4638B2DD1 (void);
+// 0x00000428 System.Void TMPro.Examples.VertexShakeB::ON_TEXT_CHANGED(UnityEngine.Object)
+extern void VertexShakeB_ON_TEXT_CHANGED_m5650D69D258D0EEF35AF390D6D5086B327B308A5 (void);
+// 0x00000429 System.Collections.IEnumerator TMPro.Examples.VertexShakeB::AnimateVertexColors()
+extern void VertexShakeB_AnimateVertexColors_mDF7A7E7028361D288DF588D9301541E4FA1EFA87 (void);
+// 0x0000042A System.Void TMPro.Examples.VertexShakeB::.ctor()
+extern void VertexShakeB__ctor_m605A778C36B506B5763A1AE17B01F8DCCBCD51EC (void);
+// 0x0000042B System.Void TMPro.Examples.VertexShakeB/<AnimateVertexColors>d__10::.ctor(System.Int32)
+extern void U3CAnimateVertexColorsU3Ed__10__ctor_m3E3B1D286DEBED2BC028AD490308568B930C3760 (void);
+// 0x0000042C System.Void TMPro.Examples.VertexShakeB/<AnimateVertexColors>d__10::System.IDisposable.Dispose()
+extern void U3CAnimateVertexColorsU3Ed__10_System_IDisposable_Dispose_m0F9D4B2A6ED0500C2120DBA29932CC279E8908DC (void);
+// 0x0000042D System.Boolean TMPro.Examples.VertexShakeB/<AnimateVertexColors>d__10::MoveNext()
+extern void U3CAnimateVertexColorsU3Ed__10_MoveNext_m0534E436514E663BF024364E524EE5716FF15C8E (void);
+// 0x0000042E System.Object TMPro.Examples.VertexShakeB/<AnimateVertexColors>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAnimateVertexColorsU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF2A8BAFC0261ACBBE8EEA74DE4B498D30C68AE3D (void);
+// 0x0000042F System.Void TMPro.Examples.VertexShakeB/<AnimateVertexColors>d__10::System.Collections.IEnumerator.Reset()
+extern void U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_Reset_m5F12D7C6F2523BEB6326FE49AE972116D6157CBB (void);
+// 0x00000430 System.Object TMPro.Examples.VertexShakeB/<AnimateVertexColors>d__10::System.Collections.IEnumerator.get_Current()
+extern void U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_get_Current_mB9C12786011A3B78517AEFAE8D5A78B95A4219AD (void);
+// 0x00000431 System.Void TMPro.Examples.VertexZoom::Awake()
+extern void VertexZoom_Awake_m1B5D386B98CF2EB05A8155B238D6F6E8275D181C (void);
+// 0x00000432 System.Void TMPro.Examples.VertexZoom::OnEnable()
+extern void VertexZoom_OnEnable_m7F980FC038FC2534C428A5FD33E3E13AEAEB4EEC (void);
+// 0x00000433 System.Void TMPro.Examples.VertexZoom::OnDisable()
+extern void VertexZoom_OnDisable_m880C38B62B4BB05AF49F12F75B83FFA2F0519884 (void);
+// 0x00000434 System.Void TMPro.Examples.VertexZoom::Start()
+extern void VertexZoom_Start_m10A182DCEF8D430DADAFBFFA3F04171F8E60C84C (void);
+// 0x00000435 System.Void TMPro.Examples.VertexZoom::ON_TEXT_CHANGED(UnityEngine.Object)
+extern void VertexZoom_ON_TEXT_CHANGED_mB696E443C61D2212AC93A7615AA58106DD25250F (void);
+// 0x00000436 System.Collections.IEnumerator TMPro.Examples.VertexZoom::AnimateVertexColors()
+extern void VertexZoom_AnimateVertexColors_mEFBA6C940DFECB485236C247358A32011A7963ED (void);
+// 0x00000437 System.Void TMPro.Examples.VertexZoom::.ctor()
+extern void VertexZoom__ctor_mE7B36F2D3EC8EF397AB0AD7A19E988C06927A3B2 (void);
+// 0x00000438 System.Void TMPro.Examples.VertexZoom/<>c__DisplayClass10_0::.ctor()
+extern void U3CU3Ec__DisplayClass10_0__ctor_m4EC5F8042B5AC645EA7D0913E50FD22144DBD348 (void);
+// 0x00000439 System.Int32 TMPro.Examples.VertexZoom/<>c__DisplayClass10_0::<AnimateVertexColors>b__0(System.Int32,System.Int32)
+extern void U3CU3Ec__DisplayClass10_0_U3CAnimateVertexColorsU3Eb__0_m959A7E1D6162B5AAF28B953AFB04D7943BCAB107 (void);
+// 0x0000043A System.Void TMPro.Examples.VertexZoom/<AnimateVertexColors>d__10::.ctor(System.Int32)
+extern void U3CAnimateVertexColorsU3Ed__10__ctor_m537CF0A5ADF5BBC2DF784BF526E3F32EB528E1B2 (void);
+// 0x0000043B System.Void TMPro.Examples.VertexZoom/<AnimateVertexColors>d__10::System.IDisposable.Dispose()
+extern void U3CAnimateVertexColorsU3Ed__10_System_IDisposable_Dispose_mF0CD944C393771101D2718A660E1DFF22385819F (void);
+// 0x0000043C System.Boolean TMPro.Examples.VertexZoom/<AnimateVertexColors>d__10::MoveNext()
+extern void U3CAnimateVertexColorsU3Ed__10_MoveNext_m8340EFEB2B2CF6EA1545CFB6967968CA171FEE66 (void);
+// 0x0000043D System.Object TMPro.Examples.VertexZoom/<AnimateVertexColors>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAnimateVertexColorsU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m093E922A5A046910B2A7EE826D804CA3064A7BD9 (void);
+// 0x0000043E System.Void TMPro.Examples.VertexZoom/<AnimateVertexColors>d__10::System.Collections.IEnumerator.Reset()
+extern void U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_Reset_mDED63FD52741D58D8D5A3E53415F91B6560F680C (void);
+// 0x0000043F System.Object TMPro.Examples.VertexZoom/<AnimateVertexColors>d__10::System.Collections.IEnumerator.get_Current()
+extern void U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_get_Current_m933EBF7C4300C7C1E3EE60E4741110025877CA5F (void);
+// 0x00000440 System.Void TMPro.Examples.WarpTextExample::Awake()
+extern void WarpTextExample_Awake_mEDB072A485F3F37270FC736E1A201624D696B4B0 (void);
+// 0x00000441 System.Void TMPro.Examples.WarpTextExample::Start()
+extern void WarpTextExample_Start_m36448AEA494658D7C129C3B71BF3A64CC4DFEDC4 (void);
+// 0x00000442 UnityEngine.AnimationCurve TMPro.Examples.WarpTextExample::CopyAnimationCurve(UnityEngine.AnimationCurve)
+extern void WarpTextExample_CopyAnimationCurve_m744026E638662DA48AC81ED21E0589E3E4E05FAB (void);
+// 0x00000443 System.Collections.IEnumerator TMPro.Examples.WarpTextExample::WarpText()
+extern void WarpTextExample_WarpText_mA29C98CF3B92F253C2DD2BADFC76618F8324BEF2 (void);
+// 0x00000444 System.Void TMPro.Examples.WarpTextExample::.ctor()
+extern void WarpTextExample__ctor_m62299DFDB704027267321007E16DB87D93D0F099 (void);
+// 0x00000445 System.Void TMPro.Examples.WarpTextExample/<WarpText>d__8::.ctor(System.Int32)
+extern void U3CWarpTextU3Ed__8__ctor_m9FADE04C27A0034C5A276232FCA187AECDC6BF49 (void);
+// 0x00000446 System.Void TMPro.Examples.WarpTextExample/<WarpText>d__8::System.IDisposable.Dispose()
+extern void U3CWarpTextU3Ed__8_System_IDisposable_Dispose_m5AB0DCF4B3DE6C290487F3DBBC7BAE931130DE60 (void);
+// 0x00000447 System.Boolean TMPro.Examples.WarpTextExample/<WarpText>d__8::MoveNext()
+extern void U3CWarpTextU3Ed__8_MoveNext_m9C83C8455FF8ADFBAA8D05958C3048612A96EB84 (void);
+// 0x00000448 System.Object TMPro.Examples.WarpTextExample/<WarpText>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9D5776AF80C4227401ADD7E13D98F2530CB9E7A1 (void);
+// 0x00000449 System.Void TMPro.Examples.WarpTextExample/<WarpText>d__8::System.Collections.IEnumerator.Reset()
+extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m4F2FBBE7B375E6FC837736B4275A7B601A01F535 (void);
+// 0x0000044A System.Object TMPro.Examples.WarpTextExample/<WarpText>d__8::System.Collections.IEnumerator.get_Current()
+extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m01FA935D93D737C9DDD88A051F7DFC393DD7BD25 (void);
+// 0x0000044B System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::Start()
+extern void ConnectAndJoinRandomLb_Start_m8784F9A942632995E527C9AAC79D40049C1B4421 (void);
+// 0x0000044C System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::Update()
+extern void ConnectAndJoinRandomLb_Update_m27F506BAFEF2C3264B9030218D0ADB86478750E2 (void);
+// 0x0000044D System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnConnected()
+extern void ConnectAndJoinRandomLb_OnConnected_m5879B131543322FA6CC2D9FB2B4C196698680114 (void);
+// 0x0000044E System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnConnectedToMaster()
+extern void ConnectAndJoinRandomLb_OnConnectedToMaster_mCCF5E7C0A7A1A8486F3571F05B2E0662C7C939F2 (void);
+// 0x0000044F System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnDisconnected(Photon.Realtime.DisconnectCause)
+extern void ConnectAndJoinRandomLb_OnDisconnected_m2576DA0537A899046151D7FA51E25AC367F800A7 (void);
+// 0x00000450 System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnCustomAuthenticationResponse(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+extern void ConnectAndJoinRandomLb_OnCustomAuthenticationResponse_m8F6E456A2C572923AD8E720088C22588A1DB1459 (void);
+// 0x00000451 System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnCustomAuthenticationFailed(System.String)
+extern void ConnectAndJoinRandomLb_OnCustomAuthenticationFailed_m447EA30CA679C12865C767F01D060A3A2EF74C5B (void);
+// 0x00000452 System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnRegionListReceived(Photon.Realtime.RegionHandler)
+extern void ConnectAndJoinRandomLb_OnRegionListReceived_m6F54D1CDC5C51EF9ED8C44E439E83210851CDA8E (void);
+// 0x00000453 System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnRoomListUpdate(System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>)
+extern void ConnectAndJoinRandomLb_OnRoomListUpdate_m91AEF2D4CB5CC06810FED71B26B736DDC2938DA0 (void);
+// 0x00000454 System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnLobbyStatisticsUpdate(System.Collections.Generic.List`1<Photon.Realtime.TypedLobbyInfo>)
+extern void ConnectAndJoinRandomLb_OnLobbyStatisticsUpdate_m02972ED26C4B5FCECE1E7A0B482A32E53363F2F7 (void);
+// 0x00000455 System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnJoinedLobby()
+extern void ConnectAndJoinRandomLb_OnJoinedLobby_m171BA1094BCA0FC7A1D13EA07C858CD2D2F423EF (void);
+// 0x00000456 System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnLeftLobby()
+extern void ConnectAndJoinRandomLb_OnLeftLobby_m1BCA515302514D0EF88687D2216D67A9D724B0F4 (void);
+// 0x00000457 System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnFriendListUpdate(System.Collections.Generic.List`1<Photon.Realtime.FriendInfo>)
+extern void ConnectAndJoinRandomLb_OnFriendListUpdate_m6E1EBEFEC84BA9FFA5296B547431BDB692E053DB (void);
+// 0x00000458 System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnCreatedRoom()
+extern void ConnectAndJoinRandomLb_OnCreatedRoom_mB1906ADF16C593829B0DD191F319716A97B10583 (void);
+// 0x00000459 System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnCreateRoomFailed(System.Int16,System.String)
+extern void ConnectAndJoinRandomLb_OnCreateRoomFailed_mD11765F8AA8A45B8AC5555207281A43ABA829D24 (void);
+// 0x0000045A System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnJoinedRoom()
+extern void ConnectAndJoinRandomLb_OnJoinedRoom_mCE9BDE69A13EA84E9ACA73E064A695B9D3754E8B (void);
+// 0x0000045B System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnJoinRoomFailed(System.Int16,System.String)
+extern void ConnectAndJoinRandomLb_OnJoinRoomFailed_m5622896774D36D4960735E32F353869D9D6DF94C (void);
+// 0x0000045C System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnJoinRandomFailed(System.Int16,System.String)
+extern void ConnectAndJoinRandomLb_OnJoinRandomFailed_m4BCA35CBE444C5AD28D7D713E92E893198F91B69 (void);
+// 0x0000045D System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnLeftRoom()
+extern void ConnectAndJoinRandomLb_OnLeftRoom_m488901B35215F9B70BACC7A08ABB123F3B605137 (void);
+// 0x0000045E System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::OnRegionPingCompleted(Photon.Realtime.RegionHandler)
+extern void ConnectAndJoinRandomLb_OnRegionPingCompleted_mD76EE8F39A7AE8EF7E071B9E1C5D1A52452FEF17 (void);
+// 0x0000045F System.Void Photon.Realtime.Demo.ConnectAndJoinRandomLb::.ctor()
+extern void ConnectAndJoinRandomLb__ctor_mD06217DD59635BD5DC39E8E14274D6604FDF85C1 (void);
+// 0x00000460 System.Void Photon.Chat.UtilityScripts.EventSystemSpawner::OnEnable()
+extern void EventSystemSpawner_OnEnable_m92046CF7C2B99309677158A5205E37FA11EE9302 (void);
+// 0x00000461 System.Void Photon.Chat.UtilityScripts.EventSystemSpawner::.ctor()
+extern void EventSystemSpawner__ctor_m6FCC0DAF89825B22BEDC803B5E02B42FB86CF331 (void);
+// 0x00000462 System.Void Photon.Chat.UtilityScripts.OnStartDelete::Start()
+extern void OnStartDelete_Start_m033082A59BA5941F5740FAD3CDD2D4501430DD33 (void);
+// 0x00000463 System.Void Photon.Chat.UtilityScripts.OnStartDelete::.ctor()
+extern void OnStartDelete__ctor_m0B816BC930476E7580303D8E9E8E07444F0C5270 (void);
+// 0x00000464 System.Void Photon.Chat.UtilityScripts.TextButtonTransition::Awake()
+extern void TextButtonTransition_Awake_m5402B2656DCEF5F78D8BA1D3D7D77EBD7F07AC9E (void);
+// 0x00000465 System.Void Photon.Chat.UtilityScripts.TextButtonTransition::OnEnable()
+extern void TextButtonTransition_OnEnable_mD3229078DB78111EDC0B823872D1E381F3C15A5F (void);
+// 0x00000466 System.Void Photon.Chat.UtilityScripts.TextButtonTransition::OnDisable()
+extern void TextButtonTransition_OnDisable_mAB2CCC24F8B8F1D664154DC1D0D7E47A925A3B72 (void);
+// 0x00000467 System.Void Photon.Chat.UtilityScripts.TextButtonTransition::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+extern void TextButtonTransition_OnPointerEnter_m28E7599E058554E4C13D7EA152521BCF4C104B07 (void);
+// 0x00000468 System.Void Photon.Chat.UtilityScripts.TextButtonTransition::OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+extern void TextButtonTransition_OnPointerExit_m25F271B30D439D9AD93483E1CC08FC198A3E9A02 (void);
+// 0x00000469 System.Void Photon.Chat.UtilityScripts.TextButtonTransition::.ctor()
+extern void TextButtonTransition__ctor_m9E3AFEA1BEFD79F8F0D16DA749243B7D43B78570 (void);
+// 0x0000046A System.Void Photon.Chat.UtilityScripts.TextToggleIsOnTransition::OnEnable()
+extern void TextToggleIsOnTransition_OnEnable_mA240AFB3178800D5275FB5BD05D54449EC49BAF2 (void);
+// 0x0000046B System.Void Photon.Chat.UtilityScripts.TextToggleIsOnTransition::OnDisable()
+extern void TextToggleIsOnTransition_OnDisable_m824A3816D8873B0A5F86F4F401FF080163560404 (void);
+// 0x0000046C System.Void Photon.Chat.UtilityScripts.TextToggleIsOnTransition::OnValueChanged(System.Boolean)
+extern void TextToggleIsOnTransition_OnValueChanged_m2C3DAB9655DD596BFC184D0A5B4F83D36C8B2FFB (void);
+// 0x0000046D System.Void Photon.Chat.UtilityScripts.TextToggleIsOnTransition::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+extern void TextToggleIsOnTransition_OnPointerEnter_m01E7951E3FE9C9C9A1FC1D5E26EFF4041799E0E5 (void);
+// 0x0000046E System.Void Photon.Chat.UtilityScripts.TextToggleIsOnTransition::OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+extern void TextToggleIsOnTransition_OnPointerExit_mBF6DDD1410475F0C6118F9C85F572E669FBB4C20 (void);
+// 0x0000046F System.Void Photon.Chat.UtilityScripts.TextToggleIsOnTransition::.ctor()
+extern void TextToggleIsOnTransition__ctor_mA401C98E0CC8F9B8728B46138CCF941C6E471F04 (void);
+// 0x00000470 System.Boolean GoogleARCoreInternal.InstantPreviewManager::get_IsProvidingPlatform()
 extern void InstantPreviewManager_get_IsProvidingPlatform_m6B3A4A83E27112AEB2420F6A7DEA8D4C0101AA6E (void);
-// 0x000002B8 System.Boolean GoogleARCoreInternal.InstantPreviewManager::ValidateSessionConfig(GoogleARCore.ARCoreSessionConfig)
+// 0x00000471 System.Boolean GoogleARCoreInternal.InstantPreviewManager::ValidateSessionConfig(GoogleARCore.ARCoreSessionConfig)
 extern void InstantPreviewManager_ValidateSessionConfig_m34756A1707AB698AA63D67D7440DB074831A8BF5 (void);
-// 0x000002B9 GoogleARCore.ARCoreSessionConfig GoogleARCoreInternal.InstantPreviewManager::GenerateInstantPreviewSupportedConfig(GoogleARCore.ARCoreSessionConfig)
+// 0x00000472 GoogleARCore.ARCoreSessionConfig GoogleARCoreInternal.InstantPreviewManager::GenerateInstantPreviewSupportedConfig(GoogleARCore.ARCoreSessionConfig)
 extern void InstantPreviewManager_GenerateInstantPreviewSupportedConfig_mEA2DB2BE07A8016F969758CD310A574CE495ABDB (void);
-// 0x000002BA System.Void GoogleARCoreInternal.InstantPreviewManager::LogLimitedSupportMessage(System.String,System.Boolean)
+// 0x00000473 System.Void GoogleARCoreInternal.InstantPreviewManager::LogLimitedSupportMessage(System.String,System.Boolean)
 extern void InstantPreviewManager_LogLimitedSupportMessage_m70F89A4FA3809C0C5C516C397FD31E02007FF2A6 (void);
-// 0x000002BB System.Collections.IEnumerator GoogleARCoreInternal.InstantPreviewManager::InitializeIfNeeded()
+// 0x00000474 System.Collections.IEnumerator GoogleARCoreInternal.InstantPreviewManager::InitializeIfNeeded()
 extern void InstantPreviewManager_InitializeIfNeeded_m61CA1E28E57B88E5A34C7D73518AB4EE019D479E (void);
-// 0x000002BC System.Boolean GoogleARCoreInternal.InstantPreviewManager::UpdateBackgroundTextureIfNeeded(UnityEngine.Texture2D&)
+// 0x00000475 System.Boolean GoogleARCoreInternal.InstantPreviewManager::UpdateBackgroundTextureIfNeeded(UnityEngine.Texture2D&)
 extern void InstantPreviewManager_UpdateBackgroundTextureIfNeeded_mF34A69BBCBFA4A36A851EE495C2305A273A5FCA1 (void);
-// 0x000002BD System.Collections.IEnumerator GoogleARCoreInternal.InstantPreviewManager::UpdateLoop(System.String)
+// 0x00000476 System.Collections.IEnumerator GoogleARCoreInternal.InstantPreviewManager::UpdateLoop(System.String)
 extern void InstantPreviewManager_UpdateLoop_m3FFF26A0ED93BE65ADA2384E5063956643996FFE (void);
-// 0x000002BE System.Void GoogleARCoreInternal.InstantPreviewManager::AddInstantPreviewTrackedPoseDriverWhenNeeded()
+// 0x00000477 System.Void GoogleARCoreInternal.InstantPreviewManager::AddInstantPreviewTrackedPoseDriverWhenNeeded()
 extern void InstantPreviewManager_AddInstantPreviewTrackedPoseDriverWhenNeeded_mFCFD7A8F88EF7D9F8BB93B665E97886E795B348F (void);
-// 0x000002BF System.Collections.IEnumerator GoogleARCoreInternal.InstantPreviewManager::InstallApkAndRunIfConnected(System.String,System.String)
+// 0x00000478 System.Collections.IEnumerator GoogleARCoreInternal.InstantPreviewManager::InstallApkAndRunIfConnected(System.String,System.String)
 extern void InstantPreviewManager_InstallApkAndRunIfConnected_mFEB1AE6D60E9AEF9C09392EE76AE688A7E4CFBEE (void);
-// 0x000002C0 System.Boolean GoogleARCoreInternal.InstantPreviewManager::PromptToInstall()
+// 0x00000479 System.Boolean GoogleARCoreInternal.InstantPreviewManager::PromptToInstall()
 extern void InstantPreviewManager_PromptToInstall_mA9E32800EE9393F294F26E59443477B4279EE7CA (void);
-// 0x000002C1 System.Boolean GoogleARCoreInternal.InstantPreviewManager::PromptToRebuildAugmentedImagesDatabase()
+// 0x0000047A System.Boolean GoogleARCoreInternal.InstantPreviewManager::PromptToRebuildAugmentedImagesDatabase()
 extern void InstantPreviewManager_PromptToRebuildAugmentedImagesDatabase_m5B74CE51CAE249520DD7B1B2DA6C2764F02A4242 (void);
-// 0x000002C2 System.Boolean GoogleARCoreInternal.InstantPreviewManager::StartServer(System.String,System.String&)
+// 0x0000047B System.Boolean GoogleARCoreInternal.InstantPreviewManager::StartServer(System.String,System.String&)
 extern void InstantPreviewManager_StartServer_m792F23FD0584B084EE472F34F1F43D2C3CA20865 (void);
-// 0x000002C3 System.Int32 GoogleARCoreInternal.InstantPreviewManager::RoundUpToNearestMultipleOf16(System.Int32)
+// 0x0000047C System.Int32 GoogleARCoreInternal.InstantPreviewManager::RoundUpToNearestMultipleOf16(System.Int32)
 extern void InstantPreviewManager_RoundUpToNearestMultipleOf16_mF96FB7701EC618DB296A02FD85C245DEA9279606 (void);
-// 0x000002C4 System.Single GoogleARCoreInternal.InstantPreviewManager::GetMinGameViewScaleOrUnknown()
+// 0x0000047D System.Single GoogleARCoreInternal.InstantPreviewManager::GetMinGameViewScaleOrUnknown()
 extern void InstantPreviewManager_GetMinGameViewScaleOrUnknown_m7FB3592511FE8373DE96B8455A30F4B3C06DEF2B (void);
-// 0x000002C5 System.Void GoogleARCoreInternal.InstantPreviewManager::.cctor()
+// 0x0000047E System.Void GoogleARCoreInternal.InstantPreviewManager::.cctor()
 extern void InstantPreviewManager__cctor_m70917122CA52EA0D1CC45289A800CCE6596FD924 (void);
-// 0x000002C6 System.Boolean GoogleARCoreInternal.InstantPreviewManager/NativeApi::InitializeInstantPreview(System.String,System.Text.StringBuilder,System.Int32)
+// 0x0000047F System.Boolean GoogleARCoreInternal.InstantPreviewManager/NativeApi::InitializeInstantPreview(System.String,System.Text.StringBuilder,System.Int32)
 extern void NativeApi_InitializeInstantPreview_mFD918946CA3CE316337D5B4D615491F7D3A97FF2 (void);
-// 0x000002C7 System.Void GoogleARCoreInternal.InstantPreviewManager/NativeApi::Update()
+// 0x00000480 System.Void GoogleARCoreInternal.InstantPreviewManager/NativeApi::Update()
 extern void NativeApi_Update_mC6E20972B45D2373BF93AFCCA2696802FF050B7A (void);
-// 0x000002C8 System.IntPtr GoogleARCoreInternal.InstantPreviewManager/NativeApi::GetRenderEventFunc()
+// 0x00000481 System.IntPtr GoogleARCoreInternal.InstantPreviewManager/NativeApi::GetRenderEventFunc()
 extern void NativeApi_GetRenderEventFunc_mBB642D8FF96187559299A6FCC43181C540C56476 (void);
-// 0x000002C9 System.Void GoogleARCoreInternal.InstantPreviewManager/NativeApi::SendFrame(System.IntPtr)
+// 0x00000482 System.Void GoogleARCoreInternal.InstantPreviewManager/NativeApi::SendFrame(System.IntPtr)
 extern void NativeApi_SendFrame_m99BEDEA5A36A0CAE94BE4354BC73ED28B193DBDD (void);
-// 0x000002CA System.Boolean GoogleARCoreInternal.InstantPreviewManager/NativeApi::LockCameraTexture(System.IntPtr&,System.Int32&,System.Int32&)
+// 0x00000483 System.Boolean GoogleARCoreInternal.InstantPreviewManager/NativeApi::LockCameraTexture(System.IntPtr&,System.Int32&,System.Int32&)
 extern void NativeApi_LockCameraTexture_m8CF0F9097DB6D3E553030EE91A567714105AD39C (void);
-// 0x000002CB System.Void GoogleARCoreInternal.InstantPreviewManager/NativeApi::UnlockCameraTexture()
+// 0x00000484 System.Void GoogleARCoreInternal.InstantPreviewManager/NativeApi::UnlockCameraTexture()
 extern void NativeApi_UnlockCameraTexture_m3CF480BF7FF69E28B7219E27D0A7DA77684E389F (void);
-// 0x000002CC System.Boolean GoogleARCoreInternal.InstantPreviewManager/NativeApi::IsConnected()
+// 0x00000485 System.Boolean GoogleARCoreInternal.InstantPreviewManager/NativeApi::IsConnected()
 extern void NativeApi_IsConnected_m078E977C88FE976E448CB52DC377534DFAC57151 (void);
-// 0x000002CD System.Boolean GoogleARCoreInternal.InstantPreviewManager/NativeApi::AppShowedTouchWarning()
+// 0x00000486 System.Boolean GoogleARCoreInternal.InstantPreviewManager/NativeApi::AppShowedTouchWarning()
 extern void NativeApi_AppShowedTouchWarning_mEAAACB355F2B123DC228E7B5618582CE8CA526F6 (void);
-// 0x000002CE System.Boolean GoogleARCoreInternal.InstantPreviewManager/NativeApi::UnityLoggedTouchWarning()
+// 0x00000487 System.Boolean GoogleARCoreInternal.InstantPreviewManager/NativeApi::UnityLoggedTouchWarning()
 extern void NativeApi_UnityLoggedTouchWarning_m21B42C3D3A69191759BC9086F65E736B9A5A8ABC (void);
-// 0x000002CF System.Void GoogleARCoreInternal.InstantPreviewManager/NativeApi::SendToast(System.String)
+// 0x00000488 System.Void GoogleARCoreInternal.InstantPreviewManager/NativeApi::SendToast(System.String)
 extern void NativeApi_SendToast_m887B962A65B5033CC0D00C3FF76827E2D2F690C9 (void);
-// 0x000002D0 System.Void GoogleARCoreInternal.InstantPreviewManager/Result::.ctor()
+// 0x00000489 System.Void GoogleARCoreInternal.InstantPreviewManager/Result::.ctor()
 extern void Result__ctor_mF072E4D30B8BD1401446C9AF391F865EE11DCE2C (void);
-// 0x000002D1 System.Void GoogleARCoreInternal.InstantPreviewManager/<InitializeIfNeeded>d__17::.ctor(System.Int32)
+// 0x0000048A System.Void GoogleARCoreInternal.InstantPreviewManager/<InitializeIfNeeded>d__17::.ctor(System.Int32)
 extern void U3CInitializeIfNeededU3Ed__17__ctor_mD5D31DA69C89070C969EC6D912E859B4A1F3F9EE (void);
-// 0x000002D2 System.Void GoogleARCoreInternal.InstantPreviewManager/<InitializeIfNeeded>d__17::System.IDisposable.Dispose()
+// 0x0000048B System.Void GoogleARCoreInternal.InstantPreviewManager/<InitializeIfNeeded>d__17::System.IDisposable.Dispose()
 extern void U3CInitializeIfNeededU3Ed__17_System_IDisposable_Dispose_m02A1DEF3703604DB873C2D40B9F3EC32720470EA (void);
-// 0x000002D3 System.Boolean GoogleARCoreInternal.InstantPreviewManager/<InitializeIfNeeded>d__17::MoveNext()
+// 0x0000048C System.Boolean GoogleARCoreInternal.InstantPreviewManager/<InitializeIfNeeded>d__17::MoveNext()
 extern void U3CInitializeIfNeededU3Ed__17_MoveNext_m1BC41CDEB3BAB0AD85056FF5ECD938D4E28F9F28 (void);
-// 0x000002D4 System.Object GoogleARCoreInternal.InstantPreviewManager/<InitializeIfNeeded>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000048D System.Object GoogleARCoreInternal.InstantPreviewManager/<InitializeIfNeeded>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CInitializeIfNeededU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m561ED5A114250DBD3613772655EB276F5A78380E (void);
-// 0x000002D5 System.Void GoogleARCoreInternal.InstantPreviewManager/<InitializeIfNeeded>d__17::System.Collections.IEnumerator.Reset()
+// 0x0000048E System.Void GoogleARCoreInternal.InstantPreviewManager/<InitializeIfNeeded>d__17::System.Collections.IEnumerator.Reset()
 extern void U3CInitializeIfNeededU3Ed__17_System_Collections_IEnumerator_Reset_m4F275B4844AB097C71076332AFAEB7779D17D12C (void);
-// 0x000002D6 System.Object GoogleARCoreInternal.InstantPreviewManager/<InitializeIfNeeded>d__17::System.Collections.IEnumerator.get_Current()
+// 0x0000048F System.Object GoogleARCoreInternal.InstantPreviewManager/<InitializeIfNeeded>d__17::System.Collections.IEnumerator.get_Current()
 extern void U3CInitializeIfNeededU3Ed__17_System_Collections_IEnumerator_get_Current_mEB2B7136CF2714A3665B0F6E04D37B1A98A09693 (void);
-// 0x000002D7 System.Void GoogleARCoreInternal.InstantPreviewManager/<UpdateLoop>d__19::.ctor(System.Int32)
+// 0x00000490 System.Void GoogleARCoreInternal.InstantPreviewManager/<UpdateLoop>d__19::.ctor(System.Int32)
 extern void U3CUpdateLoopU3Ed__19__ctor_m205ED3FE349366191300328D100F8AF03C8ECF98 (void);
-// 0x000002D8 System.Void GoogleARCoreInternal.InstantPreviewManager/<UpdateLoop>d__19::System.IDisposable.Dispose()
+// 0x00000491 System.Void GoogleARCoreInternal.InstantPreviewManager/<UpdateLoop>d__19::System.IDisposable.Dispose()
 extern void U3CUpdateLoopU3Ed__19_System_IDisposable_Dispose_m2FF5DB3ABFD9421547286C9A17D7A343C1DF6F0B (void);
-// 0x000002D9 System.Boolean GoogleARCoreInternal.InstantPreviewManager/<UpdateLoop>d__19::MoveNext()
+// 0x00000492 System.Boolean GoogleARCoreInternal.InstantPreviewManager/<UpdateLoop>d__19::MoveNext()
 extern void U3CUpdateLoopU3Ed__19_MoveNext_m142DF0174B31AA9D506D61059EBA3168961F64E4 (void);
-// 0x000002DA System.Object GoogleARCoreInternal.InstantPreviewManager/<UpdateLoop>d__19::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000493 System.Object GoogleARCoreInternal.InstantPreviewManager/<UpdateLoop>d__19::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CUpdateLoopU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD5A9DE1FB383BB4BDAE14485EC71B2E2B9BBC24B (void);
-// 0x000002DB System.Void GoogleARCoreInternal.InstantPreviewManager/<UpdateLoop>d__19::System.Collections.IEnumerator.Reset()
+// 0x00000494 System.Void GoogleARCoreInternal.InstantPreviewManager/<UpdateLoop>d__19::System.Collections.IEnumerator.Reset()
 extern void U3CUpdateLoopU3Ed__19_System_Collections_IEnumerator_Reset_mB260A3C93B9EDAB7483769C5EA838024A99C5346 (void);
-// 0x000002DC System.Object GoogleARCoreInternal.InstantPreviewManager/<UpdateLoop>d__19::System.Collections.IEnumerator.get_Current()
+// 0x00000495 System.Object GoogleARCoreInternal.InstantPreviewManager/<UpdateLoop>d__19::System.Collections.IEnumerator.get_Current()
 extern void U3CUpdateLoopU3Ed__19_System_Collections_IEnumerator_get_Current_m0AE1A49D018C7F701C58F1DBD7EDB90EAD9B1907 (void);
-// 0x000002DD System.Void GoogleARCoreInternal.InstantPreviewManager/<>c__DisplayClass21_0::.ctor()
+// 0x00000496 System.Void GoogleARCoreInternal.InstantPreviewManager/<>c__DisplayClass21_0::.ctor()
 extern void U3CU3Ec__DisplayClass21_0__ctor_m329FA736C45C2CC2DEEEB2462EC8D09451830132 (void);
-// 0x000002DE System.Void GoogleARCoreInternal.InstantPreviewManager/<>c__DisplayClass21_0::<InstallApkAndRunIfConnected>b__0(System.Object)
+// 0x00000497 System.Void GoogleARCoreInternal.InstantPreviewManager/<>c__DisplayClass21_0::<InstallApkAndRunIfConnected>b__0(System.Object)
 extern void U3CU3Ec__DisplayClass21_0_U3CInstallApkAndRunIfConnectedU3Eb__0_mF85E7D1FD1F4D2E623E23D388B01CE9253F37322 (void);
-// 0x000002DF System.Void GoogleARCoreInternal.InstantPreviewManager/<>c__DisplayClass21_0::<InstallApkAndRunIfConnected>b__1()
+// 0x00000498 System.Void GoogleARCoreInternal.InstantPreviewManager/<>c__DisplayClass21_0::<InstallApkAndRunIfConnected>b__1()
 extern void U3CU3Ec__DisplayClass21_0_U3CInstallApkAndRunIfConnectedU3Eb__1_mBE9ACC03515C124A2DC5B9CA3D36B2129E75C8BD (void);
-// 0x000002E0 System.Void GoogleARCoreInternal.InstantPreviewManager/<InstallApkAndRunIfConnected>d__21::.ctor(System.Int32)
+// 0x00000499 System.Void GoogleARCoreInternal.InstantPreviewManager/<InstallApkAndRunIfConnected>d__21::.ctor(System.Int32)
 extern void U3CInstallApkAndRunIfConnectedU3Ed__21__ctor_m1F3F4AFCC894D5A8A885BF1ED8B7FAF609DC365A (void);
-// 0x000002E1 System.Void GoogleARCoreInternal.InstantPreviewManager/<InstallApkAndRunIfConnected>d__21::System.IDisposable.Dispose()
+// 0x0000049A System.Void GoogleARCoreInternal.InstantPreviewManager/<InstallApkAndRunIfConnected>d__21::System.IDisposable.Dispose()
 extern void U3CInstallApkAndRunIfConnectedU3Ed__21_System_IDisposable_Dispose_m64D9E498E8CBADA316808016351AB3128C9568EF (void);
-// 0x000002E2 System.Boolean GoogleARCoreInternal.InstantPreviewManager/<InstallApkAndRunIfConnected>d__21::MoveNext()
+// 0x0000049B System.Boolean GoogleARCoreInternal.InstantPreviewManager/<InstallApkAndRunIfConnected>d__21::MoveNext()
 extern void U3CInstallApkAndRunIfConnectedU3Ed__21_MoveNext_m875736403933C1D5EDDE1A53E28A1071DDB3519C (void);
-// 0x000002E3 System.Object GoogleARCoreInternal.InstantPreviewManager/<InstallApkAndRunIfConnected>d__21::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000049C System.Object GoogleARCoreInternal.InstantPreviewManager/<InstallApkAndRunIfConnected>d__21::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CInstallApkAndRunIfConnectedU3Ed__21_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m43870BA198D30A839A49F573516E95831BDCC022 (void);
-// 0x000002E4 System.Void GoogleARCoreInternal.InstantPreviewManager/<InstallApkAndRunIfConnected>d__21::System.Collections.IEnumerator.Reset()
+// 0x0000049D System.Void GoogleARCoreInternal.InstantPreviewManager/<InstallApkAndRunIfConnected>d__21::System.Collections.IEnumerator.Reset()
 extern void U3CInstallApkAndRunIfConnectedU3Ed__21_System_Collections_IEnumerator_Reset_m2B15D2A4124E8DE10D7B91C28ADDF2582B351609 (void);
-// 0x000002E5 System.Object GoogleARCoreInternal.InstantPreviewManager/<InstallApkAndRunIfConnected>d__21::System.Collections.IEnumerator.get_Current()
+// 0x0000049E System.Object GoogleARCoreInternal.InstantPreviewManager/<InstallApkAndRunIfConnected>d__21::System.Collections.IEnumerator.get_Current()
 extern void U3CInstallApkAndRunIfConnectedU3Ed__21_System_Collections_IEnumerator_get_Current_mD3EDABC31138FC12E097B9D9E798BB3F704B8358 (void);
-// 0x000002E6 System.Void GoogleARCoreInternal.NativeSession::.ctor(System.IntPtr,System.IntPtr)
+// 0x0000049F System.Void GoogleARCoreInternal.NativeSession::.ctor(System.IntPtr,System.IntPtr)
 extern void NativeSession__ctor_m67BD126FCB4BAD3AFA74BFE11786C514B8A10C69 (void);
-// 0x000002E7 System.Boolean GoogleARCoreInternal.NativeSession::get_IsDestroyed()
+// 0x000004A0 System.Boolean GoogleARCoreInternal.NativeSession::get_IsDestroyed()
 extern void NativeSession_get_IsDestroyed_m4F071F26BCB7B629945D9F863ECDBA95E41B56A3 (void);
-// 0x000002E8 System.Void GoogleARCoreInternal.NativeSession::set_IsDestroyed(System.Boolean)
+// 0x000004A1 System.Void GoogleARCoreInternal.NativeSession::set_IsDestroyed(System.Boolean)
 extern void NativeSession_set_IsDestroyed_mC76A9453FD29701859002CB580C6208189695193 (void);
-// 0x000002E9 System.IntPtr GoogleARCoreInternal.NativeSession::get_SessionHandle()
+// 0x000004A2 System.IntPtr GoogleARCoreInternal.NativeSession::get_SessionHandle()
 extern void NativeSession_get_SessionHandle_mF61D51C4F35EA2EF41B0C8D8ECA95344EBF92252 (void);
-// 0x000002EA System.Void GoogleARCoreInternal.NativeSession::set_SessionHandle(System.IntPtr)
+// 0x000004A3 System.Void GoogleARCoreInternal.NativeSession::set_SessionHandle(System.IntPtr)
 extern void NativeSession_set_SessionHandle_mB506CEF16E29F297172B612839A228794EFD09DC (void);
-// 0x000002EB System.IntPtr GoogleARCoreInternal.NativeSession::get_FrameHandle()
+// 0x000004A4 System.IntPtr GoogleARCoreInternal.NativeSession::get_FrameHandle()
 extern void NativeSession_get_FrameHandle_mB7D9447D1F341DC93E0A15F98FD9F148C0591C98 (void);
-// 0x000002EC System.Void GoogleARCoreInternal.NativeSession::set_FrameHandle(System.IntPtr)
+// 0x000004A5 System.Void GoogleARCoreInternal.NativeSession::set_FrameHandle(System.IntPtr)
 extern void NativeSession_set_FrameHandle_m45FA1EB6B741FED22DBBB6E3FFE7C22C05E68A5A (void);
-// 0x000002ED System.IntPtr GoogleARCoreInternal.NativeSession::get_PointCloudHandle()
+// 0x000004A6 System.IntPtr GoogleARCoreInternal.NativeSession::get_PointCloudHandle()
 extern void NativeSession_get_PointCloudHandle_m427A4520B3CB9A63AD10A2E6BA094A7011876DD2 (void);
-// 0x000002EE System.Boolean GoogleARCoreInternal.NativeSession::get_IsPointCloudNew()
+// 0x000004A7 System.Boolean GoogleARCoreInternal.NativeSession::get_IsPointCloudNew()
 extern void NativeSession_get_IsPointCloudNew_mCD568FFC4A85BF610E72ED0EB014BFC9BE6508C2 (void);
-// 0x000002EF GoogleARCoreInternal.AnchorApi GoogleARCoreInternal.NativeSession::get_AnchorApi()
+// 0x000004A8 GoogleARCoreInternal.AnchorApi GoogleARCoreInternal.NativeSession::get_AnchorApi()
 extern void NativeSession_get_AnchorApi_mBAD3A9F5D8F8B4254FD1D525CD7FF42A976FFEA7 (void);
-// 0x000002F0 System.Void GoogleARCoreInternal.NativeSession::set_AnchorApi(GoogleARCoreInternal.AnchorApi)
+// 0x000004A9 System.Void GoogleARCoreInternal.NativeSession::set_AnchorApi(GoogleARCoreInternal.AnchorApi)
 extern void NativeSession_set_AnchorApi_mE5B73D01447E0551CCC12B3B6CBD4C932D058878 (void);
-// 0x000002F1 GoogleARCoreInternal.AugmentedFaceApi GoogleARCoreInternal.NativeSession::get_AugmentedFaceApi()
+// 0x000004AA GoogleARCoreInternal.AugmentedFaceApi GoogleARCoreInternal.NativeSession::get_AugmentedFaceApi()
 extern void NativeSession_get_AugmentedFaceApi_mD781E58B24F67C9FC120EF3652E3FDB9A647C10D (void);
-// 0x000002F2 System.Void GoogleARCoreInternal.NativeSession::set_AugmentedFaceApi(GoogleARCoreInternal.AugmentedFaceApi)
+// 0x000004AB System.Void GoogleARCoreInternal.NativeSession::set_AugmentedFaceApi(GoogleARCoreInternal.AugmentedFaceApi)
 extern void NativeSession_set_AugmentedFaceApi_m55023A953ADF0B5A5C3B3861B413CE93A7C9366F (void);
-// 0x000002F3 GoogleARCoreInternal.AugmentedImageApi GoogleARCoreInternal.NativeSession::get_AugmentedImageApi()
+// 0x000004AC GoogleARCoreInternal.AugmentedImageApi GoogleARCoreInternal.NativeSession::get_AugmentedImageApi()
 extern void NativeSession_get_AugmentedImageApi_mBFE2A65AACBC2FE7969456E6142BB636F7F9129A (void);
-// 0x000002F4 System.Void GoogleARCoreInternal.NativeSession::set_AugmentedImageApi(GoogleARCoreInternal.AugmentedImageApi)
+// 0x000004AD System.Void GoogleARCoreInternal.NativeSession::set_AugmentedImageApi(GoogleARCoreInternal.AugmentedImageApi)
 extern void NativeSession_set_AugmentedImageApi_mD16EC8A28E3289B66DCE528DC5723D82D52D5EFF (void);
-// 0x000002F5 GoogleARCoreInternal.AugmentedImageDatabaseApi GoogleARCoreInternal.NativeSession::get_AugmentedImageDatabaseApi()
+// 0x000004AE GoogleARCoreInternal.AugmentedImageDatabaseApi GoogleARCoreInternal.NativeSession::get_AugmentedImageDatabaseApi()
 extern void NativeSession_get_AugmentedImageDatabaseApi_mD7D85DA0243DB7C32B8D1F46C62F87A6130FBEE3 (void);
-// 0x000002F6 System.Void GoogleARCoreInternal.NativeSession::set_AugmentedImageDatabaseApi(GoogleARCoreInternal.AugmentedImageDatabaseApi)
+// 0x000004AF System.Void GoogleARCoreInternal.NativeSession::set_AugmentedImageDatabaseApi(GoogleARCoreInternal.AugmentedImageDatabaseApi)
 extern void NativeSession_set_AugmentedImageDatabaseApi_m925C9ADEBBB13B7A6F9C2D4C33E5EFA860C8D349 (void);
-// 0x000002F7 GoogleARCoreInternal.CameraApi GoogleARCoreInternal.NativeSession::get_CameraApi()
+// 0x000004B0 GoogleARCoreInternal.CameraApi GoogleARCoreInternal.NativeSession::get_CameraApi()
 extern void NativeSession_get_CameraApi_mC528CE2DC6EBB4A58D2003B22B3D3B8055CE589D (void);
-// 0x000002F8 System.Void GoogleARCoreInternal.NativeSession::set_CameraApi(GoogleARCoreInternal.CameraApi)
+// 0x000004B1 System.Void GoogleARCoreInternal.NativeSession::set_CameraApi(GoogleARCoreInternal.CameraApi)
 extern void NativeSession_set_CameraApi_mB03BAA1920B06FBDE6ADD071A093A87C9E87C1D1 (void);
-// 0x000002F9 GoogleARCoreInternal.CameraConfigApi GoogleARCoreInternal.NativeSession::get_CameraConfigApi()
+// 0x000004B2 GoogleARCoreInternal.CameraConfigApi GoogleARCoreInternal.NativeSession::get_CameraConfigApi()
 extern void NativeSession_get_CameraConfigApi_m226C477EEA1CAD3047EC450870FD1E19FBCC1135 (void);
-// 0x000002FA System.Void GoogleARCoreInternal.NativeSession::set_CameraConfigApi(GoogleARCoreInternal.CameraConfigApi)
+// 0x000004B3 System.Void GoogleARCoreInternal.NativeSession::set_CameraConfigApi(GoogleARCoreInternal.CameraConfigApi)
 extern void NativeSession_set_CameraConfigApi_m947171F60D899DF4F1181463675AB447B4DB2EC7 (void);
-// 0x000002FB GoogleARCoreInternal.CameraConfigFilterApi GoogleARCoreInternal.NativeSession::get_CameraConfigFilterApi()
+// 0x000004B4 GoogleARCoreInternal.CameraConfigFilterApi GoogleARCoreInternal.NativeSession::get_CameraConfigFilterApi()
 extern void NativeSession_get_CameraConfigFilterApi_mCF1696CA85CC26E0186FB6EA36661A1393A11898 (void);
-// 0x000002FC System.Void GoogleARCoreInternal.NativeSession::set_CameraConfigFilterApi(GoogleARCoreInternal.CameraConfigFilterApi)
+// 0x000004B5 System.Void GoogleARCoreInternal.NativeSession::set_CameraConfigFilterApi(GoogleARCoreInternal.CameraConfigFilterApi)
 extern void NativeSession_set_CameraConfigFilterApi_mB76CAC9484ECDEC350C892FEF3EDBAFA2DD82DAD (void);
-// 0x000002FD GoogleARCoreInternal.CameraConfigListApi GoogleARCoreInternal.NativeSession::get_CameraConfigListApi()
+// 0x000004B6 GoogleARCoreInternal.CameraConfigListApi GoogleARCoreInternal.NativeSession::get_CameraConfigListApi()
 extern void NativeSession_get_CameraConfigListApi_m5612CAE7ADA9DBC59FBD6BF0AA193F985D68F677 (void);
-// 0x000002FE System.Void GoogleARCoreInternal.NativeSession::set_CameraConfigListApi(GoogleARCoreInternal.CameraConfigListApi)
+// 0x000004B7 System.Void GoogleARCoreInternal.NativeSession::set_CameraConfigListApi(GoogleARCoreInternal.CameraConfigListApi)
 extern void NativeSession_set_CameraConfigListApi_m1A330BFF238978B8243239A9DE4B1D8EF15C5251 (void);
-// 0x000002FF GoogleARCoreInternal.CameraMetadataApi GoogleARCoreInternal.NativeSession::get_CameraMetadataApi()
+// 0x000004B8 GoogleARCoreInternal.CameraMetadataApi GoogleARCoreInternal.NativeSession::get_CameraMetadataApi()
 extern void NativeSession_get_CameraMetadataApi_m878A2131F85E64523F5DA2B4EA97006BA55FAD41 (void);
-// 0x00000300 System.Void GoogleARCoreInternal.NativeSession::set_CameraMetadataApi(GoogleARCoreInternal.CameraMetadataApi)
+// 0x000004B9 System.Void GoogleARCoreInternal.NativeSession::set_CameraMetadataApi(GoogleARCoreInternal.CameraMetadataApi)
 extern void NativeSession_set_CameraMetadataApi_m95F261EC6FCFCD99D7495F9CF8ABD0387293ABD5 (void);
-// 0x00000301 GoogleARCoreInternal.FrameApi GoogleARCoreInternal.NativeSession::get_FrameApi()
+// 0x000004BA GoogleARCoreInternal.FrameApi GoogleARCoreInternal.NativeSession::get_FrameApi()
 extern void NativeSession_get_FrameApi_mC390BA44B962F7DCEAB2D098C93E1D106001683B (void);
-// 0x00000302 System.Void GoogleARCoreInternal.NativeSession::set_FrameApi(GoogleARCoreInternal.FrameApi)
+// 0x000004BB System.Void GoogleARCoreInternal.NativeSession::set_FrameApi(GoogleARCoreInternal.FrameApi)
 extern void NativeSession_set_FrameApi_m00F4076A9DFDF01654F4CA156FA3D97C767882FD (void);
-// 0x00000303 GoogleARCoreInternal.HitTestApi GoogleARCoreInternal.NativeSession::get_HitTestApi()
+// 0x000004BC GoogleARCoreInternal.HitTestApi GoogleARCoreInternal.NativeSession::get_HitTestApi()
 extern void NativeSession_get_HitTestApi_m2769DE675EDB1F4FF029E797486FC254C6F6B0E5 (void);
-// 0x00000304 System.Void GoogleARCoreInternal.NativeSession::set_HitTestApi(GoogleARCoreInternal.HitTestApi)
+// 0x000004BD System.Void GoogleARCoreInternal.NativeSession::set_HitTestApi(GoogleARCoreInternal.HitTestApi)
 extern void NativeSession_set_HitTestApi_m44ADEFB3D75147BA22024544459CEBF57623F868 (void);
-// 0x00000305 GoogleARCoreInternal.ImageApi GoogleARCoreInternal.NativeSession::get_ImageApi()
+// 0x000004BE GoogleARCoreInternal.ImageApi GoogleARCoreInternal.NativeSession::get_ImageApi()
 extern void NativeSession_get_ImageApi_mFCD326CF0A47D40BE53950FD85525580A5522A73 (void);
-// 0x00000306 System.Void GoogleARCoreInternal.NativeSession::set_ImageApi(GoogleARCoreInternal.ImageApi)
+// 0x000004BF System.Void GoogleARCoreInternal.NativeSession::set_ImageApi(GoogleARCoreInternal.ImageApi)
 extern void NativeSession_set_ImageApi_m9199E76B313962F51BA5DC1252E35D561D6CF6DF (void);
-// 0x00000307 GoogleARCoreInternal.LightEstimateApi GoogleARCoreInternal.NativeSession::get_LightEstimateApi()
+// 0x000004C0 GoogleARCoreInternal.LightEstimateApi GoogleARCoreInternal.NativeSession::get_LightEstimateApi()
 extern void NativeSession_get_LightEstimateApi_mACC6C0BF78B68F344982C2338C6D2CCB210B0215 (void);
-// 0x00000308 System.Void GoogleARCoreInternal.NativeSession::set_LightEstimateApi(GoogleARCoreInternal.LightEstimateApi)
+// 0x000004C1 System.Void GoogleARCoreInternal.NativeSession::set_LightEstimateApi(GoogleARCoreInternal.LightEstimateApi)
 extern void NativeSession_set_LightEstimateApi_mE92B410350F9A0A20542675A3C347E9E825ED952 (void);
-// 0x00000309 GoogleARCoreInternal.PlaneApi GoogleARCoreInternal.NativeSession::get_PlaneApi()
+// 0x000004C2 GoogleARCoreInternal.PlaneApi GoogleARCoreInternal.NativeSession::get_PlaneApi()
 extern void NativeSession_get_PlaneApi_mB735F2435CC36708E0E8DB3D81E38AE0B6FD327E (void);
-// 0x0000030A System.Void GoogleARCoreInternal.NativeSession::set_PlaneApi(GoogleARCoreInternal.PlaneApi)
+// 0x000004C3 System.Void GoogleARCoreInternal.NativeSession::set_PlaneApi(GoogleARCoreInternal.PlaneApi)
 extern void NativeSession_set_PlaneApi_mC993B196B271F51E7E205C355154B460BE9F3C02 (void);
-// 0x0000030B GoogleARCoreInternal.PointApi GoogleARCoreInternal.NativeSession::get_PointApi()
+// 0x000004C4 GoogleARCoreInternal.PointApi GoogleARCoreInternal.NativeSession::get_PointApi()
 extern void NativeSession_get_PointApi_mB619532F010A16B91EC639A809FDEBB706EA72FF (void);
-// 0x0000030C System.Void GoogleARCoreInternal.NativeSession::set_PointApi(GoogleARCoreInternal.PointApi)
+// 0x000004C5 System.Void GoogleARCoreInternal.NativeSession::set_PointApi(GoogleARCoreInternal.PointApi)
 extern void NativeSession_set_PointApi_m09D249C4841CED1F4C10527F297985A4FBA7F0BB (void);
-// 0x0000030D GoogleARCoreInternal.PointCloudApi GoogleARCoreInternal.NativeSession::get_PointCloudApi()
+// 0x000004C6 GoogleARCoreInternal.PointCloudApi GoogleARCoreInternal.NativeSession::get_PointCloudApi()
 extern void NativeSession_get_PointCloudApi_m63C304E7AAB2E7E38E01B52401F309F79509C4A7 (void);
-// 0x0000030E System.Void GoogleARCoreInternal.NativeSession::set_PointCloudApi(GoogleARCoreInternal.PointCloudApi)
+// 0x000004C7 System.Void GoogleARCoreInternal.NativeSession::set_PointCloudApi(GoogleARCoreInternal.PointCloudApi)
 extern void NativeSession_set_PointCloudApi_mCC28AF6BD2EE0D530F579FCEDDEBEEC1A8FE8934 (void);
-// 0x0000030F GoogleARCoreInternal.PoseApi GoogleARCoreInternal.NativeSession::get_PoseApi()
+// 0x000004C8 GoogleARCoreInternal.PoseApi GoogleARCoreInternal.NativeSession::get_PoseApi()
 extern void NativeSession_get_PoseApi_m5109F29A405CFC7682DA70A716EE34425C3B3DA4 (void);
-// 0x00000310 System.Void GoogleARCoreInternal.NativeSession::set_PoseApi(GoogleARCoreInternal.PoseApi)
+// 0x000004C9 System.Void GoogleARCoreInternal.NativeSession::set_PoseApi(GoogleARCoreInternal.PoseApi)
 extern void NativeSession_set_PoseApi_m3EACE7D3238DB11563919FDFDEB228BD6661685C (void);
-// 0x00000311 GoogleARCoreInternal.RecordingConfigApi GoogleARCoreInternal.NativeSession::get_RecordingConfigApi()
+// 0x000004CA GoogleARCoreInternal.RecordingConfigApi GoogleARCoreInternal.NativeSession::get_RecordingConfigApi()
 extern void NativeSession_get_RecordingConfigApi_m4148CD07823ADCDBBB95D962876FB872C88A1908 (void);
-// 0x00000312 System.Void GoogleARCoreInternal.NativeSession::set_RecordingConfigApi(GoogleARCoreInternal.RecordingConfigApi)
+// 0x000004CB System.Void GoogleARCoreInternal.NativeSession::set_RecordingConfigApi(GoogleARCoreInternal.RecordingConfigApi)
 extern void NativeSession_set_RecordingConfigApi_m6557417E37997D404C834FF43E8C578C5503D07D (void);
-// 0x00000313 GoogleARCoreInternal.SessionApi GoogleARCoreInternal.NativeSession::get_SessionApi()
+// 0x000004CC GoogleARCoreInternal.SessionApi GoogleARCoreInternal.NativeSession::get_SessionApi()
 extern void NativeSession_get_SessionApi_mCB071DB7C09A90D0FE80CF3BA9CA54181E6BC80F (void);
-// 0x00000314 System.Void GoogleARCoreInternal.NativeSession::set_SessionApi(GoogleARCoreInternal.SessionApi)
+// 0x000004CD System.Void GoogleARCoreInternal.NativeSession::set_SessionApi(GoogleARCoreInternal.SessionApi)
 extern void NativeSession_set_SessionApi_m0AAE6282E34E4ADFA0C340252A61EA842E1229A0 (void);
-// 0x00000315 GoogleARCoreInternal.SessionConfigApi GoogleARCoreInternal.NativeSession::get_SessionConfigApi()
+// 0x000004CE GoogleARCoreInternal.SessionConfigApi GoogleARCoreInternal.NativeSession::get_SessionConfigApi()
 extern void NativeSession_get_SessionConfigApi_m6A44ED4716BE1D80172648DBA5B9DE6A05A43B36 (void);
-// 0x00000316 System.Void GoogleARCoreInternal.NativeSession::set_SessionConfigApi(GoogleARCoreInternal.SessionConfigApi)
+// 0x000004CF System.Void GoogleARCoreInternal.NativeSession::set_SessionConfigApi(GoogleARCoreInternal.SessionConfigApi)
 extern void NativeSession_set_SessionConfigApi_m60FB8727C29C96E2A4EAC7128F8CAB3F8B0815C6 (void);
-// 0x00000317 GoogleARCoreInternal.TrackableApi GoogleARCoreInternal.NativeSession::get_TrackableApi()
+// 0x000004D0 GoogleARCoreInternal.TrackableApi GoogleARCoreInternal.NativeSession::get_TrackableApi()
 extern void NativeSession_get_TrackableApi_m4DD5D16E377FF7FA371AC21A8F0FD7BD1DE1E4A5 (void);
-// 0x00000318 System.Void GoogleARCoreInternal.NativeSession::set_TrackableApi(GoogleARCoreInternal.TrackableApi)
+// 0x000004D1 System.Void GoogleARCoreInternal.NativeSession::set_TrackableApi(GoogleARCoreInternal.TrackableApi)
 extern void NativeSession_set_TrackableApi_m0669992B87D2D1335658A9B6F0D3D7BC5FB32103 (void);
-// 0x00000319 GoogleARCoreInternal.TrackableListApi GoogleARCoreInternal.NativeSession::get_TrackableListApi()
+// 0x000004D2 GoogleARCoreInternal.TrackableListApi GoogleARCoreInternal.NativeSession::get_TrackableListApi()
 extern void NativeSession_get_TrackableListApi_m4D3BA17081DC6BC0A66601956951503A26F097BC (void);
-// 0x0000031A System.Void GoogleARCoreInternal.NativeSession::set_TrackableListApi(GoogleARCoreInternal.TrackableListApi)
+// 0x000004D3 System.Void GoogleARCoreInternal.NativeSession::set_TrackableListApi(GoogleARCoreInternal.TrackableListApi)
 extern void NativeSession_set_TrackableListApi_mE9CE62354FD3F6A566ACAEC77E1B78417C24FCC0 (void);
-// 0x0000031B GoogleARCore.Trackable GoogleARCoreInternal.NativeSession::TrackableFactory(System.IntPtr)
+// 0x000004D4 GoogleARCore.Trackable GoogleARCoreInternal.NativeSession::TrackableFactory(System.IntPtr)
 extern void NativeSession_TrackableFactory_m91A12DE1DB5EC74ABD31A6ECF1BBDBBF7DBBE7E1 (void);
-// 0x0000031C System.Void GoogleARCoreInternal.NativeSession::GetTrackables(System.Collections.Generic.List`1<T>,GoogleARCore.TrackableQueryFilter)
-// 0x0000031D System.Void GoogleARCoreInternal.NativeSession::OnUpdate(System.IntPtr)
+// 0x000004D5 System.Void GoogleARCoreInternal.NativeSession::GetTrackables(System.Collections.Generic.List`1<T>,GoogleARCore.TrackableQueryFilter)
+// 0x000004D6 System.Void GoogleARCoreInternal.NativeSession::OnUpdate(System.IntPtr)
 extern void NativeSession_OnUpdate_mD26C0998B6721AAE530BEA98F165EB655672D1CE (void);
-// 0x0000031E System.Void GoogleARCoreInternal.NativeSession::MarkDestroyed()
+// 0x000004D7 System.Void GoogleARCoreInternal.NativeSession::MarkDestroyed()
 extern void NativeSession_MarkDestroyed_mC9E3448DA8C713C02D31B37FFB1F25AFEE8EE8B2 (void);
-// 0x0000031F System.Void GoogleARCoreInternal.ApiDisplayUvCoords::.ctor(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x000004D8 System.Void GoogleARCoreInternal.ApiDisplayUvCoords::.ctor(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
 extern void ApiDisplayUvCoords__ctor_m8B973F00E68C9BC23A7D14E0A761C98565A3A6B9 (void);
-// 0x00000320 System.Void GoogleARCoreInternal.ApiPoseData::.ctor(UnityEngine.Pose)
+// 0x000004D9 System.Void GoogleARCoreInternal.ApiPoseData::.ctor(UnityEngine.Pose)
 extern void ApiPoseData__ctor_m94E65E9F02608CEF22244B4357CDA654D71CB54D (void);
-// 0x00000321 UnityEngine.Pose GoogleARCoreInternal.ApiPoseData::ToUnityPose()
+// 0x000004DA UnityEngine.Pose GoogleARCoreInternal.ApiPoseData::ToUnityPose()
 extern void ApiPoseData_ToUnityPose_m2EF1FCFC4A2BA19F153B83C38A403299C04AE81D (void);
-// 0x00000322 System.String GoogleARCoreInternal.ApiPoseData::ToString()
+// 0x000004DB System.String GoogleARCoreInternal.ApiPoseData::ToString()
 extern void ApiPoseData_ToString_m53A6EBA12D91B5C904C4017EAE055406EB4E6217 (void);
-// 0x00000323 GoogleARCore.ApkAvailabilityStatus GoogleARCoreInternal.ApiTypeExtensions::ToApkAvailabilityStatus(GoogleARCoreInternal.ApiAvailability)
+// 0x000004DC GoogleARCore.ApkAvailabilityStatus GoogleARCoreInternal.ApiTypeExtensions::ToApkAvailabilityStatus(GoogleARCoreInternal.ApiAvailability)
 extern void ApiTypeExtensions_ToApkAvailabilityStatus_m032A7132A1CB8B2A373E80C4676F697A2601B35E (void);
-// 0x00000324 GoogleARCore.ApkInstallationStatus GoogleARCoreInternal.ApiTypeExtensions::ToApkInstallationStatus(GoogleARCoreInternal.ApiApkInstallationStatus)
+// 0x000004DD GoogleARCore.ApkInstallationStatus GoogleARCoreInternal.ApiTypeExtensions::ToApkInstallationStatus(GoogleARCoreInternal.ApiApkInstallationStatus)
 extern void ApiTypeExtensions_ToApkInstallationStatus_m9DC50AE75F028946CE187BAC122A28D9F9153EFF (void);
-// 0x00000325 GoogleARCore.SessionStatus GoogleARCoreInternal.ApiTypeExtensions::ToSessionStatus(GoogleARCoreInternal.ApiPrestoStatus)
+// 0x000004DE GoogleARCore.SessionStatus GoogleARCoreInternal.ApiTypeExtensions::ToSessionStatus(GoogleARCoreInternal.ApiPrestoStatus)
 extern void ApiTypeExtensions_ToSessionStatus_m4D1C5718AA8E0670581C5B8591EC3BD523C883E2 (void);
-// 0x00000326 GoogleARCore.TrackingState GoogleARCoreInternal.ApiTypeExtensions::ToTrackingState(GoogleARCoreInternal.ApiTrackingState)
+// 0x000004DF GoogleARCore.TrackingState GoogleARCoreInternal.ApiTypeExtensions::ToTrackingState(GoogleARCoreInternal.ApiTrackingState)
 extern void ApiTypeExtensions_ToTrackingState_m37F4D1989ADDAFABFF43305CD1220F1816C4CDB1 (void);
-// 0x00000327 GoogleARCore.CrossPlatform.XPTrackingState GoogleARCoreInternal.ApiTypeExtensions::ToXPTrackingState(GoogleARCore.TrackingState)
+// 0x000004E0 GoogleARCore.CrossPlatform.XPTrackingState GoogleARCoreInternal.ApiTypeExtensions::ToXPTrackingState(GoogleARCore.TrackingState)
 extern void ApiTypeExtensions_ToXPTrackingState_m9CC1A09C93A5FAD9142378128ABC579BB7DDA294 (void);
-// 0x00000328 GoogleARCore.LostTrackingReason GoogleARCoreInternal.ApiTypeExtensions::ToLostTrackingReason(GoogleARCore.ApiTrackingFailureReason)
+// 0x000004E1 GoogleARCore.LostTrackingReason GoogleARCoreInternal.ApiTypeExtensions::ToLostTrackingReason(GoogleARCore.ApiTrackingFailureReason)
 extern void ApiTypeExtensions_ToLostTrackingReason_m20E2DBF71142E1A4181CC0FBE2830E37555F0DC3 (void);
-// 0x00000329 GoogleARCore.LightEstimateState GoogleARCoreInternal.ApiTypeExtensions::ToLightEstimateState(GoogleARCoreInternal.ApiLightEstimateState)
+// 0x000004E2 GoogleARCore.LightEstimateState GoogleARCoreInternal.ApiTypeExtensions::ToLightEstimateState(GoogleARCoreInternal.ApiLightEstimateState)
 extern void ApiTypeExtensions_ToLightEstimateState_mFD4A9126D714CFD03E133E719577BD07F7DF5687 (void);
-// 0x0000032A GoogleARCoreInternal.ApiLightEstimationMode GoogleARCoreInternal.ApiTypeExtensions::ToApiLightEstimationMode(GoogleARCore.LightEstimationMode)
+// 0x000004E3 GoogleARCoreInternal.ApiLightEstimationMode GoogleARCoreInternal.ApiTypeExtensions::ToApiLightEstimationMode(GoogleARCore.LightEstimationMode)
 extern void ApiTypeExtensions_ToApiLightEstimationMode_mF6CA7F1AD23B8D5A3A0DDE1F2A51230D34B3F86A (void);
-// 0x0000032B GoogleARCoreInternal.ApiPlaneFindingMode GoogleARCoreInternal.ApiTypeExtensions::ToApiPlaneFindingMode(GoogleARCore.DetectedPlaneFindingMode)
+// 0x000004E4 GoogleARCoreInternal.ApiPlaneFindingMode GoogleARCoreInternal.ApiTypeExtensions::ToApiPlaneFindingMode(GoogleARCore.DetectedPlaneFindingMode)
 extern void ApiTypeExtensions_ToApiPlaneFindingMode_mF0ACD7E23FCEDC887AE71A0BBBCBC373E06BC1C5 (void);
-// 0x0000032C GoogleARCoreInternal.ApiAugmentedFaceMode GoogleARCoreInternal.ApiTypeExtensions::ToApiAugmentedFaceMode(GoogleARCore.AugmentedFaceMode)
+// 0x000004E5 GoogleARCoreInternal.ApiAugmentedFaceMode GoogleARCoreInternal.ApiTypeExtensions::ToApiAugmentedFaceMode(GoogleARCore.AugmentedFaceMode)
 extern void ApiTypeExtensions_ToApiAugmentedFaceMode_m965636845F3A44251BC7B3AF546A8750B26B4F46 (void);
-// 0x0000032D GoogleARCoreInternal.ApiCameraFocusMode GoogleARCoreInternal.ApiTypeExtensions::ToApiCameraFocusMode(GoogleARCore.CameraFocusMode)
+// 0x000004E6 GoogleARCoreInternal.ApiCameraFocusMode GoogleARCoreInternal.ApiTypeExtensions::ToApiCameraFocusMode(GoogleARCore.CameraFocusMode)
 extern void ApiTypeExtensions_ToApiCameraFocusMode_m107BFC6B327CA6FC0D686E6A166221FDE033910C (void);
-// 0x0000032E GoogleARCore.DepthStatus GoogleARCoreInternal.ApiTypeExtensions::ToDepthStatus(GoogleARCoreInternal.ApiArStatus)
+// 0x000004E7 GoogleARCore.DepthStatus GoogleARCoreInternal.ApiTypeExtensions::ToDepthStatus(GoogleARCoreInternal.ApiArStatus)
 extern void ApiTypeExtensions_ToDepthStatus_m0EBD40113B5A5D54DCC46289E0908108F7B2D522 (void);
-// 0x0000032F GoogleARCoreInternal.ApiDepthMode GoogleARCoreInternal.ApiTypeExtensions::ToApiDepthMode(GoogleARCore.DepthMode)
+// 0x000004E8 GoogleARCoreInternal.ApiDepthMode GoogleARCoreInternal.ApiTypeExtensions::ToApiDepthMode(GoogleARCore.DepthMode)
 extern void ApiTypeExtensions_ToApiDepthMode_m813795A548FF93EC32BCAAB5A86D499D255B95B7 (void);
-// 0x00000330 GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorMode GoogleARCoreInternal.ApiTypeExtensions::ToApiCloudAnchorMode(GoogleARCore.CloudAnchorMode)
+// 0x000004E9 GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorMode GoogleARCoreInternal.ApiTypeExtensions::ToApiCloudAnchorMode(GoogleARCore.CloudAnchorMode)
 extern void ApiTypeExtensions_ToApiCloudAnchorMode_m939216B9C4ACAC947B30835583E9674B76BD361D (void);
-// 0x00000331 GoogleARCore.DetectedPlaneType GoogleARCoreInternal.ApiTypeExtensions::ToDetectedPlaneType(GoogleARCoreInternal.ApiPlaneType)
+// 0x000004EA GoogleARCore.DetectedPlaneType GoogleARCoreInternal.ApiTypeExtensions::ToDetectedPlaneType(GoogleARCoreInternal.ApiPlaneType)
 extern void ApiTypeExtensions_ToDetectedPlaneType_m8102178FE6BF6F74E6663695729FDE1E5EDEA398 (void);
-// 0x00000332 GoogleARCore.DisplayUvCoords GoogleARCoreInternal.ApiTypeExtensions::ToDisplayUvCoords(GoogleARCoreInternal.ApiDisplayUvCoords)
+// 0x000004EB GoogleARCore.DisplayUvCoords GoogleARCoreInternal.ApiTypeExtensions::ToDisplayUvCoords(GoogleARCoreInternal.ApiDisplayUvCoords)
 extern void ApiTypeExtensions_ToDisplayUvCoords_mB4AB384AA0C6EDB166D3B823441A6E3047728376 (void);
-// 0x00000333 GoogleARCore.FeaturePointOrientationMode GoogleARCoreInternal.ApiTypeExtensions::ToFeaturePointOrientationMode(GoogleARCoreInternal.ApiFeaturePointOrientationMode)
+// 0x000004EC GoogleARCore.FeaturePointOrientationMode GoogleARCoreInternal.ApiTypeExtensions::ToFeaturePointOrientationMode(GoogleARCoreInternal.ApiFeaturePointOrientationMode)
 extern void ApiTypeExtensions_ToFeaturePointOrientationMode_m8AE117F2924B9BD6266AF78D3D203DC7094F469D (void);
-// 0x00000334 GoogleARCore.CrossPlatform.CloudServiceResponse GoogleARCoreInternal.ApiTypeExtensions::ToCloudServiceResponse(GoogleARCoreInternal.ApiArStatus)
+// 0x000004ED GoogleARCore.CrossPlatform.CloudServiceResponse GoogleARCoreInternal.ApiTypeExtensions::ToCloudServiceResponse(GoogleARCoreInternal.ApiArStatus)
 extern void ApiTypeExtensions_ToCloudServiceResponse_mD6AB359B4C29179DD17DDAD6C60EF6715B95A564 (void);
-// 0x00000335 GoogleARCore.CrossPlatform.CloudServiceResponse GoogleARCoreInternal.ApiTypeExtensions::ToCloudServiceResponse(GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorState)
+// 0x000004EE GoogleARCore.CrossPlatform.CloudServiceResponse GoogleARCoreInternal.ApiTypeExtensions::ToCloudServiceResponse(GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorState)
 extern void ApiTypeExtensions_ToCloudServiceResponse_m0536A8E1007066CA4276B76579BD1C5520EFE11C (void);
-// 0x00000336 GoogleARCore.RecordingStatus GoogleARCoreInternal.ApiTypeExtensions::ToRecordingStatus(GoogleARCoreInternal.ApiRecordingStatus)
+// 0x000004EF GoogleARCore.RecordingStatus GoogleARCoreInternal.ApiTypeExtensions::ToRecordingStatus(GoogleARCoreInternal.ApiRecordingStatus)
 extern void ApiTypeExtensions_ToRecordingStatus_m1195DBC6BBD686F80CB397D8D78D5963E515144E (void);
-// 0x00000337 GoogleARCore.PlaybackStatus GoogleARCoreInternal.ApiTypeExtensions::ToPlaybackStatus(GoogleARCoreInternal.ApiPlaybackStatus)
+// 0x000004F0 GoogleARCore.PlaybackStatus GoogleARCoreInternal.ApiTypeExtensions::ToPlaybackStatus(GoogleARCoreInternal.ApiPlaybackStatus)
 extern void ApiTypeExtensions_ToPlaybackStatus_mCBA5E0E3FC32F1F0622426A0854B2A6FC2F6269C (void);
-// 0x00000338 System.Void GoogleARCoreInternal.AnchorApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x000004F1 System.Void GoogleARCoreInternal.AnchorApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void AnchorApi__ctor_m7A3425EAC06A3504AA154E2397ED75A9E047B27E (void);
-// 0x00000339 System.Void GoogleARCoreInternal.AnchorApi::Release(System.IntPtr)
+// 0x000004F2 System.Void GoogleARCoreInternal.AnchorApi::Release(System.IntPtr)
 extern void AnchorApi_Release_m807B7AAAC3899D97E32BE45548C7FEAA6274BF69 (void);
-// 0x0000033A UnityEngine.Pose GoogleARCoreInternal.AnchorApi::GetPose(System.IntPtr)
+// 0x000004F3 UnityEngine.Pose GoogleARCoreInternal.AnchorApi::GetPose(System.IntPtr)
 extern void AnchorApi_GetPose_m0EBB8720A7A786CBEB896F60FA7E1393AC8E2A75 (void);
-// 0x0000033B GoogleARCore.TrackingState GoogleARCoreInternal.AnchorApi::GetTrackingState(System.IntPtr)
+// 0x000004F4 GoogleARCore.TrackingState GoogleARCoreInternal.AnchorApi::GetTrackingState(System.IntPtr)
 extern void AnchorApi_GetTrackingState_m7F905649F25611E66BAF502A77240C8A7E1EDD73 (void);
-// 0x0000033C GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorState GoogleARCoreInternal.AnchorApi::GetCloudAnchorState(System.IntPtr)
+// 0x000004F5 GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorState GoogleARCoreInternal.AnchorApi::GetCloudAnchorState(System.IntPtr)
 extern void AnchorApi_GetCloudAnchorState_m38371287111F1C4B361B9225C36CD3A5BFAF6D67 (void);
-// 0x0000033D System.String GoogleARCoreInternal.AnchorApi::GetCloudAnchorId(System.IntPtr)
+// 0x000004F6 System.String GoogleARCoreInternal.AnchorApi::GetCloudAnchorId(System.IntPtr)
 extern void AnchorApi_GetCloudAnchorId_m77B95ABC62474D3D84EEBC1AEAC3DC448C0F4B0D (void);
-// 0x0000033E System.Void GoogleARCoreInternal.AnchorApi::Detach(System.IntPtr)
+// 0x000004F7 System.Void GoogleARCoreInternal.AnchorApi::Detach(System.IntPtr)
 extern void AnchorApi_Detach_m0347F469FA520D25867E0DEBD37700739821AB57 (void);
-// 0x0000033F System.IntPtr GoogleARCoreInternal.AnchorApi::CreateList()
+// 0x000004F8 System.IntPtr GoogleARCoreInternal.AnchorApi::CreateList()
 extern void AnchorApi_CreateList_m2E0D0ECA326F7609BEA41C747DE28658729055EB (void);
-// 0x00000340 System.Int32 GoogleARCoreInternal.AnchorApi::GetListSize(System.IntPtr)
+// 0x000004F9 System.Int32 GoogleARCoreInternal.AnchorApi::GetListSize(System.IntPtr)
 extern void AnchorApi_GetListSize_m3AC3FA3F65CEDEF9F0D6D8C78B11AA594741369B (void);
-// 0x00000341 System.IntPtr GoogleARCoreInternal.AnchorApi::AcquireListItem(System.IntPtr,System.Int32)
+// 0x000004FA System.IntPtr GoogleARCoreInternal.AnchorApi::AcquireListItem(System.IntPtr,System.Int32)
 extern void AnchorApi_AcquireListItem_m30F0C6812F3B1BEE2BFA890533EA33F98E9C4C07 (void);
-// 0x00000342 System.Void GoogleARCoreInternal.AnchorApi::DestroyList(System.IntPtr)
+// 0x000004FB System.Void GoogleARCoreInternal.AnchorApi::DestroyList(System.IntPtr)
 extern void AnchorApi_DestroyList_m5BDC552338D368EFDC2613D80C4B45987E339AFA (void);
-// 0x00000343 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchor_getPose(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x000004FC System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchor_getPose(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArAnchor_getPose_mF04C5E9548EB892D4FCF0D1B05F73D84BCD6D8AF (void);
-// 0x00000344 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchor_getTrackingState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackingState&)
+// 0x000004FD System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchor_getTrackingState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackingState&)
 extern void ExternApi_ArAnchor_getTrackingState_m0BCE863FAEF043797E707BF02E1634025570C7C9 (void);
-// 0x00000345 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchor_getCloudAnchorState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorState&)
+// 0x000004FE System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchor_getCloudAnchorState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorState&)
 extern void ExternApi_ArAnchor_getCloudAnchorState_mDFEC44CC6145B89C106F06359967D9BE0BFB90D0 (void);
-// 0x00000346 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchor_acquireCloudAnchorId(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x000004FF System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchor_acquireCloudAnchorId(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArAnchor_acquireCloudAnchorId_m92B0543BEF19A97962053991ACFFC529DFD71D96 (void);
-// 0x00000347 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchor_release(System.IntPtr)
+// 0x00000500 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchor_release(System.IntPtr)
 extern void ExternApi_ArAnchor_release_m4C13B9A4AD2C4BA9E6EC132BBF28BBCA5C2DF393 (void);
-// 0x00000348 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchor_detach(System.IntPtr,System.IntPtr)
+// 0x00000501 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchor_detach(System.IntPtr,System.IntPtr)
 extern void ExternApi_ArAnchor_detach_m57979E91471C2B03FACBCA29D1E07714D9618E5D (void);
-// 0x00000349 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArString_release(System.IntPtr)
+// 0x00000502 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArString_release(System.IntPtr)
 extern void ExternApi_ArString_release_m016BC9335B3AD84F7D5F32F568D0E785B49A5739 (void);
-// 0x0000034A System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchorList_create(System.IntPtr,System.IntPtr&)
+// 0x00000503 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchorList_create(System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArAnchorList_create_m5C5C14BF484E160BF64E2F2BF67D2633BDC978AD (void);
-// 0x0000034B System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchorList_destroy(System.IntPtr)
+// 0x00000504 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchorList_destroy(System.IntPtr)
 extern void ExternApi_ArAnchorList_destroy_mAAD0F9C79170D8B0847D35094D0302428191C326 (void);
-// 0x0000034C System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchorList_getSize(System.IntPtr,System.IntPtr,System.Int32&)
+// 0x00000505 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchorList_getSize(System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArAnchorList_getSize_mC6E760EDCC98A3342644565314706F81A6F6DD0A (void);
-// 0x0000034D System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchorList_acquireItem(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&)
+// 0x00000506 System.Void GoogleARCoreInternal.AnchorApi/ExternApi::ArAnchorList_acquireItem(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&)
 extern void ExternApi_ArAnchorList_acquireItem_mA71D019A1B2FE2413A7C6F7DE844FF746B7A62F9 (void);
-// 0x0000034E System.Void GoogleARCoreInternal.AugmentedFaceApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x00000507 System.Void GoogleARCoreInternal.AugmentedFaceApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void AugmentedFaceApi__ctor_m23FD3948F9FF4AA13F23D357416465D23E000F7E (void);
-// 0x0000034F UnityEngine.Pose GoogleARCoreInternal.AugmentedFaceApi::GetCenterPose(System.IntPtr)
+// 0x00000508 UnityEngine.Pose GoogleARCoreInternal.AugmentedFaceApi::GetCenterPose(System.IntPtr)
 extern void AugmentedFaceApi_GetCenterPose_m4CBDC8A1D0FCF7D4DD122E18D68FEBE2F00FA017 (void);
-// 0x00000350 UnityEngine.Pose GoogleARCoreInternal.AugmentedFaceApi::GetRegionPose(System.IntPtr,GoogleARCoreInternal.ApiAugmentedFaceRegionType)
+// 0x00000509 UnityEngine.Pose GoogleARCoreInternal.AugmentedFaceApi::GetRegionPose(System.IntPtr,GoogleARCoreInternal.ApiAugmentedFaceRegionType)
 extern void AugmentedFaceApi_GetRegionPose_m2668B4A353D01A340C81B170CA31DA8D2F3C9015 (void);
-// 0x00000351 System.Void GoogleARCoreInternal.AugmentedFaceApi::GetVertices(System.IntPtr,System.Collections.Generic.List`1<UnityEngine.Vector3>)
+// 0x0000050A System.Void GoogleARCoreInternal.AugmentedFaceApi::GetVertices(System.IntPtr,System.Collections.Generic.List`1<UnityEngine.Vector3>)
 extern void AugmentedFaceApi_GetVertices_m0D22DC5DF034196739B34FD5ED3F63088817BAA5 (void);
-// 0x00000352 System.Void GoogleARCoreInternal.AugmentedFaceApi::GetNormals(System.IntPtr,System.Collections.Generic.List`1<UnityEngine.Vector3>)
+// 0x0000050B System.Void GoogleARCoreInternal.AugmentedFaceApi::GetNormals(System.IntPtr,System.Collections.Generic.List`1<UnityEngine.Vector3>)
 extern void AugmentedFaceApi_GetNormals_m53104086007DF70F42FBDA7EE13FBBB77A90439B (void);
-// 0x00000353 System.Void GoogleARCoreInternal.AugmentedFaceApi::GetTextureCoordinates(System.IntPtr,System.Collections.Generic.List`1<UnityEngine.Vector2>)
+// 0x0000050C System.Void GoogleARCoreInternal.AugmentedFaceApi::GetTextureCoordinates(System.IntPtr,System.Collections.Generic.List`1<UnityEngine.Vector2>)
 extern void AugmentedFaceApi_GetTextureCoordinates_m73FA3EF64E11666A262767FCC7CA93676DA44064 (void);
-// 0x00000354 System.Void GoogleARCoreInternal.AugmentedFaceApi::GetTriangleIndices(System.IntPtr,System.Collections.Generic.List`1<System.Int32>)
+// 0x0000050D System.Void GoogleARCoreInternal.AugmentedFaceApi::GetTriangleIndices(System.IntPtr,System.Collections.Generic.List`1<System.Int32>)
 extern void AugmentedFaceApi_GetTriangleIndices_mD9FCF397FE608174A532FA01B71CC3CCC4FFC7EC (void);
-// 0x00000355 System.Void GoogleARCoreInternal.AugmentedFaceApi/ExternApi::ArAugmentedFace_getCenterPose(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x0000050E System.Void GoogleARCoreInternal.AugmentedFaceApi/ExternApi::ArAugmentedFace_getCenterPose(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArAugmentedFace_getCenterPose_mC85DD22BF72F56FB7ED7D1339138FE375EF52896 (void);
-// 0x00000356 System.Void GoogleARCoreInternal.AugmentedFaceApi/ExternApi::ArAugmentedFace_getMeshVertices(System.IntPtr,System.IntPtr,System.IntPtr&,System.Int32&)
+// 0x0000050F System.Void GoogleARCoreInternal.AugmentedFaceApi/ExternApi::ArAugmentedFace_getMeshVertices(System.IntPtr,System.IntPtr,System.IntPtr&,System.Int32&)
 extern void ExternApi_ArAugmentedFace_getMeshVertices_m7901BA31779C9A26FCA00BF30464A2EADC456431 (void);
-// 0x00000357 System.Void GoogleARCoreInternal.AugmentedFaceApi/ExternApi::ArAugmentedFace_getMeshNormals(System.IntPtr,System.IntPtr,System.IntPtr&,System.Int32&)
+// 0x00000510 System.Void GoogleARCoreInternal.AugmentedFaceApi/ExternApi::ArAugmentedFace_getMeshNormals(System.IntPtr,System.IntPtr,System.IntPtr&,System.Int32&)
 extern void ExternApi_ArAugmentedFace_getMeshNormals_m840E443012539EAAA3EA6F93E03E07CE07E73C3C (void);
-// 0x00000358 System.Void GoogleARCoreInternal.AugmentedFaceApi/ExternApi::ArAugmentedFace_getMeshTextureCoordinates(System.IntPtr,System.IntPtr,System.IntPtr&,System.Int32&)
+// 0x00000511 System.Void GoogleARCoreInternal.AugmentedFaceApi/ExternApi::ArAugmentedFace_getMeshTextureCoordinates(System.IntPtr,System.IntPtr,System.IntPtr&,System.Int32&)
 extern void ExternApi_ArAugmentedFace_getMeshTextureCoordinates_mFD68D9647BB32F1D9D44CB05BBCE77FDA5B2580F (void);
-// 0x00000359 System.Void GoogleARCoreInternal.AugmentedFaceApi/ExternApi::ArAugmentedFace_getMeshTriangleIndices(System.IntPtr,System.IntPtr,System.IntPtr&,System.Int32&)
+// 0x00000512 System.Void GoogleARCoreInternal.AugmentedFaceApi/ExternApi::ArAugmentedFace_getMeshTriangleIndices(System.IntPtr,System.IntPtr,System.IntPtr&,System.Int32&)
 extern void ExternApi_ArAugmentedFace_getMeshTriangleIndices_mD26FA4DDACD0D66056D3AE0FFD1CD7AB1CEDEDE4 (void);
-// 0x0000035A System.Void GoogleARCoreInternal.AugmentedFaceApi/ExternApi::ArAugmentedFace_getRegionPose(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiAugmentedFaceRegionType,System.IntPtr)
+// 0x00000513 System.Void GoogleARCoreInternal.AugmentedFaceApi/ExternApi::ArAugmentedFace_getRegionPose(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiAugmentedFaceRegionType,System.IntPtr)
 extern void ExternApi_ArAugmentedFace_getRegionPose_m5B608C3F918422425DD30641DCD91FC514387A14 (void);
-// 0x0000035B System.Void GoogleARCoreInternal.AugmentedImageApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x00000514 System.Void GoogleARCoreInternal.AugmentedImageApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void AugmentedImageApi__ctor_m405992D3EF4C3FCD288265CDC672CEF07F8BE048 (void);
-// 0x0000035C System.Int32 GoogleARCoreInternal.AugmentedImageApi::GetDatabaseIndex(System.IntPtr)
+// 0x00000515 System.Int32 GoogleARCoreInternal.AugmentedImageApi::GetDatabaseIndex(System.IntPtr)
 extern void AugmentedImageApi_GetDatabaseIndex_mF037E60F8646A33C7971584666B8C120AF8E936F (void);
-// 0x0000035D UnityEngine.Pose GoogleARCoreInternal.AugmentedImageApi::GetCenterPose(System.IntPtr)
+// 0x00000516 UnityEngine.Pose GoogleARCoreInternal.AugmentedImageApi::GetCenterPose(System.IntPtr)
 extern void AugmentedImageApi_GetCenterPose_mB51EA409D1FD6F01827124C3022A7F29D496DA5D (void);
-// 0x0000035E System.Single GoogleARCoreInternal.AugmentedImageApi::GetExtentX(System.IntPtr)
+// 0x00000517 System.Single GoogleARCoreInternal.AugmentedImageApi::GetExtentX(System.IntPtr)
 extern void AugmentedImageApi_GetExtentX_m5A1BC654A0AD5CDDE97649A7428DF4C53E3BA3B1 (void);
-// 0x0000035F System.Single GoogleARCoreInternal.AugmentedImageApi::GetExtentZ(System.IntPtr)
+// 0x00000518 System.Single GoogleARCoreInternal.AugmentedImageApi::GetExtentZ(System.IntPtr)
 extern void AugmentedImageApi_GetExtentZ_mADAB2396D2A7EAC7E61712A67B462AC9443E727B (void);
-// 0x00000360 System.String GoogleARCoreInternal.AugmentedImageApi::GetName(System.IntPtr)
+// 0x00000519 System.String GoogleARCoreInternal.AugmentedImageApi::GetName(System.IntPtr)
 extern void AugmentedImageApi_GetName_m2CEFE0571CFCBF163ADF21F70FDD2C7BB2C00595 (void);
-// 0x00000361 GoogleARCore.AugmentedImageTrackingMethod GoogleARCoreInternal.AugmentedImageApi::GetTrackingMethod(System.IntPtr)
+// 0x0000051A GoogleARCore.AugmentedImageTrackingMethod GoogleARCoreInternal.AugmentedImageApi::GetTrackingMethod(System.IntPtr)
 extern void AugmentedImageApi_GetTrackingMethod_mC42223FFD301EDCFEBF30953399132E69E5C8FA8 (void);
-// 0x00000362 System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArAugmentedImage_getIndex(System.IntPtr,System.IntPtr,System.Int32&)
+// 0x0000051B System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArAugmentedImage_getIndex(System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArAugmentedImage_getIndex_m1EA15F87AF1438992EF0C926817FB98774B0C4A7 (void);
-// 0x00000363 System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArAugmentedImage_getCenterPose(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x0000051C System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArAugmentedImage_getCenterPose(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArAugmentedImage_getCenterPose_m3DF9419FECCA42EB4D85CFD89153F9A555B94844 (void);
-// 0x00000364 System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArAugmentedImage_getExtentX(System.IntPtr,System.IntPtr,System.Single&)
+// 0x0000051D System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArAugmentedImage_getExtentX(System.IntPtr,System.IntPtr,System.Single&)
 extern void ExternApi_ArAugmentedImage_getExtentX_m9847B273A7A986E94BFACC129D7E8403B0086B50 (void);
-// 0x00000365 System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArAugmentedImage_getExtentZ(System.IntPtr,System.IntPtr,System.Single&)
+// 0x0000051E System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArAugmentedImage_getExtentZ(System.IntPtr,System.IntPtr,System.Single&)
 extern void ExternApi_ArAugmentedImage_getExtentZ_m018B1DA0CF42D6771411C1B64235DB88C0BCDF51 (void);
-// 0x00000366 System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArAugmentedImage_acquireName(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x0000051F System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArAugmentedImage_acquireName(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArAugmentedImage_acquireName_m7755BD684063EEC44380706002B1AF3E164A1365 (void);
-// 0x00000367 System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArAugmentedImage_getTrackingMethod(System.IntPtr,System.IntPtr,GoogleARCore.AugmentedImageTrackingMethod&)
+// 0x00000520 System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArAugmentedImage_getTrackingMethod(System.IntPtr,System.IntPtr,GoogleARCore.AugmentedImageTrackingMethod&)
 extern void ExternApi_ArAugmentedImage_getTrackingMethod_m7C803EF931D4D13BD5B3FE455FE7D3DD345DBD9E (void);
-// 0x00000368 System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArString_release(System.IntPtr)
+// 0x00000521 System.Void GoogleARCoreInternal.AugmentedImageApi/ExternApi::ArString_release(System.IntPtr)
 extern void ExternApi_ArString_release_m9168F06DC2FF413A86C665697F47E104D1D6E803 (void);
-// 0x00000369 System.Void GoogleARCoreInternal.AugmentedImageDatabaseApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x00000522 System.Void GoogleARCoreInternal.AugmentedImageDatabaseApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void AugmentedImageDatabaseApi__ctor_mB3490896580F7462097EA053FAD20AA8F1AC061D (void);
-// 0x0000036A System.Void GoogleARCoreInternal.AugmentedImageDatabaseApi::Release(System.IntPtr)
+// 0x00000523 System.Void GoogleARCoreInternal.AugmentedImageDatabaseApi::Release(System.IntPtr)
 extern void AugmentedImageDatabaseApi_Release_m10FE34C2D0CC450B23FC3C25CAF64E1CC90F6C24 (void);
-// 0x0000036B System.IntPtr GoogleARCoreInternal.AugmentedImageDatabaseApi::Create(System.Byte[])
+// 0x00000524 System.IntPtr GoogleARCoreInternal.AugmentedImageDatabaseApi::Create(System.Byte[])
 extern void AugmentedImageDatabaseApi_Create_m9301B4CBF39AF0D0F057C4D094E58A5C679C4ED1 (void);
-// 0x0000036C System.Int32 GoogleARCoreInternal.AugmentedImageDatabaseApi::AddAugmentedImageAtRuntime(System.IntPtr,System.String,GoogleARCore.AugmentedImageSrc,System.Single)
+// 0x00000525 System.Int32 GoogleARCoreInternal.AugmentedImageDatabaseApi::AddAugmentedImageAtRuntime(System.IntPtr,System.String,GoogleARCore.AugmentedImageSrc,System.Single)
 extern void AugmentedImageDatabaseApi_AddAugmentedImageAtRuntime_m93B39CF169E7A27A0EEE6F6F11D004F34E791B10 (void);
-// 0x0000036D System.Runtime.InteropServices.GCHandle GoogleARCoreInternal.AugmentedImageDatabaseApi::ConvertTextureToGrayscaleBytes(GoogleARCore.AugmentedImageSrc)
+// 0x00000526 System.Runtime.InteropServices.GCHandle GoogleARCoreInternal.AugmentedImageDatabaseApi::ConvertTextureToGrayscaleBytes(GoogleARCore.AugmentedImageSrc)
 extern void AugmentedImageDatabaseApi_ConvertTextureToGrayscaleBytes_mEC2153F725BF3A91F210553AA619CFE0C870E277 (void);
-// 0x0000036E System.Void GoogleARCoreInternal.AugmentedImageDatabaseApi/ExternApi::ArAugmentedImageDatabase_create(System.IntPtr,System.IntPtr&)
+// 0x00000527 System.Void GoogleARCoreInternal.AugmentedImageDatabaseApi/ExternApi::ArAugmentedImageDatabase_create(System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArAugmentedImageDatabase_create_m262DC24F40AAB5DED59C521EFEF5A76E0A8AE88E (void);
-// 0x0000036F System.Void GoogleARCoreInternal.AugmentedImageDatabaseApi/ExternApi::ArAugmentedImageDatabase_destroy(System.IntPtr)
+// 0x00000528 System.Void GoogleARCoreInternal.AugmentedImageDatabaseApi/ExternApi::ArAugmentedImageDatabase_destroy(System.IntPtr)
 extern void ExternApi_ArAugmentedImageDatabase_destroy_m50B9ACA256D0CD3288D8C230E1CE8C556C8D7355 (void);
-// 0x00000370 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.AugmentedImageDatabaseApi/ExternApi::ArAugmentedImageDatabase_deserialize(System.IntPtr,System.IntPtr,System.Int64,System.IntPtr&)
+// 0x00000529 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.AugmentedImageDatabaseApi/ExternApi::ArAugmentedImageDatabase_deserialize(System.IntPtr,System.IntPtr,System.Int64,System.IntPtr&)
 extern void ExternApi_ArAugmentedImageDatabase_deserialize_mDBB1FCA7622BBF03C8A11AA3F40BD3E2E6ED502B (void);
-// 0x00000371 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.AugmentedImageDatabaseApi/ExternApi::ArAugmentedImageDatabase_addImageWithPhysicalSize(System.IntPtr,System.IntPtr,System.String,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Single,System.Int32&)
+// 0x0000052A GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.AugmentedImageDatabaseApi/ExternApi::ArAugmentedImageDatabase_addImageWithPhysicalSize(System.IntPtr,System.IntPtr,System.String,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Single,System.Int32&)
 extern void ExternApi_ArAugmentedImageDatabase_addImageWithPhysicalSize_m7E557254434E918EC875C6F7365BF4431E26BA05 (void);
-// 0x00000372 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.AugmentedImageDatabaseApi/ExternApi::ArAugmentedImageDatabase_addImage(System.IntPtr,System.IntPtr,System.String,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32&)
+// 0x0000052B GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.AugmentedImageDatabaseApi/ExternApi::ArAugmentedImageDatabase_addImage(System.IntPtr,System.IntPtr,System.String,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32&)
 extern void ExternApi_ArAugmentedImageDatabase_addImage_m3A6EA07E2AE71140A1DA3577198AB23AEA53D4EC (void);
-// 0x00000373 System.Void GoogleARCoreInternal.CameraApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x0000052C System.Void GoogleARCoreInternal.CameraApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void CameraApi__ctor_m787E69848077877477E260651D6FC0A2253838CC (void);
-// 0x00000374 GoogleARCore.TrackingState GoogleARCoreInternal.CameraApi::GetTrackingState(System.IntPtr)
+// 0x0000052D GoogleARCore.TrackingState GoogleARCoreInternal.CameraApi::GetTrackingState(System.IntPtr)
 extern void CameraApi_GetTrackingState_m5FD39EC3019C3D1165B2C74B57C98BEACEDE641D (void);
-// 0x00000375 GoogleARCore.LostTrackingReason GoogleARCoreInternal.CameraApi::GetLostTrackingReason(System.IntPtr)
+// 0x0000052E GoogleARCore.LostTrackingReason GoogleARCoreInternal.CameraApi::GetLostTrackingReason(System.IntPtr)
 extern void CameraApi_GetLostTrackingReason_m045110F9BB8E2859757083334C7603F8040547B9 (void);
-// 0x00000376 UnityEngine.Pose GoogleARCoreInternal.CameraApi::GetPose(System.IntPtr)
+// 0x0000052F UnityEngine.Pose GoogleARCoreInternal.CameraApi::GetPose(System.IntPtr)
 extern void CameraApi_GetPose_mCA61A57F0A349F411442D28E1FB57C655B8EF65F (void);
-// 0x00000377 UnityEngine.Matrix4x4 GoogleARCoreInternal.CameraApi::GetProjectionMatrix(System.IntPtr,System.Single,System.Single)
+// 0x00000530 UnityEngine.Matrix4x4 GoogleARCoreInternal.CameraApi::GetProjectionMatrix(System.IntPtr,System.Single,System.Single)
 extern void CameraApi_GetProjectionMatrix_mD9C65A4C04CED98EE73B58E6540296662D751B29 (void);
-// 0x00000378 GoogleARCore.CameraIntrinsics GoogleARCoreInternal.CameraApi::GetTextureIntrinsics(System.IntPtr)
+// 0x00000531 GoogleARCore.CameraIntrinsics GoogleARCoreInternal.CameraApi::GetTextureIntrinsics(System.IntPtr)
 extern void CameraApi_GetTextureIntrinsics_mDE825F0CAF6FD75E835AC6CA98EE935E2396BA37 (void);
-// 0x00000379 GoogleARCore.CameraIntrinsics GoogleARCoreInternal.CameraApi::GetImageIntrinsics(System.IntPtr)
+// 0x00000532 GoogleARCore.CameraIntrinsics GoogleARCoreInternal.CameraApi::GetImageIntrinsics(System.IntPtr)
 extern void CameraApi_GetImageIntrinsics_m60CAFB8035709119BAA61D98CF1F7F5FC499CBD4 (void);
-// 0x0000037A System.Void GoogleARCoreInternal.CameraApi::Release(System.IntPtr)
+// 0x00000533 System.Void GoogleARCoreInternal.CameraApi::Release(System.IntPtr)
 extern void CameraApi_Release_m2E4DF13A61B8E0E87BC76D490BDE1E0E74A961C8 (void);
-// 0x0000037B GoogleARCore.CameraIntrinsics GoogleARCoreInternal.CameraApi::GetCameraIntrinsicsFromHandle(System.IntPtr)
+// 0x00000534 GoogleARCore.CameraIntrinsics GoogleARCoreInternal.CameraApi::GetCameraIntrinsicsFromHandle(System.IntPtr)
 extern void CameraApi_GetCameraIntrinsicsFromHandle_mCACE66FA8B1502A577F9E2EDE4A87B8A3FE13DE8 (void);
-// 0x0000037C System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_getTrackingState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackingState&)
+// 0x00000535 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_getTrackingState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackingState&)
 extern void ExternApi_ArCamera_getTrackingState_mC19FF61E4DB60089A7AEA7471AF98A0F6C1E30E0 (void);
-// 0x0000037D System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_getTrackingFailureReason(System.IntPtr,System.IntPtr,GoogleARCore.ApiTrackingFailureReason&)
+// 0x00000536 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_getTrackingFailureReason(System.IntPtr,System.IntPtr,GoogleARCore.ApiTrackingFailureReason&)
 extern void ExternApi_ArCamera_getTrackingFailureReason_m3F491B809AE82580F30B9669880EAAE808BE2DB0 (void);
-// 0x0000037E System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_getDisplayOrientedPose(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x00000537 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_getDisplayOrientedPose(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArCamera_getDisplayOrientedPose_mD8DA636DF2FA05776CC398B563E9D08FFD945454 (void);
-// 0x0000037F System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_getProjectionMatrix(System.IntPtr,System.IntPtr,System.Single,System.Single,UnityEngine.Matrix4x4&)
+// 0x00000538 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_getProjectionMatrix(System.IntPtr,System.IntPtr,System.Single,System.Single,UnityEngine.Matrix4x4&)
 extern void ExternApi_ArCamera_getProjectionMatrix_mDCC88C477A8C8105BDE10B1042523047C545A2B4 (void);
-// 0x00000380 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_getTextureIntrinsics(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x00000539 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_getTextureIntrinsics(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArCamera_getTextureIntrinsics_m430322287905BFB038B437B5947296DE74D892CB (void);
-// 0x00000381 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_getImageIntrinsics(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x0000053A System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_getImageIntrinsics(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArCamera_getImageIntrinsics_m822E2C44ABABE6410FE4484613AB97601325F395 (void);
-// 0x00000382 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_release(System.IntPtr)
+// 0x0000053B System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCamera_release(System.IntPtr)
 extern void ExternApi_ArCamera_release_m517DFD527ED7CA43BBA09A8486D7C641F9D03D0F (void);
-// 0x00000383 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCameraIntrinsics_create(System.IntPtr,System.IntPtr&)
+// 0x0000053C System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCameraIntrinsics_create(System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArCameraIntrinsics_create_m8818BF3EDC395376E5DC61AE7348D8B16BD1B244 (void);
-// 0x00000384 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCameraIntrinsics_getFocalLength(System.IntPtr,System.IntPtr,System.Single&,System.Single&)
+// 0x0000053D System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCameraIntrinsics_getFocalLength(System.IntPtr,System.IntPtr,System.Single&,System.Single&)
 extern void ExternApi_ArCameraIntrinsics_getFocalLength_m5A794E276290E30859081E7ED4848DAD92B685F3 (void);
-// 0x00000385 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCameraIntrinsics_getPrincipalPoint(System.IntPtr,System.IntPtr,System.Single&,System.Single&)
+// 0x0000053E System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCameraIntrinsics_getPrincipalPoint(System.IntPtr,System.IntPtr,System.Single&,System.Single&)
 extern void ExternApi_ArCameraIntrinsics_getPrincipalPoint_m4561E0DA39435AEBA9548C166E448AA5E11A2B0D (void);
-// 0x00000386 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCameraIntrinsics_getImageDimensions(System.IntPtr,System.IntPtr,System.Int32&,System.Int32&)
+// 0x0000053F System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCameraIntrinsics_getImageDimensions(System.IntPtr,System.IntPtr,System.Int32&,System.Int32&)
 extern void ExternApi_ArCameraIntrinsics_getImageDimensions_mA1E50895FDB108CF0C8FC078FE904CC449412719 (void);
-// 0x00000387 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCameraIntrinsics_destroy(System.IntPtr)
+// 0x00000540 System.Void GoogleARCoreInternal.CameraApi/ExternApi::ArCameraIntrinsics_destroy(System.IntPtr)
 extern void ExternApi_ArCameraIntrinsics_destroy_mE17A3AA630511DE80C4090BA591526D702BCD974 (void);
-// 0x00000388 System.Void GoogleARCoreInternal.CameraConfigApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x00000541 System.Void GoogleARCoreInternal.CameraConfigApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void CameraConfigApi__ctor_mC5A3DE06F5ACD2260DFE1AC365ECCBBA9220D9D4 (void);
-// 0x00000389 System.IntPtr GoogleARCoreInternal.CameraConfigApi::Create()
+// 0x00000542 System.IntPtr GoogleARCoreInternal.CameraConfigApi::Create()
 extern void CameraConfigApi_Create_m006B87595A9B3FEBF69C87CE15DF5025439BFBDD (void);
-// 0x0000038A System.Void GoogleARCoreInternal.CameraConfigApi::Destroy(System.IntPtr)
+// 0x00000543 System.Void GoogleARCoreInternal.CameraConfigApi::Destroy(System.IntPtr)
 extern void CameraConfigApi_Destroy_m61C765B3E7F91FC208DEB07EF8F4608AAF8E989B (void);
-// 0x0000038B System.Void GoogleARCoreInternal.CameraConfigApi::GetImageDimensions(System.IntPtr,System.Int32&,System.Int32&)
+// 0x00000544 System.Void GoogleARCoreInternal.CameraConfigApi::GetImageDimensions(System.IntPtr,System.Int32&,System.Int32&)
 extern void CameraConfigApi_GetImageDimensions_m944AC60B5E4E143ACB12D4CCC9A09DA1EBAA8FF2 (void);
-// 0x0000038C System.Void GoogleARCoreInternal.CameraConfigApi::GetTextureDimensions(System.IntPtr,System.Int32&,System.Int32&)
+// 0x00000545 System.Void GoogleARCoreInternal.CameraConfigApi::GetTextureDimensions(System.IntPtr,System.Int32&,System.Int32&)
 extern void CameraConfigApi_GetTextureDimensions_m5F90FE55DCA2A14C6D00D8E162633C5C9ADBD12E (void);
-// 0x0000038D GoogleARCore.DeviceCameraDirection GoogleARCoreInternal.CameraConfigApi::GetFacingDirection(System.IntPtr)
+// 0x00000546 GoogleARCore.DeviceCameraDirection GoogleARCoreInternal.CameraConfigApi::GetFacingDirection(System.IntPtr)
 extern void CameraConfigApi_GetFacingDirection_m6D0C8C6F86436E68E8FE9499BE8D78A6A5679599 (void);
-// 0x0000038E System.Void GoogleARCoreInternal.CameraConfigApi::GetFpsRange(System.IntPtr,System.Int32&,System.Int32&)
+// 0x00000547 System.Void GoogleARCoreInternal.CameraConfigApi::GetFpsRange(System.IntPtr,System.Int32&,System.Int32&)
 extern void CameraConfigApi_GetFpsRange_mFB514F187F8BCA822F14A7B156C00AD2D1F563EE (void);
-// 0x0000038F GoogleARCore.CameraConfigDepthSensorUsage GoogleARCoreInternal.CameraConfigApi::GetDepthSensorUsage(System.IntPtr)
+// 0x00000548 GoogleARCore.CameraConfigDepthSensorUsage GoogleARCoreInternal.CameraConfigApi::GetDepthSensorUsage(System.IntPtr)
 extern void CameraConfigApi_GetDepthSensorUsage_m01BDD539918A2B24C52276E5A60B60FD20C6AAEB (void);
-// 0x00000390 GoogleARCore.CameraConfigStereoCameraUsage GoogleARCoreInternal.CameraConfigApi::GetStereoCameraUsage(System.IntPtr)
+// 0x00000549 GoogleARCore.CameraConfigStereoCameraUsage GoogleARCoreInternal.CameraConfigApi::GetStereoCameraUsage(System.IntPtr)
 extern void CameraConfigApi_GetStereoCameraUsage_m2052F6F9B9327EDB7043B12AF23C26C8DC471646 (void);
-// 0x00000391 System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_create(System.IntPtr,System.IntPtr&)
+// 0x0000054A System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_create(System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArCameraConfig_create_m02F221A0C13998704C31A459DBA039517ED19B24 (void);
-// 0x00000392 System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_destroy(System.IntPtr)
+// 0x0000054B System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_destroy(System.IntPtr)
 extern void ExternApi_ArCameraConfig_destroy_m523401AA668C9EEA7C0ED5D0D618E37E9FBB24E0 (void);
-// 0x00000393 System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_getImageDimensions(System.IntPtr,System.IntPtr,System.Int32&,System.Int32&)
+// 0x0000054C System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_getImageDimensions(System.IntPtr,System.IntPtr,System.Int32&,System.Int32&)
 extern void ExternApi_ArCameraConfig_getImageDimensions_mA8029ACA6371B607A4950FBB4A737DE3ADE55A64 (void);
-// 0x00000394 System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_getTextureDimensions(System.IntPtr,System.IntPtr,System.Int32&,System.Int32&)
+// 0x0000054D System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_getTextureDimensions(System.IntPtr,System.IntPtr,System.Int32&,System.Int32&)
 extern void ExternApi_ArCameraConfig_getTextureDimensions_mAA8899ABBE95B54F05BFB766EBAA7BB4B43E8AEE (void);
-// 0x00000395 System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_getFacingDirection(System.IntPtr,System.IntPtr,GoogleARCore.DeviceCameraDirection&)
+// 0x0000054E System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_getFacingDirection(System.IntPtr,System.IntPtr,GoogleARCore.DeviceCameraDirection&)
 extern void ExternApi_ArCameraConfig_getFacingDirection_mA823B0B9DBD799435E0E8E33968C76A8544A1AE0 (void);
-// 0x00000396 System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_getFpsRange(System.IntPtr,System.IntPtr,System.Int32&,System.Int32&)
+// 0x0000054F System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_getFpsRange(System.IntPtr,System.IntPtr,System.Int32&,System.Int32&)
 extern void ExternApi_ArCameraConfig_getFpsRange_m48E406E6EF0C97DE1B689E1EAB048B45A39ABF8B (void);
-// 0x00000397 System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_getDepthSensorUsage(System.IntPtr,System.IntPtr,System.Int32&)
+// 0x00000550 System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_getDepthSensorUsage(System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArCameraConfig_getDepthSensorUsage_m9D460B8A2CC566459DE1B866F6A4B2B46B857245 (void);
-// 0x00000398 System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_getStereoCameraUsage(System.IntPtr,System.IntPtr,System.Int32&)
+// 0x00000551 System.Void GoogleARCoreInternal.CameraConfigApi/ExternApi::ArCameraConfig_getStereoCameraUsage(System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArCameraConfig_getStereoCameraUsage_mBA517D5E72B6AE84A4E330F6C5BC3BAEB0572CF0 (void);
-// 0x00000399 System.Void GoogleARCoreInternal.CameraConfigFilterApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x00000552 System.Void GoogleARCoreInternal.CameraConfigFilterApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void CameraConfigFilterApi__ctor_mA280E56080809B80ADA15313B516CC559B519B4E (void);
-// 0x0000039A System.IntPtr GoogleARCoreInternal.CameraConfigFilterApi::Create(GoogleARCore.DeviceCameraDirection,GoogleARCore.ARCoreCameraConfigFilter)
+// 0x00000553 System.IntPtr GoogleARCoreInternal.CameraConfigFilterApi::Create(GoogleARCore.DeviceCameraDirection,GoogleARCore.ARCoreCameraConfigFilter)
 extern void CameraConfigFilterApi_Create_m79F6273C7610DDC9E07A96AC2C375D5A7C40AC91 (void);
-// 0x0000039B System.Void GoogleARCoreInternal.CameraConfigFilterApi::Destroy(System.IntPtr)
+// 0x00000554 System.Void GoogleARCoreInternal.CameraConfigFilterApi::Destroy(System.IntPtr)
 extern void CameraConfigFilterApi_Destroy_m8A27F115AD1732823E5BCF2719FEFAACF5601667 (void);
-// 0x0000039C System.Int32 GoogleARCoreInternal.CameraConfigFilterApi::ConvertToFpsFilter(GoogleARCore.ARCoreCameraConfigFilter/TargetCameraFramerateFilter)
+// 0x00000555 System.Int32 GoogleARCoreInternal.CameraConfigFilterApi::ConvertToFpsFilter(GoogleARCore.ARCoreCameraConfigFilter/TargetCameraFramerateFilter)
 extern void CameraConfigFilterApi_ConvertToFpsFilter_mCDD4843077D31DDB7E123FF2107A270442D98399 (void);
-// 0x0000039D System.Int32 GoogleARCoreInternal.CameraConfigFilterApi::ConvertToDepthFilter(GoogleARCore.ARCoreCameraConfigFilter/DepthSensorUsageFilter)
+// 0x00000556 System.Int32 GoogleARCoreInternal.CameraConfigFilterApi::ConvertToDepthFilter(GoogleARCore.ARCoreCameraConfigFilter/DepthSensorUsageFilter)
 extern void CameraConfigFilterApi_ConvertToDepthFilter_m952C9ED7E4165EE2C2638978498FA69810E0943F (void);
-// 0x0000039E System.Int32 GoogleARCoreInternal.CameraConfigFilterApi::ConvertToStereoFilter(GoogleARCore.ARCoreCameraConfigFilter/StereoCameraUsageFilter)
+// 0x00000557 System.Int32 GoogleARCoreInternal.CameraConfigFilterApi::ConvertToStereoFilter(GoogleARCore.ARCoreCameraConfigFilter/StereoCameraUsageFilter)
 extern void CameraConfigFilterApi_ConvertToStereoFilter_m64FA605A3DCFF404CE55A72916DA60684464BCDC (void);
-// 0x0000039F System.Void GoogleARCoreInternal.CameraConfigFilterApi/ExternApi::ArCameraConfigFilter_create(System.IntPtr,System.IntPtr&)
+// 0x00000558 System.Void GoogleARCoreInternal.CameraConfigFilterApi/ExternApi::ArCameraConfigFilter_create(System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArCameraConfigFilter_create_mA2BB997CD98BE6979D24B22CD085C55846DA1E23 (void);
-// 0x000003A0 System.Void GoogleARCoreInternal.CameraConfigFilterApi/ExternApi::ArCameraConfigFilter_destroy(System.IntPtr)
+// 0x00000559 System.Void GoogleARCoreInternal.CameraConfigFilterApi/ExternApi::ArCameraConfigFilter_destroy(System.IntPtr)
 extern void ExternApi_ArCameraConfigFilter_destroy_m441F3C5118BDC8A496EDAF4AD667C51D35E9186C (void);
-// 0x000003A1 System.Void GoogleARCoreInternal.CameraConfigFilterApi/ExternApi::ArCameraConfigFilter_setFacingDirection(System.IntPtr,System.IntPtr,GoogleARCore.DeviceCameraDirection)
+// 0x0000055A System.Void GoogleARCoreInternal.CameraConfigFilterApi/ExternApi::ArCameraConfigFilter_setFacingDirection(System.IntPtr,System.IntPtr,GoogleARCore.DeviceCameraDirection)
 extern void ExternApi_ArCameraConfigFilter_setFacingDirection_m45FB37C28E47A92365F2E4105A8093278C9523C7 (void);
-// 0x000003A2 System.Void GoogleARCoreInternal.CameraConfigFilterApi/ExternApi::ArCameraConfigFilter_setTargetFps(System.IntPtr,System.IntPtr,System.Int32)
+// 0x0000055B System.Void GoogleARCoreInternal.CameraConfigFilterApi/ExternApi::ArCameraConfigFilter_setTargetFps(System.IntPtr,System.IntPtr,System.Int32)
 extern void ExternApi_ArCameraConfigFilter_setTargetFps_mB6A5CA3A327F7CD844B0B160D72CF3CCA84A25CA (void);
-// 0x000003A3 System.Void GoogleARCoreInternal.CameraConfigFilterApi/ExternApi::ArCameraConfigFilter_setDepthSensorUsage(System.IntPtr,System.IntPtr,System.Int32)
+// 0x0000055C System.Void GoogleARCoreInternal.CameraConfigFilterApi/ExternApi::ArCameraConfigFilter_setDepthSensorUsage(System.IntPtr,System.IntPtr,System.Int32)
 extern void ExternApi_ArCameraConfigFilter_setDepthSensorUsage_m5FAF49607D68485CA7D8B923B68D16515ABA06D4 (void);
-// 0x000003A4 System.Void GoogleARCoreInternal.CameraConfigFilterApi/ExternApi::ArCameraConfigFilter_setStereoCameraUsage(System.IntPtr,System.IntPtr,System.Int32)
+// 0x0000055D System.Void GoogleARCoreInternal.CameraConfigFilterApi/ExternApi::ArCameraConfigFilter_setStereoCameraUsage(System.IntPtr,System.IntPtr,System.Int32)
 extern void ExternApi_ArCameraConfigFilter_setStereoCameraUsage_m3F89C7A0F7560A35E74A796554657769A89BAEE7 (void);
-// 0x000003A5 System.Void GoogleARCoreInternal.CameraConfigListApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x0000055E System.Void GoogleARCoreInternal.CameraConfigListApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void CameraConfigListApi__ctor_m67498606C0CCE1AEDF100543A785A818DE2D60D5 (void);
-// 0x000003A6 System.IntPtr GoogleARCoreInternal.CameraConfigListApi::Create()
+// 0x0000055F System.IntPtr GoogleARCoreInternal.CameraConfigListApi::Create()
 extern void CameraConfigListApi_Create_m3514D28CE34F589F96F444DC1E6D240D20F9A2BD (void);
-// 0x000003A7 System.Void GoogleARCoreInternal.CameraConfigListApi::Destroy(System.IntPtr)
+// 0x00000560 System.Void GoogleARCoreInternal.CameraConfigListApi::Destroy(System.IntPtr)
 extern void CameraConfigListApi_Destroy_m3085077B219E8B9923F2DC536DDE358D77A6476E (void);
-// 0x000003A8 System.Int32 GoogleARCoreInternal.CameraConfigListApi::GetSize(System.IntPtr)
+// 0x00000561 System.Int32 GoogleARCoreInternal.CameraConfigListApi::GetSize(System.IntPtr)
 extern void CameraConfigListApi_GetSize_mB15806682F80250100FE8FB109CE0FAB4018677E (void);
-// 0x000003A9 System.Void GoogleARCoreInternal.CameraConfigListApi::GetItemAt(System.IntPtr,System.Int32,System.IntPtr)
+// 0x00000562 System.Void GoogleARCoreInternal.CameraConfigListApi::GetItemAt(System.IntPtr,System.Int32,System.IntPtr)
 extern void CameraConfigListApi_GetItemAt_m6CEC56169F18450E38A19F24FF83BBEB65DF7BBD (void);
-// 0x000003AA System.Void GoogleARCoreInternal.CameraConfigListApi/ExternApi::ArCameraConfigList_create(System.IntPtr,System.IntPtr&)
+// 0x00000563 System.Void GoogleARCoreInternal.CameraConfigListApi/ExternApi::ArCameraConfigList_create(System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArCameraConfigList_create_m172C656FF61A8BDCF8713F804E9B3A0228CAAFCE (void);
-// 0x000003AB System.Void GoogleARCoreInternal.CameraConfigListApi/ExternApi::ArCameraConfigList_destroy(System.IntPtr)
+// 0x00000564 System.Void GoogleARCoreInternal.CameraConfigListApi/ExternApi::ArCameraConfigList_destroy(System.IntPtr)
 extern void ExternApi_ArCameraConfigList_destroy_m3A9A339987263E8BC139C661A88A8792BB802738 (void);
-// 0x000003AC System.Void GoogleARCoreInternal.CameraConfigListApi/ExternApi::ArCameraConfigList_getSize(System.IntPtr,System.IntPtr,System.Int32&)
+// 0x00000565 System.Void GoogleARCoreInternal.CameraConfigListApi/ExternApi::ArCameraConfigList_getSize(System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArCameraConfigList_getSize_mC6E49F17BE3FBC47CCE33339C5C51E6BF039DCF3 (void);
-// 0x000003AD System.Void GoogleARCoreInternal.CameraConfigListApi/ExternApi::ArCameraConfigList_getItem(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr)
+// 0x00000566 System.Void GoogleARCoreInternal.CameraConfigListApi/ExternApi::ArCameraConfigList_getItem(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr)
 extern void ExternApi_ArCameraConfigList_getItem_m4C5B83AA03EFA92F7C050B41D544DCC633B97B55 (void);
-// 0x000003AE System.Void GoogleARCoreInternal.CameraMetadataApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x00000567 System.Void GoogleARCoreInternal.CameraMetadataApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void CameraMetadataApi__ctor_mD456304250D302FF402CDDF0830045D42ED70EFF (void);
-// 0x000003AF System.Void GoogleARCoreInternal.CameraMetadataApi::Release(System.IntPtr)
+// 0x00000568 System.Void GoogleARCoreInternal.CameraMetadataApi::Release(System.IntPtr)
 extern void CameraMetadataApi_Release_m20B532B6FAE513CB95E36D8762E3E4D77C0FFCB2 (void);
-// 0x000003B0 System.Boolean GoogleARCoreInternal.CameraMetadataApi::TryGetValues(System.IntPtr,GoogleARCore.CameraMetadataTag,System.Collections.Generic.List`1<GoogleARCore.CameraMetadataValue>)
+// 0x00000569 System.Boolean GoogleARCoreInternal.CameraMetadataApi::TryGetValues(System.IntPtr,GoogleARCore.CameraMetadataTag,System.Collections.Generic.List`1<GoogleARCore.CameraMetadataValue>)
 extern void CameraMetadataApi_TryGetValues_mA83EB905A3FDFAF0724CD2294A9D849AC6D7E341 (void);
-// 0x000003B1 System.Boolean GoogleARCoreInternal.CameraMetadataApi::GetAllCameraMetadataTags(System.IntPtr,System.Collections.Generic.List`1<GoogleARCore.CameraMetadataTag>)
+// 0x0000056A System.Boolean GoogleARCoreInternal.CameraMetadataApi::GetAllCameraMetadataTags(System.IntPtr,System.Collections.Generic.List`1<GoogleARCore.CameraMetadataTag>)
 extern void CameraMetadataApi_GetAllCameraMetadataTags_mA6592138A13485EEB4212B7F1D6AA4192FED9C07 (void);
-// 0x000003B2 System.Void GoogleARCoreInternal.CameraMetadataApi/ExternApi::ArImageMetadata_release(System.IntPtr)
+// 0x0000056B System.Void GoogleARCoreInternal.CameraMetadataApi/ExternApi::ArImageMetadata_release(System.IntPtr)
 extern void ExternApi_ArImageMetadata_release_mA6FFDD3807BBCF03464C3E537FC035502C21D7A2 (void);
-// 0x000003B3 System.Void GoogleARCoreInternal.CameraMetadataApi/ExternApi::ArImageMetadata_getAllKeys(System.IntPtr,System.IntPtr,System.Int32&,System.IntPtr&)
+// 0x0000056C System.Void GoogleARCoreInternal.CameraMetadataApi/ExternApi::ArImageMetadata_getAllKeys(System.IntPtr,System.IntPtr,System.Int32&,System.IntPtr&)
 extern void ExternApi_ArImageMetadata_getAllKeys_m8D5EEADEE6BF3E705B68652E53C390FFDD115518 (void);
-// 0x000003B4 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.CameraMetadataApi/ExternApi::ArImageMetadata_getConstEntry(System.IntPtr,System.IntPtr,System.UInt32,GoogleARCoreInternal.ArCameraMetadata&)
+// 0x0000056D GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.CameraMetadataApi/ExternApi::ArImageMetadata_getConstEntry(System.IntPtr,System.IntPtr,System.UInt32,GoogleARCoreInternal.ArCameraMetadata&)
 extern void ExternApi_ArImageMetadata_getConstEntry_m0AACE092AEF11DE10ED1109D2521F21374EC29B1 (void);
-// 0x000003B5 System.Void GoogleARCoreInternal.FrameApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x0000056E System.Void GoogleARCoreInternal.FrameApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void FrameApi__ctor_mCD0A6CE31C97B28F3D4D654CDA59DD5E8E96552D (void);
-// 0x000003B6 System.Void GoogleARCoreInternal.FrameApi::Release(System.IntPtr)
+// 0x0000056F System.Void GoogleARCoreInternal.FrameApi::Release(System.IntPtr)
 extern void FrameApi_Release_m5418A23A4974F3BBFB1AEF259C9F3430F42C6BC8 (void);
-// 0x000003B7 System.Int64 GoogleARCoreInternal.FrameApi::GetTimestamp()
+// 0x00000570 System.Int64 GoogleARCoreInternal.FrameApi::GetTimestamp()
 extern void FrameApi_GetTimestamp_mF55AEB259CE7968100290F8BD7C193ACAEEC41D6 (void);
-// 0x000003B8 System.IntPtr GoogleARCoreInternal.FrameApi::AcquireCamera()
+// 0x00000571 System.IntPtr GoogleARCoreInternal.FrameApi::AcquireCamera()
 extern void FrameApi_AcquireCamera_mE652600DCB8804CB15EDF008C5218CC326B4BFCC (void);
-// 0x000003B9 GoogleARCore.CameraImageBytes GoogleARCoreInternal.FrameApi::AcquireCameraImageBytes()
+// 0x00000572 GoogleARCore.CameraImageBytes GoogleARCoreInternal.FrameApi::AcquireCameraImageBytes()
 extern void FrameApi_AcquireCameraImageBytes_m9B8427BA43D169D22346DE0A415246BD5EA26AC7 (void);
-// 0x000003BA System.Boolean GoogleARCoreInternal.FrameApi::TryAcquirePointCloudHandle(System.IntPtr&)
+// 0x00000573 System.Boolean GoogleARCoreInternal.FrameApi::TryAcquirePointCloudHandle(System.IntPtr&)
 extern void FrameApi_TryAcquirePointCloudHandle_m61CE018342400C83BF69AE1A42D9DA439110A3E3 (void);
-// 0x000003BB System.Boolean GoogleARCoreInternal.FrameApi::AcquireImageMetadata(System.IntPtr&)
+// 0x00000574 System.Boolean GoogleARCoreInternal.FrameApi::AcquireImageMetadata(System.IntPtr&)
 extern void FrameApi_AcquireImageMetadata_m04B1F7B704C8EFACE575DA1FA74D4F1D1D828D91 (void);
-// 0x000003BC GoogleARCore.LightEstimate GoogleARCoreInternal.FrameApi::GetLightEstimate()
+// 0x00000575 GoogleARCore.LightEstimate GoogleARCoreInternal.FrameApi::GetLightEstimate()
 extern void FrameApi_GetLightEstimate_m32366BB9749DF65F2E79D03F15AC967BBB2B982F (void);
-// 0x000003BD UnityEngine.Cubemap GoogleARCoreInternal.FrameApi::GetReflectionCubemap()
+// 0x00000576 UnityEngine.Cubemap GoogleARCoreInternal.FrameApi::GetReflectionCubemap()
 extern void FrameApi_GetReflectionCubemap_m16E28311B657AE214D3AE834FB1B0EBCC80F4936 (void);
-// 0x000003BE System.Void GoogleARCoreInternal.FrameApi::TransformDisplayUvCoords(GoogleARCoreInternal.ApiDisplayUvCoords&)
+// 0x00000577 System.Void GoogleARCoreInternal.FrameApi::TransformDisplayUvCoords(GoogleARCoreInternal.ApiDisplayUvCoords&)
 extern void FrameApi_TransformDisplayUvCoords_mAAF0B896747F6EB2C7C061E76D57876087646109 (void);
-// 0x000003BF System.Void GoogleARCoreInternal.FrameApi::TransformCoordinates2d(UnityEngine.Vector2&,GoogleARCore.DisplayUvCoordinateType,GoogleARCore.DisplayUvCoordinateType)
+// 0x00000578 System.Void GoogleARCoreInternal.FrameApi::TransformCoordinates2d(UnityEngine.Vector2&,GoogleARCore.DisplayUvCoordinateType,GoogleARCore.DisplayUvCoordinateType)
 extern void FrameApi_TransformCoordinates2d_mA88CF7AC4B7AE0F540AE245D70DFE3A327B1B675 (void);
-// 0x000003C0 System.Void GoogleARCoreInternal.FrameApi::GetUpdatedTrackables(System.Collections.Generic.List`1<GoogleARCore.Trackable>)
+// 0x00000579 System.Void GoogleARCoreInternal.FrameApi::GetUpdatedTrackables(System.Collections.Generic.List`1<GoogleARCore.Trackable>)
 extern void FrameApi_GetUpdatedTrackables_m4B155CF77DF4E320D55C630AA6B3CCA89F60164B (void);
-// 0x000003C1 System.Int32 GoogleARCoreInternal.FrameApi::GetCameraTextureName()
+// 0x0000057A System.Int32 GoogleARCoreInternal.FrameApi::GetCameraTextureName()
 extern void FrameApi_GetCameraTextureName_m93B46D7FA29E35956FB60AA133FE27797B2AB466 (void);
-// 0x000003C2 GoogleARCore.DepthStatus GoogleARCoreInternal.FrameApi::UpdateDepthTexture(UnityEngine.Texture2D&)
+// 0x0000057B GoogleARCore.DepthStatus GoogleARCoreInternal.FrameApi::UpdateDepthTexture(UnityEngine.Texture2D&)
 extern void FrameApi_UpdateDepthTexture_mA1E20CAE217D10432FD59F595ED0F7C2AA25F1CB (void);
-// 0x000003C3 System.Boolean GoogleARCoreInternal.FrameApi::UpdateDepthTexture(UnityEngine.Texture2D&,System.IntPtr)
+// 0x0000057C System.Boolean GoogleARCoreInternal.FrameApi::UpdateDepthTexture(UnityEngine.Texture2D&,System.IntPtr)
 extern void FrameApi_UpdateDepthTexture_mAE5DF2EC3EBC0EDF803F7267C16DA9BC8933F37B (void);
-// 0x000003C4 System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_release(System.IntPtr)
+// 0x0000057D System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_release(System.IntPtr)
 extern void ExternApi_ArFrame_release_mD999D2A9FC85F52B9D1BF4E857F158D7072BDA05 (void);
-// 0x000003C5 System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_getTimestamp(System.IntPtr,System.IntPtr,System.Int64&)
+// 0x0000057E System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_getTimestamp(System.IntPtr,System.IntPtr,System.Int64&)
 extern void ExternApi_ArFrame_getTimestamp_m39E24AEFB2D2B63A56204BA2F43CF45341A55ED7 (void);
-// 0x000003C6 System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_acquireCamera(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x0000057F System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_acquireCamera(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArFrame_acquireCamera_m93C839B080987793720711E383CF04D0BC51EC4B (void);
-// 0x000003C7 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_acquireCameraImage(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x00000580 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_acquireCameraImage(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArFrame_acquireCameraImage_m2D7693AC2D22C891518AFE10563708D52F2F5F43 (void);
-// 0x000003C8 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_acquirePointCloud(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x00000581 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_acquirePointCloud(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArFrame_acquirePointCloud_m68B4D8984B3B8F6122030958BB4C086A809449B4 (void);
-// 0x000003C9 System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_transformDisplayUvCoords(System.IntPtr,System.IntPtr,System.Int32,GoogleARCoreInternal.ApiDisplayUvCoords&,GoogleARCoreInternal.ApiDisplayUvCoords&)
+// 0x00000582 System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_transformDisplayUvCoords(System.IntPtr,System.IntPtr,System.Int32,GoogleARCoreInternal.ApiDisplayUvCoords&,GoogleARCoreInternal.ApiDisplayUvCoords&)
 extern void ExternApi_ArFrame_transformDisplayUvCoords_m3EB064A9FDD2A57EF2F511E8610BED516540C0D6 (void);
-// 0x000003CA System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_transformCoordinates2d(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiCoordinates2dType,System.Int32,UnityEngine.Vector2&,GoogleARCoreInternal.ApiCoordinates2dType,UnityEngine.Vector2&)
+// 0x00000583 System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_transformCoordinates2d(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiCoordinates2dType,System.Int32,UnityEngine.Vector2&,GoogleARCoreInternal.ApiCoordinates2dType,UnityEngine.Vector2&)
 extern void ExternApi_ArFrame_transformCoordinates2d_mF331E9BA5C473FC5248191F1A1FA5CAAC8B8AFC9 (void);
-// 0x000003CB System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_getUpdatedTrackables(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackableType,System.IntPtr)
+// 0x00000584 System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_getUpdatedTrackables(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackableType,System.IntPtr)
 extern void ExternApi_ArFrame_getUpdatedTrackables_m2B7D556F8DC5A43B8A9C3D7A9F6023FD2A246C1A (void);
-// 0x000003CC System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_getLightEstimate(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x00000585 System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_getLightEstimate(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArFrame_getLightEstimate_m1C5CDA27675A94CB582F5DF82CCA53B830D933FE (void);
-// 0x000003CD GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_acquireImageMetadata(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x00000586 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_acquireImageMetadata(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArFrame_acquireImageMetadata_m49C70E07601CF7022AAC2F463824347EF46A8711 (void);
-// 0x000003CE System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_getCameraTextureName(System.IntPtr,System.IntPtr,System.Int32&)
+// 0x00000587 System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_getCameraTextureName(System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArFrame_getCameraTextureName_m7FBEF449474894AD2031296CFDCA480C8DCFC599 (void);
-// 0x000003CF GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_acquireDepthImage(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x00000588 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.FrameApi/ExternApi::ArFrame_acquireDepthImage(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArFrame_acquireDepthImage_mC67DE904A9F862A9DF9F8BBA2DC9D93872308888 (void);
-// 0x000003D0 System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArImage_getPlanePixelStride(System.IntPtr,System.IntPtr,System.Int32,System.Int32&)
+// 0x00000589 System.Void GoogleARCoreInternal.FrameApi/ExternApi::ArImage_getPlanePixelStride(System.IntPtr,System.IntPtr,System.Int32,System.Int32&)
 extern void ExternApi_ArImage_getPlanePixelStride_m0615CCF3715A07E2928D4C824D525C076B03F033 (void);
-// 0x000003D1 System.Void GoogleARCoreInternal.HitTestApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x0000058A System.Void GoogleARCoreInternal.HitTestApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void HitTestApi__ctor_m5DFA46318EDAC3B24D1F9ABE9CCBD4418BB98044 (void);
-// 0x000003D2 System.Boolean GoogleARCoreInternal.HitTestApi::Raycast(System.IntPtr,System.Single,System.Single,GoogleARCore.TrackableHitFlags,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
+// 0x0000058B System.Boolean GoogleARCoreInternal.HitTestApi::Raycast(System.IntPtr,System.Single,System.Single,GoogleARCore.TrackableHitFlags,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
 extern void HitTestApi_Raycast_m5F4BE5333D4556DA9DD40EC5D9D12974CFAE3A22 (void);
-// 0x000003D3 System.Boolean GoogleARCoreInternal.HitTestApi::Raycast(System.IntPtr,System.Single,System.Single,System.Single,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
+// 0x0000058C System.Boolean GoogleARCoreInternal.HitTestApi::Raycast(System.IntPtr,System.Single,System.Single,System.Single,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
 extern void HitTestApi_Raycast_m9E91BD5A4A63FB8A0E7B0D1601F4312D9E799484 (void);
-// 0x000003D4 System.Boolean GoogleARCoreInternal.HitTestApi::Raycast(System.IntPtr,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,GoogleARCore.TrackableHitFlags,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
+// 0x0000058D System.Boolean GoogleARCoreInternal.HitTestApi::Raycast(System.IntPtr,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,GoogleARCore.TrackableHitFlags,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
 extern void HitTestApi_Raycast_mBE0F5E3560B0969A9F8C55A6DA8498E23A344DFA (void);
-// 0x000003D5 System.Void GoogleARCoreInternal.HitTestApi::FilterTrackableHits(System.IntPtr,System.Single,GoogleARCore.TrackableHitFlags,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
+// 0x0000058E System.Void GoogleARCoreInternal.HitTestApi::FilterTrackableHits(System.IntPtr,System.Single,GoogleARCore.TrackableHitFlags,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
 extern void HitTestApi_FilterTrackableHits_m84857B180BCEB6381DB9CF1AC19CC287EC0CFA1F (void);
-// 0x000003D6 System.Boolean GoogleARCoreInternal.HitTestApi::HitResultListGetItemAt(System.IntPtr,System.Int32,GoogleARCore.TrackableHit&)
+// 0x0000058F System.Boolean GoogleARCoreInternal.HitTestApi::HitResultListGetItemAt(System.IntPtr,System.Int32,GoogleARCore.TrackableHit&)
 extern void HitTestApi_HitResultListGetItemAt_mAA63D2C857E77DE3F925F7DD05907B4026773488 (void);
-// 0x000003D7 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArFrame_hitTest(System.IntPtr,System.IntPtr,System.Single,System.Single,System.IntPtr)
+// 0x00000590 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArFrame_hitTest(System.IntPtr,System.IntPtr,System.Single,System.Single,System.IntPtr)
 extern void ExternApi_ArFrame_hitTest_m374CD1884C52E90036CF412CF42B7C61FB7D5466 (void);
-// 0x000003D8 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArFrame_hitTestRay(System.IntPtr,System.IntPtr,UnityEngine.Vector3&,UnityEngine.Vector3&,System.IntPtr)
+// 0x00000591 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArFrame_hitTestRay(System.IntPtr,System.IntPtr,UnityEngine.Vector3&,UnityEngine.Vector3&,System.IntPtr)
 extern void ExternApi_ArFrame_hitTestRay_mAE8BFA8CE7ED84ED1D61C02DFC6411D086C178E2 (void);
-// 0x000003D9 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArFrame_hitTestInstantPlacement(System.IntPtr,System.IntPtr,System.Single,System.Single,System.Single,System.IntPtr)
+// 0x00000592 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArFrame_hitTestInstantPlacement(System.IntPtr,System.IntPtr,System.Single,System.Single,System.Single,System.IntPtr)
 extern void ExternApi_ArFrame_hitTestInstantPlacement_m49A5A17C175F89F6A76BA7044D89EBAB3F626450 (void);
-// 0x000003DA System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResultList_create(System.IntPtr,System.IntPtr&)
+// 0x00000593 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResultList_create(System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArHitResultList_create_m112460DB91721C1EE8BD6547CF83618694D96588 (void);
-// 0x000003DB System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResultList_destroy(System.IntPtr)
+// 0x00000594 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResultList_destroy(System.IntPtr)
 extern void ExternApi_ArHitResultList_destroy_mFCE6AC118A853C5923A1A3DA177DAEDB8102CD29 (void);
-// 0x000003DC System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResultList_getSize(System.IntPtr,System.IntPtr,System.Int32&)
+// 0x00000595 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResultList_getSize(System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArHitResultList_getSize_mA9421D6A571D16A783C6F9793246B3C88B140C0D (void);
-// 0x000003DD System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResultList_getItem(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr)
+// 0x00000596 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResultList_getItem(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr)
 extern void ExternApi_ArHitResultList_getItem_m82C9B54E6D57134F2E08C7E897722DD2D9679B69 (void);
-// 0x000003DE System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResult_create(System.IntPtr,System.IntPtr&)
+// 0x00000597 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResult_create(System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArHitResult_create_m8345C8D9C35EA30D803CD3607F1D33CB45A2FE19 (void);
-// 0x000003DF System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResult_destroy(System.IntPtr)
+// 0x00000598 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResult_destroy(System.IntPtr)
 extern void ExternApi_ArHitResult_destroy_m6A54AA3D6DBABAD757FD8EE102AC769D912771B8 (void);
-// 0x000003E0 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResult_getDistance(System.IntPtr,System.IntPtr,System.Single&)
+// 0x00000599 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResult_getDistance(System.IntPtr,System.IntPtr,System.Single&)
 extern void ExternApi_ArHitResult_getDistance_mAB19FB821E4589CEA0600E167C067892C67B8C98 (void);
-// 0x000003E1 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResult_getHitPose(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x0000059A System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResult_getHitPose(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArHitResult_getHitPose_mD4357A657B763D38390FA4631FC7374F136F03D5 (void);
-// 0x000003E2 System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResult_acquireTrackable(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x0000059B System.Void GoogleARCoreInternal.HitTestApi/ExternApi::ArHitResult_acquireTrackable(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArHitResult_acquireTrackable_m09936BEB248EE841A17A666B0A1998CE240F53B3 (void);
-// 0x000003E3 System.Void GoogleARCoreInternal.ImageApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x0000059C System.Void GoogleARCoreInternal.ImageApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void ImageApi__ctor_m5159272321CE3F1087B77A46E9CBA62AF35B20FB (void);
-// 0x000003E4 System.Int32 GoogleARCoreInternal.ImageApi::GetPlanePixelStride(System.IntPtr,System.Int32)
+// 0x0000059D System.Int32 GoogleARCoreInternal.ImageApi::GetPlanePixelStride(System.IntPtr,System.Int32)
 extern void ImageApi_GetPlanePixelStride_m09E6D443DC054B3A207A35FF3F053AA532AD02E9 (void);
-// 0x000003E5 System.Int32 GoogleARCoreInternal.ImageApi::GetPlaneRowStride(System.IntPtr,System.Int32)
+// 0x0000059E System.Int32 GoogleARCoreInternal.ImageApi::GetPlaneRowStride(System.IntPtr,System.Int32)
 extern void ImageApi_GetPlaneRowStride_mDEA8D23404CE0D9A60FC9B33F29C2B6B532D0D6C (void);
-// 0x000003E6 System.Void GoogleARCoreInternal.ImageApi::GetPlaneData(System.IntPtr,System.Int32,System.IntPtr&,System.Int32&)
+// 0x0000059F System.Void GoogleARCoreInternal.ImageApi::GetPlaneData(System.IntPtr,System.Int32,System.IntPtr&,System.Int32&)
 extern void ImageApi_GetPlaneData_mC6942681EA9D9AB854485C2EFC1D62798C118A04 (void);
-// 0x000003E7 System.Int32 GoogleARCoreInternal.ImageApi::GetWidth(System.IntPtr)
+// 0x000005A0 System.Int32 GoogleARCoreInternal.ImageApi::GetWidth(System.IntPtr)
 extern void ImageApi_GetWidth_m8C2B346DFB3B46A7D3AE1AEC1620558CEE0BDF95 (void);
-// 0x000003E8 System.Int32 GoogleARCoreInternal.ImageApi::GetHeight(System.IntPtr)
+// 0x000005A1 System.Int32 GoogleARCoreInternal.ImageApi::GetHeight(System.IntPtr)
 extern void ImageApi_GetHeight_m44DB0ED8D63D475DA2266E1E9E5D4348494F78CB (void);
-// 0x000003E9 System.Void GoogleARCoreInternal.ImageApi::Release(System.IntPtr)
+// 0x000005A2 System.Void GoogleARCoreInternal.ImageApi::Release(System.IntPtr)
 extern void ImageApi_Release_m73A067A8B479E9D9F9748CE758D3C9150EA7E3AD (void);
-// 0x000003EA System.Void GoogleARCoreInternal.ImageApi/ExternApi::ArImage_release(System.IntPtr)
+// 0x000005A3 System.Void GoogleARCoreInternal.ImageApi/ExternApi::ArImage_release(System.IntPtr)
 extern void ExternApi_ArImage_release_m5450ED8D5C69DE317FBCD877623F17F1F5B50DC5 (void);
-// 0x000003EB System.Void GoogleARCoreInternal.ImageApi/ExternApi::ArImage_getWidth(System.IntPtr,System.IntPtr,System.Int32&)
+// 0x000005A4 System.Void GoogleARCoreInternal.ImageApi/ExternApi::ArImage_getWidth(System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArImage_getWidth_mDC2FF34EA20CE840761CB47A7DF9EFBEDB294B29 (void);
-// 0x000003EC System.Void GoogleARCoreInternal.ImageApi/ExternApi::ArImage_getHeight(System.IntPtr,System.IntPtr,System.Int32&)
+// 0x000005A5 System.Void GoogleARCoreInternal.ImageApi/ExternApi::ArImage_getHeight(System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArImage_getHeight_m62F507577487A96B52DF9CE52D337CCA03917630 (void);
-// 0x000003ED System.Void GoogleARCoreInternal.ImageApi/ExternApi::ArImage_getPlaneData(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&,System.Int32&)
+// 0x000005A6 System.Void GoogleARCoreInternal.ImageApi/ExternApi::ArImage_getPlaneData(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&,System.Int32&)
 extern void ExternApi_ArImage_getPlaneData_mCDAB5EA3B3C7196460860F4BAE97E1395C70C4C9 (void);
-// 0x000003EE System.Void GoogleARCoreInternal.ImageApi/ExternApi::ArImage_getPlanePixelStride(System.IntPtr,System.IntPtr,System.Int32,System.Int32&)
+// 0x000005A7 System.Void GoogleARCoreInternal.ImageApi/ExternApi::ArImage_getPlanePixelStride(System.IntPtr,System.IntPtr,System.Int32,System.Int32&)
 extern void ExternApi_ArImage_getPlanePixelStride_mE3FB83F251A8B881EE5C8C8E829056B01907B26B (void);
-// 0x000003EF System.Void GoogleARCoreInternal.ImageApi/ExternApi::ArImage_getPlaneRowStride(System.IntPtr,System.IntPtr,System.Int32,System.Int32&)
+// 0x000005A8 System.Void GoogleARCoreInternal.ImageApi/ExternApi::ArImage_getPlaneRowStride(System.IntPtr,System.IntPtr,System.Int32,System.Int32&)
 extern void ExternApi_ArImage_getPlaneRowStride_mD6F01C8A132EF22DC2BA35E25FC25A3C547902C9 (void);
-// 0x000003F0 System.Void GoogleARCoreInternal.LightEstimateApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x000005A9 System.Void GoogleARCoreInternal.LightEstimateApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void LightEstimateApi__ctor_m3AE473859D060AADFBC2E7B8DAE89A1D221E2B7E (void);
-// 0x000003F1 System.IntPtr GoogleARCoreInternal.LightEstimateApi::Create()
+// 0x000005AA System.IntPtr GoogleARCoreInternal.LightEstimateApi::Create()
 extern void LightEstimateApi_Create_mECCE838B598CC0575C847E2F0B31ED20872E7675 (void);
-// 0x000003F2 System.Void GoogleARCoreInternal.LightEstimateApi::Destroy(System.IntPtr)
+// 0x000005AB System.Void GoogleARCoreInternal.LightEstimateApi::Destroy(System.IntPtr)
 extern void LightEstimateApi_Destroy_m85F670511F0F97CDFBDECB1CBE42709F711DFC23 (void);
-// 0x000003F3 GoogleARCore.LightEstimateState GoogleARCoreInternal.LightEstimateApi::GetState(System.IntPtr)
+// 0x000005AC GoogleARCore.LightEstimateState GoogleARCoreInternal.LightEstimateApi::GetState(System.IntPtr)
 extern void LightEstimateApi_GetState_mFD332A18368C87B8A7739D4912F96AE7DA578523 (void);
-// 0x000003F4 System.Single GoogleARCoreInternal.LightEstimateApi::GetPixelIntensity(System.IntPtr)
+// 0x000005AD System.Single GoogleARCoreInternal.LightEstimateApi::GetPixelIntensity(System.IntPtr)
 extern void LightEstimateApi_GetPixelIntensity_m25E370A3BB614B694516FD9B3D2EE9093FC7F779 (void);
-// 0x000003F5 UnityEngine.Color GoogleARCoreInternal.LightEstimateApi::GetColorCorrection(System.IntPtr)
+// 0x000005AE UnityEngine.Color GoogleARCoreInternal.LightEstimateApi::GetColorCorrection(System.IntPtr)
 extern void LightEstimateApi_GetColorCorrection_mBEF1633881BB9E2DB8A561887242965FD97DB90F (void);
-// 0x000003F6 System.Void GoogleARCoreInternal.LightEstimateApi::GetMainDirectionalLight(System.IntPtr,System.IntPtr,UnityEngine.Quaternion&,UnityEngine.Color&)
+// 0x000005AF System.Void GoogleARCoreInternal.LightEstimateApi::GetMainDirectionalLight(System.IntPtr,System.IntPtr,UnityEngine.Quaternion&,UnityEngine.Color&)
 extern void LightEstimateApi_GetMainDirectionalLight_m553CFA63FA3254DD613B2401B77CCFB681F8101F (void);
-// 0x000003F7 System.Void GoogleARCoreInternal.LightEstimateApi::GetAmbientSH(System.IntPtr,System.IntPtr,System.Single[0...,0...])
+// 0x000005B0 System.Void GoogleARCoreInternal.LightEstimateApi::GetAmbientSH(System.IntPtr,System.IntPtr,System.Single[0...,0...])
 extern void LightEstimateApi_GetAmbientSH_mFC060498FB8671967F113A6C77E1A299CC45F502 (void);
-// 0x000003F8 UnityEngine.Cubemap GoogleARCoreInternal.LightEstimateApi::GetReflectionCubemap(System.IntPtr,System.IntPtr)
+// 0x000005B1 UnityEngine.Cubemap GoogleARCoreInternal.LightEstimateApi::GetReflectionCubemap(System.IntPtr,System.IntPtr)
 extern void LightEstimateApi_GetReflectionCubemap_m10622A786798BAA9DC2D1A202DC6546AF21246D1 (void);
-// 0x000003F9 System.Int64 GoogleARCoreInternal.LightEstimateApi::GetTimestamp(System.IntPtr,System.IntPtr)
+// 0x000005B2 System.Int64 GoogleARCoreInternal.LightEstimateApi::GetTimestamp(System.IntPtr,System.IntPtr)
 extern void LightEstimateApi_GetTimestamp_m6753D0DA87D61E6A93A1ED6941C96AABCE4CF43D (void);
-// 0x000003FA System.Void GoogleARCoreInternal.LightEstimateApi::.cctor()
+// 0x000005B3 System.Void GoogleARCoreInternal.LightEstimateApi::.cctor()
 extern void LightEstimateApi__cctor_m017B52CEAC404C4C5282EA205533F49365E8864A (void);
-// 0x000003FB System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_create(System.IntPtr,System.IntPtr&)
+// 0x000005B4 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_create(System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArLightEstimate_create_m7258931B371E8A73628C5C96D06762B183F0C0D7 (void);
-// 0x000003FC System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_destroy(System.IntPtr)
+// 0x000005B5 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_destroy(System.IntPtr)
 extern void ExternApi_ArLightEstimate_destroy_mBF5426B65F128F80519B598D50D5106E87E4F4D9 (void);
-// 0x000003FD System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiLightEstimateState&)
+// 0x000005B6 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiLightEstimateState&)
 extern void ExternApi_ArLightEstimate_getState_mB6B45C6974C82085A2D34681C68DAB641BDABA76 (void);
-// 0x000003FE System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getPixelIntensity(System.IntPtr,System.IntPtr,System.Single&)
+// 0x000005B7 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getPixelIntensity(System.IntPtr,System.IntPtr,System.Single&)
 extern void ExternApi_ArLightEstimate_getPixelIntensity_mD5E87838203F54BED8CF2B134807BD04F8ACA113 (void);
-// 0x000003FF System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getColorCorrection(System.IntPtr,System.IntPtr,UnityEngine.Color&)
+// 0x000005B8 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getColorCorrection(System.IntPtr,System.IntPtr,UnityEngine.Color&)
 extern void ExternApi_ArLightEstimate_getColorCorrection_m9C8A24278A62F52C5B15B5375EF362B31415C58E (void);
-// 0x00000400 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getEnvironmentalHdrMainLightDirection(System.IntPtr,System.IntPtr,System.Single[])
+// 0x000005B9 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getEnvironmentalHdrMainLightDirection(System.IntPtr,System.IntPtr,System.Single[])
 extern void ExternApi_ArLightEstimate_getEnvironmentalHdrMainLightDirection_m0A7B9DDA90FC3DC06EACFC3F3E1002AE7649469D (void);
-// 0x00000401 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getEnvironmentalHdrMainLightIntensity(System.IntPtr,System.IntPtr,System.Single[])
+// 0x000005BA System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getEnvironmentalHdrMainLightIntensity(System.IntPtr,System.IntPtr,System.Single[])
 extern void ExternApi_ArLightEstimate_getEnvironmentalHdrMainLightIntensity_m5BA7D04633E17BA608C75C3EE6DB0D6FBE2CC53A (void);
-// 0x00000402 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getEnvironmentalHdrAmbientSphericalHarmonics(System.IntPtr,System.IntPtr,System.Single[])
+// 0x000005BB System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getEnvironmentalHdrAmbientSphericalHarmonics(System.IntPtr,System.IntPtr,System.Single[])
 extern void ExternApi_ArLightEstimate_getEnvironmentalHdrAmbientSphericalHarmonics_m5F54BD69F46CE730760622421D4DE212B8C3D4EA (void);
-// 0x00000403 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_acquireEnvironmentalHdrCubemap(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x000005BC System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_acquireEnvironmentalHdrCubemap(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArLightEstimate_acquireEnvironmentalHdrCubemap_mB9CD34EE8B24E10C18EB3CBCFCF7EDE09AECBB08 (void);
-// 0x00000404 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getTimestamp(System.IntPtr,System.IntPtr,System.Int64&)
+// 0x000005BD System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ArLightEstimate_getTimestamp(System.IntPtr,System.IntPtr,System.Int64&)
 extern void ExternApi_ArLightEstimate_getTimestamp_mC4892A49CBEEE1685A0FD291BDB1D6FA5D2CE70A (void);
-// 0x00000405 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ARCoreRenderingUtils_SetTextureDataType(GoogleARCoreInternal.ApiTextureDataType,System.Boolean)
+// 0x000005BE System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ARCoreRenderingUtils_SetTextureDataType(GoogleARCoreInternal.ApiTextureDataType,System.Boolean)
 extern void ExternApi_ARCoreRenderingUtils_SetTextureDataType_m9899B990FB30FB74AE1FD3AC7D3B4819E01ACB28 (void);
-// 0x00000406 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ARCoreRenderingUtils_SetActiveColorSpace(System.Boolean)
+// 0x000005BF System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ARCoreRenderingUtils_SetActiveColorSpace(System.Boolean)
 extern void ExternApi_ARCoreRenderingUtils_SetActiveColorSpace_m5D08088D0DE126502783629D1D841BF0C8085776 (void);
-// 0x00000407 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ARCoreRenderingUtils_SetARCoreLightEstimation(System.IntPtr,System.IntPtr)
+// 0x000005C0 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ARCoreRenderingUtils_SetARCoreLightEstimation(System.IntPtr,System.IntPtr)
 extern void ExternApi_ARCoreRenderingUtils_SetARCoreLightEstimation_m2C33241DF3C994EA7FC0EDDE9551214FAB4F3349 (void);
-// 0x00000408 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ARCoreRenderingUtils_GetCubemapTexture(System.Int32&,System.Int32&)
+// 0x000005C1 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ARCoreRenderingUtils_GetCubemapTexture(System.Int32&,System.Int32&)
 extern void ExternApi_ARCoreRenderingUtils_GetCubemapTexture_m2E953E160800BE6BB68FD5BD19D4A260F08D726B (void);
-// 0x00000409 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ARCoreRenderingUtils_GetCubemapRawColors(System.Int32,UnityEngine.Color[])
+// 0x000005C2 System.Void GoogleARCoreInternal.LightEstimateApi/ExternApi::ARCoreRenderingUtils_GetCubemapRawColors(System.Int32,UnityEngine.Color[])
 extern void ExternApi_ARCoreRenderingUtils_GetCubemapRawColors_mF3AC46B0E6E52915BD1AB42EEA3E1F9D5A4DEBEB (void);
-// 0x0000040A System.IntPtr GoogleARCoreInternal.LightEstimateApi/ExternApi::ARCoreRenderingUtils_GetRenderEventFunc()
+// 0x000005C3 System.IntPtr GoogleARCoreInternal.LightEstimateApi/ExternApi::ARCoreRenderingUtils_GetRenderEventFunc()
 extern void ExternApi_ARCoreRenderingUtils_GetRenderEventFunc_m4A1F01BEBC7B6CC48083D1BEFEC5793335A87DC9 (void);
-// 0x0000040B System.Void GoogleARCoreInternal.PlaneApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x000005C4 System.Void GoogleARCoreInternal.PlaneApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void PlaneApi__ctor_mDFCC7A9B9CE11322503F6FF079EA9DA7B3625291 (void);
-// 0x0000040C System.Void GoogleARCoreInternal.PlaneApi::Finalize()
+// 0x000005C5 System.Void GoogleARCoreInternal.PlaneApi::Finalize()
 extern void PlaneApi_Finalize_m6423C404797255597A8B60D6F3E28E9E10A2618E (void);
-// 0x0000040D UnityEngine.Pose GoogleARCoreInternal.PlaneApi::GetCenterPose(System.IntPtr)
+// 0x000005C6 UnityEngine.Pose GoogleARCoreInternal.PlaneApi::GetCenterPose(System.IntPtr)
 extern void PlaneApi_GetCenterPose_mC704495D6567B32A3F226AB99B7364DF39505BB1 (void);
-// 0x0000040E System.Single GoogleARCoreInternal.PlaneApi::GetExtentX(System.IntPtr)
+// 0x000005C7 System.Single GoogleARCoreInternal.PlaneApi::GetExtentX(System.IntPtr)
 extern void PlaneApi_GetExtentX_m2EF85D8EABC5A5D35EF30C8E360740061E3100CD (void);
-// 0x0000040F System.Single GoogleARCoreInternal.PlaneApi::GetExtentZ(System.IntPtr)
+// 0x000005C8 System.Single GoogleARCoreInternal.PlaneApi::GetExtentZ(System.IntPtr)
 extern void PlaneApi_GetExtentZ_mEF56FBDC638E7F6E7A6FE2D86DE1E5379F7A42BB (void);
-// 0x00000410 System.Void GoogleARCoreInternal.PlaneApi::GetPolygon(System.IntPtr,System.Collections.Generic.List`1<UnityEngine.Vector3>)
+// 0x000005C9 System.Void GoogleARCoreInternal.PlaneApi::GetPolygon(System.IntPtr,System.Collections.Generic.List`1<UnityEngine.Vector3>)
 extern void PlaneApi_GetPolygon_m87FBBC9AD594BB1C727A2964A96DA49630B3FAC1 (void);
-// 0x00000411 GoogleARCore.DetectedPlane GoogleARCoreInternal.PlaneApi::GetSubsumedBy(System.IntPtr)
+// 0x000005CA GoogleARCore.DetectedPlane GoogleARCoreInternal.PlaneApi::GetSubsumedBy(System.IntPtr)
 extern void PlaneApi_GetSubsumedBy_m4D63C56122B02243F0B7310D9A0611A37A5C7828 (void);
-// 0x00000412 GoogleARCore.DetectedPlaneType GoogleARCoreInternal.PlaneApi::GetPlaneType(System.IntPtr)
+// 0x000005CB GoogleARCore.DetectedPlaneType GoogleARCoreInternal.PlaneApi::GetPlaneType(System.IntPtr)
 extern void PlaneApi_GetPlaneType_m16493AD0B24F1CD769F1FB8D8A6A97C26713990E (void);
-// 0x00000413 System.Boolean GoogleARCoreInternal.PlaneApi::IsPoseInExtents(System.IntPtr,UnityEngine.Pose)
+// 0x000005CC System.Boolean GoogleARCoreInternal.PlaneApi::IsPoseInExtents(System.IntPtr,UnityEngine.Pose)
 extern void PlaneApi_IsPoseInExtents_mCB274FFB67D44E42A4C91F3563292D3C8FA51B99 (void);
-// 0x00000414 System.Boolean GoogleARCoreInternal.PlaneApi::IsPoseInExtents(System.IntPtr,System.IntPtr)
+// 0x000005CD System.Boolean GoogleARCoreInternal.PlaneApi::IsPoseInExtents(System.IntPtr,System.IntPtr)
 extern void PlaneApi_IsPoseInExtents_m41D4F02BB28D2E7E6D86789D02D743629A772330 (void);
-// 0x00000415 System.Boolean GoogleARCoreInternal.PlaneApi::IsPoseInPolygon(System.IntPtr,UnityEngine.Pose)
+// 0x000005CE System.Boolean GoogleARCoreInternal.PlaneApi::IsPoseInPolygon(System.IntPtr,UnityEngine.Pose)
 extern void PlaneApi_IsPoseInPolygon_m5180CCCD3064A98D70DE5F45A4755DA9E6EEF88A (void);
-// 0x00000416 System.Boolean GoogleARCoreInternal.PlaneApi::IsPoseInPolygon(System.IntPtr,System.IntPtr)
+// 0x000005CF System.Boolean GoogleARCoreInternal.PlaneApi::IsPoseInPolygon(System.IntPtr,System.IntPtr)
 extern void PlaneApi_IsPoseInPolygon_m37CD2E54BEBBCCAE6DF7D0C5A74C87AC5EB8A56E (void);
-// 0x00000417 System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_getCenterPose(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x000005D0 System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_getCenterPose(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArPlane_getCenterPose_mCDF5A00410CED460E4DF9D07DF25A2F3BCEE9E7A (void);
-// 0x00000418 System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_acquireSubsumedBy(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x000005D1 System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_acquireSubsumedBy(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArPlane_acquireSubsumedBy_m7D6F5BC36775D7C0579B4BA80D64201406A70EFF (void);
-// 0x00000419 System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_getExtentX(System.IntPtr,System.IntPtr,System.Single&)
+// 0x000005D2 System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_getExtentX(System.IntPtr,System.IntPtr,System.Single&)
 extern void ExternApi_ArPlane_getExtentX_m83B17638EFABFD6DA0B68783658A774EB74B300B (void);
-// 0x0000041A System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_getExtentZ(System.IntPtr,System.IntPtr,System.Single&)
+// 0x000005D3 System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_getExtentZ(System.IntPtr,System.IntPtr,System.Single&)
 extern void ExternApi_ArPlane_getExtentZ_mADE282DE28D2BED87AF000CF97AA07C4C4C53475 (void);
-// 0x0000041B System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_getType(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiPlaneType&)
+// 0x000005D4 System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_getType(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiPlaneType&)
 extern void ExternApi_ArPlane_getType_m96F310FB45CF27EF019E37B27D47D3A469F97A99 (void);
-// 0x0000041C System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_getPolygonSize(System.IntPtr,System.IntPtr,System.Int32&)
+// 0x000005D5 System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_getPolygonSize(System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArPlane_getPolygonSize_mE9B50A8A6D398DA0D5A867AB3C72185231621E63 (void);
-// 0x0000041D System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_getPolygon(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x000005D6 System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_getPolygon(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArPlane_getPolygon_m50DF31B49783DECF1D27C2800C1322B53B73344C (void);
-// 0x0000041E System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_isPoseInExtents(System.IntPtr,System.IntPtr,System.IntPtr,System.Int32&)
+// 0x000005D7 System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_isPoseInExtents(System.IntPtr,System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArPlane_isPoseInExtents_mD77D47A1C10602DC21BDC3C570A8A62F2B2BD121 (void);
-// 0x0000041F System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_isPoseInPolygon(System.IntPtr,System.IntPtr,System.IntPtr,System.Int32&)
+// 0x000005D8 System.Void GoogleARCoreInternal.PlaneApi/ExternApi::ArPlane_isPoseInPolygon(System.IntPtr,System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArPlane_isPoseInPolygon_m4E4BACB3E975A01F0D2BBD515D89CDEEB79298E9 (void);
-// 0x00000420 System.Void GoogleARCoreInternal.PointApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x000005D9 System.Void GoogleARCoreInternal.PointApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void PointApi__ctor_m51FBC824431428B4FF0062DF9C445EF3B7D767D8 (void);
-// 0x00000421 UnityEngine.Pose GoogleARCoreInternal.PointApi::GetPose(System.IntPtr)
+// 0x000005DA UnityEngine.Pose GoogleARCoreInternal.PointApi::GetPose(System.IntPtr)
 extern void PointApi_GetPose_m1E280704B49FE863DE27A3A61D5F46E99FA45629 (void);
-// 0x00000422 UnityEngine.Pose GoogleARCoreInternal.PointApi::GetInstantPlacementPointPose(System.IntPtr)
+// 0x000005DB UnityEngine.Pose GoogleARCoreInternal.PointApi::GetInstantPlacementPointPose(System.IntPtr)
 extern void PointApi_GetInstantPlacementPointPose_mDE32829DEF1FE097583F5B06686A6C9B06FDAE9F (void);
-// 0x00000423 GoogleARCore.InstantPlacementPointTrackingMethod GoogleARCoreInternal.PointApi::GetInstantPlacementPointTrackingMethod(System.IntPtr)
+// 0x000005DC GoogleARCore.InstantPlacementPointTrackingMethod GoogleARCoreInternal.PointApi::GetInstantPlacementPointTrackingMethod(System.IntPtr)
 extern void PointApi_GetInstantPlacementPointTrackingMethod_mA704C38929CE8CC02624EBA5C53F038C543D34F0 (void);
-// 0x00000424 GoogleARCore.FeaturePointOrientationMode GoogleARCoreInternal.PointApi::GetOrientationMode(System.IntPtr)
+// 0x000005DD GoogleARCore.FeaturePointOrientationMode GoogleARCoreInternal.PointApi::GetOrientationMode(System.IntPtr)
 extern void PointApi_GetOrientationMode_mD8359782C51F0F5F055FD6C62F26886C7432F104 (void);
-// 0x00000425 System.Void GoogleARCoreInternal.PointApi/ExternApi::ArPoint_getPose(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x000005DE System.Void GoogleARCoreInternal.PointApi/ExternApi::ArPoint_getPose(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArPoint_getPose_m06768A47B477898F1190980D98EEA3FD7371CA8C (void);
-// 0x00000426 System.Void GoogleARCoreInternal.PointApi/ExternApi::ArPoint_getOrientationMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiFeaturePointOrientationMode&)
+// 0x000005DF System.Void GoogleARCoreInternal.PointApi/ExternApi::ArPoint_getOrientationMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiFeaturePointOrientationMode&)
 extern void ExternApi_ArPoint_getOrientationMode_m0D45E22FE735E3BD11AE6B2855CE48CC6D1DAF5F (void);
-// 0x00000427 System.Void GoogleARCoreInternal.PointApi/ExternApi::ArInstantPlacementPoint_getPose(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x000005E0 System.Void GoogleARCoreInternal.PointApi/ExternApi::ArInstantPlacementPoint_getPose(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArInstantPlacementPoint_getPose_mC0A906104224F911FACB8D624B26BFE3477C72A8 (void);
-// 0x00000428 System.Void GoogleARCoreInternal.PointApi/ExternApi::ArInstantPlacementPoint_getTrackingMethod(System.IntPtr,System.IntPtr,GoogleARCore.InstantPlacementPointTrackingMethod&)
+// 0x000005E1 System.Void GoogleARCoreInternal.PointApi/ExternApi::ArInstantPlacementPoint_getTrackingMethod(System.IntPtr,System.IntPtr,GoogleARCore.InstantPlacementPointTrackingMethod&)
 extern void ExternApi_ArInstantPlacementPoint_getTrackingMethod_m72294B4CFEE0AB24AA68367C3D504A0063B23C36 (void);
-// 0x00000429 System.Void GoogleARCoreInternal.PointCloudApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x000005E2 System.Void GoogleARCoreInternal.PointCloudApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void PointCloudApi__ctor_m83ED463D828A86FF51188E59B2FDEB8ADB1A4B6B (void);
-// 0x0000042A System.Int64 GoogleARCoreInternal.PointCloudApi::GetTimestamp(System.IntPtr)
+// 0x000005E3 System.Int64 GoogleARCoreInternal.PointCloudApi::GetTimestamp(System.IntPtr)
 extern void PointCloudApi_GetTimestamp_mD21F310BDE347118201ECA27C683D337E8977D76 (void);
-// 0x0000042B System.Int32 GoogleARCoreInternal.PointCloudApi::GetNumberOfPoints(System.IntPtr)
+// 0x000005E4 System.Int32 GoogleARCoreInternal.PointCloudApi::GetNumberOfPoints(System.IntPtr)
 extern void PointCloudApi_GetNumberOfPoints_m701C12EAD15B3607F16450D8A4A240C08D804148 (void);
-// 0x0000042C GoogleARCore.PointCloudPoint GoogleARCoreInternal.PointCloudApi::GetPoint(System.IntPtr,System.Int32)
+// 0x000005E5 GoogleARCore.PointCloudPoint GoogleARCoreInternal.PointCloudApi::GetPoint(System.IntPtr,System.Int32)
 extern void PointCloudApi_GetPoint_mDC0956A1657AD9596D590DA581821D33C2E12FE8 (void);
-// 0x0000042D System.Void GoogleARCoreInternal.PointCloudApi::Release(System.IntPtr)
+// 0x000005E6 System.Void GoogleARCoreInternal.PointCloudApi::Release(System.IntPtr)
 extern void PointCloudApi_Release_mFBD708F13A2F4FAB19304F0C042E969643CC0A87 (void);
-// 0x0000042E System.Int32 GoogleARCoreInternal.PointCloudApi::GetPointId(System.IntPtr,System.Int32)
+// 0x000005E7 System.Int32 GoogleARCoreInternal.PointCloudApi::GetPointId(System.IntPtr,System.Int32)
 extern void PointCloudApi_GetPointId_m7552540581EDA02598AC7BAD299F4EEE233C47AD (void);
-// 0x0000042F System.Void GoogleARCoreInternal.PointCloudApi/ExternApi::ArPointCloud_getTimestamp(System.IntPtr,System.IntPtr,System.Int64&)
+// 0x000005E8 System.Void GoogleARCoreInternal.PointCloudApi/ExternApi::ArPointCloud_getTimestamp(System.IntPtr,System.IntPtr,System.Int64&)
 extern void ExternApi_ArPointCloud_getTimestamp_mF21F77BA9F7DC4767783889BAE5F95307666D2F5 (void);
-// 0x00000430 System.Void GoogleARCoreInternal.PointCloudApi/ExternApi::ArPointCloud_getNumberOfPoints(System.IntPtr,System.IntPtr,System.Int32&)
+// 0x000005E9 System.Void GoogleARCoreInternal.PointCloudApi/ExternApi::ArPointCloud_getNumberOfPoints(System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArPointCloud_getNumberOfPoints_mC0E704AD744E72EFD771FC610E4F8DFE26FAAB2B (void);
-// 0x00000431 System.Void GoogleARCoreInternal.PointCloudApi/ExternApi::ArPointCloud_getData(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x000005EA System.Void GoogleARCoreInternal.PointCloudApi/ExternApi::ArPointCloud_getData(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArPointCloud_getData_m55B3DCDBDEEC678C86FBC28194D0B263F805C530 (void);
-// 0x00000432 System.Void GoogleARCoreInternal.PointCloudApi/ExternApi::ArPointCloud_getPointIds(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x000005EB System.Void GoogleARCoreInternal.PointCloudApi/ExternApi::ArPointCloud_getPointIds(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArPointCloud_getPointIds_m7CBFD970405AFEF0CAE4B21A0A0EA675C2F7F560 (void);
-// 0x00000433 System.Void GoogleARCoreInternal.PointCloudApi/ExternApi::ArPointCloud_release(System.IntPtr)
+// 0x000005EC System.Void GoogleARCoreInternal.PointCloudApi/ExternApi::ArPointCloud_release(System.IntPtr)
 extern void ExternApi_ArPointCloud_release_m2F0AD5D91EC4A942A6F6B53A280884E1CA6CBCA7 (void);
-// 0x00000434 System.Void GoogleARCoreInternal.PoseApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x000005ED System.Void GoogleARCoreInternal.PoseApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void PoseApi__ctor_mB31599DFF91B8EBFD5F7ED2172F39D04C24C04FF (void);
-// 0x00000435 System.IntPtr GoogleARCoreInternal.PoseApi::Create()
+// 0x000005EE System.IntPtr GoogleARCoreInternal.PoseApi::Create()
 extern void PoseApi_Create_m769ABAB523B6B99D3158FFFABEE803C49FB8EBAC (void);
-// 0x00000436 System.IntPtr GoogleARCoreInternal.PoseApi::Create(UnityEngine.Pose)
+// 0x000005EF System.IntPtr GoogleARCoreInternal.PoseApi::Create(UnityEngine.Pose)
 extern void PoseApi_Create_mF65F0CF161705379D2A27CE1A9D13C0A588F7DD9 (void);
-// 0x00000437 System.Void GoogleARCoreInternal.PoseApi::Destroy(System.IntPtr)
+// 0x000005F0 System.Void GoogleARCoreInternal.PoseApi::Destroy(System.IntPtr)
 extern void PoseApi_Destroy_m3412390478C3630A97EE86AF34108303D8751F2C (void);
-// 0x00000438 UnityEngine.Pose GoogleARCoreInternal.PoseApi::ExtractPoseValue(System.IntPtr)
+// 0x000005F1 UnityEngine.Pose GoogleARCoreInternal.PoseApi::ExtractPoseValue(System.IntPtr)
 extern void PoseApi_ExtractPoseValue_mC79F9954DB3AB2DBE38486495310F0550DEDF335 (void);
-// 0x00000439 System.Void GoogleARCoreInternal.PoseApi/ExternApi::ArPose_create(System.IntPtr,GoogleARCoreInternal.ApiPoseData&,System.IntPtr&)
+// 0x000005F2 System.Void GoogleARCoreInternal.PoseApi/ExternApi::ArPose_create(System.IntPtr,GoogleARCoreInternal.ApiPoseData&,System.IntPtr&)
 extern void ExternApi_ArPose_create_m998EBA5461F4F6A9592CCE81734EF240B676C2D3 (void);
-// 0x0000043A System.Void GoogleARCoreInternal.PoseApi/ExternApi::ArPose_destroy(System.IntPtr)
+// 0x000005F3 System.Void GoogleARCoreInternal.PoseApi/ExternApi::ArPose_destroy(System.IntPtr)
 extern void ExternApi_ArPose_destroy_m8B93601735804473F20E7F627138E2BFB0EAB9CF (void);
-// 0x0000043B System.Void GoogleARCoreInternal.PoseApi/ExternApi::ArPose_getPoseRaw(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiPoseData&)
+// 0x000005F4 System.Void GoogleARCoreInternal.PoseApi/ExternApi::ArPose_getPoseRaw(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiPoseData&)
 extern void ExternApi_ArPose_getPoseRaw_m3353D08C453FCF57DC69F965FD1C4BEE91F68062 (void);
-// 0x0000043C System.Void GoogleARCoreInternal.RecordingConfigApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x000005F5 System.Void GoogleARCoreInternal.RecordingConfigApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void RecordingConfigApi__ctor_mD487B85354A4D48E118972BAC6DFFCA71FCEA7D7 (void);
-// 0x0000043D System.IntPtr GoogleARCoreInternal.RecordingConfigApi::Create(GoogleARCore.ARCoreRecordingConfig)
+// 0x000005F6 System.IntPtr GoogleARCoreInternal.RecordingConfigApi::Create(GoogleARCore.ARCoreRecordingConfig)
 extern void RecordingConfigApi_Create_mBD9D8612F623F50F3E9185571BFA8DC8402D24C9 (void);
-// 0x0000043E System.Void GoogleARCoreInternal.RecordingConfigApi::Destory(System.IntPtr)
+// 0x000005F7 System.Void GoogleARCoreInternal.RecordingConfigApi::Destory(System.IntPtr)
 extern void RecordingConfigApi_Destory_m379B200EBFBF3FCEB582E7FDEDA383364283C4CF (void);
-// 0x0000043F System.Void GoogleARCoreInternal.RecordingConfigApi/ExternApi::ArRecordingConfig_create(System.IntPtr,System.IntPtr&)
+// 0x000005F8 System.Void GoogleARCoreInternal.RecordingConfigApi/ExternApi::ArRecordingConfig_create(System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArRecordingConfig_create_m9E6CF78D72EE14CF390DFBEDC02853C669AE07FC (void);
-// 0x00000440 System.Void GoogleARCoreInternal.RecordingConfigApi/ExternApi::ArRecordingConfig_destroy(System.IntPtr)
+// 0x000005F9 System.Void GoogleARCoreInternal.RecordingConfigApi/ExternApi::ArRecordingConfig_destroy(System.IntPtr)
 extern void ExternApi_ArRecordingConfig_destroy_m4D14C035AA262BD75EE14D5B1448F6617BD753F7 (void);
-// 0x00000441 System.Void GoogleARCoreInternal.RecordingConfigApi/ExternApi::ArRecordingConfig_setMp4DatasetFilePath(System.IntPtr,System.IntPtr,System.String)
+// 0x000005FA System.Void GoogleARCoreInternal.RecordingConfigApi/ExternApi::ArRecordingConfig_setMp4DatasetFilePath(System.IntPtr,System.IntPtr,System.String)
 extern void ExternApi_ArRecordingConfig_setMp4DatasetFilePath_m89EFF23849A8D5827D226EF2B18B9A16F92B6239 (void);
-// 0x00000442 System.Void GoogleARCoreInternal.RecordingConfigApi/ExternApi::ArRecordingConfig_setAutoStopOnPause(System.IntPtr,System.IntPtr,System.Int32)
+// 0x000005FB System.Void GoogleARCoreInternal.RecordingConfigApi/ExternApi::ArRecordingConfig_setAutoStopOnPause(System.IntPtr,System.IntPtr,System.Int32)
 extern void ExternApi_ArRecordingConfig_setAutoStopOnPause_mF2553B064B4D119135AC23E67145C2A5DC4CDEF9 (void);
-// 0x00000443 System.Void GoogleARCoreInternal.SessionApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x000005FC System.Void GoogleARCoreInternal.SessionApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void SessionApi__ctor_m7CCDCB881FE8FFF4ECA95F3E44FF44D059B8573A (void);
-// 0x00000444 System.Void GoogleARCoreInternal.SessionApi::ReportEngineType()
+// 0x000005FD System.Void GoogleARCoreInternal.SessionApi::ReportEngineType()
 extern void SessionApi_ReportEngineType_m80C93CB0AFD43257C2D4F3BD38E0268E15BB39AE (void);
-// 0x00000445 System.Void GoogleARCoreInternal.SessionApi::GetSupportedCameraConfigurationsWithFilter(GoogleARCore.ARCoreCameraConfigFilter,System.IntPtr,System.Collections.Generic.List`1<System.IntPtr>,System.Collections.Generic.List`1<GoogleARCore.CameraConfig>,GoogleARCore.DeviceCameraDirection)
+// 0x000005FE System.Void GoogleARCoreInternal.SessionApi::GetSupportedCameraConfigurationsWithFilter(GoogleARCore.ARCoreCameraConfigFilter,System.IntPtr,System.Collections.Generic.List`1<System.IntPtr>,System.Collections.Generic.List`1<GoogleARCore.CameraConfig>,GoogleARCore.DeviceCameraDirection)
 extern void SessionApi_GetSupportedCameraConfigurationsWithFilter_mF49D727F4D6042BBF35C6FD23CB30874C5C81C94 (void);
-// 0x00000446 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi::SetCameraConfig(System.IntPtr)
+// 0x000005FF GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi::SetCameraConfig(System.IntPtr)
 extern void SessionApi_SetCameraConfig_mAD3C74678CAC7430E2C6DF6C87D340DDDD8B8E7D (void);
-// 0x00000447 GoogleARCore.CameraConfig GoogleARCoreInternal.SessionApi::GetCameraConfig()
+// 0x00000600 GoogleARCore.CameraConfig GoogleARCoreInternal.SessionApi::GetCameraConfig()
 extern void SessionApi_GetCameraConfig_m462E06C425718C166AA233ED666EA794F3ED5001 (void);
-// 0x00000448 System.Void GoogleARCoreInternal.SessionApi::GetAllTrackables(System.Collections.Generic.List`1<GoogleARCore.Trackable>)
+// 0x00000601 System.Void GoogleARCoreInternal.SessionApi::GetAllTrackables(System.Collections.Generic.List`1<GoogleARCore.Trackable>)
 extern void SessionApi_GetAllTrackables_m4F0BE4CF92AEBB7CCC856875473AA2377AEB8667 (void);
-// 0x00000449 System.Void GoogleARCoreInternal.SessionApi::SetDisplayGeometry(UnityEngine.ScreenOrientation,System.Int32,System.Int32)
+// 0x00000602 System.Void GoogleARCoreInternal.SessionApi::SetDisplayGeometry(UnityEngine.ScreenOrientation,System.Int32,System.Int32)
 extern void SessionApi_SetDisplayGeometry_mC817E7A09BECDAE5F6C25FF7743EC9E45EC32B9F (void);
-// 0x0000044A GoogleARCore.Anchor GoogleARCoreInternal.SessionApi::CreateAnchor(UnityEngine.Pose)
+// 0x00000603 GoogleARCore.Anchor GoogleARCoreInternal.SessionApi::CreateAnchor(UnityEngine.Pose)
 extern void SessionApi_CreateAnchor_m0F921FE5E04BF19A29011FD730696B93D3EFBD02 (void);
-// 0x0000044B GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi::CreateCloudAnchor(System.IntPtr,System.IntPtr&)
+// 0x00000604 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi::CreateCloudAnchor(System.IntPtr,System.IntPtr&)
 extern void SessionApi_CreateCloudAnchor_m5AB6301A14910305A472938CC041AA38B7D699A5 (void);
-// 0x0000044C GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi::ResolveCloudAnchor(System.String,System.IntPtr&)
+// 0x00000605 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi::ResolveCloudAnchor(System.String,System.IntPtr&)
 extern void SessionApi_ResolveCloudAnchor_mEB70D328342B4C8F094FBB352BF3041433877C21 (void);
-// 0x0000044D System.Boolean GoogleARCoreInternal.SessionApi::IsDepthModeSupported(GoogleARCoreInternal.ApiDepthMode)
+// 0x00000606 System.Boolean GoogleARCoreInternal.SessionApi::IsDepthModeSupported(GoogleARCoreInternal.ApiDepthMode)
 extern void SessionApi_IsDepthModeSupported_m5263C72F497ECAFD518292AA4263F1905FD3C2B1 (void);
-// 0x0000044E GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi::HostCloudAnchor(System.IntPtr,System.Int32,System.IntPtr&)
+// 0x00000607 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi::HostCloudAnchor(System.IntPtr,System.Int32,System.IntPtr&)
 extern void SessionApi_HostCloudAnchor_mC0FB44528A803BCC10CE4B66D1B6F153625AC4D8 (void);
-// 0x0000044F System.Void GoogleARCoreInternal.SessionApi::SetAuthToken(System.String)
+// 0x00000608 System.Void GoogleARCoreInternal.SessionApi::SetAuthToken(System.String)
 extern void SessionApi_SetAuthToken_mC60CA5561625135947EF7C89603AC49F69516BCB (void);
-// 0x00000450 GoogleARCore.CrossPlatform.FeatureMapQuality GoogleARCoreInternal.SessionApi::EstimateFeatureMapQualityForHosting(UnityEngine.Pose)
+// 0x00000609 GoogleARCore.CrossPlatform.FeatureMapQuality GoogleARCoreInternal.SessionApi::EstimateFeatureMapQualityForHosting(UnityEngine.Pose)
 extern void SessionApi_EstimateFeatureMapQualityForHosting_m9BB45203B42D409E6E1DE2F8B1FEA36CDBFF3002 (void);
-// 0x00000451 GoogleARCore.PlaybackStatus GoogleARCoreInternal.SessionApi::GetPlaybackStatus()
+// 0x0000060A GoogleARCore.PlaybackStatus GoogleARCoreInternal.SessionApi::GetPlaybackStatus()
 extern void SessionApi_GetPlaybackStatus_m905198A84D63E826ECCA0961A4CC81EF2B6C8860 (void);
-// 0x00000452 GoogleARCore.PlaybackResult GoogleARCoreInternal.SessionApi::SetPlaybackDataset(System.String)
+// 0x0000060B GoogleARCore.PlaybackResult GoogleARCoreInternal.SessionApi::SetPlaybackDataset(System.String)
 extern void SessionApi_SetPlaybackDataset_m419CF9240A97B2F6D016BBE7C74F283C5B27FE4E (void);
-// 0x00000453 GoogleARCore.RecordingStatus GoogleARCoreInternal.SessionApi::GetRecordingStatus()
+// 0x0000060C GoogleARCore.RecordingStatus GoogleARCoreInternal.SessionApi::GetRecordingStatus()
 extern void SessionApi_GetRecordingStatus_m4FBC4F1598E11F16D3D4245658E2B78640922534 (void);
-// 0x00000454 GoogleARCore.RecordingResult GoogleARCoreInternal.SessionApi::StartRecording(GoogleARCore.ARCoreRecordingConfig)
+// 0x0000060D GoogleARCore.RecordingResult GoogleARCoreInternal.SessionApi::StartRecording(GoogleARCore.ARCoreRecordingConfig)
 extern void SessionApi_StartRecording_m394ACDBB39674093C53A926E8D9634A9DC114E71 (void);
-// 0x00000455 GoogleARCore.RecordingResult GoogleARCoreInternal.SessionApi::StopRecording()
+// 0x0000060E GoogleARCore.RecordingResult GoogleARCoreInternal.SessionApi::StopRecording()
 extern void SessionApi_StopRecording_m265CEBEE92C1891C8FAB412447838996A56F9CA5 (void);
-// 0x00000456 GoogleARCore.CameraConfig GoogleARCoreInternal.SessionApi::CreateCameraConfig(System.IntPtr)
+// 0x0000060F GoogleARCore.CameraConfig GoogleARCoreInternal.SessionApi::CreateCameraConfig(System.IntPtr)
 extern void SessionApi_CreateCameraConfig_m59931C9E4B95D8BC65144ECB7C9EF9A5D5D0E233 (void);
-// 0x00000457 System.Int32 GoogleARCoreInternal.SessionApi/ExternApi::ArSession_configure(System.IntPtr,System.IntPtr)
+// 0x00000610 System.Int32 GoogleARCoreInternal.SessionApi/ExternApi::ArSession_configure(System.IntPtr,System.IntPtr)
 extern void ExternApi_ArSession_configure_m9FF3F5ACBFB0D118415809FE3F2B6EADE590A2DA (void);
-// 0x00000458 System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_getSupportedCameraConfigsWithFilter(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x00000611 System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_getSupportedCameraConfigsWithFilter(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArSession_getSupportedCameraConfigsWithFilter_m1AA1A4451C602DDB251EEA7D597CE3C211498D3B (void);
-// 0x00000459 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_setCameraConfig(System.IntPtr,System.IntPtr)
+// 0x00000612 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_setCameraConfig(System.IntPtr,System.IntPtr)
 extern void ExternApi_ArSession_setCameraConfig_m2DC4044ED9A6C8036C01E067AF62EC18508B32A6 (void);
-// 0x0000045A System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_getCameraConfig(System.IntPtr,System.IntPtr)
+// 0x00000613 System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_getCameraConfig(System.IntPtr,System.IntPtr)
 extern void ExternApi_ArSession_getCameraConfig_mDAAB8E8EB135148A69C432DA9C1B46F15732B544 (void);
-// 0x0000045B System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_getAllTrackables(System.IntPtr,GoogleARCoreInternal.ApiTrackableType,System.IntPtr)
+// 0x00000614 System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_getAllTrackables(System.IntPtr,GoogleARCoreInternal.ApiTrackableType,System.IntPtr)
 extern void ExternApi_ArSession_getAllTrackables_m8AB02D777ED1035CFA37154B14BD174222BFC3B7 (void);
-// 0x0000045C System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_setDisplayGeometry(System.IntPtr,System.Int32,System.Int32,System.Int32)
+// 0x00000615 System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_setDisplayGeometry(System.IntPtr,System.Int32,System.Int32,System.Int32)
 extern void ExternApi_ArSession_setDisplayGeometry_mF6F1057F9ED1F9F281889FB3A70C84AC8F4D18C1 (void);
-// 0x0000045D System.Int32 GoogleARCoreInternal.SessionApi/ExternApi::ArSession_acquireNewAnchor(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x00000616 System.Int32 GoogleARCoreInternal.SessionApi/ExternApi::ArSession_acquireNewAnchor(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArSession_acquireNewAnchor_m44A673D7AA4E598C73B34860F2D8EA444FF7FE73 (void);
-// 0x0000045E System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_isDepthModeSupported(System.IntPtr,GoogleARCoreInternal.ApiDepthMode,System.Int32&)
+// 0x00000617 System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_isDepthModeSupported(System.IntPtr,GoogleARCoreInternal.ApiDepthMode,System.Int32&)
 extern void ExternApi_ArSession_isDepthModeSupported_m1133CA0DFC2E4D815729D075E5E8FED1A3CF8674 (void);
-// 0x0000045F System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_reportEngineType(System.IntPtr,System.String,System.String)
+// 0x00000618 System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_reportEngineType(System.IntPtr,System.String,System.String)
 extern void ExternApi_ArSession_reportEngineType_m96A475138E6DA872DC1D643EB1757345C698A125 (void);
-// 0x00000460 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_hostAndAcquireNewCloudAnchor(System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x00000619 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_hostAndAcquireNewCloudAnchor(System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArSession_hostAndAcquireNewCloudAnchor_m9220BDA12D110FF926E0E4C266C3E5A30A9CC0A4 (void);
-// 0x00000461 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_resolveAndAcquireNewCloudAnchor(System.IntPtr,System.String,System.IntPtr&)
+// 0x0000061A GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_resolveAndAcquireNewCloudAnchor(System.IntPtr,System.String,System.IntPtr&)
 extern void ExternApi_ArSession_resolveAndAcquireNewCloudAnchor_mFEBADB824CC1EC8541D4ADA37190B3AE1592CAA3 (void);
-// 0x00000462 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_hostAndAcquireNewCloudAnchorWithTtl(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&)
+// 0x0000061B GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_hostAndAcquireNewCloudAnchorWithTtl(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&)
 extern void ExternApi_ArSession_hostAndAcquireNewCloudAnchorWithTtl_m57C47C35E5E6A5B63CFA9D138326E2070C5B677F (void);
-// 0x00000463 System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_setAuthToken(System.IntPtr,System.String)
+// 0x0000061C System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_setAuthToken(System.IntPtr,System.String)
 extern void ExternApi_ArSession_setAuthToken_mFFFAC7CB4C6C69FF24619B3FB885A7256753CD1C (void);
-// 0x00000464 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_estimateFeatureMapQualityForHosting(System.IntPtr,System.IntPtr,System.Int32&)
+// 0x0000061D GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_estimateFeatureMapQualityForHosting(System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArSession_estimateFeatureMapQualityForHosting_mE3A7F3566C6B953CE8B4BB7B731EAE54FB1E7FCB (void);
-// 0x00000465 System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_getRecordingStatus(System.IntPtr,GoogleARCoreInternal.ApiRecordingStatus&)
+// 0x0000061E System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_getRecordingStatus(System.IntPtr,GoogleARCoreInternal.ApiRecordingStatus&)
 extern void ExternApi_ArSession_getRecordingStatus_m17D5659745A478663BB02DC59F2B840BF5EBEC70 (void);
-// 0x00000466 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_startRecording(System.IntPtr,System.IntPtr)
+// 0x0000061F GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_startRecording(System.IntPtr,System.IntPtr)
 extern void ExternApi_ArSession_startRecording_mCC3C74A1C1FB898F2B1A74EA27AD86FC914F2A83 (void);
-// 0x00000467 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_stopRecording(System.IntPtr)
+// 0x00000620 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_stopRecording(System.IntPtr)
 extern void ExternApi_ArSession_stopRecording_m1EEE7B8B7E81118A453254A13D17A2A672C36AA6 (void);
-// 0x00000468 System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_getPlaybackStatus(System.IntPtr,GoogleARCoreInternal.ApiPlaybackStatus&)
+// 0x00000621 System.Void GoogleARCoreInternal.SessionApi/ExternApi::ArSession_getPlaybackStatus(System.IntPtr,GoogleARCoreInternal.ApiPlaybackStatus&)
 extern void ExternApi_ArSession_getPlaybackStatus_m51111850C0797DB10EC6FF0789DB7B5ADE91DE77 (void);
-// 0x00000469 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_setPlaybackDataset(System.IntPtr,System.String)
+// 0x00000622 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi/ExternApi::ArSession_setPlaybackDataset(System.IntPtr,System.String)
 extern void ExternApi_ArSession_setPlaybackDataset_m64DC3D39D1C818025A6CB1A3AFF5A78B73F761D6 (void);
-// 0x0000046A System.Void GoogleARCoreInternal.SessionConfigApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x00000623 System.Void GoogleARCoreInternal.SessionConfigApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void SessionConfigApi__ctor_m5B35B74E14331A5E29D5195F0726C821E3A9BD24 (void);
-// 0x0000046B System.Void GoogleARCoreInternal.SessionConfigApi::UpdateApiConfigWithARCoreSessionConfig(System.IntPtr,System.IntPtr,GoogleARCore.ARCoreSessionConfig)
+// 0x00000624 System.Void GoogleARCoreInternal.SessionConfigApi::UpdateApiConfigWithARCoreSessionConfig(System.IntPtr,System.IntPtr,GoogleARCore.ARCoreSessionConfig)
 extern void SessionConfigApi_UpdateApiConfigWithARCoreSessionConfig_m37E34347565D8A734C7C1774096F09C7EFCF731F (void);
-// 0x0000046C System.IntPtr GoogleARCoreInternal.SessionConfigApi::Create()
+// 0x00000625 System.IntPtr GoogleARCoreInternal.SessionConfigApi::Create()
 extern void SessionConfigApi_Create_m9BD5A5AAD1937DEA21F8160048B994C4B8AA0D3E (void);
-// 0x0000046D System.Void GoogleARCoreInternal.SessionConfigApi::Destroy(System.IntPtr)
+// 0x00000626 System.Void GoogleARCoreInternal.SessionConfigApi::Destroy(System.IntPtr)
 extern void SessionConfigApi_Destroy_m3B200B74D6FB04C7AC6C7CB050CA9F3E2009E15A (void);
-// 0x0000046E System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_create(System.IntPtr,System.IntPtr&)
+// 0x00000627 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_create(System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArConfig_create_m5D7A602B460628E6B84DA1EADA123DF546680798 (void);
-// 0x0000046F System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_destroy(System.IntPtr)
+// 0x00000628 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_destroy(System.IntPtr)
 extern void ExternApi_ArConfig_destroy_m438DAB51E1C2B79E344DFCA8A659BD5B2DB1678A (void);
-// 0x00000470 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setLightEstimationMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiLightEstimationMode)
+// 0x00000629 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setLightEstimationMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiLightEstimationMode)
 extern void ExternApi_ArConfig_setLightEstimationMode_m3B74E9BA829F2A675D14F5843E3CA64A2C621ED9 (void);
-// 0x00000471 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setPlaneFindingMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiPlaneFindingMode)
+// 0x0000062A System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setPlaneFindingMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiPlaneFindingMode)
 extern void ExternApi_ArConfig_setPlaneFindingMode_m8F1BCBD877419437D803A165552C7B7F67EE8778 (void);
-// 0x00000472 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setUpdateMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiUpdateMode)
+// 0x0000062B System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setUpdateMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiUpdateMode)
 extern void ExternApi_ArConfig_setUpdateMode_m11C03AE592D3364A79640491E289747A7D68BBFE (void);
-// 0x00000473 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setCloudAnchorMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorMode)
+// 0x0000062C System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setCloudAnchorMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorMode)
 extern void ExternApi_ArConfig_setCloudAnchorMode_m056D26788626A840A56B406783F55E9AFF6981E6 (void);
-// 0x00000474 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setAugmentedImageDatabase(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x0000062D System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setAugmentedImageDatabase(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArConfig_setAugmentedImageDatabase_m5E21167D5CE010BD38FE2DCCFD7944CFF5D9ED10 (void);
-// 0x00000475 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setAugmentedFaceMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiAugmentedFaceMode)
+// 0x0000062E System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setAugmentedFaceMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiAugmentedFaceMode)
 extern void ExternApi_ArConfig_setAugmentedFaceMode_m9D076AC63B1104D16C206514DBA03F1AD644BD28 (void);
-// 0x00000476 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setFocusMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiCameraFocusMode)
+// 0x0000062F System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setFocusMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiCameraFocusMode)
 extern void ExternApi_ArConfig_setFocusMode_m3752E2975AF22A4FAF5FFBD0F5E98785533418D6 (void);
-// 0x00000477 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setDepthMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiDepthMode)
+// 0x00000630 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setDepthMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiDepthMode)
 extern void ExternApi_ArConfig_setDepthMode_m57824B3157890F404C8B0B80154ECB5534554795 (void);
-// 0x00000478 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setInstantPlacementMode(System.IntPtr,System.IntPtr,GoogleARCore.InstantPlacementMode)
+// 0x00000631 System.Void GoogleARCoreInternal.SessionConfigApi/ExternApi::ArConfig_setInstantPlacementMode(System.IntPtr,System.IntPtr,GoogleARCore.InstantPlacementMode)
 extern void ExternApi_ArConfig_setInstantPlacementMode_m83CD5D4B7D324BA6310FBDCBDDBC5787B884DB58 (void);
-// 0x00000479 System.Void GoogleARCoreInternal.TrackableApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x00000632 System.Void GoogleARCoreInternal.TrackableApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void TrackableApi__ctor_m8B79F607B336097196C23B8C46A8A511A86150B0 (void);
-// 0x0000047A GoogleARCoreInternal.ApiTrackableType GoogleARCoreInternal.TrackableApi::GetType(System.IntPtr)
+// 0x00000633 GoogleARCoreInternal.ApiTrackableType GoogleARCoreInternal.TrackableApi::GetType(System.IntPtr)
 extern void TrackableApi_GetType_m374FD2FBE1340BF84FCB13CD93EA2F5A3968F612 (void);
-// 0x0000047B GoogleARCore.TrackingState GoogleARCoreInternal.TrackableApi::GetTrackingState(System.IntPtr)
+// 0x00000634 GoogleARCore.TrackingState GoogleARCoreInternal.TrackableApi::GetTrackingState(System.IntPtr)
 extern void TrackableApi_GetTrackingState_m990F212EB12A5FEA270C4263D45C46EE0524AFE9 (void);
-// 0x0000047C System.Boolean GoogleARCoreInternal.TrackableApi::AcquireNewAnchor(System.IntPtr,UnityEngine.Pose,System.IntPtr&)
+// 0x00000635 System.Boolean GoogleARCoreInternal.TrackableApi::AcquireNewAnchor(System.IntPtr,UnityEngine.Pose,System.IntPtr&)
 extern void TrackableApi_AcquireNewAnchor_m267DBF8CA1BC41142EE5A5D4598BC7942BF37487 (void);
-// 0x0000047D System.Void GoogleARCoreInternal.TrackableApi::Release(System.IntPtr)
+// 0x00000636 System.Void GoogleARCoreInternal.TrackableApi::Release(System.IntPtr)
 extern void TrackableApi_Release_m51CFDB20585263BCBC18455B3D228D60C1A82711 (void);
-// 0x0000047E System.Void GoogleARCoreInternal.TrackableApi::GetAnchors(System.IntPtr,System.Collections.Generic.List`1<GoogleARCore.Anchor>)
+// 0x00000637 System.Void GoogleARCoreInternal.TrackableApi::GetAnchors(System.IntPtr,System.Collections.Generic.List`1<GoogleARCore.Anchor>)
 extern void TrackableApi_GetAnchors_m08086BAAE31898082D5989A20AFDACB25E06192E (void);
-// 0x0000047F System.Void GoogleARCoreInternal.TrackableApi/ExternApi::ArTrackable_getType(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackableType&)
+// 0x00000638 System.Void GoogleARCoreInternal.TrackableApi/ExternApi::ArTrackable_getType(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackableType&)
 extern void ExternApi_ArTrackable_getType_mF9571ACE9D18D05F071E5E79C4CE3832F13B8325 (void);
-// 0x00000480 System.Void GoogleARCoreInternal.TrackableApi/ExternApi::ArTrackable_getTrackingState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackingState&)
+// 0x00000639 System.Void GoogleARCoreInternal.TrackableApi/ExternApi::ArTrackable_getTrackingState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackingState&)
 extern void ExternApi_ArTrackable_getTrackingState_m3456C27010107E042C486845D711556B794EC7DC (void);
-// 0x00000481 System.Int32 GoogleARCoreInternal.TrackableApi/ExternApi::ArTrackable_acquireNewAnchor(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr&)
+// 0x0000063A System.Int32 GoogleARCoreInternal.TrackableApi/ExternApi::ArTrackable_acquireNewAnchor(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArTrackable_acquireNewAnchor_m618BFA11DC63B34009A12CE76D801C624690B0B7 (void);
-// 0x00000482 System.Void GoogleARCoreInternal.TrackableApi/ExternApi::ArTrackable_release(System.IntPtr)
+// 0x0000063B System.Void GoogleARCoreInternal.TrackableApi/ExternApi::ArTrackable_release(System.IntPtr)
 extern void ExternApi_ArTrackable_release_m0F07FBFE3FE584B640C4910183E75D7E19C907B9 (void);
-// 0x00000483 System.Void GoogleARCoreInternal.TrackableApi/ExternApi::ArTrackable_getAnchors(System.IntPtr,System.IntPtr,System.IntPtr)
+// 0x0000063C System.Void GoogleARCoreInternal.TrackableApi/ExternApi::ArTrackable_getAnchors(System.IntPtr,System.IntPtr,System.IntPtr)
 extern void ExternApi_ArTrackable_getAnchors_m7B6BC808A4190AD6D2124AC81F9A84FC2CD03C17 (void);
-// 0x00000484 System.Void GoogleARCoreInternal.TrackableListApi::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x0000063D System.Void GoogleARCoreInternal.TrackableListApi::.ctor(GoogleARCoreInternal.NativeSession)
 extern void TrackableListApi__ctor_mCF0BC9BE66FC7C3D12C0C921B3B211E3530149E7 (void);
-// 0x00000485 System.IntPtr GoogleARCoreInternal.TrackableListApi::Create()
+// 0x0000063E System.IntPtr GoogleARCoreInternal.TrackableListApi::Create()
 extern void TrackableListApi_Create_mD8D3E851A4B64213BB6150C8D858A695B91F12C1 (void);
-// 0x00000486 System.Void GoogleARCoreInternal.TrackableListApi::Destroy(System.IntPtr)
+// 0x0000063F System.Void GoogleARCoreInternal.TrackableListApi::Destroy(System.IntPtr)
 extern void TrackableListApi_Destroy_m93BE4AFF61C457498818D1523A15D4EADC8E0B5A (void);
-// 0x00000487 System.Int32 GoogleARCoreInternal.TrackableListApi::GetCount(System.IntPtr)
+// 0x00000640 System.Int32 GoogleARCoreInternal.TrackableListApi::GetCount(System.IntPtr)
 extern void TrackableListApi_GetCount_mDC8439BA0A50B69BF14673EDCB6194B64A84115F (void);
-// 0x00000488 System.IntPtr GoogleARCoreInternal.TrackableListApi::AcquireItem(System.IntPtr,System.Int32)
+// 0x00000641 System.IntPtr GoogleARCoreInternal.TrackableListApi::AcquireItem(System.IntPtr,System.Int32)
 extern void TrackableListApi_AcquireItem_mEC6779C3DAAD777F2A115BC9673F98CC76333C49 (void);
-// 0x00000489 System.Void GoogleARCoreInternal.TrackableListApi/ExternApi::ArTrackableList_create(System.IntPtr,System.IntPtr&)
+// 0x00000642 System.Void GoogleARCoreInternal.TrackableListApi/ExternApi::ArTrackableList_create(System.IntPtr,System.IntPtr&)
 extern void ExternApi_ArTrackableList_create_m29438348B54C6BE2EC4AA8AE756C84AC5CFBC483 (void);
-// 0x0000048A System.Void GoogleARCoreInternal.TrackableListApi/ExternApi::ArTrackableList_destroy(System.IntPtr)
+// 0x00000643 System.Void GoogleARCoreInternal.TrackableListApi/ExternApi::ArTrackableList_destroy(System.IntPtr)
 extern void ExternApi_ArTrackableList_destroy_mF0172F8B20FF6C002B6FCBB2F901546C58E6D73D (void);
-// 0x0000048B System.Void GoogleARCoreInternal.TrackableListApi/ExternApi::ArTrackableList_getSize(System.IntPtr,System.IntPtr,System.Int32&)
+// 0x00000644 System.Void GoogleARCoreInternal.TrackableListApi/ExternApi::ArTrackableList_getSize(System.IntPtr,System.IntPtr,System.Int32&)
 extern void ExternApi_ArTrackableList_getSize_mF28AB6FBF2018970B119A368A51DD076A31EB56F (void);
-// 0x0000048C System.Void GoogleARCoreInternal.TrackableListApi/ExternApi::ArTrackableList_acquireItem(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&)
+// 0x00000645 System.Void GoogleARCoreInternal.TrackableListApi/ExternApi::ArTrackableList_acquireItem(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&)
 extern void ExternApi_ArTrackableList_acquireItem_m34B55A710611E49CDFA53CA142FF8F330574F8B0 (void);
-// 0x0000048D System.Void GoogleARCoreInternal.WaitForTaskCompletionYieldInstruction`1::.ctor(GoogleARCore.AsyncTask`1<T>)
-// 0x0000048E System.Boolean GoogleARCoreInternal.WaitForTaskCompletionYieldInstruction`1::get_keepWaiting()
-// 0x0000048F System.Int32 GoogleARCoreInternal.ExperimentBase::GetExperimentalFeatureFlags()
+// 0x00000646 System.Void GoogleARCoreInternal.WaitForTaskCompletionYieldInstruction`1::.ctor(GoogleARCore.AsyncTask`1<T>)
+// 0x00000647 System.Boolean GoogleARCoreInternal.WaitForTaskCompletionYieldInstruction`1::get_keepWaiting()
+// 0x00000648 System.Int32 GoogleARCoreInternal.ExperimentBase::GetExperimentalFeatureFlags()
 extern void ExperimentBase_GetExperimentalFeatureFlags_m282856EF86326E5767A9AA687B3FF33BC2948376 (void);
-// 0x00000490 System.Void GoogleARCoreInternal.ExperimentBase::OnUpdateSessionFeatures()
+// 0x00000649 System.Void GoogleARCoreInternal.ExperimentBase::OnUpdateSessionFeatures()
 extern void ExperimentBase_OnUpdateSessionFeatures_mAAC9BB50C6B745E8B7FE06681AA10163783C1875 (void);
-// 0x00000491 System.Void GoogleARCoreInternal.ExperimentBase::OnEarlyUpdate()
+// 0x0000064A System.Void GoogleARCoreInternal.ExperimentBase::OnEarlyUpdate()
 extern void ExperimentBase_OnEarlyUpdate_mAC142E4C325AA8F3950B23FAF27BCF16DB74512D (void);
-// 0x00000492 System.Boolean GoogleARCoreInternal.ExperimentBase::IsConfigurationDirty()
+// 0x0000064B System.Boolean GoogleARCoreInternal.ExperimentBase::IsConfigurationDirty()
 extern void ExperimentBase_IsConfigurationDirty_m6F5979B6773CFB9BFC78CD7B7D4413B3820FAF94 (void);
-// 0x00000493 System.Void GoogleARCoreInternal.ExperimentBase::OnSetConfiguration(System.IntPtr,System.IntPtr)
+// 0x0000064C System.Void GoogleARCoreInternal.ExperimentBase::OnSetConfiguration(System.IntPtr,System.IntPtr)
 extern void ExperimentBase_OnSetConfiguration_m111A99E25B5A34887D6DFD540CC3A0E31FBBEBD1 (void);
-// 0x00000494 System.Boolean GoogleARCoreInternal.ExperimentBase::IsManagingTrackableType(System.Int32)
+// 0x0000064D System.Boolean GoogleARCoreInternal.ExperimentBase::IsManagingTrackableType(System.Int32)
 extern void ExperimentBase_IsManagingTrackableType_mAC5D75E4333839EC7BE4547A7185E4210513DCC8 (void);
-// 0x00000495 GoogleARCore.TrackableHitFlags GoogleARCoreInternal.ExperimentBase::GetTrackableHitFlags(System.Int32)
+// 0x0000064E GoogleARCore.TrackableHitFlags GoogleARCoreInternal.ExperimentBase::GetTrackableHitFlags(System.Int32)
 extern void ExperimentBase_GetTrackableHitFlags_mB8BBEC687651AB2FA9326B887F1E1BEE6385AAEC (void);
-// 0x00000496 GoogleARCore.Trackable GoogleARCoreInternal.ExperimentBase::TrackableFactory(System.Int32,System.IntPtr)
+// 0x0000064F GoogleARCore.Trackable GoogleARCoreInternal.ExperimentBase::TrackableFactory(System.Int32,System.IntPtr)
 extern void ExperimentBase_TrackableFactory_m91B1AF4A66E5F08C85944B36220FAD39BA1D962F (void);
-// 0x00000497 System.Void GoogleARCoreInternal.ExperimentBase::.ctor()
+// 0x00000650 System.Void GoogleARCoreInternal.ExperimentBase::.ctor()
 extern void ExperimentBase__ctor_m5E10C56DF755EAA9F75E768232C0E1CEC8D4F80B (void);
-// 0x00000498 System.Void GoogleARCoreInternal.ExperimentManager::.ctor()
+// 0x00000651 System.Void GoogleARCoreInternal.ExperimentManager::.ctor()
 extern void ExperimentManager__ctor_m22B707416087009C5BDB4023F9FC3BCEAA07B67A (void);
-// 0x00000499 GoogleARCoreInternal.ExperimentManager GoogleARCoreInternal.ExperimentManager::get_Instance()
+// 0x00000652 GoogleARCoreInternal.ExperimentManager GoogleARCoreInternal.ExperimentManager::get_Instance()
 extern void ExperimentManager_get_Instance_m4C6C25D6EFD9C0DE12A37AC29687A7418F5B9B03 (void);
-// 0x0000049A System.Boolean GoogleARCoreInternal.ExperimentManager::get_IsSessionExperimental()
+// 0x00000653 System.Boolean GoogleARCoreInternal.ExperimentManager::get_IsSessionExperimental()
 extern void ExperimentManager_get_IsSessionExperimental_m538C08092FCA7D28D72B0B506CA6D0B15599095E (void);
-// 0x0000049B System.Void GoogleARCoreInternal.ExperimentManager::set_IsSessionExperimental(System.Boolean)
+// 0x00000654 System.Void GoogleARCoreInternal.ExperimentManager::set_IsSessionExperimental(System.Boolean)
 extern void ExperimentManager_set_IsSessionExperimental_m64A333DEF51D9FFAB6FC449B22711777597B5987 (void);
-// 0x0000049C System.Boolean GoogleARCoreInternal.ExperimentManager::get_IsConfigurationDirty()
+// 0x00000655 System.Boolean GoogleARCoreInternal.ExperimentManager::get_IsConfigurationDirty()
 extern void ExperimentManager_get_IsConfigurationDirty_mB12DDC4262C95C210F8409FEE7EF230E7246B61E (void);
-// 0x0000049D System.Void GoogleARCoreInternal.ExperimentManager::Initialize()
+// 0x00000656 System.Void GoogleARCoreInternal.ExperimentManager::Initialize()
 extern void ExperimentManager_Initialize_mB1DF72A6C0F9424F53E20B63E23E2AB34E508884 (void);
-// 0x0000049E System.Boolean GoogleARCoreInternal.ExperimentManager::IsManagingTrackableType(System.Int32)
+// 0x00000657 System.Boolean GoogleARCoreInternal.ExperimentManager::IsManagingTrackableType(System.Int32)
 extern void ExperimentManager_IsManagingTrackableType_m4C9BD5940001CCC1892379FED892FAF22717106A (void);
-// 0x0000049F GoogleARCore.TrackableHitFlags GoogleARCoreInternal.ExperimentManager::GetTrackableHitFlags(System.Int32)
+// 0x00000658 GoogleARCore.TrackableHitFlags GoogleARCoreInternal.ExperimentManager::GetTrackableHitFlags(System.Int32)
 extern void ExperimentManager_GetTrackableHitFlags_m3A65C29377BDB81F1B22098A52F7B503EB99F46F (void);
-// 0x000004A0 GoogleARCore.Trackable GoogleARCoreInternal.ExperimentManager::TrackableFactory(System.Int32,System.IntPtr)
+// 0x00000659 GoogleARCore.Trackable GoogleARCoreInternal.ExperimentManager::TrackableFactory(System.Int32,System.IntPtr)
 extern void ExperimentManager_TrackableFactory_m8D60FB8B2E6FB158CC0EE612E3C713F095E2F52E (void);
-// 0x000004A1 System.Void GoogleARCoreInternal.ExperimentManager::OnUpdateSessionFeatures()
+// 0x0000065A System.Void GoogleARCoreInternal.ExperimentManager::OnUpdateSessionFeatures()
 extern void ExperimentManager_OnUpdateSessionFeatures_mBF1DDDE1E94F7210FA80B449F9A03D3138667C8E (void);
-// 0x000004A2 System.Void GoogleARCoreInternal.ExperimentManager::OnEarlyUpdate()
+// 0x0000065B System.Void GoogleARCoreInternal.ExperimentManager::OnEarlyUpdate()
 extern void ExperimentManager_OnEarlyUpdate_m81CD4B74CC37C6F41E6E9D74966B61A889E277E8 (void);
-// 0x000004A3 System.Void GoogleARCoreInternal.ExperimentManager::SetConfiguration(System.IntPtr,System.IntPtr)
+// 0x0000065C System.Void GoogleARCoreInternal.ExperimentManager::SetConfiguration(System.IntPtr,System.IntPtr)
 extern void ExperimentManager_SetConfiguration_mFA6F7D412586C96E83F6EF32A8681704CC144558 (void);
-// 0x000004A4 GoogleARCoreInternal.ExperimentBase GoogleARCoreInternal.ExperimentManager::GetTrackableTypeManager(System.Int32)
+// 0x0000065D GoogleARCoreInternal.ExperimentBase GoogleARCoreInternal.ExperimentManager::GetTrackableTypeManager(System.Int32)
 extern void ExperimentManager_GetTrackableTypeManager_m0F978E884956CE528FF7920D3B91AFB5DE597904 (void);
-// 0x000004A5 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_UpdateSessionFeatures(System.Action)
+// 0x0000065E System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_UpdateSessionFeatures(System.Action)
 extern void ARCoreAndroidLifecycleManager_add_UpdateSessionFeatures_mD8DCF918A022CE973AC1A1F6CE6CAED215A2DD5A (void);
-// 0x000004A6 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_UpdateSessionFeatures(System.Action)
+// 0x0000065F System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_UpdateSessionFeatures(System.Action)
 extern void ARCoreAndroidLifecycleManager_remove_UpdateSessionFeatures_m52FBC14F0E6C4D5B3FEF9FAAA914F4F98A272EA8 (void);
-// 0x000004A7 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_EarlyUpdate(System.Action)
+// 0x00000660 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_EarlyUpdate(System.Action)
 extern void ARCoreAndroidLifecycleManager_add_EarlyUpdate_mC0C2CF29AA44F476889361750D4C4863B107948A (void);
-// 0x000004A8 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_EarlyUpdate(System.Action)
+// 0x00000661 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_EarlyUpdate(System.Action)
 extern void ARCoreAndroidLifecycleManager_remove_EarlyUpdate_mB83675CE3597B9FF6D05F734A18C30E2B5575C93 (void);
-// 0x000004A9 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_OnSessionSetEnabled(System.Action`1<System.Boolean>)
+// 0x00000662 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_OnSessionSetEnabled(System.Action`1<System.Boolean>)
 extern void ARCoreAndroidLifecycleManager_add_OnSessionSetEnabled_m28B897F9C287C2629F205829DC75C74ACCC91DFE (void);
-// 0x000004AA System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_OnSessionSetEnabled(System.Action`1<System.Boolean>)
+// 0x00000663 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_OnSessionSetEnabled(System.Action`1<System.Boolean>)
 extern void ARCoreAndroidLifecycleManager_remove_OnSessionSetEnabled_m363BA6B8A22FC863FE0B522A310A02305D2F8DFF (void);
-// 0x000004AB System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
+// 0x00000664 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
 extern void ARCoreAndroidLifecycleManager_add_OnSetConfiguration_m07D4558D70FFD973E5BB70C7B6C83C7340871BA1 (void);
-// 0x000004AC System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
+// 0x00000665 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
 extern void ARCoreAndroidLifecycleManager_remove_OnSetConfiguration_mDC2CB88FF96243AFE59B5A75186913EAE153633A (void);
-// 0x000004AD System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_OnResetInstance(System.Action)
+// 0x00000666 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_OnResetInstance(System.Action)
 extern void ARCoreAndroidLifecycleManager_add_OnResetInstance_m4755471F57EC5C998D4F7B93B7D0CCE75847C563 (void);
-// 0x000004AE System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_OnResetInstance(System.Action)
+// 0x00000667 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_OnResetInstance(System.Action)
 extern void ARCoreAndroidLifecycleManager_remove_OnResetInstance_m647FF94CCC702789446DDC6989F202C4E005A9C6 (void);
-// 0x000004AF GoogleARCoreInternal.ARCoreAndroidLifecycleManager GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_Instance()
+// 0x00000668 GoogleARCoreInternal.ARCoreAndroidLifecycleManager GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_Instance()
 extern void ARCoreAndroidLifecycleManager_get_Instance_mF91D000DB75978AC20B9054719271142B6A36656 (void);
-// 0x000004B0 GoogleARCore.SessionStatus GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_SessionStatus()
+// 0x00000669 GoogleARCore.SessionStatus GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_SessionStatus()
 extern void ARCoreAndroidLifecycleManager_get_SessionStatus_mD7629EDDAAA33060EFF996A450455B0F6F1683AD (void);
-// 0x000004B1 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_SessionStatus(GoogleARCore.SessionStatus)
+// 0x0000066A System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_SessionStatus(GoogleARCore.SessionStatus)
 extern void ARCoreAndroidLifecycleManager_set_SessionStatus_mCB562F2C2650310C129D8BEEC9ADD61D9B2E25B7 (void);
-// 0x000004B2 GoogleARCore.LostTrackingReason GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_LostTrackingReason()
+// 0x0000066B GoogleARCore.LostTrackingReason GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_LostTrackingReason()
 extern void ARCoreAndroidLifecycleManager_get_LostTrackingReason_mC4788535CABF012D6AE5179F4B12274D619EBF37 (void);
-// 0x000004B3 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_LostTrackingReason(GoogleARCore.LostTrackingReason)
+// 0x0000066C System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_LostTrackingReason(GoogleARCore.LostTrackingReason)
 extern void ARCoreAndroidLifecycleManager_set_LostTrackingReason_m4472A2F92F53D0DE4AA1F1A0DD768878538C08DD (void);
-// 0x000004B4 GoogleARCore.ARCoreSession GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_SessionComponent()
+// 0x0000066D GoogleARCore.ARCoreSession GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_SessionComponent()
 extern void ARCoreAndroidLifecycleManager_get_SessionComponent_mA13222E73720A48DA88633460309DAEEF3736E76 (void);
-// 0x000004B5 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_SessionComponent(GoogleARCore.ARCoreSession)
+// 0x0000066E System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_SessionComponent(GoogleARCore.ARCoreSession)
 extern void ARCoreAndroidLifecycleManager_set_SessionComponent_m5A26DD6DDE9610B3BD7CE5253901A68C2976A313 (void);
-// 0x000004B6 GoogleARCoreInternal.NativeSession GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_NativeSession()
+// 0x0000066F GoogleARCoreInternal.NativeSession GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_NativeSession()
 extern void ARCoreAndroidLifecycleManager_get_NativeSession_mC87A5D4936287E4598B2B633A891D3E55E94092E (void);
-// 0x000004B7 System.Boolean GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_IsSessionChangedThisFrame()
+// 0x00000670 System.Boolean GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_IsSessionChangedThisFrame()
 extern void ARCoreAndroidLifecycleManager_get_IsSessionChangedThisFrame_mFA256EAF5DCFE9BB61217C06E6D94E3DE43B277A (void);
-// 0x000004B8 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_IsSessionChangedThisFrame(System.Boolean)
+// 0x00000671 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_IsSessionChangedThisFrame(System.Boolean)
 extern void ARCoreAndroidLifecycleManager_set_IsSessionChangedThisFrame_m1365F012A3E66270A60CD4D5701D65C042008E15 (void);
-// 0x000004B9 UnityEngine.Texture2D GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_BackgroundTexture()
+// 0x00000672 UnityEngine.Texture2D GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_BackgroundTexture()
 extern void ARCoreAndroidLifecycleManager_get_BackgroundTexture_m791AC48F5D43A1FF140019BEF154451B1FACA373 (void);
-// 0x000004BA System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_BackgroundTexture(UnityEngine.Texture2D)
+// 0x00000673 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_BackgroundTexture(UnityEngine.Texture2D)
 extern void ARCoreAndroidLifecycleManager_set_BackgroundTexture_mB40F361DC61FA7AB3C1CAC4ED6FC7B7FC61C73AB (void);
-// 0x000004BB GoogleARCore.AsyncTask`1<GoogleARCore.ApkAvailabilityStatus> GoogleARCoreInternal.ARCoreAndroidLifecycleManager::CheckApkAvailability()
+// 0x00000674 GoogleARCore.AsyncTask`1<GoogleARCore.ApkAvailabilityStatus> GoogleARCoreInternal.ARCoreAndroidLifecycleManager::CheckApkAvailability()
 extern void ARCoreAndroidLifecycleManager_CheckApkAvailability_m985D8B70369445BA5E581907BBA93B45844AE7DF (void);
-// 0x000004BC GoogleARCore.AsyncTask`1<GoogleARCore.ApkInstallationStatus> GoogleARCoreInternal.ARCoreAndroidLifecycleManager::RequestApkInstallation(System.Boolean)
+// 0x00000675 GoogleARCore.AsyncTask`1<GoogleARCore.ApkInstallationStatus> GoogleARCoreInternal.ARCoreAndroidLifecycleManager::RequestApkInstallation(System.Boolean)
 extern void ARCoreAndroidLifecycleManager_RequestApkInstallation_m02662299D40AFA71FEFDC574518E2738FEA9DDD7 (void);
-// 0x000004BD System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::CreateSession(GoogleARCore.ARCoreSession)
+// 0x00000676 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::CreateSession(GoogleARCore.ARCoreSession)
 extern void ARCoreAndroidLifecycleManager_CreateSession_m4691F159617DF81B535A1DF35698DD151B83C2B0 (void);
-// 0x000004BE System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::EnableSession()
+// 0x00000677 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::EnableSession()
 extern void ARCoreAndroidLifecycleManager_EnableSession_m639E2DA698EE21AAE1B28561209F54E1A90CF428 (void);
-// 0x000004BF System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::DisableSession()
+// 0x00000678 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::DisableSession()
 extern void ARCoreAndroidLifecycleManager_DisableSession_mBB571C802BAB835BED3961051C18E297BCC2BDF8 (void);
-// 0x000004C0 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::ResetSession()
+// 0x00000679 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::ResetSession()
 extern void ARCoreAndroidLifecycleManager_ResetSession_m3CAC7AD410EFFFBC6EE745FEB256161AE896ED9F (void);
-// 0x000004C1 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::ResetInstance()
+// 0x0000067A System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::ResetInstance()
 extern void ARCoreAndroidLifecycleManager_ResetInstance_m40796C4820345C807D3A3218ED58CDF8A97A1F4B (void);
-// 0x000004C2 GoogleARCoreInternal.ApiPrestoCallbackResult GoogleARCoreInternal.ARCoreAndroidLifecycleManager::OnBeforeResumeSession(System.IntPtr)
+// 0x0000067B GoogleARCoreInternal.ApiPrestoCallbackResult GoogleARCoreInternal.ARCoreAndroidLifecycleManager::OnBeforeResumeSession(System.IntPtr)
 extern void ARCoreAndroidLifecycleManager_OnBeforeResumeSession_m604267758C977B569EF3575A412C24E8C8A78A59 (void);
-// 0x000004C3 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::OnEarlyUpdate()
+// 0x0000067C System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::OnEarlyUpdate()
 extern void ARCoreAndroidLifecycleManager_OnEarlyUpdate_m9CC7577CA88FD89A7C82031F9EF89AA4DA3C4981 (void);
-// 0x000004C4 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::SetCameraTextureNameIfNecessary()
+// 0x0000067D System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::SetCameraTextureNameIfNecessary()
 extern void ARCoreAndroidLifecycleManager_SetCameraTextureNameIfNecessary_m9097FFFD8C5AB5101B6000B21C7B4273D9C26504 (void);
-// 0x000004C5 System.Boolean GoogleARCoreInternal.ARCoreAndroidLifecycleManager::ArCoreHasValidTextureName()
+// 0x0000067E System.Boolean GoogleARCoreInternal.ARCoreAndroidLifecycleManager::ArCoreHasValidTextureName()
 extern void ARCoreAndroidLifecycleManager_ArCoreHasValidTextureName_m365B9E94365CD5BB7BECA1BB95BAD420FF07E385 (void);
-// 0x000004C6 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::GenerateCameraTextureNames()
+// 0x0000067F System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::GenerateCameraTextureNames()
 extern void ARCoreAndroidLifecycleManager_GenerateCameraTextureNames_m97C71910EFE7A30CFB3D0588331D8F5639855651 (void);
-// 0x000004C7 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::Initialize()
+// 0x00000680 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::Initialize()
 extern void ARCoreAndroidLifecycleManager_Initialize_mD4AE18BA798DC9DF2278865C9F5A5AF38207EB1D (void);
-// 0x000004C8 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::UpdateTextureIfNeeded()
+// 0x00000681 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::UpdateTextureIfNeeded()
 extern void ARCoreAndroidLifecycleManager_UpdateTextureIfNeeded_m0A2CC778297AA7B47F0732C7880E85488258E649 (void);
-// 0x000004C9 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::SetSessionEnabled(System.Boolean)
+// 0x00000682 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::SetSessionEnabled(System.Boolean)
 extern void ARCoreAndroidLifecycleManager_SetSessionEnabled_mB8BBA76C4B7BC6FD731CE0FA48557D8139A554DF (void);
-// 0x000004CA System.Boolean GoogleARCoreInternal.ARCoreAndroidLifecycleManager::SetCameraDirection(GoogleARCore.DeviceCameraDirection)
+// 0x00000683 System.Boolean GoogleARCoreInternal.ARCoreAndroidLifecycleManager::SetCameraDirection(GoogleARCore.DeviceCameraDirection)
 extern void ARCoreAndroidLifecycleManager_SetCameraDirection_m8CBC5D4DF8D7CBEDC6F5F27296606BA2F1284ED7 (void);
-// 0x000004CB System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::SetSessionConfiguration(System.IntPtr,System.IntPtr)
+// 0x00000684 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::SetSessionConfiguration(System.IntPtr,System.IntPtr)
 extern void ARCoreAndroidLifecycleManager_SetSessionConfiguration_m07718227B8F401C2B78441E648B41AE28B7D0A3E (void);
-// 0x000004CC System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::UpdateConfiguration(GoogleARCore.ARCoreSessionConfig)
+// 0x00000685 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::UpdateConfiguration(GoogleARCore.ARCoreSessionConfig)
 extern void ARCoreAndroidLifecycleManager_UpdateConfiguration_m22824747BD59E9BBF34CF180101A0581AD02814D (void);
-// 0x000004CD System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::UpdateDisplayGeometry()
+// 0x00000686 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::UpdateDisplayGeometry()
 extern void ARCoreAndroidLifecycleManager_UpdateDisplayGeometry_mC9B5AA0BD034CECCE59C67DBA09A1B3D50AD3CEE (void);
-// 0x000004CE GoogleARCoreInternal.NativeSession GoogleARCoreInternal.ARCoreAndroidLifecycleManager::GetNativeSession(System.IntPtr)
+// 0x00000687 GoogleARCoreInternal.NativeSession GoogleARCoreInternal.ARCoreAndroidLifecycleManager::GetNativeSession(System.IntPtr)
 extern void ARCoreAndroidLifecycleManager_GetNativeSession_mEBE466FBBDDF6C7DB042F2BC0D93D370D8835059 (void);
-// 0x000004CF System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::FireOnSessionSetEnabled(System.Boolean)
+// 0x00000688 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::FireOnSessionSetEnabled(System.Boolean)
 extern void ARCoreAndroidLifecycleManager_FireOnSessionSetEnabled_m5F9DA64B6294593F87810DA3C990215ED889104D (void);
-// 0x000004D0 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::RequestPermissions()
+// 0x00000689 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::RequestPermissions()
 extern void ARCoreAndroidLifecycleManager_RequestPermissions_m3398AED4DECCAC14CA34F14F704EF15782958949 (void);
-// 0x000004D1 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::.ctor()
+// 0x0000068A System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::.ctor()
 extern void ARCoreAndroidLifecycleManager__ctor_m7BB6F0AB70859ABDF45E625968B04A0E39BDD533 (void);
-// 0x000004D2 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::.cctor()
+// 0x0000068B System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::.cctor()
 extern void ARCoreAndroidLifecycleManager__cctor_m36FF1B2F3B90FB422C212BA3BC3143C77F8E74BB (void);
-// 0x000004D3 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::<RequestPermissions>b__80_0(GoogleARCore.AndroidPermissionsRequestResult)
+// 0x0000068C System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::<RequestPermissions>b__80_0(GoogleARCore.AndroidPermissionsRequestResult)
 extern void ARCoreAndroidLifecycleManager_U3CRequestPermissionsU3Eb__80_0_mE1C6D78D1EE66B5274482AF902FB23F88F67D26B (void);
-// 0x000004D4 System.Int32 GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArCoreUnity_getBackgroundTextureId()
+// 0x0000068D System.Int32 GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArCoreUnity_getBackgroundTextureId()
 extern void ExternApi_ArCoreUnity_getBackgroundTextureId_m56540B875A674B3EC16EECADF2B8C8EFEE20D58B (void);
-// 0x000004D5 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_setDisplayGeometry(GoogleARCoreInternal.AndroidNativeHelper/AndroidSurfaceRotation,System.Int32,System.Int32)
+// 0x0000068E System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_setDisplayGeometry(GoogleARCoreInternal.AndroidNativeHelper/AndroidSurfaceRotation,System.Int32,System.Int32)
 extern void ExternApi_ArPresto_setDisplayGeometry_m82ED7952B186112BFA94337777023F36987A9430 (void);
-// 0x000004D6 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_getSession(System.IntPtr&)
+// 0x0000068F System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_getSession(System.IntPtr&)
 extern void ExternApi_ArPresto_getSession_m27423E1475075962D093169A51078A84410FAFFB (void);
-// 0x000004D7 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_setDeviceCameraDirection(GoogleARCoreInternal.ApiPrestoDeviceCameraDirection)
+// 0x00000690 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_setDeviceCameraDirection(GoogleARCoreInternal.ApiPrestoDeviceCameraDirection)
 extern void ExternApi_ArPresto_setDeviceCameraDirection_mDDF4CF433434B271B74414A10438B0465DE4D698 (void);
-// 0x000004D8 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_setCameraTextureNames(System.Int32,System.Int32[])
+// 0x00000691 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_setCameraTextureNames(System.Int32,System.Int32[])
 extern void ExternApi_ArPresto_setCameraTextureNames_m58F1C5C73A981D524E52A621AA5DBFC16CEB7181 (void);
-// 0x000004D9 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ARCoreRenderingUtils_CreatePostUpdateFence()
+// 0x00000692 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ARCoreRenderingUtils_CreatePostUpdateFence()
 extern void ExternApi_ARCoreRenderingUtils_CreatePostUpdateFence_m3888DD2C6E67304385A4C1CEE8D37B4B4F72D728 (void);
-// 0x000004DA System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_setEnabled(System.Boolean)
+// 0x00000693 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_setEnabled(System.Boolean)
 extern void ExternApi_ArPresto_setEnabled_m4AF5393228731D735A2BC3970CEAC73CAF6E7247 (void);
-// 0x000004DB System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_getFrame(System.IntPtr&)
+// 0x00000694 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_getFrame(System.IntPtr&)
 extern void ExternApi_ArPresto_getFrame_m3AF98C269A45FEA5D11D94D8D42F4DE4A0662A93 (void);
-// 0x000004DC System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_getStatus(GoogleARCoreInternal.ApiPrestoStatus&)
+// 0x00000695 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_getStatus(GoogleARCoreInternal.ApiPrestoStatus&)
 extern void ExternApi_ArPresto_getStatus_m17760E97C60F3909ED01D28B27664EF1546FEBF0 (void);
-// 0x000004DD System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_update()
+// 0x00000696 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_update()
 extern void ExternApi_ArPresto_update_m23B8A91A8EE4BCA905B9CEC60D40152A2E969C54 (void);
-// 0x000004DE System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_setConfigurationDirty()
+// 0x00000697 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_setConfigurationDirty()
 extern void ExternApi_ArPresto_setConfigurationDirty_m35C68256B7FF69FD47A8B49652A8E8DC8D4C7D2B (void);
-// 0x000004DF System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_reset()
+// 0x00000698 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager/ExternApi::ArPresto_reset()
 extern void ExternApi_ArPresto_reset_m8F4E90979B2DE5ADCA41B4B165D880EEB43BD861 (void);
-// 0x000004E0 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::add_EarlyUpdate(System.Action)
+// 0x00000699 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::add_EarlyUpdate(System.Action)
 extern void ARPrestoCallbackManager_add_EarlyUpdate_m682CB9A6EE4B58CF80903B0C783C2EC038CC1AC6 (void);
-// 0x000004E1 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::remove_EarlyUpdate(System.Action)
+// 0x0000069A System.Void GoogleARCoreInternal.ARPrestoCallbackManager::remove_EarlyUpdate(System.Action)
 extern void ARPrestoCallbackManager_remove_EarlyUpdate_m36411D05D57E4824EBBDBA9069748DABE53C2E8D (void);
-// 0x000004E2 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::add_BeforeResumeSession(System.Func`2<System.IntPtr,GoogleARCoreInternal.ApiPrestoCallbackResult>)
+// 0x0000069B System.Void GoogleARCoreInternal.ARPrestoCallbackManager::add_BeforeResumeSession(System.Func`2<System.IntPtr,GoogleARCoreInternal.ApiPrestoCallbackResult>)
 extern void ARPrestoCallbackManager_add_BeforeResumeSession_m1108806E5032E37AE91A34E17904E74187E23EBD (void);
-// 0x000004E3 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::remove_BeforeResumeSession(System.Func`2<System.IntPtr,GoogleARCoreInternal.ApiPrestoCallbackResult>)
+// 0x0000069C System.Void GoogleARCoreInternal.ARPrestoCallbackManager::remove_BeforeResumeSession(System.Func`2<System.IntPtr,GoogleARCoreInternal.ApiPrestoCallbackResult>)
 extern void ARPrestoCallbackManager_remove_BeforeResumeSession_m45B5C8FFA93D3D488398A4A11F8947257C5412A8 (void);
-// 0x000004E4 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::add_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
+// 0x0000069D System.Void GoogleARCoreInternal.ARPrestoCallbackManager::add_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
 extern void ARPrestoCallbackManager_add_OnSetConfiguration_m98DDB437AC7F0F60163DB0AF1C1B19E4657CD351 (void);
-// 0x000004E5 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::remove_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
+// 0x0000069E System.Void GoogleARCoreInternal.ARPrestoCallbackManager::remove_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
 extern void ARPrestoCallbackManager_remove_OnSetConfiguration_m03B811EAA1F140CAD31E0657BADB685E9B515B7D (void);
-// 0x000004E6 GoogleARCoreInternal.ARPrestoCallbackManager GoogleARCoreInternal.ARPrestoCallbackManager::get_Instance()
+// 0x0000069F GoogleARCoreInternal.ARPrestoCallbackManager GoogleARCoreInternal.ARPrestoCallbackManager::get_Instance()
 extern void ARPrestoCallbackManager_get_Instance_m01B3DAF104505303CD41DE0B0877B211002890DD (void);
-// 0x000004E7 GoogleARCore.AsyncTask`1<GoogleARCore.ApkAvailabilityStatus> GoogleARCoreInternal.ARPrestoCallbackManager::CheckApkAvailability()
+// 0x000006A0 GoogleARCore.AsyncTask`1<GoogleARCore.ApkAvailabilityStatus> GoogleARCoreInternal.ARPrestoCallbackManager::CheckApkAvailability()
 extern void ARPrestoCallbackManager_CheckApkAvailability_mA0212124B39CD4EA84CD8387E46A059E0A23807A (void);
-// 0x000004E8 GoogleARCore.AsyncTask`1<GoogleARCore.ApkInstallationStatus> GoogleARCoreInternal.ARPrestoCallbackManager::RequestApkInstallation(System.Boolean)
+// 0x000006A1 GoogleARCore.AsyncTask`1<GoogleARCore.ApkInstallationStatus> GoogleARCoreInternal.ARPrestoCallbackManager::RequestApkInstallation(System.Boolean)
 extern void ARPrestoCallbackManager_RequestApkInstallation_mA5AD21C359D31800598F373D6C773A1FD0CE4416 (void);
-// 0x000004E9 System.Boolean GoogleARCoreInternal.ARPrestoCallbackManager::IsCameraPermissionGranted()
+// 0x000006A2 System.Boolean GoogleARCoreInternal.ARPrestoCallbackManager::IsCameraPermissionGranted()
 extern void ARPrestoCallbackManager_IsCameraPermissionGranted_m6F0BBC4161C624E64BE3C2B138D3CD0ADA83EED4 (void);
-// 0x000004EA System.Void GoogleARCoreInternal.ARPrestoCallbackManager::ResetInstance()
+// 0x000006A3 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::ResetInstance()
 extern void ARPrestoCallbackManager_ResetInstance_mB8BDA85ACFDBF4FA686A7598933F21AF88C2840A (void);
-// 0x000004EB System.Void GoogleARCoreInternal.ARPrestoCallbackManager::SetAndroidPermissionCheck(GoogleARCore.IAndroidPermissionsCheck)
+// 0x000006A4 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::SetAndroidPermissionCheck(GoogleARCore.IAndroidPermissionsCheck)
 extern void ARPrestoCallbackManager_SetAndroidPermissionCheck_m56C6B7947BB4C3752B1F213A240A6F2EF8D7B3A3 (void);
-// 0x000004EC System.Void GoogleARCoreInternal.ARPrestoCallbackManager::OnCheckApkAvailabilityResultTrampoline(GoogleARCoreInternal.ApiAvailability,System.IntPtr)
+// 0x000006A5 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::OnCheckApkAvailabilityResultTrampoline(GoogleARCoreInternal.ApiAvailability,System.IntPtr)
 extern void ARPrestoCallbackManager_OnCheckApkAvailabilityResultTrampoline_m64E7790333871FD6C35D540D8A06462925306DC0 (void);
-// 0x000004ED System.Void GoogleARCoreInternal.ARPrestoCallbackManager::OnApkInstallationResultTrampoline(GoogleARCoreInternal.ApiApkInstallationStatus,System.IntPtr)
+// 0x000006A6 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::OnApkInstallationResultTrampoline(GoogleARCoreInternal.ApiApkInstallationStatus,System.IntPtr)
 extern void ARPrestoCallbackManager_OnApkInstallationResultTrampoline_mCD75026B955A2BE40EE80793A1C7B385E09B1F44 (void);
-// 0x000004EE System.Void GoogleARCoreInternal.ARPrestoCallbackManager::RequestCameraPermissionTrampoline(GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback,System.IntPtr)
+// 0x000006A7 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::RequestCameraPermissionTrampoline(GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback,System.IntPtr)
 extern void ARPrestoCallbackManager_RequestCameraPermissionTrampoline_mD4D344B85E407A2F5896CFDDFA346105E745007D (void);
-// 0x000004EF System.Void GoogleARCoreInternal.ARPrestoCallbackManager::EarlyUpdateTrampoline()
+// 0x000006A8 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::EarlyUpdateTrampoline()
 extern void ARPrestoCallbackManager_EarlyUpdateTrampoline_m987365E1910F4CE6CEDBFD7BCA2A77930A0E5B8E (void);
-// 0x000004F0 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::BeforeSetConfigurationTrampoline(System.IntPtr,System.IntPtr)
+// 0x000006A9 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::BeforeSetConfigurationTrampoline(System.IntPtr,System.IntPtr)
 extern void ARPrestoCallbackManager_BeforeSetConfigurationTrampoline_m1C1C3F0CE3AECBC55E20276A4663EEE37B9BEA96 (void);
-// 0x000004F1 GoogleARCoreInternal.ApiPrestoCallbackResult GoogleARCoreInternal.ARPrestoCallbackManager::BeforeResumeSessionTrampoline(System.IntPtr)
+// 0x000006AA GoogleARCoreInternal.ApiPrestoCallbackResult GoogleARCoreInternal.ARPrestoCallbackManager::BeforeResumeSessionTrampoline(System.IntPtr)
 extern void ARPrestoCallbackManager_BeforeResumeSessionTrampoline_m50A456F0D068CB8297AF6CADA245E8B2FA32C9F8 (void);
-// 0x000004F2 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::Initialize()
+// 0x000006AB System.Void GoogleARCoreInternal.ARPrestoCallbackManager::Initialize()
 extern void ARPrestoCallbackManager_Initialize_m968946EA28AE1C729631B4E0460EFA58F81D9DFD (void);
-// 0x000004F3 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::OnCheckApkAvailabilityResult(GoogleARCore.ApkAvailabilityStatus)
+// 0x000006AC System.Void GoogleARCoreInternal.ARPrestoCallbackManager::OnCheckApkAvailabilityResult(GoogleARCore.ApkAvailabilityStatus)
 extern void ARPrestoCallbackManager_OnCheckApkAvailabilityResult_mAC093D5D13EF151C707EC0FBD1EC4E370548CE40 (void);
-// 0x000004F4 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::OnRequestApkInstallationResult(GoogleARCore.ApkInstallationStatus)
+// 0x000006AD System.Void GoogleARCoreInternal.ARPrestoCallbackManager::OnRequestApkInstallationResult(GoogleARCore.ApkInstallationStatus)
 extern void ARPrestoCallbackManager_OnRequestApkInstallationResult_mB58375A48A45018D3CD32FB51689914BC7CE6340 (void);
-// 0x000004F5 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::RequestCameraPermission(GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback,System.IntPtr)
+// 0x000006AE System.Void GoogleARCoreInternal.ARPrestoCallbackManager::RequestCameraPermission(GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback,System.IntPtr)
 extern void ARPrestoCallbackManager_RequestCameraPermission_m4A3C559FA831AB0B6BC9A4522C6E57ECDDA819B8 (void);
-// 0x000004F6 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::.ctor()
+// 0x000006AF System.Void GoogleARCoreInternal.ARPrestoCallbackManager::.ctor()
 extern void ARPrestoCallbackManager__ctor_mF23DCB3FBF37F9B29B62704B6CEFE343EC94CDFE (void);
-// 0x000004F7 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/EarlyUpdateCallback::.ctor(System.Object,System.IntPtr)
+// 0x000006B0 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/EarlyUpdateCallback::.ctor(System.Object,System.IntPtr)
 extern void EarlyUpdateCallback__ctor_m351BE3966305EF82D2D1D2B63E903A8436290AB5 (void);
-// 0x000004F8 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/EarlyUpdateCallback::Invoke()
+// 0x000006B1 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/EarlyUpdateCallback::Invoke()
 extern void EarlyUpdateCallback_Invoke_mB10B78C71EBE2DB95D405E2C8F94E70A8897B1B0 (void);
-// 0x000004F9 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/EarlyUpdateCallback::BeginInvoke(System.AsyncCallback,System.Object)
+// 0x000006B2 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/EarlyUpdateCallback::BeginInvoke(System.AsyncCallback,System.Object)
 extern void EarlyUpdateCallback_BeginInvoke_m9E2D3A709D096B741D8272701952E0B9083C7B7D (void);
-// 0x000004FA System.Void GoogleARCoreInternal.ARPrestoCallbackManager/EarlyUpdateCallback::EndInvoke(System.IAsyncResult)
+// 0x000006B3 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/EarlyUpdateCallback::EndInvoke(System.IAsyncResult)
 extern void EarlyUpdateCallback_EndInvoke_m9B29C6D57E54CCB3DB7FBD29A415AB2443ADAF54 (void);
-// 0x000004FB System.Void GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeSetConfigurationCallback::.ctor(System.Object,System.IntPtr)
+// 0x000006B4 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeSetConfigurationCallback::.ctor(System.Object,System.IntPtr)
 extern void OnBeforeSetConfigurationCallback__ctor_m4DCECE5D5CE5545B348AB4F093DCDEF14E601FAC (void);
-// 0x000004FC System.Void GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeSetConfigurationCallback::Invoke(System.IntPtr,System.IntPtr)
+// 0x000006B5 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeSetConfigurationCallback::Invoke(System.IntPtr,System.IntPtr)
 extern void OnBeforeSetConfigurationCallback_Invoke_mFAF38BAF9CF2C8E7A0E30FF9C8991C8C42F52DBC (void);
-// 0x000004FD System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeSetConfigurationCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+// 0x000006B6 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeSetConfigurationCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
 extern void OnBeforeSetConfigurationCallback_BeginInvoke_mD3C9C707F633861A0E1FFCF529D72BD355919C19 (void);
-// 0x000004FE System.Void GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeSetConfigurationCallback::EndInvoke(System.IAsyncResult)
+// 0x000006B7 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeSetConfigurationCallback::EndInvoke(System.IAsyncResult)
 extern void OnBeforeSetConfigurationCallback_EndInvoke_m09946615702889FCBB9E34F8C1018391FB3120D8 (void);
-// 0x000004FF System.Void GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeResumeSessionCallback::.ctor(System.Object,System.IntPtr)
+// 0x000006B8 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeResumeSessionCallback::.ctor(System.Object,System.IntPtr)
 extern void OnBeforeResumeSessionCallback__ctor_mF58486880E0BB0F38FD3A49A419C2BD297A1EA9A (void);
-// 0x00000500 GoogleARCoreInternal.ApiPrestoCallbackResult GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeResumeSessionCallback::Invoke(System.IntPtr)
+// 0x000006B9 GoogleARCoreInternal.ApiPrestoCallbackResult GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeResumeSessionCallback::Invoke(System.IntPtr)
 extern void OnBeforeResumeSessionCallback_Invoke_m9DF2FC5B21AB76731F76689E2955A173066CD735 (void);
-// 0x00000501 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeResumeSessionCallback::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+// 0x000006BA System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeResumeSessionCallback::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
 extern void OnBeforeResumeSessionCallback_BeginInvoke_m8BA8F350DFEBF29AC51B8E1D863674D118C2ECD5 (void);
-// 0x00000502 GoogleARCoreInternal.ApiPrestoCallbackResult GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeResumeSessionCallback::EndInvoke(System.IAsyncResult)
+// 0x000006BB GoogleARCoreInternal.ApiPrestoCallbackResult GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeResumeSessionCallback::EndInvoke(System.IAsyncResult)
 extern void OnBeforeResumeSessionCallback_EndInvoke_m78615264886C445D7D403536C6EB88C057E2624A (void);
-// 0x00000503 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionRequestProvider::.ctor(System.Object,System.IntPtr)
+// 0x000006BC System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionRequestProvider::.ctor(System.Object,System.IntPtr)
 extern void CameraPermissionRequestProvider__ctor_mF6FE3BF93C4289D531B55BFFA3286C152444477C (void);
-// 0x00000504 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionRequestProvider::Invoke(GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback,System.IntPtr)
+// 0x000006BD System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionRequestProvider::Invoke(GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback,System.IntPtr)
 extern void CameraPermissionRequestProvider_Invoke_mFAB314F465892B78FA40241567B816DF18F5C8E7 (void);
-// 0x00000505 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionRequestProvider::BeginInvoke(GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback,System.IntPtr,System.AsyncCallback,System.Object)
+// 0x000006BE System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionRequestProvider::BeginInvoke(GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback,System.IntPtr,System.AsyncCallback,System.Object)
 extern void CameraPermissionRequestProvider_BeginInvoke_m0E459CCFD54161C109E0B60ECDE18476993A6D28 (void);
-// 0x00000506 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionRequestProvider::EndInvoke(System.IAsyncResult)
+// 0x000006BF System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionRequestProvider::EndInvoke(System.IAsyncResult)
 extern void CameraPermissionRequestProvider_EndInvoke_m32F9C9DD9C2157D150A43A251B7A871A014AB9D3 (void);
-// 0x00000507 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback::.ctor(System.Object,System.IntPtr)
+// 0x000006C0 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback::.ctor(System.Object,System.IntPtr)
 extern void CameraPermissionsResultCallback__ctor_m5167FE67F12F6112D3359A5D3CD05CCECA03152C (void);
-// 0x00000508 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback::Invoke(System.Boolean,System.IntPtr)
+// 0x000006C1 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback::Invoke(System.Boolean,System.IntPtr)
 extern void CameraPermissionsResultCallback_Invoke_mCAA1D62DD526463335E407E14DF57AA8A4C4B72B (void);
-// 0x00000509 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback::BeginInvoke(System.Boolean,System.IntPtr,System.AsyncCallback,System.Object)
+// 0x000006C2 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback::BeginInvoke(System.Boolean,System.IntPtr,System.AsyncCallback,System.Object)
 extern void CameraPermissionsResultCallback_BeginInvoke_mC974E7AD7FF113388616F0813624770DF9A815C2 (void);
-// 0x0000050A System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback::EndInvoke(System.IAsyncResult)
+// 0x000006C3 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionsResultCallback::EndInvoke(System.IAsyncResult)
 extern void CameraPermissionsResultCallback_EndInvoke_mC66711E1C033782FD4FF64E0A30368BD81512046 (void);
-// 0x0000050B System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CheckApkAvailabilityResultCallback::.ctor(System.Object,System.IntPtr)
+// 0x000006C4 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CheckApkAvailabilityResultCallback::.ctor(System.Object,System.IntPtr)
 extern void CheckApkAvailabilityResultCallback__ctor_mD62CDADCD096C3256FB664B7C013FED7606FBAAB (void);
-// 0x0000050C System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CheckApkAvailabilityResultCallback::Invoke(GoogleARCoreInternal.ApiAvailability,System.IntPtr)
+// 0x000006C5 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CheckApkAvailabilityResultCallback::Invoke(GoogleARCoreInternal.ApiAvailability,System.IntPtr)
 extern void CheckApkAvailabilityResultCallback_Invoke_m30001AFD7D8C0CF6F7084BD901142EA64325A906 (void);
-// 0x0000050D System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/CheckApkAvailabilityResultCallback::BeginInvoke(GoogleARCoreInternal.ApiAvailability,System.IntPtr,System.AsyncCallback,System.Object)
+// 0x000006C6 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/CheckApkAvailabilityResultCallback::BeginInvoke(GoogleARCoreInternal.ApiAvailability,System.IntPtr,System.AsyncCallback,System.Object)
 extern void CheckApkAvailabilityResultCallback_BeginInvoke_m6E7E99F65B5EFFCF9C99B1920F700605069417D9 (void);
-// 0x0000050E System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CheckApkAvailabilityResultCallback::EndInvoke(System.IAsyncResult)
+// 0x000006C7 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/CheckApkAvailabilityResultCallback::EndInvoke(System.IAsyncResult)
 extern void CheckApkAvailabilityResultCallback_EndInvoke_m6120477EB99840ECEB46A0A189C0BB25A0FB4CB8 (void);
-// 0x0000050F System.Void GoogleARCoreInternal.ARPrestoCallbackManager/RequestApkInstallationResultCallback::.ctor(System.Object,System.IntPtr)
+// 0x000006C8 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/RequestApkInstallationResultCallback::.ctor(System.Object,System.IntPtr)
 extern void RequestApkInstallationResultCallback__ctor_m34031F42C2EBE83800E0FB4C0E152BF029355813 (void);
-// 0x00000510 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/RequestApkInstallationResultCallback::Invoke(GoogleARCoreInternal.ApiApkInstallationStatus,System.IntPtr)
+// 0x000006C9 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/RequestApkInstallationResultCallback::Invoke(GoogleARCoreInternal.ApiApkInstallationStatus,System.IntPtr)
 extern void RequestApkInstallationResultCallback_Invoke_mCD119AC38E0A533AA7CBE66D393E0BA540EF0EC6 (void);
-// 0x00000511 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/RequestApkInstallationResultCallback::BeginInvoke(GoogleARCoreInternal.ApiApkInstallationStatus,System.IntPtr,System.AsyncCallback,System.Object)
+// 0x000006CA System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/RequestApkInstallationResultCallback::BeginInvoke(GoogleARCoreInternal.ApiApkInstallationStatus,System.IntPtr,System.AsyncCallback,System.Object)
 extern void RequestApkInstallationResultCallback_BeginInvoke_m76C59FB2062271BDE6184B6AA0E1AA4DD09746B5 (void);
-// 0x00000512 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/RequestApkInstallationResultCallback::EndInvoke(System.IAsyncResult)
+// 0x000006CB System.Void GoogleARCoreInternal.ARPrestoCallbackManager/RequestApkInstallationResultCallback::EndInvoke(System.IAsyncResult)
 extern void RequestApkInstallationResultCallback_EndInvoke_m5E1682C670096C0D5E1570694380103C2CBE20FB (void);
-// 0x00000513 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/SessionCreationResultCallback::.ctor(System.Object,System.IntPtr)
+// 0x000006CC System.Void GoogleARCoreInternal.ARPrestoCallbackManager/SessionCreationResultCallback::.ctor(System.Object,System.IntPtr)
 extern void SessionCreationResultCallback__ctor_m631817F8B475A20C6CD0178298A788CFCC23649B (void);
-// 0x00000514 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/SessionCreationResultCallback::Invoke(System.IntPtr,System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiArStatus)
+// 0x000006CD System.Void GoogleARCoreInternal.ARPrestoCallbackManager/SessionCreationResultCallback::Invoke(System.IntPtr,System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiArStatus)
 extern void SessionCreationResultCallback_Invoke_m47C64B772729C8BE9CE3297C5F3BFE432C733163 (void);
-// 0x00000515 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/SessionCreationResultCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiArStatus,System.AsyncCallback,System.Object)
+// 0x000006CE System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager/SessionCreationResultCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiArStatus,System.AsyncCallback,System.Object)
 extern void SessionCreationResultCallback_BeginInvoke_mE2C412079BC861DB7F8F88E393279B7896E69B7A (void);
-// 0x00000516 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/SessionCreationResultCallback::EndInvoke(System.IAsyncResult)
+// 0x000006CF System.Void GoogleARCoreInternal.ARPrestoCallbackManager/SessionCreationResultCallback::EndInvoke(System.IAsyncResult)
 extern void SessionCreationResultCallback_EndInvoke_m6C7E8F6E6EDB67F6FA6EF9828EE1E83BDBEA06D3 (void);
-// 0x00000517 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/ExternApi::ArCoreUnity_getJniInfo(System.IntPtr&,System.IntPtr&)
+// 0x000006D0 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/ExternApi::ArCoreUnity_getJniInfo(System.IntPtr&,System.IntPtr&)
 extern void ExternApi_ArCoreUnity_getJniInfo_m0053B9D1D17A5676D4724D34E0A69B4479141B5A (void);
-// 0x00000518 System.Boolean GoogleARCoreInternal.ARPrestoCallbackManager/ExternApi::ArCoreUnity_setArPrestoInitialized(GoogleARCoreInternal.ARPrestoCallbackManager/EarlyUpdateCallback)
+// 0x000006D1 System.Boolean GoogleARCoreInternal.ARPrestoCallbackManager/ExternApi::ArCoreUnity_setArPrestoInitialized(GoogleARCoreInternal.ARPrestoCallbackManager/EarlyUpdateCallback)
 extern void ExternApi_ArCoreUnity_setArPrestoInitialized_m6E3E0A55FAEEEFDBE25A9BAA5FB161A1DBB0F0BF (void);
-// 0x00000519 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/ExternApi::ArPresto_initialize(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionRequestProvider,GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeSetConfigurationCallback,GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeResumeSessionCallback)
+// 0x000006D2 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/ExternApi::ArPresto_initialize(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ARPrestoCallbackManager/CameraPermissionRequestProvider,GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeSetConfigurationCallback,GoogleARCoreInternal.ARPrestoCallbackManager/OnBeforeResumeSessionCallback)
 extern void ExternApi_ArPresto_initialize_mEFE345F684DABDBB4DD861E4E2C5BEA38B75B028 (void);
-// 0x0000051A System.Void GoogleARCoreInternal.ARPrestoCallbackManager/ExternApi::ArPresto_checkApkAvailability(GoogleARCoreInternal.ARPrestoCallbackManager/CheckApkAvailabilityResultCallback,System.IntPtr)
+// 0x000006D3 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/ExternApi::ArPresto_checkApkAvailability(GoogleARCoreInternal.ARPrestoCallbackManager/CheckApkAvailabilityResultCallback,System.IntPtr)
 extern void ExternApi_ArPresto_checkApkAvailability_mEABBE709AA7758F821E2CDA68D235BDC1943EA9F (void);
-// 0x0000051B System.Void GoogleARCoreInternal.ARPrestoCallbackManager/ExternApi::ArPresto_requestApkInstallation(System.Boolean,GoogleARCoreInternal.ARPrestoCallbackManager/RequestApkInstallationResultCallback,System.IntPtr)
+// 0x000006D4 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/ExternApi::ArPresto_requestApkInstallation(System.Boolean,GoogleARCoreInternal.ARPrestoCallbackManager/RequestApkInstallationResultCallback,System.IntPtr)
 extern void ExternApi_ArPresto_requestApkInstallation_mB4D460D1F76B51AAF36EFD15AA7A9D933B26FA07 (void);
-// 0x0000051C System.Void GoogleARCoreInternal.ARPrestoCallbackManager/<>c__DisplayClass44_0::.ctor()
+// 0x000006D5 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/<>c__DisplayClass44_0::.ctor()
 extern void U3CU3Ec__DisplayClass44_0__ctor_m46243DE972637F87FAE5F2C4331B857D65BADF59 (void);
-// 0x0000051D System.Void GoogleARCoreInternal.ARPrestoCallbackManager/<>c__DisplayClass44_0::<RequestCameraPermission>b__0(GoogleARCore.AndroidPermissionsRequestResult)
+// 0x000006D6 System.Void GoogleARCoreInternal.ARPrestoCallbackManager/<>c__DisplayClass44_0::<RequestCameraPermission>b__0(GoogleARCore.AndroidPermissionsRequestResult)
 extern void U3CU3Ec__DisplayClass44_0_U3CRequestCameraPermissionU3Eb__0_m750BCCF4B6785E05B356A1DF9E1D8AE142DE0B95 (void);
-// 0x0000051E System.Void GoogleARCoreInternal.ILifecycleManager::add_UpdateSessionFeatures(System.Action)
-// 0x0000051F System.Void GoogleARCoreInternal.ILifecycleManager::remove_UpdateSessionFeatures(System.Action)
-// 0x00000520 System.Void GoogleARCoreInternal.ILifecycleManager::add_EarlyUpdate(System.Action)
-// 0x00000521 System.Void GoogleARCoreInternal.ILifecycleManager::remove_EarlyUpdate(System.Action)
-// 0x00000522 System.Void GoogleARCoreInternal.ILifecycleManager::add_OnSessionSetEnabled(System.Action`1<System.Boolean>)
-// 0x00000523 System.Void GoogleARCoreInternal.ILifecycleManager::remove_OnSessionSetEnabled(System.Action`1<System.Boolean>)
-// 0x00000524 System.Void GoogleARCoreInternal.ILifecycleManager::add_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
-// 0x00000525 System.Void GoogleARCoreInternal.ILifecycleManager::remove_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
-// 0x00000526 System.Void GoogleARCoreInternal.ILifecycleManager::add_OnResetInstance(System.Action)
-// 0x00000527 System.Void GoogleARCoreInternal.ILifecycleManager::remove_OnResetInstance(System.Action)
-// 0x00000528 GoogleARCore.SessionStatus GoogleARCoreInternal.ILifecycleManager::get_SessionStatus()
-// 0x00000529 GoogleARCore.LostTrackingReason GoogleARCoreInternal.ILifecycleManager::get_LostTrackingReason()
-// 0x0000052A GoogleARCore.ARCoreSession GoogleARCoreInternal.ILifecycleManager::get_SessionComponent()
-// 0x0000052B GoogleARCoreInternal.NativeSession GoogleARCoreInternal.ILifecycleManager::get_NativeSession()
-// 0x0000052C System.Boolean GoogleARCoreInternal.ILifecycleManager::get_IsSessionChangedThisFrame()
-// 0x0000052D GoogleARCore.AsyncTask`1<GoogleARCore.ApkAvailabilityStatus> GoogleARCoreInternal.ILifecycleManager::CheckApkAvailability()
-// 0x0000052E GoogleARCore.AsyncTask`1<GoogleARCore.ApkInstallationStatus> GoogleARCoreInternal.ILifecycleManager::RequestApkInstallation(System.Boolean)
-// 0x0000052F System.Void GoogleARCoreInternal.ILifecycleManager::CreateSession(GoogleARCore.ARCoreSession)
-// 0x00000530 System.Void GoogleARCoreInternal.ILifecycleManager::EnableSession()
-// 0x00000531 System.Void GoogleARCoreInternal.ILifecycleManager::DisableSession()
-// 0x00000532 System.Void GoogleARCoreInternal.ILifecycleManager::ResetSession()
-// 0x00000533 GoogleARCoreInternal.ILifecycleManager GoogleARCoreInternal.LifecycleManager::get_Instance()
+// 0x000006D7 System.Void GoogleARCoreInternal.ILifecycleManager::add_UpdateSessionFeatures(System.Action)
+// 0x000006D8 System.Void GoogleARCoreInternal.ILifecycleManager::remove_UpdateSessionFeatures(System.Action)
+// 0x000006D9 System.Void GoogleARCoreInternal.ILifecycleManager::add_EarlyUpdate(System.Action)
+// 0x000006DA System.Void GoogleARCoreInternal.ILifecycleManager::remove_EarlyUpdate(System.Action)
+// 0x000006DB System.Void GoogleARCoreInternal.ILifecycleManager::add_OnSessionSetEnabled(System.Action`1<System.Boolean>)
+// 0x000006DC System.Void GoogleARCoreInternal.ILifecycleManager::remove_OnSessionSetEnabled(System.Action`1<System.Boolean>)
+// 0x000006DD System.Void GoogleARCoreInternal.ILifecycleManager::add_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
+// 0x000006DE System.Void GoogleARCoreInternal.ILifecycleManager::remove_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
+// 0x000006DF System.Void GoogleARCoreInternal.ILifecycleManager::add_OnResetInstance(System.Action)
+// 0x000006E0 System.Void GoogleARCoreInternal.ILifecycleManager::remove_OnResetInstance(System.Action)
+// 0x000006E1 GoogleARCore.SessionStatus GoogleARCoreInternal.ILifecycleManager::get_SessionStatus()
+// 0x000006E2 GoogleARCore.LostTrackingReason GoogleARCoreInternal.ILifecycleManager::get_LostTrackingReason()
+// 0x000006E3 GoogleARCore.ARCoreSession GoogleARCoreInternal.ILifecycleManager::get_SessionComponent()
+// 0x000006E4 GoogleARCoreInternal.NativeSession GoogleARCoreInternal.ILifecycleManager::get_NativeSession()
+// 0x000006E5 System.Boolean GoogleARCoreInternal.ILifecycleManager::get_IsSessionChangedThisFrame()
+// 0x000006E6 GoogleARCore.AsyncTask`1<GoogleARCore.ApkAvailabilityStatus> GoogleARCoreInternal.ILifecycleManager::CheckApkAvailability()
+// 0x000006E7 GoogleARCore.AsyncTask`1<GoogleARCore.ApkInstallationStatus> GoogleARCoreInternal.ILifecycleManager::RequestApkInstallation(System.Boolean)
+// 0x000006E8 System.Void GoogleARCoreInternal.ILifecycleManager::CreateSession(GoogleARCore.ARCoreSession)
+// 0x000006E9 System.Void GoogleARCoreInternal.ILifecycleManager::EnableSession()
+// 0x000006EA System.Void GoogleARCoreInternal.ILifecycleManager::DisableSession()
+// 0x000006EB System.Void GoogleARCoreInternal.ILifecycleManager::ResetSession()
+// 0x000006EC GoogleARCoreInternal.ILifecycleManager GoogleARCoreInternal.LifecycleManager::get_Instance()
 extern void LifecycleManager_get_Instance_m549F5B7311EBABAFD513CD64A4535CB43B62BBCE (void);
-// 0x00000534 System.Void GoogleARCoreInternal.LifecycleManager::ResetInstance()
+// 0x000006ED System.Void GoogleARCoreInternal.LifecycleManager::ResetInstance()
 extern void LifecycleManager_ResetInstance_m010A0D2D0742B3AE427AE90B4D5D07112F4C1CB2 (void);
-// 0x00000535 System.Void GoogleARCoreInternal.LifecycleManager::.ctor()
+// 0x000006EE System.Void GoogleARCoreInternal.LifecycleManager::.ctor()
 extern void LifecycleManager__ctor_mA379D9730E93DA31C67FA3181F507DB8F4790C08 (void);
-// 0x00000536 System.Void GoogleARCoreInternal.PointCloudManager::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x000006EF System.Void GoogleARCoreInternal.PointCloudManager::.ctor(GoogleARCoreInternal.NativeSession)
 extern void PointCloudManager__ctor_m360CE167A43594E57BBFF59FEF05044CE5CF2B23 (void);
-// 0x00000537 System.IntPtr GoogleARCoreInternal.PointCloudManager::get_PointCloudHandle()
+// 0x000006F0 System.IntPtr GoogleARCoreInternal.PointCloudManager::get_PointCloudHandle()
 extern void PointCloudManager_get_PointCloudHandle_mE67E3B6E2295F76F1E45E5A66375C5F3083A6A92 (void);
-// 0x00000538 System.Void GoogleARCoreInternal.PointCloudManager::set_PointCloudHandle(System.IntPtr)
+// 0x000006F1 System.Void GoogleARCoreInternal.PointCloudManager::set_PointCloudHandle(System.IntPtr)
 extern void PointCloudManager_set_PointCloudHandle_m4560857599C36CDB81FD12EFBD2B13EDA1637B43 (void);
-// 0x00000539 System.Boolean GoogleARCoreInternal.PointCloudManager::get_IsPointCloudNew()
+// 0x000006F2 System.Boolean GoogleARCoreInternal.PointCloudManager::get_IsPointCloudNew()
 extern void PointCloudManager_get_IsPointCloudNew_m4B143687DE93AE399E2749E11505E2EF6873A8E0 (void);
-// 0x0000053A System.Void GoogleARCoreInternal.PointCloudManager::OnUpdate()
+// 0x000006F3 System.Void GoogleARCoreInternal.PointCloudManager::OnUpdate()
 extern void PointCloudManager_OnUpdate_m782C4EF351597710C50BCA06F7C415D81FF04413 (void);
-// 0x0000053B System.Void GoogleARCoreInternal.TrackableManager::.ctor(GoogleARCoreInternal.NativeSession)
+// 0x000006F4 System.Void GoogleARCoreInternal.TrackableManager::.ctor(GoogleARCoreInternal.NativeSession)
 extern void TrackableManager__ctor_mBC64CA8E76861878855A63C78939713BB7E3F0C9 (void);
-// 0x0000053C GoogleARCore.Trackable GoogleARCoreInternal.TrackableManager::TrackableFactory(System.IntPtr)
+// 0x000006F5 GoogleARCore.Trackable GoogleARCoreInternal.TrackableManager::TrackableFactory(System.IntPtr)
 extern void TrackableManager_TrackableFactory_mA8493E97EABB0A088679D5B52906A8151F0EAA2C (void);
-// 0x0000053D System.Void GoogleARCoreInternal.TrackableManager::GetTrackables(System.Collections.Generic.List`1<T>,GoogleARCore.TrackableQueryFilter)
-// 0x0000053E System.Void GoogleARCoreInternal.TrackableManager::SafeAdd(GoogleARCore.Trackable,System.Collections.Generic.List`1<T>)
-// 0x0000053F System.Void GoogleARCoreInternal.TrackableManager::ClearCachedTrackables()
+// 0x000006F6 System.Void GoogleARCoreInternal.TrackableManager::GetTrackables(System.Collections.Generic.List`1<T>,GoogleARCore.TrackableQueryFilter)
+// 0x000006F7 System.Void GoogleARCoreInternal.TrackableManager::SafeAdd(GoogleARCore.Trackable,System.Collections.Generic.List`1<T>)
+// 0x000006F8 System.Void GoogleARCoreInternal.TrackableManager::ClearCachedTrackables()
 extern void TrackableManager_ClearCachedTrackables_m704F55A317EE9577EBF0D61C164273808292A9A7 (void);
-// 0x00000540 GoogleARCoreInternal.ARCoreProjectSettings GoogleARCoreInternal.ARCoreProjectSettings::get_Instance()
+// 0x000006F9 GoogleARCoreInternal.ARCoreProjectSettings GoogleARCoreInternal.ARCoreProjectSettings::get_Instance()
 extern void ARCoreProjectSettings_get_Instance_m836B8FF71A78711345E7A2B042CFCC86DDB2A2E3 (void);
-// 0x00000541 System.Void GoogleARCoreInternal.ARCoreProjectSettings::Load()
+// 0x000006FA System.Void GoogleARCoreInternal.ARCoreProjectSettings::Load()
 extern void ARCoreProjectSettings_Load_mC2C7D397955C1EC82629DDA197DB87C584868F58 (void);
-// 0x00000542 System.Void GoogleARCoreInternal.ARCoreProjectSettings::Save()
+// 0x000006FB System.Void GoogleARCoreInternal.ARCoreProjectSettings::Save()
 extern void ARCoreProjectSettings_Save_m10AA1D0E7993F3A232CCC8F3E2743E7BB0DB56D4 (void);
-// 0x00000543 System.Boolean GoogleARCoreInternal.ARCoreProjectSettings::IsAndroidApiKeyFieldDisplayed()
+// 0x000006FC System.Boolean GoogleARCoreInternal.ARCoreProjectSettings::IsAndroidApiKeyFieldDisplayed()
 extern void ARCoreProjectSettings_IsAndroidApiKeyFieldDisplayed_m9EBC359A56A227C85B298E70B8F288D560D7A141 (void);
-// 0x00000544 GoogleARCoreInternal.HelpAttribute GoogleARCoreInternal.ARCoreProjectSettings::GetAndroidStrategyHelpInfo()
+// 0x000006FD GoogleARCoreInternal.HelpAttribute GoogleARCoreInternal.ARCoreProjectSettings::GetAndroidStrategyHelpInfo()
 extern void ARCoreProjectSettings_GetAndroidStrategyHelpInfo_m402701046662A363C4EB2CD95D4246237A668D38 (void);
-// 0x00000545 System.Array GoogleARCoreInternal.ARCoreProjectSettings::GetAndroidStrategyRange()
+// 0x000006FE System.Array GoogleARCoreInternal.ARCoreProjectSettings::GetAndroidStrategyRange()
 extern void ARCoreProjectSettings_GetAndroidStrategyRange_m20EADF54ABCBE52C15D4F360BB70FF6426A6C4CA (void);
-// 0x00000546 System.Boolean GoogleARCoreInternal.ARCoreProjectSettings::IsIosApiKeyFieldDisplayed()
+// 0x000006FF System.Boolean GoogleARCoreInternal.ARCoreProjectSettings::IsIosApiKeyFieldDisplayed()
 extern void ARCoreProjectSettings_IsIosApiKeyFieldDisplayed_mC617FAAB2411C6BD443CB99D7B70B19441D8DB1C (void);
-// 0x00000547 System.Array GoogleARCoreInternal.ARCoreProjectSettings::GetIosStrategyRange()
+// 0x00000700 System.Array GoogleARCoreInternal.ARCoreProjectSettings::GetIosStrategyRange()
 extern void ARCoreProjectSettings_GetIosStrategyRange_mF6E5D1E1006F38C6B1DA33D6E62CC8F1E4DFB8AE (void);
-// 0x00000548 GoogleARCoreInternal.HelpAttribute GoogleARCoreInternal.ARCoreProjectSettings::GetIosStrategyHelpInfo()
+// 0x00000701 GoogleARCoreInternal.HelpAttribute GoogleARCoreInternal.ARCoreProjectSettings::GetIosStrategyHelpInfo()
 extern void ARCoreProjectSettings_GetIosStrategyHelpInfo_m0F8B97E4641924A1A2898A799CD0AF3E30623B7E (void);
-// 0x00000549 System.Void GoogleARCoreInternal.ARCoreProjectSettings::.ctor()
+// 0x00000702 System.Void GoogleARCoreInternal.ARCoreProjectSettings::.ctor()
 extern void ARCoreProjectSettings__ctor_mBC4C13F8D3CFC76EB075E885733956C1B0FB33E2 (void);
-// 0x0000054A System.Void GoogleARCoreInternal.ARCoreProjectSettings::.cctor()
+// 0x00000703 System.Void GoogleARCoreInternal.ARCoreProjectSettings::.cctor()
 extern void ARCoreProjectSettings__cctor_m056C1325CB95230561BE3D3152FAE4F3578A3B82 (void);
-// 0x0000054B System.Void GoogleARCoreInternal.DisplayConditionAttribute::.ctor(System.String)
+// 0x00000704 System.Void GoogleARCoreInternal.DisplayConditionAttribute::.ctor(System.String)
 extern void DisplayConditionAttribute__ctor_m0260A0007A6F6F49AC211E455A72033310EA67FE (void);
-// 0x0000054C System.Void GoogleARCoreInternal.DisplayNameAttribute::.ctor(System.String)
+// 0x00000705 System.Void GoogleARCoreInternal.DisplayNameAttribute::.ctor(System.String)
 extern void DisplayNameAttribute__ctor_m279671C2AF36850FC35CD2FCC3026BA01A27491A (void);
-// 0x0000054D System.Void GoogleARCoreInternal.DynamicHelpAttribute::.ctor(System.String)
+// 0x00000706 System.Void GoogleARCoreInternal.DynamicHelpAttribute::.ctor(System.String)
 extern void DynamicHelpAttribute__ctor_m7B2762AC50CD32C6BD3748548AAADE299A73ACFB (void);
-// 0x0000054E System.Void GoogleARCoreInternal.EnumRangeAttribute::.ctor(System.String)
+// 0x00000707 System.Void GoogleARCoreInternal.EnumRangeAttribute::.ctor(System.String)
 extern void EnumRangeAttribute__ctor_m0DB4E8EA206AFE11B9C128AC53C5BD5E215500A9 (void);
-// 0x0000054F System.Void GoogleARCoreInternal.ARDebug::LogError(System.Object)
+// 0x00000708 System.Void GoogleARCoreInternal.ARDebug::LogError(System.Object)
 extern void ARDebug_LogError_m9D0CB2D256366AC6721A7526072C304D6510AFEF (void);
-// 0x00000550 System.Void GoogleARCoreInternal.ARDebug::LogErrorFormat(System.String,System.Object[])
+// 0x00000709 System.Void GoogleARCoreInternal.ARDebug::LogErrorFormat(System.String,System.Object[])
 extern void ARDebug_LogErrorFormat_mFB31466C76F9ABA9FE69A3FE2160F2017535F799 (void);
-// 0x00000551 System.Void GoogleARCoreInternal.ARDebug::.ctor()
+// 0x0000070A System.Void GoogleARCoreInternal.ARDebug::.ctor()
 extern void ARDebug__ctor_mE82E295407432F4677B9567332E1425C17C1F5E5 (void);
-// 0x00000552 GoogleARCoreInternal.AndroidNativeHelper/AndroidSurfaceRotation GoogleARCoreInternal.AndroidNativeHelper::GetDisplayRotation()
+// 0x0000070B GoogleARCoreInternal.AndroidNativeHelper/AndroidSurfaceRotation GoogleARCoreInternal.AndroidNativeHelper::GetDisplayRotation()
 extern void AndroidNativeHelper_GetDisplayRotation_mF689D0DCBB32E7C3F94C5C5421967C7AB837DBD1 (void);
-// 0x00000553 System.Void GoogleARCoreInternal.AndroidNativeHelper::.ctor()
+// 0x0000070C System.Void GoogleARCoreInternal.AndroidNativeHelper::.ctor()
 extern void AndroidNativeHelper__ctor_mCE1A160E02D31EA70F34589018C56C4084106EB8 (void);
-// 0x00000554 System.Void GoogleARCoreInternal.ConversionHelper::UnityPoseToApiPose(UnityEngine.Pose,GoogleARCoreInternal.ApiPoseData&)
+// 0x0000070D System.Void GoogleARCoreInternal.ConversionHelper::UnityPoseToApiPose(UnityEngine.Pose,GoogleARCoreInternal.ApiPoseData&)
 extern void ConversionHelper_UnityPoseToApiPose_m018AE52C8EC377A22AC4FD970B9E162D88639B6D (void);
-// 0x00000555 System.Void GoogleARCoreInternal.ConversionHelper::ApiPoseToUnityPose(GoogleARCoreInternal.ApiPoseData,UnityEngine.Pose&)
+// 0x0000070E System.Void GoogleARCoreInternal.ConversionHelper::ApiPoseToUnityPose(GoogleARCoreInternal.ApiPoseData,UnityEngine.Pose&)
 extern void ConversionHelper_ApiPoseToUnityPose_m73A20B2D552ECD5F0E219521630CB3F6A6C127FF (void);
-// 0x00000556 System.Void GoogleARCoreInternal.ConversionHelper::ApiVectorToUnityVector(System.Single[],UnityEngine.Vector3&)
+// 0x0000070F System.Void GoogleARCoreInternal.ConversionHelper::ApiVectorToUnityVector(System.Single[],UnityEngine.Vector3&)
 extern void ConversionHelper_ApiVectorToUnityVector_m1E753D0C2C766B2B772B4337A7D609E1175292AB (void);
-// 0x00000557 System.Void GoogleARCoreInternal.ConversionHelper::.ctor()
+// 0x00000710 System.Void GoogleARCoreInternal.ConversionHelper::.ctor()
 extern void ConversionHelper__ctor_m94B2B86B6D36B8B80980AF44D531FE4EC4E50A0F (void);
-// 0x00000558 System.Void GoogleARCoreInternal.ConversionHelper::.cctor()
+// 0x00000711 System.Void GoogleARCoreInternal.ConversionHelper::.cctor()
 extern void ConversionHelper__cctor_m98A955944E3AC3BF4064C38047316A3A4CB080FD (void);
-// 0x00000559 System.Collections.Generic.List`1<GoogleARCoreInternal.IDependentModule> GoogleARCoreInternal.DependentModulesManager::GetModules()
+// 0x00000712 System.Collections.Generic.List`1<GoogleARCoreInternal.IDependentModule> GoogleARCoreInternal.DependentModulesManager::GetModules()
 extern void DependentModulesManager_GetModules_m3E34AD80ADA97B8F8E6F609B0C141641C81E0CE9 (void);
-// 0x0000055A System.Void GoogleARCoreInternal.DependentModulesManager::.ctor()
+// 0x00000713 System.Void GoogleARCoreInternal.DependentModulesManager::.ctor()
 extern void DependentModulesManager__ctor_mE04EBF3CFE19EA015510C7E3A203305B05CBEE2D (void);
-// 0x0000055B System.Boolean GoogleARCoreInternal.IDependentModule::IsEnabled(GoogleARCoreInternal.ARCoreProjectSettings)
-// 0x0000055C System.String GoogleARCoreInternal.IDependentModule::GetAndroidManifestSnippet(GoogleARCoreInternal.ARCoreProjectSettings)
-// 0x0000055D System.Boolean GoogleARCoreInternal.IDependentModule::IsCompatibleWithSessionConfig(GoogleARCoreInternal.ARCoreProjectSettings,GoogleARCore.ARCoreSessionConfig)
-// 0x0000055E System.Void GoogleARCoreInternal.DllImportNoop::.ctor(System.String)
+// 0x00000714 System.Boolean GoogleARCoreInternal.IDependentModule::IsEnabled(GoogleARCoreInternal.ARCoreProjectSettings)
+// 0x00000715 System.String GoogleARCoreInternal.IDependentModule::GetAndroidManifestSnippet(GoogleARCoreInternal.ARCoreProjectSettings)
+// 0x00000716 System.Boolean GoogleARCoreInternal.IDependentModule::IsCompatibleWithSessionConfig(GoogleARCoreInternal.ARCoreProjectSettings,GoogleARCore.ARCoreSessionConfig)
+// 0x00000717 System.Void GoogleARCoreInternal.DllImportNoop::.ctor(System.String)
 extern void DllImportNoop__ctor_m8AB21925514C0014EE1EDAE706842284BDBDE20C (void);
-// 0x0000055F System.Void GoogleARCoreInternal.HelpAttribute::.ctor(System.String,GoogleARCoreInternal.HelpAttribute/HelpMessageType)
+// 0x00000718 System.Void GoogleARCoreInternal.HelpAttribute::.ctor(System.String,GoogleARCoreInternal.HelpAttribute/HelpMessageType)
 extern void HelpAttribute__ctor_m13D5630DC2F1FF3817B940C178F27F5E9E721FB2 (void);
-// 0x00000560 System.Boolean GoogleARCoreInternal.IntPtrEqualityComparer::Equals(System.IntPtr,System.IntPtr)
+// 0x00000719 System.Boolean GoogleARCoreInternal.IntPtrEqualityComparer::Equals(System.IntPtr,System.IntPtr)
 extern void IntPtrEqualityComparer_Equals_m97A6DF86F030DE00A0953DA8BC971FD7CC1C3446 (void);
-// 0x00000561 System.Int32 GoogleARCoreInternal.IntPtrEqualityComparer::GetHashCode(System.IntPtr)
+// 0x0000071A System.Int32 GoogleARCoreInternal.IntPtrEqualityComparer::GetHashCode(System.IntPtr)
 extern void IntPtrEqualityComparer_GetHashCode_m5AEB12CBC80011C8A60901D6A46E4F9EB058B4B7 (void);
-// 0x00000562 System.Void GoogleARCoreInternal.IntPtrEqualityComparer::.ctor()
+// 0x0000071B System.Void GoogleARCoreInternal.IntPtrEqualityComparer::.ctor()
 extern void IntPtrEqualityComparer__ctor_mE391135A74C41ABF2D98755381009555DFBAB164 (void);
-// 0x00000563 System.Void GoogleARCoreInternal.MarshalingHelper::AddUnmanagedStructArrayToList(System.IntPtr,System.Int32,System.Collections.Generic.List`1<T>)
-// 0x00000564 System.IntPtr GoogleARCoreInternal.MarshalingHelper::GetPtrToUnmanagedArrayElement(System.IntPtr,System.Int32)
-// 0x00000565 System.Void GoogleARCoreInternal.MarshalingHelper::.ctor()
+// 0x0000071C System.Void GoogleARCoreInternal.MarshalingHelper::AddUnmanagedStructArrayToList(System.IntPtr,System.Int32,System.Collections.Generic.List`1<T>)
+// 0x0000071D System.IntPtr GoogleARCoreInternal.MarshalingHelper::GetPtrToUnmanagedArrayElement(System.IntPtr,System.Int32)
+// 0x0000071E System.Void GoogleARCoreInternal.MarshalingHelper::.ctor()
 extern void MarshalingHelper__ctor_mAE3CCA279B84C1B239140AF48A58F4A62DA865BD (void);
-// 0x00000566 System.Int32 GoogleARCoreInternal.OpenGL::glGetError()
+// 0x0000071F System.Int32 GoogleARCoreInternal.OpenGL::glGetError()
 extern void OpenGL_glGetError_m81A9F959408020BA7F1A2D4D5D4F021279DDBDFD (void);
-// 0x00000567 System.Void GoogleARCoreInternal.OpenGL::glGenTextures(System.Int32,System.Int32[])
+// 0x00000720 System.Void GoogleARCoreInternal.OpenGL::glGenTextures(System.Int32,System.Int32[])
 extern void OpenGL_glGenTextures_mD023FAC325E8BA17D5B729743D5251BEEFFF3D3B (void);
-// 0x00000568 System.Void GoogleARCoreInternal.OpenGL::glBindTexture(GoogleARCoreInternal.OpenGL/Target,System.Int32)
+// 0x00000721 System.Void GoogleARCoreInternal.OpenGL::glBindTexture(GoogleARCoreInternal.OpenGL/Target,System.Int32)
 extern void OpenGL_glBindTexture_mA1DFB888E2A646ECA3197CAB397284B75C5AFB1C (void);
-// 0x00000569 System.Void GoogleARCoreInternal.ShellHelper::RunCommand(System.String,System.String,System.String&,System.String&)
+// 0x00000722 System.Void GoogleARCoreInternal.ShellHelper::RunCommand(System.String,System.String,System.String&,System.String&)
 extern void ShellHelper_RunCommand_m0D7F2E7C5AC92E924921F7437B8218C3242B1384 (void);
-// 0x0000056A System.String GoogleARCoreInternal.ShellHelper::GetAdbPath()
+// 0x00000723 System.String GoogleARCoreInternal.ShellHelper::GetAdbPath()
 extern void ShellHelper_GetAdbPath_m79DFCA30C535CD484D0664C19A5C66875534F8B3 (void);
-// 0x0000056B System.String GoogleARCoreInternal.ShellHelper::GetAdbFileName()
+// 0x00000724 System.String GoogleARCoreInternal.ShellHelper::GetAdbFileName()
 extern void ShellHelper_GetAdbFileName_m4BA4482BB8509208F5D0F021246CA2F381CAEDA7 (void);
-// 0x0000056C System.Void GoogleARCoreInternal.ShellHelper/<>c__DisplayClass0_0::.ctor()
+// 0x00000725 System.Void GoogleARCoreInternal.ShellHelper/<>c__DisplayClass0_0::.ctor()
 extern void U3CU3Ec__DisplayClass0_0__ctor_mCD0C66A73174599EC6E00F3956CEEF9E290989B3 (void);
-// 0x0000056D System.Void GoogleARCoreInternal.ShellHelper/<>c__DisplayClass0_0::<RunCommand>b__0(System.Object,System.Diagnostics.DataReceivedEventArgs)
+// 0x00000726 System.Void GoogleARCoreInternal.ShellHelper/<>c__DisplayClass0_0::<RunCommand>b__0(System.Object,System.Diagnostics.DataReceivedEventArgs)
 extern void U3CU3Ec__DisplayClass0_0_U3CRunCommandU3Eb__0_mFFC0DB75B79B5E382F3377BF38ABD7B75A316B21 (void);
-// 0x0000056E System.Void GoogleARCoreInternal.ShellHelper/<>c__DisplayClass0_0::<RunCommand>b__1(System.Object,System.Diagnostics.DataReceivedEventArgs)
+// 0x00000727 System.Void GoogleARCoreInternal.ShellHelper/<>c__DisplayClass0_0::<RunCommand>b__1(System.Object,System.Diagnostics.DataReceivedEventArgs)
 extern void U3CU3Ec__DisplayClass0_0_U3CRunCommandU3Eb__1_mD3F7AD20AC35F87BBE7B4B71E6606ADEC88828A8 (void);
-// 0x0000056F System.Void GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::.ctor()
+// 0x00000728 System.Void GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::.ctor()
 extern void SuppressMemoryAllocationErrorAttribute__ctor_mD8359A44EC3ECD40EEED8404C39466F6BAB4F202 (void);
-// 0x00000570 System.Boolean GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::get_IsWarning()
+// 0x00000729 System.Boolean GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::get_IsWarning()
 extern void SuppressMemoryAllocationErrorAttribute_get_IsWarning_m366D3F1D633D3A1C2C55203EF16787F2759D0B3E (void);
-// 0x00000571 System.Void GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::set_IsWarning(System.Boolean)
+// 0x0000072A System.Void GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::set_IsWarning(System.Boolean)
 extern void SuppressMemoryAllocationErrorAttribute_set_IsWarning_mAD6A1B6DE4CB63B11DD1352F7ED80A243C661D70 (void);
-// 0x00000572 System.String GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::get_Reason()
+// 0x0000072B System.String GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::get_Reason()
 extern void SuppressMemoryAllocationErrorAttribute_get_Reason_mDF4AE7F6F78C401504277119DDA7B6929D8EB2A5 (void);
-// 0x00000573 System.Void GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::set_Reason(System.String)
+// 0x0000072C System.Void GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::set_Reason(System.String)
 extern void SuppressMemoryAllocationErrorAttribute_set_Reason_m49FC1802468BBB479E195E3BAC11E79195D7EAD5 (void);
-// 0x00000574 System.Void GoogleARCoreInternal.ThrottledLogMessage::.ctor(System.Single)
+// 0x0000072D System.Void GoogleARCoreInternal.ThrottledLogMessage::.ctor(System.Single)
 extern void ThrottledLogMessage__ctor_m3443DCCD340D58F5DF13D3A595614A427F70F069 (void);
-// 0x00000575 System.Void GoogleARCoreInternal.ThrottledLogMessage::ThrottledLogWarningFormat(System.String,System.Object[])
+// 0x0000072E System.Void GoogleARCoreInternal.ThrottledLogMessage::ThrottledLogWarningFormat(System.String,System.Object[])
 extern void ThrottledLogMessage_ThrottledLogWarningFormat_mFE2B89DD43133ABAD5A32CF8EF3F83A2157E64E8 (void);
-// 0x00000576 System.Boolean GoogleARCoreInternal.ThrottledLogMessage::ShouldLog()
+// 0x0000072F System.Boolean GoogleARCoreInternal.ThrottledLogMessage::ShouldLog()
 extern void ThrottledLogMessage_ShouldLog_m32A70D31E30248737908E5B67E2A4AA607F058B7 (void);
-// 0x00000577 GoogleARCoreInternal.CrossPlatform.CloudServiceManager GoogleARCoreInternal.CrossPlatform.CloudServiceManager::get_Instance()
+// 0x00000730 GoogleARCoreInternal.CrossPlatform.CloudServiceManager GoogleARCoreInternal.CrossPlatform.CloudServiceManager::get_Instance()
 extern void CloudServiceManager_get_Instance_mA07B552FD047643EDDFDA7BC3F63A5203A65FBCC (void);
-// 0x00000578 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(GoogleARCore.Anchor)
+// 0x00000731 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(GoogleARCore.Anchor)
 extern void CloudServiceManager_CreateCloudAnchor_m8C40650BE1C7EE349ABE0ED0505758E06D6410DA (void);
-// 0x00000579 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(UnityEngine.Pose)
+// 0x00000732 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(UnityEngine.Pose)
 extern void CloudServiceManager_CreateCloudAnchor_m016EFE167DAEB41C4055618CC3DF131B9612436B (void);
-// 0x0000057A GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::ResolveCloudAnchor(System.String)
+// 0x00000733 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::ResolveCloudAnchor(System.String)
 extern void CloudServiceManager_ResolveCloudAnchor_m6EC407C269DF0DAF958A1B47EFA92021AEEF061D (void);
-// 0x0000057B System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CancelCloudAnchorAsyncTask(System.String)
+// 0x00000734 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CancelCloudAnchorAsyncTask(System.String)
 extern void CloudServiceManager_CancelCloudAnchorAsyncTask_m212B81B6AFE3AB8D18C3513A7B99219D502A3CFD (void);
-// 0x0000057C GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(GoogleARCore.Anchor,System.Int32)
+// 0x00000735 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(GoogleARCore.Anchor,System.Int32)
 extern void CloudServiceManager_CreateCloudAnchor_m94F98E3C2EFD665DE65AC5B6D699453F8D358B3A (void);
-// 0x0000057D GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(UnityEngine.Pose,System.Int32)
+// 0x00000736 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(UnityEngine.Pose,System.Int32)
 extern void CloudServiceManager_CreateCloudAnchor_m5C470353816B12C88DC7CB948A30B8349C8DBB75 (void);
-// 0x0000057E System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::SetAuthToken(System.String)
+// 0x00000737 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::SetAuthToken(System.String)
 extern void CloudServiceManager_SetAuthToken_m5B7A6C4007A5DC13D8484E4E7895A8D972234A32 (void);
-// 0x0000057F GoogleARCore.CrossPlatform.FeatureMapQuality GoogleARCoreInternal.CrossPlatform.CloudServiceManager::EstimateFeatureMapQualityForHosting(UnityEngine.Pose)
+// 0x00000738 GoogleARCore.CrossPlatform.FeatureMapQuality GoogleARCoreInternal.CrossPlatform.CloudServiceManager::EstimateFeatureMapQualityForHosting(UnityEngine.Pose)
 extern void CloudServiceManager_EstimateFeatureMapQualityForHosting_m74511B9796D7F79F28310F593E1E0D7AF5F16962 (void);
-// 0x00000580 System.Boolean GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchorResultAsyncTask(System.Action`1<GoogleARCore.CrossPlatform.CloudAnchorResult>&,GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult>&)
+// 0x00000739 System.Boolean GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchorResultAsyncTask(System.Action`1<GoogleARCore.CrossPlatform.CloudAnchorResult>&,GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult>&)
 extern void CloudServiceManager_CreateCloudAnchorResultAsyncTask_m380250AC8550CE1F089F1A317CA4E3E8D9746BAE (void);
-// 0x00000581 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateAndTrackCloudAnchorRequest(System.IntPtr,System.Action`1<GoogleARCore.CrossPlatform.CloudAnchorResult>,System.String)
+// 0x0000073A System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateAndTrackCloudAnchorRequest(System.IntPtr,System.Action`1<GoogleARCore.CrossPlatform.CloudAnchorResult>,System.String)
 extern void CloudServiceManager_CreateAndTrackCloudAnchorRequest_m4C274FEEAFB5F16EA43EC9600862D6C298DA20CB (void);
-// 0x00000582 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(System.Action`1<GoogleARCore.CrossPlatform.CloudAnchorResult>,System.IntPtr)
+// 0x0000073B System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(System.Action`1<GoogleARCore.CrossPlatform.CloudAnchorResult>,System.IntPtr)
 extern void CloudServiceManager_CreateCloudAnchor_mABA5CF0A702BF3F2F457E473FD3BFEBDCA423CE0 (void);
-// 0x00000583 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(System.Action`1<GoogleARCore.CrossPlatform.CloudAnchorResult>,System.IntPtr,System.Int32)
+// 0x0000073C System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(System.Action`1<GoogleARCore.CrossPlatform.CloudAnchorResult>,System.IntPtr,System.Int32)
 extern void CloudServiceManager_CreateCloudAnchor_mD2FB0E1B9F021CB205EB7508A53C46B9D7C508A4 (void);
-// 0x00000584 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CancelCloudAnchorRequest(System.String)
+// 0x0000073D System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CancelCloudAnchorRequest(System.String)
 extern void CloudServiceManager_CancelCloudAnchorRequest_m980D88E14E483CC73F9B9A7B22404D15F042CD45 (void);
-// 0x00000585 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::ResetInstance()
+// 0x0000073E System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::ResetInstance()
 extern void CloudServiceManager_ResetInstance_m7217D52577D5CBDF7A4DFEDE19F933DDA9E2BC4A (void);
-// 0x00000586 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::OnEarlyUpdate()
+// 0x0000073F System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::OnEarlyUpdate()
 extern void CloudServiceManager_OnEarlyUpdate_m32364A28B51821845AD9938094BB4BDF69D72E5A (void);
-// 0x00000587 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::UpdateCloudAnchorRequest(GoogleARCoreInternal.CrossPlatform.CloudServiceManager/CloudAnchorRequest,System.Boolean)
+// 0x00000740 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::UpdateCloudAnchorRequest(GoogleARCoreInternal.CrossPlatform.CloudServiceManager/CloudAnchorRequest,System.Boolean)
 extern void CloudServiceManager_UpdateCloudAnchorRequest_m40F7DFE32211FBA8AC2D0A87C9B06ED53F763592 (void);
-// 0x00000588 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::.ctor()
+// 0x00000741 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::.ctor()
 extern void CloudServiceManager__ctor_m20BDC6613BE88ED9A0BD5E6E1EAC8542F3BA5DCA (void);
-// 0x00000589 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager/ExternApi::ARKitAnchor_create(System.IntPtr,System.IntPtr&)
+// 0x00000742 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager/ExternApi::ARKitAnchor_create(System.IntPtr,System.IntPtr&)
 extern void ExternApi_ARKitAnchor_create_m4D3730FCA78D82F513A950DFF9439EF0F309D144 (void);
-// 0x0000058A System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager/ExternApi::ARKitAnchor_release(System.IntPtr)
+// 0x00000743 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager/ExternApi::ARKitAnchor_release(System.IntPtr)
 extern void ExternApi_ARKitAnchor_release_m40EDDF93551C21228ECA99D0B7D3476B8A92EAFD (void);
-// 0x0000058B System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager/CloudAnchorRequest::.ctor()
+// 0x00000744 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager/CloudAnchorRequest::.ctor()
 extern void CloudAnchorRequest__ctor_m742A8BBC900051516CD396B4DBC2BF92EC8E23A3 (void);
-// 0x0000058C System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager/<>c::.cctor()
+// 0x00000745 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager/<>c::.cctor()
 extern void U3CU3Ec__cctor_m0F66D1B48CC635E969C0246CC4219BF13CF275AC (void);
-// 0x0000058D System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager/<>c::.ctor()
+// 0x00000746 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager/<>c::.ctor()
 extern void U3CU3Ec__ctor_m7C407C9CBF6FD114E82D6AAEA9EFA71299277197 (void);
-// 0x0000058E System.Boolean GoogleARCoreInternal.CrossPlatform.CloudServiceManager/<>c::<CancelCloudAnchorRequest>b__16_0(GoogleARCoreInternal.CrossPlatform.CloudServiceManager/CloudAnchorRequest)
+// 0x00000747 System.Boolean GoogleARCoreInternal.CrossPlatform.CloudServiceManager/<>c::<CancelCloudAnchorRequest>b__16_0(GoogleARCoreInternal.CrossPlatform.CloudServiceManager/CloudAnchorRequest)
 extern void U3CU3Ec_U3CCancelCloudAnchorRequestU3Eb__16_0_m043986E916CD357C35F21E3B9D8004AF5D89525E (void);
-// 0x0000058F System.Boolean GoogleARCoreInternal.CrossPlatform.CloudServiceManager/<>c::<OnEarlyUpdate>b__18_0(GoogleARCoreInternal.CrossPlatform.CloudServiceManager/CloudAnchorRequest)
+// 0x00000748 System.Boolean GoogleARCoreInternal.CrossPlatform.CloudServiceManager/<>c::<OnEarlyUpdate>b__18_0(GoogleARCoreInternal.CrossPlatform.CloudServiceManager/CloudAnchorRequest)
 extern void U3CU3Ec_U3COnEarlyUpdateU3Eb__18_0_mE9E692F92ACA01F138075ACDC5360DE116D4EFF6 (void);
-// 0x00000590 System.Void GoogleARCore.DemoARBackgroundRenderer::SwapBackgroundMaterial(UnityEngine.Material)
+// 0x00000749 System.Void GoogleARCore.DemoARBackgroundRenderer::SwapBackgroundMaterial(UnityEngine.Material)
 extern void DemoARBackgroundRenderer_SwapBackgroundMaterial_m12F4921B2485F69E906583B355DB4A38F73C6603 (void);
-// 0x00000591 System.Void GoogleARCore.DemoARBackgroundRenderer::ResetBackgroundMaterial()
+// 0x0000074A System.Void GoogleARCore.DemoARBackgroundRenderer::ResetBackgroundMaterial()
 extern void DemoARBackgroundRenderer_ResetBackgroundMaterial_mDBCED52D2D332C7ED96809E52376B6F4763C090D (void);
-// 0x00000592 System.Void GoogleARCore.DemoARBackgroundRenderer::EnableARBackgroundRendering()
+// 0x0000074B System.Void GoogleARCore.DemoARBackgroundRenderer::EnableARBackgroundRendering()
 extern void DemoARBackgroundRenderer_EnableARBackgroundRendering_m343A25442A7D80B3831AB0BEDCCE0241DD12BC0B (void);
-// 0x00000593 System.Void GoogleARCore.DemoARBackgroundRenderer::DisableARBackgroundRendering()
+// 0x0000074C System.Void GoogleARCore.DemoARBackgroundRenderer::DisableARBackgroundRendering()
 extern void DemoARBackgroundRenderer_DisableARBackgroundRendering_m879A7EB815BB4B2C76C1C5A68B65EE58DA0EA136 (void);
-// 0x00000594 System.Void GoogleARCore.DemoARBackgroundRenderer::OnEnable()
+// 0x0000074D System.Void GoogleARCore.DemoARBackgroundRenderer::OnEnable()
 extern void DemoARBackgroundRenderer_OnEnable_mFB0C52470D6CEE7445E2ED01D5B4EDCCDECB7DE7 (void);
-// 0x00000595 System.Void GoogleARCore.DemoARBackgroundRenderer::OnDisable()
+// 0x0000074E System.Void GoogleARCore.DemoARBackgroundRenderer::OnDisable()
 extern void DemoARBackgroundRenderer_OnDisable_mF4151964AF09450F90DFD75845E0FA73B66B57F9 (void);
-// 0x00000596 System.Void GoogleARCore.DemoARBackgroundRenderer::OnPreRender()
+// 0x0000074F System.Void GoogleARCore.DemoARBackgroundRenderer::OnPreRender()
 extern void DemoARBackgroundRenderer_OnPreRender_m11AD166418B8CB442DD3970C57763046A7253400 (void);
-// 0x00000597 System.Void GoogleARCore.DemoARBackgroundRenderer::OnPostRender()
+// 0x00000750 System.Void GoogleARCore.DemoARBackgroundRenderer::OnPostRender()
 extern void DemoARBackgroundRenderer_OnPostRender_mF2BF093D435C9697AB5DCF05924C7CA33A9EC2CE (void);
-// 0x00000598 System.Void GoogleARCore.DemoARBackgroundRenderer::Start()
+// 0x00000751 System.Void GoogleARCore.DemoARBackgroundRenderer::Start()
 extern void DemoARBackgroundRenderer_Start_m33800C27F6AC3A0030253A6C452975A79AB234E5 (void);
-// 0x00000599 System.Void GoogleARCore.DemoARBackgroundRenderer::Update()
+// 0x00000752 System.Void GoogleARCore.DemoARBackgroundRenderer::Update()
 extern void DemoARBackgroundRenderer_Update_m1BE7D42AC94D1F72CCBADB50A7F626336E4B9029 (void);
-// 0x0000059A System.Void GoogleARCore.DemoARBackgroundRenderer::_UpdateState()
+// 0x00000753 System.Void GoogleARCore.DemoARBackgroundRenderer::_UpdateState()
 extern void DemoARBackgroundRenderer__UpdateState_m2334D0F91E625D148A201E497C2171A461622851 (void);
-// 0x0000059B System.Void GoogleARCore.DemoARBackgroundRenderer::_UpdateShaderVariables()
+// 0x00000754 System.Void GoogleARCore.DemoARBackgroundRenderer::_UpdateShaderVariables()
 extern void DemoARBackgroundRenderer__UpdateShaderVariables_mAE324B3C7A263909E1F67BE4157B9B4E427F6486 (void);
-// 0x0000059C System.Void GoogleARCore.DemoARBackgroundRenderer::_OnSessionSetEnabled(System.Boolean)
+// 0x00000755 System.Void GoogleARCore.DemoARBackgroundRenderer::_OnSessionSetEnabled(System.Boolean)
 extern void DemoARBackgroundRenderer__OnSessionSetEnabled_m3B0970BC4B6C04CE403E092A8D63FF0FD5D2F6C8 (void);
-// 0x0000059D System.Single GoogleARCore.DemoARBackgroundRenderer::_CosineLerp(System.Single,System.Single)
+// 0x00000756 System.Single GoogleARCore.DemoARBackgroundRenderer::_CosineLerp(System.Single,System.Single)
 extern void DemoARBackgroundRenderer__CosineLerp_mFDE558F7B17DCD740519346F8B407BAD101622D9 (void);
-// 0x0000059E UnityEngine.Vector4 GoogleARCore.DemoARBackgroundRenderer::_TextureTransform()
+// 0x00000757 UnityEngine.Vector4 GoogleARCore.DemoARBackgroundRenderer::_TextureTransform()
 extern void DemoARBackgroundRenderer__TextureTransform_m2F3FC78C036B6FD5DC73E55CFAC7BBD3C8CB7528 (void);
-// 0x0000059F System.Void GoogleARCore.DemoARBackgroundRenderer::.ctor()
+// 0x00000758 System.Void GoogleARCore.DemoARBackgroundRenderer::.ctor()
 extern void DemoARBackgroundRenderer__ctor_m070C3464F912DE20849F3A2053E3BAB72F8F7F5F (void);
-// 0x000005A0 System.Void GoogleARCore.DemoARBackgroundRenderer::.cctor()
+// 0x00000759 System.Void GoogleARCore.DemoARBackgroundRenderer::.cctor()
 extern void DemoARBackgroundRenderer__cctor_mC07D3D32C82F3A32D9200B7B46CEB44DB67282E2 (void);
-// 0x000005A1 System.String GoogleARCore.InstantPreviewInput::get_inputString()
+// 0x0000075A System.String GoogleARCore.InstantPreviewInput::get_inputString()
 extern void InstantPreviewInput_get_inputString_mD738D4918D539877E5E4A7EC95923106EB38E058 (void);
-// 0x000005A2 UnityEngine.Touch[] GoogleARCore.InstantPreviewInput::get_touches()
+// 0x0000075B UnityEngine.Touch[] GoogleARCore.InstantPreviewInput::get_touches()
 extern void InstantPreviewInput_get_touches_m04089870C49639332E6BDDCD81A7B9722550499B (void);
-// 0x000005A3 System.Int32 GoogleARCore.InstantPreviewInput::get_touchCount()
+// 0x0000075C System.Int32 GoogleARCore.InstantPreviewInput::get_touchCount()
 extern void InstantPreviewInput_get_touchCount_m6AA28C92E5E72C775E36C737DCC291B695182F97 (void);
-// 0x000005A4 UnityEngine.Vector3 GoogleARCore.InstantPreviewInput::get_mousePosition()
+// 0x0000075D UnityEngine.Vector3 GoogleARCore.InstantPreviewInput::get_mousePosition()
 extern void InstantPreviewInput_get_mousePosition_mB7CB9DCF09867658D0A2A0E0560254E525AA49B9 (void);
-// 0x000005A5 System.Boolean GoogleARCore.InstantPreviewInput::get_mousePresent()
+// 0x0000075E System.Boolean GoogleARCore.InstantPreviewInput::get_mousePresent()
 extern void InstantPreviewInput_get_mousePresent_mE8DA822D92020134DADA3B97107135A4431AAB7C (void);
-// 0x000005A6 UnityEngine.Touch GoogleARCore.InstantPreviewInput::GetTouch(System.Int32)
+// 0x0000075F UnityEngine.Touch GoogleARCore.InstantPreviewInput::GetTouch(System.Int32)
 extern void InstantPreviewInput_GetTouch_mE48A7A0CAC9742145A014BB2846EFA407D81311C (void);
-// 0x000005A7 System.Boolean GoogleARCore.InstantPreviewInput::GetKey(UnityEngine.KeyCode)
+// 0x00000760 System.Boolean GoogleARCore.InstantPreviewInput::GetKey(UnityEngine.KeyCode)
 extern void InstantPreviewInput_GetKey_m9C23D6E0869BBFF94C178FE65B93C2C649DBA138 (void);
-// 0x000005A8 System.Boolean GoogleARCore.InstantPreviewInput::GetMouseButton(System.Int32)
+// 0x00000761 System.Boolean GoogleARCore.InstantPreviewInput::GetMouseButton(System.Int32)
 extern void InstantPreviewInput_GetMouseButton_mF7C2995661408FAE3BE2AE8A8FE888FC38DE31EB (void);
-// 0x000005A9 System.Boolean GoogleARCore.InstantPreviewInput::GetMouseButtonDown(System.Int32)
+// 0x00000762 System.Boolean GoogleARCore.InstantPreviewInput::GetMouseButtonDown(System.Int32)
 extern void InstantPreviewInput_GetMouseButtonDown_mBC8FDC1C7B20E34155C1D35044717F47046D8611 (void);
-// 0x000005AA System.Boolean GoogleARCore.InstantPreviewInput::GetMouseButtonUp(System.Int32)
+// 0x00000763 System.Boolean GoogleARCore.InstantPreviewInput::GetMouseButtonUp(System.Int32)
 extern void InstantPreviewInput_GetMouseButtonUp_m96AEC77FBC041A8C642AA4EF325B681D5FDA6B30 (void);
-// 0x000005AB System.Void GoogleARCore.InstantPreviewInput::Update()
+// 0x00000764 System.Void GoogleARCore.InstantPreviewInput::Update()
 extern void InstantPreviewInput_Update_m833163658777D86BE62AB39A0A05155C4920CF0C (void);
-// 0x000005AC System.Void GoogleARCore.InstantPreviewInput::.cctor()
+// 0x00000765 System.Void GoogleARCore.InstantPreviewInput::.cctor()
 extern void InstantPreviewInput__cctor_m20305F47094273A0997CBC1D8B09D93D54807682 (void);
-// 0x000005AD System.Void GoogleARCore.InstantPreviewInput/NativeApi::GetTouches(System.IntPtr&,System.Int32&)
+// 0x00000766 System.Void GoogleARCore.InstantPreviewInput/NativeApi::GetTouches(System.IntPtr&,System.Int32&)
 extern void NativeApi_GetTouches_mAABFA9F93B34BEC619548E96D5492791CFD534DA (void);
-// 0x000005AE System.Void GoogleARCore.InstantPreviewInput/NativeApi::UnityGotTouches()
+// 0x00000767 System.Void GoogleARCore.InstantPreviewInput/NativeApi::UnityGotTouches()
 extern void NativeApi_UnityGotTouches_mBCFC7319CA03A058CE7176A4DA94CF73724473DD (void);
-// 0x000005AF System.Void GoogleARCore.InstantPreviewInput/<>c__DisplayClass17_0::.ctor()
+// 0x00000768 System.Void GoogleARCore.InstantPreviewInput/<>c__DisplayClass17_0::.ctor()
 extern void U3CU3Ec__DisplayClass17_0__ctor_m43B1F04D7539D4F381559E198CFE501FE01FA5C1 (void);
-// 0x000005B0 System.Boolean GoogleARCore.InstantPreviewInput/<>c__DisplayClass17_0::<Update>b__0(UnityEngine.Touch)
+// 0x00000769 System.Boolean GoogleARCore.InstantPreviewInput/<>c__DisplayClass17_0::<Update>b__0(UnityEngine.Touch)
 extern void U3CU3Ec__DisplayClass17_0_U3CUpdateU3Eb__0_mB5CBA35A0301B763A537AA92F979495E58F0DE07 (void);
-// 0x000005B1 System.Void GoogleARCore.InstantPreviewTrackedPoseDriver::Update()
+// 0x0000076A System.Void GoogleARCore.InstantPreviewTrackedPoseDriver::Update()
 extern void InstantPreviewTrackedPoseDriver_Update_m6A2AB5F0DE3FFE59A030E8E086E93691467838D0 (void);
-// 0x000005B2 System.Void GoogleARCore.InstantPreviewTrackedPoseDriver::.ctor()
+// 0x0000076B System.Void GoogleARCore.InstantPreviewTrackedPoseDriver::.ctor()
 extern void InstantPreviewTrackedPoseDriver__ctor_m4B49EB8898D16974EBFA47D990809620A831DDAE (void);
-// 0x000005B3 System.Void GoogleARCore.ARCoreBackgroundRenderer::OnEnable()
+// 0x0000076C System.Void GoogleARCore.ARCoreBackgroundRenderer::OnEnable()
 extern void ARCoreBackgroundRenderer_OnEnable_m7D94A5E27957B4E721E915975863DB36F69032C2 (void);
-// 0x000005B4 System.Void GoogleARCore.ARCoreBackgroundRenderer::OnDisable()
+// 0x0000076D System.Void GoogleARCore.ARCoreBackgroundRenderer::OnDisable()
 extern void ARCoreBackgroundRenderer_OnDisable_m076EA253AA9F8EC4F1472BFEBCCC81C4A60DE916 (void);
-// 0x000005B5 System.Void GoogleARCore.ARCoreBackgroundRenderer::OnPreRender()
+// 0x0000076E System.Void GoogleARCore.ARCoreBackgroundRenderer::OnPreRender()
 extern void ARCoreBackgroundRenderer_OnPreRender_m3970988B7F40177F821DB10B62DE0B5611EB617C (void);
-// 0x000005B6 System.Void GoogleARCore.ARCoreBackgroundRenderer::OnPostRender()
+// 0x0000076F System.Void GoogleARCore.ARCoreBackgroundRenderer::OnPostRender()
 extern void ARCoreBackgroundRenderer_OnPostRender_m9CA463C98CED5879C1C42C538A67566D81FA53BF (void);
-// 0x000005B7 System.Void GoogleARCore.ARCoreBackgroundRenderer::Update()
+// 0x00000770 System.Void GoogleARCore.ARCoreBackgroundRenderer::Update()
 extern void ARCoreBackgroundRenderer_Update_m924E1A4D2ADF1194758AA2ADC43AEBCEADD3BC8F (void);
-// 0x000005B8 System.Void GoogleARCore.ARCoreBackgroundRenderer::UpdateState()
+// 0x00000771 System.Void GoogleARCore.ARCoreBackgroundRenderer::UpdateState()
 extern void ARCoreBackgroundRenderer_UpdateState_mAAF1CDC927F50D8DC6D508286B675716A39C8C77 (void);
-// 0x000005B9 System.Void GoogleARCore.ARCoreBackgroundRenderer::UpdateShaderVariables()
+// 0x00000772 System.Void GoogleARCore.ARCoreBackgroundRenderer::UpdateShaderVariables()
 extern void ARCoreBackgroundRenderer_UpdateShaderVariables_m3DEA9750E923A5419FA02D439A04BA3AF825CC25 (void);
-// 0x000005BA System.Void GoogleARCore.ARCoreBackgroundRenderer::OnSessionSetEnabled(System.Boolean)
+// 0x00000773 System.Void GoogleARCore.ARCoreBackgroundRenderer::OnSessionSetEnabled(System.Boolean)
 extern void ARCoreBackgroundRenderer_OnSessionSetEnabled_m10F807CECB5F8E6D5DB2EF65BFC04E7ED2009AD9 (void);
-// 0x000005BB System.Single GoogleARCore.ARCoreBackgroundRenderer::CosineLerp(System.Single,System.Single)
+// 0x00000774 System.Single GoogleARCore.ARCoreBackgroundRenderer::CosineLerp(System.Single,System.Single)
 extern void ARCoreBackgroundRenderer_CosineLerp_mCB1EB8057CB1B3AD3BFEFB31B75D1ED5C399B1FF (void);
-// 0x000005BC UnityEngine.Vector4 GoogleARCore.ARCoreBackgroundRenderer::TextureTransform()
+// 0x00000775 UnityEngine.Vector4 GoogleARCore.ARCoreBackgroundRenderer::TextureTransform()
 extern void ARCoreBackgroundRenderer_TextureTransform_mA6DEEE76F0A9CE17E1891D2D4E18F596395F4B37 (void);
-// 0x000005BD System.Void GoogleARCore.ARCoreBackgroundRenderer::EnableARBackgroundRendering()
+// 0x00000776 System.Void GoogleARCore.ARCoreBackgroundRenderer::EnableARBackgroundRendering()
 extern void ARCoreBackgroundRenderer_EnableARBackgroundRendering_m568D5BEDEF82F6603DE7BE08C13BE1B2C1F3C72D (void);
-// 0x000005BE System.Void GoogleARCore.ARCoreBackgroundRenderer::DisableARBackgroundRendering()
+// 0x00000777 System.Void GoogleARCore.ARCoreBackgroundRenderer::DisableARBackgroundRendering()
 extern void ARCoreBackgroundRenderer_DisableARBackgroundRendering_m1D03810D5EFBBD896C525A78F0E38D53D556E5D9 (void);
-// 0x000005BF System.Void GoogleARCore.ARCoreBackgroundRenderer::.ctor()
+// 0x00000778 System.Void GoogleARCore.ARCoreBackgroundRenderer::.ctor()
 extern void ARCoreBackgroundRenderer__ctor_mBCC8C50BC46D6F6817CA1635C434307C542E4026 (void);
-// 0x000005C0 System.Void GoogleARCore.ARCoreBackgroundRenderer::.cctor()
+// 0x00000779 System.Void GoogleARCore.ARCoreBackgroundRenderer::.cctor()
 extern void ARCoreBackgroundRenderer__cctor_mD2A176690D410E5BAE1711199CCB8DC1C69F1D22 (void);
-// 0x000005C1 System.IntPtr GoogleARCore.ARCoreBackgroundRenderer/ExternApi::ARCoreRenderingUtils_GetRenderEventFunc()
+// 0x0000077A System.IntPtr GoogleARCore.ARCoreBackgroundRenderer/ExternApi::ARCoreRenderingUtils_GetRenderEventFunc()
 extern void ExternApi_ARCoreRenderingUtils_GetRenderEventFunc_mCBA4CC641F1A0DB560612E0E5905598473065B1B (void);
-// 0x000005C2 System.Void GoogleARCore.ARCoreCameraConfigFilter::OnValidate()
+// 0x0000077B System.Void GoogleARCore.ARCoreCameraConfigFilter::OnValidate()
 extern void ARCoreCameraConfigFilter_OnValidate_m56C863B63008E150E5144709985F8E62C0ADC9CA (void);
-// 0x000005C3 System.Void GoogleARCore.ARCoreCameraConfigFilter::.ctor()
+// 0x0000077C System.Void GoogleARCore.ARCoreCameraConfigFilter::.ctor()
 extern void ARCoreCameraConfigFilter__ctor_m03DEB5DB0A72649C2D7B52216D0EB0B11AD00252 (void);
-// 0x000005C4 System.Void GoogleARCore.ARCoreCameraConfigFilter/TargetCameraFramerateFilter::.ctor()
+// 0x0000077D System.Void GoogleARCore.ARCoreCameraConfigFilter/TargetCameraFramerateFilter::.ctor()
 extern void TargetCameraFramerateFilter__ctor_m0EADA781A0E090436B8DEAA1BF07E3CE265B3895 (void);
-// 0x000005C5 System.Void GoogleARCore.ARCoreCameraConfigFilter/DepthSensorUsageFilter::.ctor()
+// 0x0000077E System.Void GoogleARCore.ARCoreCameraConfigFilter/DepthSensorUsageFilter::.ctor()
 extern void DepthSensorUsageFilter__ctor_m9BA1BEA999A732DF1F6B5D0576C967AC55A3FB34 (void);
-// 0x000005C6 System.Void GoogleARCore.ARCoreCameraConfigFilter/StereoCameraUsageFilter::.ctor()
+// 0x0000077F System.Void GoogleARCore.ARCoreCameraConfigFilter/StereoCameraUsageFilter::.ctor()
 extern void StereoCameraUsageFilter__ctor_m502C3CED21DAF73FF1544684D49630E967E12889 (void);
-// 0x000005C7 System.Void GoogleARCore.ARCoreRecordingConfig::.ctor()
+// 0x00000780 System.Void GoogleARCore.ARCoreRecordingConfig::.ctor()
 extern void ARCoreRecordingConfig__ctor_m7DA45D412A435ED4BA6F8DBE39D8A51D7D372FF4 (void);
-// 0x000005C8 System.Void GoogleARCore.ARCoreSession::Awake()
+// 0x00000781 System.Void GoogleARCore.ARCoreSession::Awake()
 extern void ARCoreSession_Awake_m42F89309693929F525FDE304BE887DEFCD4D70DD (void);
-// 0x000005C9 System.Void GoogleARCore.ARCoreSession::OnDestroy()
+// 0x00000782 System.Void GoogleARCore.ARCoreSession::OnDestroy()
 extern void ARCoreSession_OnDestroy_m6942A3696EF30F59BD89ED2EBC39F5F86D6A5AE8 (void);
-// 0x000005CA System.Void GoogleARCore.ARCoreSession::OnEnable()
+// 0x00000783 System.Void GoogleARCore.ARCoreSession::OnEnable()
 extern void ARCoreSession_OnEnable_m2FB750D8685CFAD50435E76793CC4832C52C6C06 (void);
-// 0x000005CB System.Void GoogleARCore.ARCoreSession::OnDisable()
+// 0x00000784 System.Void GoogleARCore.ARCoreSession::OnDisable()
 extern void ARCoreSession_OnDisable_m2FB12B85441CD6B35CFAF1011FF48152989F658E (void);
-// 0x000005CC System.Void GoogleARCore.ARCoreSession::OnValidate()
+// 0x00000785 System.Void GoogleARCore.ARCoreSession::OnValidate()
 extern void ARCoreSession_OnValidate_mD4ABB8B390CDDFE08B80F2553F718782580A5FDC (void);
-// 0x000005CD System.Void GoogleARCore.ARCoreSession::RegisterChooseCameraConfigurationCallback(GoogleARCore.ARCoreSession/OnChooseCameraConfigurationDelegate)
+// 0x00000786 System.Void GoogleARCore.ARCoreSession::RegisterChooseCameraConfigurationCallback(GoogleARCore.ARCoreSession/OnChooseCameraConfigurationDelegate)
 extern void ARCoreSession_RegisterChooseCameraConfigurationCallback_m6FD7AEC78F790CA99990AC57C843E026570FF60B (void);
-// 0x000005CE GoogleARCore.ARCoreSession/OnChooseCameraConfigurationDelegate GoogleARCore.ARCoreSession::GetChooseCameraConfigurationCallback()
+// 0x00000787 GoogleARCore.ARCoreSession/OnChooseCameraConfigurationDelegate GoogleARCore.ARCoreSession::GetChooseCameraConfigurationCallback()
 extern void ARCoreSession_GetChooseCameraConfigurationCallback_m02586C51D20DFA7FCD2A48AF9CD59A2EF57A71CB (void);
-// 0x000005CF System.Void GoogleARCore.ARCoreSession::.ctor()
+// 0x00000788 System.Void GoogleARCore.ARCoreSession::.ctor()
 extern void ARCoreSession__ctor_mE8BD6C4669DFEB10D447F1C7058897931753712F (void);
-// 0x000005D0 System.Void GoogleARCore.ARCoreSession/OnChooseCameraConfigurationDelegate::.ctor(System.Object,System.IntPtr)
+// 0x00000789 System.Void GoogleARCore.ARCoreSession/OnChooseCameraConfigurationDelegate::.ctor(System.Object,System.IntPtr)
 extern void OnChooseCameraConfigurationDelegate__ctor_m7351F78CDFE73B4AF703C41452DB04E3671F7DA5 (void);
-// 0x000005D1 System.Int32 GoogleARCore.ARCoreSession/OnChooseCameraConfigurationDelegate::Invoke(System.Collections.Generic.List`1<GoogleARCore.CameraConfig>)
+// 0x0000078A System.Int32 GoogleARCore.ARCoreSession/OnChooseCameraConfigurationDelegate::Invoke(System.Collections.Generic.List`1<GoogleARCore.CameraConfig>)
 extern void OnChooseCameraConfigurationDelegate_Invoke_mF6FFD69D7E6BEA8A08254B6B8F6B2D5069606252 (void);
-// 0x000005D2 System.IAsyncResult GoogleARCore.ARCoreSession/OnChooseCameraConfigurationDelegate::BeginInvoke(System.Collections.Generic.List`1<GoogleARCore.CameraConfig>,System.AsyncCallback,System.Object)
+// 0x0000078B System.IAsyncResult GoogleARCore.ARCoreSession/OnChooseCameraConfigurationDelegate::BeginInvoke(System.Collections.Generic.List`1<GoogleARCore.CameraConfig>,System.AsyncCallback,System.Object)
 extern void OnChooseCameraConfigurationDelegate_BeginInvoke_mA447F41214D1DC7D5D69076A179B8D1B750C69F6 (void);
-// 0x000005D3 System.Int32 GoogleARCore.ARCoreSession/OnChooseCameraConfigurationDelegate::EndInvoke(System.IAsyncResult)
+// 0x0000078C System.Int32 GoogleARCore.ARCoreSession/OnChooseCameraConfigurationDelegate::EndInvoke(System.IAsyncResult)
 extern void OnChooseCameraConfigurationDelegate_EndInvoke_m66874B0557A7F1BF2AD98FBA86DB0E1EA6C0CC62 (void);
-// 0x000005D4 System.Boolean GoogleARCore.ARCoreSessionConfig::get_EnablePlaneFinding()
+// 0x0000078D System.Boolean GoogleARCore.ARCoreSessionConfig::get_EnablePlaneFinding()
 extern void ARCoreSessionConfig_get_EnablePlaneFinding_m00EF18D0C3E67F9DA8BB06E18CAE7F754C4F0DC3 (void);
-// 0x000005D5 System.Void GoogleARCore.ARCoreSessionConfig::set_EnablePlaneFinding(System.Boolean)
+// 0x0000078E System.Void GoogleARCore.ARCoreSessionConfig::set_EnablePlaneFinding(System.Boolean)
 extern void ARCoreSessionConfig_set_EnablePlaneFinding_m719783EAC8E68E75F2E14353677ABCBE00180ABD (void);
-// 0x000005D6 System.Boolean GoogleARCore.ARCoreSessionConfig::get_EnableLightEstimation()
+// 0x0000078F System.Boolean GoogleARCore.ARCoreSessionConfig::get_EnableLightEstimation()
 extern void ARCoreSessionConfig_get_EnableLightEstimation_m0EBD59B354E6210C6A404D0DDD2E8C58531F9D8A (void);
-// 0x000005D7 System.Void GoogleARCore.ARCoreSessionConfig::set_EnableLightEstimation(System.Boolean)
+// 0x00000790 System.Void GoogleARCore.ARCoreSessionConfig::set_EnableLightEstimation(System.Boolean)
 extern void ARCoreSessionConfig_set_EnableLightEstimation_mC807D3434A9FB3F28C8B28DE33994DE014A6BAAC (void);
-// 0x000005D8 System.Boolean GoogleARCore.ARCoreSessionConfig::get_EnableCloudAnchor()
+// 0x00000791 System.Boolean GoogleARCore.ARCoreSessionConfig::get_EnableCloudAnchor()
 extern void ARCoreSessionConfig_get_EnableCloudAnchor_m4060411A55770DBF6E6B08C2EB43BDB401EC81F9 (void);
-// 0x000005D9 System.Void GoogleARCore.ARCoreSessionConfig::set_EnableCloudAnchor(System.Boolean)
+// 0x00000792 System.Void GoogleARCore.ARCoreSessionConfig::set_EnableCloudAnchor(System.Boolean)
 extern void ARCoreSessionConfig_set_EnableCloudAnchor_m316D3B8639EF89649E6A6AEB531BE0CDB0B9F8A2 (void);
-// 0x000005DA System.Boolean GoogleARCore.ARCoreSessionConfig::Equals(System.Object)
+// 0x00000793 System.Boolean GoogleARCore.ARCoreSessionConfig::Equals(System.Object)
 extern void ARCoreSessionConfig_Equals_mFF16C37806CBBE7A01D0F0651F3AA3C74D16D54E (void);
-// 0x000005DB System.Int32 GoogleARCore.ARCoreSessionConfig::GetHashCode()
+// 0x00000794 System.Int32 GoogleARCore.ARCoreSessionConfig::GetHashCode()
 extern void ARCoreSessionConfig_GetHashCode_m5B6FA3466AD628E3623CFE0FB9052653BCAD2CC6 (void);
-// 0x000005DC System.Void GoogleARCore.ARCoreSessionConfig::CopyFrom(GoogleARCore.ARCoreSessionConfig)
+// 0x00000795 System.Void GoogleARCore.ARCoreSessionConfig::CopyFrom(GoogleARCore.ARCoreSessionConfig)
 extern void ARCoreSessionConfig_CopyFrom_m6EFEA58A672315D853329CD2ABDD2A5042C39274 (void);
-// 0x000005DD System.Void GoogleARCore.ARCoreSessionConfig::OnValidate()
+// 0x00000796 System.Void GoogleARCore.ARCoreSessionConfig::OnValidate()
 extern void ARCoreSessionConfig_OnValidate_m948C9F062085B293D30F58A53BEF675C96E62C3A (void);
-// 0x000005DE System.Void GoogleARCore.ARCoreSessionConfig::.ctor()
+// 0x00000797 System.Void GoogleARCore.ARCoreSessionConfig::.ctor()
 extern void ARCoreSessionConfig__ctor_mFC636F1F2B258B7A2108F1C9CB7E9E09706784B0 (void);
-// 0x000005DF GoogleARCore.TrackingState GoogleARCore.Anchor::get_TrackingState()
+// 0x00000798 GoogleARCore.TrackingState GoogleARCore.Anchor::get_TrackingState()
 extern void Anchor_get_TrackingState_m108CC9E51B4FDFE9116237C70BAA5EA835D7B2D8 (void);
-// 0x000005E0 GoogleARCoreInternal.NativeSession GoogleARCore.Anchor::get__nativeSession()
+// 0x00000799 GoogleARCoreInternal.NativeSession GoogleARCore.Anchor::get__nativeSession()
 extern void Anchor_get__nativeSession_mFD037F11EEA793F90C4CBC622099CF09E082B853 (void);
-// 0x000005E1 System.Void GoogleARCore.Anchor::set__nativeSession(GoogleARCoreInternal.NativeSession)
+// 0x0000079A System.Void GoogleARCore.Anchor::set__nativeSession(GoogleARCoreInternal.NativeSession)
 extern void Anchor_set__nativeSession_m24CCDB5E8D434219231D07CB6388616F0D94E208 (void);
-// 0x000005E2 System.IntPtr GoogleARCore.Anchor::get__nativeHandle()
+// 0x0000079B System.IntPtr GoogleARCore.Anchor::get__nativeHandle()
 extern void Anchor_get__nativeHandle_mE49FADEF38D9C31C0BE16DD293BCFFF280C3D720 (void);
-// 0x000005E3 System.Void GoogleARCore.Anchor::set__nativeHandle(System.IntPtr)
+// 0x0000079C System.Void GoogleARCore.Anchor::set__nativeHandle(System.IntPtr)
 extern void Anchor_set__nativeHandle_m710E3A25A295DB49FB051091FD6C16481C186812 (void);
-// 0x000005E4 GoogleARCore.Anchor GoogleARCore.Anchor::Factory(GoogleARCoreInternal.NativeSession,System.IntPtr,System.Boolean)
+// 0x0000079D GoogleARCore.Anchor GoogleARCore.Anchor::Factory(GoogleARCoreInternal.NativeSession,System.IntPtr,System.Boolean)
 extern void Anchor_Factory_mA01B3FB3DC22C9F1920FC8B032966686F1D7D14B (void);
-// 0x000005E5 System.Void GoogleARCore.Anchor::Update()
+// 0x0000079E System.Void GoogleARCore.Anchor::Update()
 extern void Anchor_Update_m93C7FEFDF2BCA96670AF8E9D77F1548D5CE77D67 (void);
-// 0x000005E6 System.Void GoogleARCore.Anchor::OnDestroy()
+// 0x0000079F System.Void GoogleARCore.Anchor::OnDestroy()
 extern void Anchor_OnDestroy_m37A42D4DC5A0A6CC455C10FCCB1DA23604A744F6 (void);
-// 0x000005E7 System.Boolean GoogleARCore.Anchor::IsSessionDestroyed()
+// 0x000007A0 System.Boolean GoogleARCore.Anchor::IsSessionDestroyed()
 extern void Anchor_IsSessionDestroyed_m02004BCEDBAE992BBB4D9C1817F5E5F5279DC743 (void);
-// 0x000005E8 System.Void GoogleARCore.Anchor::.ctor()
+// 0x000007A1 System.Void GoogleARCore.Anchor::.ctor()
 extern void Anchor__ctor_mE9499D301FDBE64F9E30F84C767EA16F1BAAEDB6 (void);
-// 0x000005E9 System.Void GoogleARCore.Anchor::.cctor()
+// 0x000007A2 System.Void GoogleARCore.Anchor::.cctor()
 extern void Anchor__cctor_m81D752CB1782BB8C15ECFFC468A4EA54E8F0E25F (void);
-// 0x000005EA System.Void GoogleARCore.AndroidPermissionsManager::.ctor()
+// 0x000007A3 System.Void GoogleARCore.AndroidPermissionsManager::.ctor()
 extern void AndroidPermissionsManager__ctor_m32F47786E35754D36FE8FC25C812CAF77212267D (void);
-// 0x000005EB System.Boolean GoogleARCore.AndroidPermissionsManager::IsPermissionGranted(System.String)
+// 0x000007A4 System.Boolean GoogleARCore.AndroidPermissionsManager::IsPermissionGranted(System.String)
 extern void AndroidPermissionsManager_IsPermissionGranted_m8A485FDFF9C1ABFF395E5CC3482E9357FA8D4D11 (void);
-// 0x000005EC GoogleARCore.AsyncTask`1<GoogleARCore.AndroidPermissionsRequestResult> GoogleARCore.AndroidPermissionsManager::RequestPermission(System.String)
+// 0x000007A5 GoogleARCore.AsyncTask`1<GoogleARCore.AndroidPermissionsRequestResult> GoogleARCore.AndroidPermissionsManager::RequestPermission(System.String)
 extern void AndroidPermissionsManager_RequestPermission_mDAC8CE425AF2A2AC13FA8D14AB17FD7B549A2E65 (void);
-// 0x000005ED GoogleARCore.AsyncTask`1<GoogleARCore.AndroidPermissionsRequestResult> GoogleARCore.AndroidPermissionsManager::RequestAndroidPermission(System.String)
+// 0x000007A6 GoogleARCore.AsyncTask`1<GoogleARCore.AndroidPermissionsRequestResult> GoogleARCore.AndroidPermissionsManager::RequestAndroidPermission(System.String)
 extern void AndroidPermissionsManager_RequestAndroidPermission_mF884A9220A5479CA0B91AE2ED05B50E22FD7B2C9 (void);
-// 0x000005EE System.Void GoogleARCore.AndroidPermissionsManager::OnPermissionGranted(System.String)
+// 0x000007A7 System.Void GoogleARCore.AndroidPermissionsManager::OnPermissionGranted(System.String)
 extern void AndroidPermissionsManager_OnPermissionGranted_m3EE24307226C2B258D37772CC1B7AA3BB59C4BB7 (void);
-// 0x000005EF System.Void GoogleARCore.AndroidPermissionsManager::OnPermissionDenied(System.String)
+// 0x000007A8 System.Void GoogleARCore.AndroidPermissionsManager::OnPermissionDenied(System.String)
 extern void AndroidPermissionsManager_OnPermissionDenied_m118E54E5FAC1C7C345B2FF596E9644404EAE0B56 (void);
-// 0x000005F0 System.Void GoogleARCore.AndroidPermissionsManager::OnActivityResult()
+// 0x000007A9 System.Void GoogleARCore.AndroidPermissionsManager::OnActivityResult()
 extern void AndroidPermissionsManager_OnActivityResult_m91069CCF5DEE32AB843C387EC2A72D7C9E54D7D1 (void);
-// 0x000005F1 GoogleARCore.AndroidPermissionsManager GoogleARCore.AndroidPermissionsManager::GetInstance()
+// 0x000007AA GoogleARCore.AndroidPermissionsManager GoogleARCore.AndroidPermissionsManager::GetInstance()
 extern void AndroidPermissionsManager_GetInstance_m7E4B5546AD0CF880D7F883CA52C398D9BCB2A9C7 (void);
-// 0x000005F2 UnityEngine.AndroidJavaObject GoogleARCore.AndroidPermissionsManager::GetUnityActivity()
+// 0x000007AB UnityEngine.AndroidJavaObject GoogleARCore.AndroidPermissionsManager::GetUnityActivity()
 extern void AndroidPermissionsManager_GetUnityActivity_m8579BE992A11FF26766C64A0DD5BD57E9139C4FD (void);
-// 0x000005F3 UnityEngine.AndroidJavaObject GoogleARCore.AndroidPermissionsManager::GetPermissionsService()
+// 0x000007AC UnityEngine.AndroidJavaObject GoogleARCore.AndroidPermissionsManager::GetPermissionsService()
 extern void AndroidPermissionsManager_GetPermissionsService_m1909F7E9EE0679E5B8CB1E48D385581554D185B2 (void);
-// 0x000005F4 System.Void GoogleARCore.AndroidPermissionsManager::OnPermissionResult(System.String,System.Boolean)
+// 0x000007AD System.Void GoogleARCore.AndroidPermissionsManager::OnPermissionResult(System.String,System.Boolean)
 extern void AndroidPermissionsManager_OnPermissionResult_m3DB9EB6F4257647802039DB97D920F46F621ED9D (void);
-// 0x000005F5 System.Void GoogleARCore.AndroidPermissionsManager::.cctor()
+// 0x000007AE System.Void GoogleARCore.AndroidPermissionsManager::.cctor()
 extern void AndroidPermissionsManager__cctor_mB019FB26D01F9BC69F3F95691521E93CAFA17F36 (void);
-// 0x000005F6 System.Void GoogleARCore.AndroidPermissionsRequestResult::.ctor(System.String[],System.Boolean[])
+// 0x000007AF System.Void GoogleARCore.AndroidPermissionsRequestResult::.ctor(System.String[],System.Boolean[])
 extern void AndroidPermissionsRequestResult__ctor_m83D38A943CE5EF982101F0107B8B4585E2491587 (void);
-// 0x000005F7 System.String[] GoogleARCore.AndroidPermissionsRequestResult::get_PermissionNames()
+// 0x000007B0 System.String[] GoogleARCore.AndroidPermissionsRequestResult::get_PermissionNames()
 extern void AndroidPermissionsRequestResult_get_PermissionNames_m9E21E9E4AF7671206500CF7BEE53FACBCD3D1D40 (void);
-// 0x000005F8 System.Void GoogleARCore.AndroidPermissionsRequestResult::set_PermissionNames(System.String[])
+// 0x000007B1 System.Void GoogleARCore.AndroidPermissionsRequestResult::set_PermissionNames(System.String[])
 extern void AndroidPermissionsRequestResult_set_PermissionNames_mAD71BA826FB257AAF561154E565A4C6616CFC84E (void);
-// 0x000005F9 System.Boolean[] GoogleARCore.AndroidPermissionsRequestResult::get_GrantResults()
+// 0x000007B2 System.Boolean[] GoogleARCore.AndroidPermissionsRequestResult::get_GrantResults()
 extern void AndroidPermissionsRequestResult_get_GrantResults_mCDF8630EE629D85E65EDCB5158972C2A8BAF5B47 (void);
-// 0x000005FA System.Void GoogleARCore.AndroidPermissionsRequestResult::set_GrantResults(System.Boolean[])
+// 0x000007B3 System.Void GoogleARCore.AndroidPermissionsRequestResult::set_GrantResults(System.Boolean[])
 extern void AndroidPermissionsRequestResult_set_GrantResults_mF49FD44DD2FA99684B64470B60709AC4FC29E766 (void);
-// 0x000005FB System.Boolean GoogleARCore.AndroidPermissionsRequestResult::get_IsAllGranted()
+// 0x000007B4 System.Boolean GoogleARCore.AndroidPermissionsRequestResult::get_IsAllGranted()
 extern void AndroidPermissionsRequestResult_get_IsAllGranted_mCEE89AC4CD7FDA90DB1E30BAFAE3CDE85EF57CD7 (void);
-// 0x000005FC System.Void GoogleARCore.AsyncTask`1::.ctor(System.Action`1<T>&)
-// 0x000005FD System.Void GoogleARCore.AsyncTask`1::.ctor(T)
-// 0x000005FE System.Boolean GoogleARCore.AsyncTask`1::get_IsComplete()
-// 0x000005FF System.Void GoogleARCore.AsyncTask`1::set_IsComplete(System.Boolean)
-// 0x00000600 T GoogleARCore.AsyncTask`1::get_Result()
-// 0x00000601 System.Void GoogleARCore.AsyncTask`1::set_Result(T)
-// 0x00000602 UnityEngine.CustomYieldInstruction GoogleARCore.AsyncTask`1::WaitForCompletion()
-// 0x00000603 GoogleARCore.AsyncTask`1<T> GoogleARCore.AsyncTask`1::ThenAction(System.Action`1<T>)
-// 0x00000604 System.Void GoogleARCore.AsyncTask`1::<.ctor>b__1_0(T)
-// 0x00000605 System.Void GoogleARCore.AsyncTask`1/<>c__DisplayClass1_0::.ctor()
-// 0x00000606 System.Void GoogleARCore.AsyncTask`1/<>c__DisplayClass1_0::<.ctor>b__1()
-// 0x00000607 System.Boolean GoogleARCore.AsyncTask::get_IsInitialized()
+// 0x000007B5 System.Void GoogleARCore.AsyncTask`1::.ctor(System.Action`1<T>&)
+// 0x000007B6 System.Void GoogleARCore.AsyncTask`1::.ctor(T)
+// 0x000007B7 System.Boolean GoogleARCore.AsyncTask`1::get_IsComplete()
+// 0x000007B8 System.Void GoogleARCore.AsyncTask`1::set_IsComplete(System.Boolean)
+// 0x000007B9 T GoogleARCore.AsyncTask`1::get_Result()
+// 0x000007BA System.Void GoogleARCore.AsyncTask`1::set_Result(T)
+// 0x000007BB UnityEngine.CustomYieldInstruction GoogleARCore.AsyncTask`1::WaitForCompletion()
+// 0x000007BC GoogleARCore.AsyncTask`1<T> GoogleARCore.AsyncTask`1::ThenAction(System.Action`1<T>)
+// 0x000007BD System.Void GoogleARCore.AsyncTask`1::<.ctor>b__1_0(T)
+// 0x000007BE System.Void GoogleARCore.AsyncTask`1/<>c__DisplayClass1_0::.ctor()
+// 0x000007BF System.Void GoogleARCore.AsyncTask`1/<>c__DisplayClass1_0::<.ctor>b__1()
+// 0x000007C0 System.Boolean GoogleARCore.AsyncTask::get_IsInitialized()
 extern void AsyncTask_get_IsInitialized_m5B066DE88932F817B8EC7B95AFE430B1EFF96B42 (void);
-// 0x00000608 System.Void GoogleARCore.AsyncTask::set_IsInitialized(System.Boolean)
+// 0x000007C1 System.Void GoogleARCore.AsyncTask::set_IsInitialized(System.Boolean)
 extern void AsyncTask_set_IsInitialized_mB6DF5CA620BA903FFB3B581C57515E0D581D59DF (void);
-// 0x00000609 System.Void GoogleARCore.AsyncTask::PerformActionInUpdate(System.Action)
+// 0x000007C2 System.Void GoogleARCore.AsyncTask::PerformActionInUpdate(System.Action)
 extern void AsyncTask_PerformActionInUpdate_m404B0B1CA465F966F38C9978377AFCF4DA97A356 (void);
-// 0x0000060A System.Void GoogleARCore.AsyncTask::OnUpdate()
+// 0x000007C3 System.Void GoogleARCore.AsyncTask::OnUpdate()
 extern void AsyncTask_OnUpdate_mA975258E4A514303346DEA4DA10361BBCC813A10 (void);
-// 0x0000060B System.Void GoogleARCore.AsyncTask::InitAsyncTask()
+// 0x000007C4 System.Void GoogleARCore.AsyncTask::InitAsyncTask()
 extern void AsyncTask_InitAsyncTask_m86CCF31561936534A0FF3714CE457532E402EE27 (void);
-// 0x0000060C System.Void GoogleARCore.AsyncTask::ResetAsyncTask()
+// 0x000007C5 System.Void GoogleARCore.AsyncTask::ResetAsyncTask()
 extern void AsyncTask_ResetAsyncTask_mE1AC19D7756A0019CCF31B434CE31971B0484D33 (void);
-// 0x0000060D System.Void GoogleARCore.AsyncTask::.ctor()
+// 0x000007C6 System.Void GoogleARCore.AsyncTask::.ctor()
 extern void AsyncTask__ctor_m278F3877CBAC5C4FAF8CC24A59FE4A815AB45879 (void);
-// 0x0000060E System.Void GoogleARCore.AsyncTask::.cctor()
+// 0x000007C7 System.Void GoogleARCore.AsyncTask::.cctor()
 extern void AsyncTask__cctor_m117C5D9C8A99189934DA8C40A0C27B3B40435E14 (void);
-// 0x0000060F System.Void GoogleARCore.AugmentedFace::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+// 0x000007C8 System.Void GoogleARCore.AugmentedFace::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
 extern void AugmentedFace__ctor_m1A6D88838FCFB1E1CABF7380A593029B932F851C (void);
-// 0x00000610 UnityEngine.Pose GoogleARCore.AugmentedFace::get_CenterPose()
+// 0x000007C9 UnityEngine.Pose GoogleARCore.AugmentedFace::get_CenterPose()
 extern void AugmentedFace_get_CenterPose_m1CCD920230399D8AC7F5533F0CD8A20D53906AB3 (void);
-// 0x00000611 UnityEngine.Pose GoogleARCore.AugmentedFace::GetRegionPose(GoogleARCore.AugmentedFaceRegion)
+// 0x000007CA UnityEngine.Pose GoogleARCore.AugmentedFace::GetRegionPose(GoogleARCore.AugmentedFaceRegion)
 extern void AugmentedFace_GetRegionPose_m4DB298BC9746DD8B7F9F868C4AE82AB7C87F0388 (void);
-// 0x00000612 System.Void GoogleARCore.AugmentedFace::GetVertices(System.Collections.Generic.List`1<UnityEngine.Vector3>)
+// 0x000007CB System.Void GoogleARCore.AugmentedFace::GetVertices(System.Collections.Generic.List`1<UnityEngine.Vector3>)
 extern void AugmentedFace_GetVertices_m7238CF9453A2DC5D4E41BF805C8FCF6DEEAC32D6 (void);
-// 0x00000613 System.Void GoogleARCore.AugmentedFace::GetTextureCoordinates(System.Collections.Generic.List`1<UnityEngine.Vector2>)
+// 0x000007CC System.Void GoogleARCore.AugmentedFace::GetTextureCoordinates(System.Collections.Generic.List`1<UnityEngine.Vector2>)
 extern void AugmentedFace_GetTextureCoordinates_mAF2273FEA52399B68E70110A9C279B298D817E26 (void);
-// 0x00000614 System.Void GoogleARCore.AugmentedFace::GetNormals(System.Collections.Generic.List`1<UnityEngine.Vector3>)
+// 0x000007CD System.Void GoogleARCore.AugmentedFace::GetNormals(System.Collections.Generic.List`1<UnityEngine.Vector3>)
 extern void AugmentedFace_GetNormals_mB79CA2837F72BCC835605BBDAF081601891B9948 (void);
-// 0x00000615 System.Void GoogleARCore.AugmentedFace::GetTriangleIndices(System.Collections.Generic.List`1<System.Int32>)
+// 0x000007CE System.Void GoogleARCore.AugmentedFace::GetTriangleIndices(System.Collections.Generic.List`1<System.Int32>)
 extern void AugmentedFace_GetTriangleIndices_mE41AEB099C08C20D9EB4FB400853F4F306E45216 (void);
-// 0x00000616 System.Void GoogleARCore.AugmentedImage::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+// 0x000007CF System.Void GoogleARCore.AugmentedImage::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
 extern void AugmentedImage__ctor_m375C720E1C4581AE2606B3C356F3CA7DD7DEA35C (void);
-// 0x00000617 System.Int32 GoogleARCore.AugmentedImage::get_DatabaseIndex()
+// 0x000007D0 System.Int32 GoogleARCore.AugmentedImage::get_DatabaseIndex()
 extern void AugmentedImage_get_DatabaseIndex_mA2DBDC94C6DABFC58E39ACA89ACA5F40E763C623 (void);
-// 0x00000618 System.String GoogleARCore.AugmentedImage::get_Name()
+// 0x000007D1 System.String GoogleARCore.AugmentedImage::get_Name()
 extern void AugmentedImage_get_Name_mF285F5064D60A65C4D1331A239E8DBCA1EDCE9B9 (void);
-// 0x00000619 UnityEngine.Pose GoogleARCore.AugmentedImage::get_CenterPose()
+// 0x000007D2 UnityEngine.Pose GoogleARCore.AugmentedImage::get_CenterPose()
 extern void AugmentedImage_get_CenterPose_m72DB3D3D61F503ECC572BEFF62E4DE127F77500B (void);
-// 0x0000061A System.Single GoogleARCore.AugmentedImage::get_ExtentX()
+// 0x000007D3 System.Single GoogleARCore.AugmentedImage::get_ExtentX()
 extern void AugmentedImage_get_ExtentX_m9D9DA1BF5AC86329F2DA28D02BF0B413B2223FD8 (void);
-// 0x0000061B System.Single GoogleARCore.AugmentedImage::get_ExtentZ()
+// 0x000007D4 System.Single GoogleARCore.AugmentedImage::get_ExtentZ()
 extern void AugmentedImage_get_ExtentZ_m176163E27BFD45FEA86D8CA85A954BE3DAAD02EE (void);
-// 0x0000061C GoogleARCore.AugmentedImageTrackingMethod GoogleARCore.AugmentedImage::get_TrackingMethod()
+// 0x000007D5 GoogleARCore.AugmentedImageTrackingMethod GoogleARCore.AugmentedImage::get_TrackingMethod()
 extern void AugmentedImage_get_TrackingMethod_m762B4C30D0367D5EA0B4C59EE18B8080F1490C6F (void);
-// 0x0000061D System.Void GoogleARCore.AugmentedImageDatabase::.ctor()
+// 0x000007D6 System.Void GoogleARCore.AugmentedImageDatabase::.ctor()
 extern void AugmentedImageDatabase__ctor_m42BF627FF7A9B36B7E40D993951D0B007FC8E3F8 (void);
-// 0x0000061E System.Int32 GoogleARCore.AugmentedImageDatabase::get_Count()
+// 0x000007D7 System.Int32 GoogleARCore.AugmentedImageDatabase::get_Count()
 extern void AugmentedImageDatabase_get_Count_m714090FA0EE5F04C11771DF4C997C7D2D2D4624B (void);
-// 0x0000061F System.Boolean GoogleARCore.AugmentedImageDatabase::get__isDirty()
+// 0x000007D8 System.Boolean GoogleARCore.AugmentedImageDatabase::get__isDirty()
 extern void AugmentedImageDatabase_get__isDirty_m22A96E3373E19D4480C649E08245C43397FF078F (void);
-// 0x00000620 System.Void GoogleARCore.AugmentedImageDatabase::set__isDirty(System.Boolean)
+// 0x000007D9 System.Void GoogleARCore.AugmentedImageDatabase::set__isDirty(System.Boolean)
 extern void AugmentedImageDatabase_set__isDirty_m14147755651B7ABDDAAD7D0A2A31F8246E910CAD (void);
-// 0x00000621 System.IntPtr GoogleARCore.AugmentedImageDatabase::get__nativeHandle()
+// 0x000007DA System.IntPtr GoogleARCore.AugmentedImageDatabase::get__nativeHandle()
 extern void AugmentedImageDatabase_get__nativeHandle_m245CFF771321458F96DD05FA4562DC3C2330FF08 (void);
-// 0x00000622 System.Void GoogleARCore.AugmentedImageDatabase::set__nativeHandle(System.IntPtr)
+// 0x000007DB System.Void GoogleARCore.AugmentedImageDatabase::set__nativeHandle(System.IntPtr)
 extern void AugmentedImageDatabase_set__nativeHandle_m73D157ACFC38456BD76D0A4EE6E545E9D4B07A84 (void);
-// 0x00000623 GoogleARCore.AugmentedImageDatabaseEntry GoogleARCore.AugmentedImageDatabase::get_Item(System.Int32)
+// 0x000007DC GoogleARCore.AugmentedImageDatabaseEntry GoogleARCore.AugmentedImageDatabase::get_Item(System.Int32)
 extern void AugmentedImageDatabase_get_Item_m6942BE794D82EB32CBD4D872DBD161DB3884A794 (void);
-// 0x00000624 System.Int32 GoogleARCore.AugmentedImageDatabase::AddImage(System.String,UnityEngine.Texture2D,System.Single)
+// 0x000007DD System.Int32 GoogleARCore.AugmentedImageDatabase::AddImage(System.String,UnityEngine.Texture2D,System.Single)
 extern void AugmentedImageDatabase_AddImage_m6142F8B20F9160495FF235050146C606CC700269 (void);
-// 0x00000625 System.Int32 GoogleARCore.AugmentedImageDatabase::AddImage(System.String,GoogleARCore.AugmentedImageSrc,System.Single)
+// 0x000007DE System.Int32 GoogleARCore.AugmentedImageDatabase::AddImage(System.String,GoogleARCore.AugmentedImageSrc,System.Single)
 extern void AugmentedImageDatabase_AddImage_m4916B456E3EEA7F1442E8E919A4A02B8BCB54F21 (void);
-// 0x00000626 System.Void GoogleARCore.AugmentedImageDatabaseEntry::.ctor(System.String,System.Single)
+// 0x000007DF System.Void GoogleARCore.AugmentedImageDatabaseEntry::.ctor(System.String,System.Single)
 extern void AugmentedImageDatabaseEntry__ctor_m30BDF81CE811354294E99C6686314999B36C4EC5 (void);
-// 0x00000627 System.Void GoogleARCore.AugmentedImageSrc::.ctor(UnityEngine.Texture2D)
+// 0x000007E0 System.Void GoogleARCore.AugmentedImageSrc::.ctor(UnityEngine.Texture2D)
 extern void AugmentedImageSrc__ctor_mB9C9B46442781A63CDBBF5E812880BFA02920AA3 (void);
-// 0x00000628 UnityEngine.TextureFormat GoogleARCore.AugmentedImageSrc::get__format()
+// 0x000007E1 UnityEngine.TextureFormat GoogleARCore.AugmentedImageSrc::get__format()
 extern void AugmentedImageSrc_get__format_m9B7387C5BEB4602B2FD9EC327066AC36AF2BC97B (void);
-// 0x00000629 System.Void GoogleARCore.AugmentedImageSrc::set__format(UnityEngine.TextureFormat)
+// 0x000007E2 System.Void GoogleARCore.AugmentedImageSrc::set__format(UnityEngine.TextureFormat)
 extern void AugmentedImageSrc_set__format_mECD0E62D45628C3B8C730826B51D685CD3C0FC3F (void);
-// 0x0000062A UnityEngine.Color[] GoogleARCore.AugmentedImageSrc::get__pixels()
+// 0x000007E3 UnityEngine.Color[] GoogleARCore.AugmentedImageSrc::get__pixels()
 extern void AugmentedImageSrc_get__pixels_m5C1C4579E9E3376CA3496284EE5E4FB6EF64448C (void);
-// 0x0000062B System.Void GoogleARCore.AugmentedImageSrc::set__pixels(UnityEngine.Color[])
+// 0x000007E4 System.Void GoogleARCore.AugmentedImageSrc::set__pixels(UnityEngine.Color[])
 extern void AugmentedImageSrc_set__pixels_m8DC3AD866D1A332ACBDB1D90D1E53A64B4EA21E2 (void);
-// 0x0000062C System.Int32 GoogleARCore.AugmentedImageSrc::get__height()
+// 0x000007E5 System.Int32 GoogleARCore.AugmentedImageSrc::get__height()
 extern void AugmentedImageSrc_get__height_m293A64C17FE2C2374807738401B4D4ED4D990371 (void);
-// 0x0000062D System.Void GoogleARCore.AugmentedImageSrc::set__height(System.Int32)
+// 0x000007E6 System.Void GoogleARCore.AugmentedImageSrc::set__height(System.Int32)
 extern void AugmentedImageSrc_set__height_m115734F90D7F1D90F9FB55CBF65B229034DAC4C6 (void);
-// 0x0000062E System.Int32 GoogleARCore.AugmentedImageSrc::get__width()
+// 0x000007E7 System.Int32 GoogleARCore.AugmentedImageSrc::get__width()
 extern void AugmentedImageSrc_get__width_m1C269B9A3CD5366090B3A052E2469970CDCDA138 (void);
-// 0x0000062F System.Void GoogleARCore.AugmentedImageSrc::set__width(System.Int32)
+// 0x000007E8 System.Void GoogleARCore.AugmentedImageSrc::set__width(System.Int32)
 extern void AugmentedImageSrc_set__width_m16DA0E1C30659E3B405B8B411CE7C39822DC10CC (void);
-// 0x00000630 System.Void GoogleARCore.CameraConfig::.ctor(GoogleARCore.DeviceCameraDirection,UnityEngine.Vector2,UnityEngine.Vector2,System.Int32,System.Int32,GoogleARCore.CameraConfigStereoCameraUsage,GoogleARCore.CameraConfigDepthSensorUsage)
+// 0x000007E9 System.Void GoogleARCore.CameraConfig::.ctor(GoogleARCore.DeviceCameraDirection,UnityEngine.Vector2,UnityEngine.Vector2,System.Int32,System.Int32,GoogleARCore.CameraConfigStereoCameraUsage,GoogleARCore.CameraConfigDepthSensorUsage)
 extern void CameraConfig__ctor_mBB0162988A865D7E76EB9162A871B791737A74F1 (void);
-// 0x00000631 GoogleARCore.DeviceCameraDirection GoogleARCore.CameraConfig::get_FacingDirection()
+// 0x000007EA GoogleARCore.DeviceCameraDirection GoogleARCore.CameraConfig::get_FacingDirection()
 extern void CameraConfig_get_FacingDirection_m8D58F5E6CB4B0321BEE4B08FD1CAEEA6204292A1 (void);
-// 0x00000632 System.Void GoogleARCore.CameraConfig::set_FacingDirection(GoogleARCore.DeviceCameraDirection)
+// 0x000007EB System.Void GoogleARCore.CameraConfig::set_FacingDirection(GoogleARCore.DeviceCameraDirection)
 extern void CameraConfig_set_FacingDirection_m6D682CCEAA3E416AFFA2B3ADE7F1A85D6E2CC330 (void);
-// 0x00000633 UnityEngine.Vector2 GoogleARCore.CameraConfig::get_ImageSize()
+// 0x000007EC UnityEngine.Vector2 GoogleARCore.CameraConfig::get_ImageSize()
 extern void CameraConfig_get_ImageSize_m961AB7C0698922B180EEC20CBF60F46C641BE069 (void);
-// 0x00000634 System.Void GoogleARCore.CameraConfig::set_ImageSize(UnityEngine.Vector2)
+// 0x000007ED System.Void GoogleARCore.CameraConfig::set_ImageSize(UnityEngine.Vector2)
 extern void CameraConfig_set_ImageSize_m49BC8A63EFE2899E5198E64474B09032052E90B1 (void);
-// 0x00000635 UnityEngine.Vector2 GoogleARCore.CameraConfig::get_TextureSize()
+// 0x000007EE UnityEngine.Vector2 GoogleARCore.CameraConfig::get_TextureSize()
 extern void CameraConfig_get_TextureSize_m82496368BB62F9603052F57E770B73F3C8AF522C (void);
-// 0x00000636 System.Void GoogleARCore.CameraConfig::set_TextureSize(UnityEngine.Vector2)
+// 0x000007EF System.Void GoogleARCore.CameraConfig::set_TextureSize(UnityEngine.Vector2)
 extern void CameraConfig_set_TextureSize_m096E778E2D15CF6F4F7218EA10625A7597AD3B05 (void);
-// 0x00000637 System.Int32 GoogleARCore.CameraConfig::get_MinFPS()
+// 0x000007F0 System.Int32 GoogleARCore.CameraConfig::get_MinFPS()
 extern void CameraConfig_get_MinFPS_mCB9CF3FBCB3FE8EF97FFDBFDDCFF658279A23B4D (void);
-// 0x00000638 System.Void GoogleARCore.CameraConfig::set_MinFPS(System.Int32)
+// 0x000007F1 System.Void GoogleARCore.CameraConfig::set_MinFPS(System.Int32)
 extern void CameraConfig_set_MinFPS_m1F3A0E5C53A5B722679C9E31B0308A19F6A3508D (void);
-// 0x00000639 System.Int32 GoogleARCore.CameraConfig::get_MaxFPS()
+// 0x000007F2 System.Int32 GoogleARCore.CameraConfig::get_MaxFPS()
 extern void CameraConfig_get_MaxFPS_m3803E1C6DDBD4492FA790D08AD744E043C6186A4 (void);
-// 0x0000063A System.Void GoogleARCore.CameraConfig::set_MaxFPS(System.Int32)
+// 0x000007F3 System.Void GoogleARCore.CameraConfig::set_MaxFPS(System.Int32)
 extern void CameraConfig_set_MaxFPS_m431391A0B9A37C4434FB4A32A9C32A5FCC3044B2 (void);
-// 0x0000063B GoogleARCore.CameraConfigStereoCameraUsage GoogleARCore.CameraConfig::get_StereoCameraUsage()
+// 0x000007F4 GoogleARCore.CameraConfigStereoCameraUsage GoogleARCore.CameraConfig::get_StereoCameraUsage()
 extern void CameraConfig_get_StereoCameraUsage_mE1BDD5380601BC108F41B1CE8750CCB9F57CBBD3 (void);
-// 0x0000063C System.Void GoogleARCore.CameraConfig::set_StereoCameraUsage(GoogleARCore.CameraConfigStereoCameraUsage)
+// 0x000007F5 System.Void GoogleARCore.CameraConfig::set_StereoCameraUsage(GoogleARCore.CameraConfigStereoCameraUsage)
 extern void CameraConfig_set_StereoCameraUsage_m9C630FDD1D5674C775FCBEF55FBD1F78BFC8B844 (void);
-// 0x0000063D GoogleARCore.CameraConfigDepthSensorUsage GoogleARCore.CameraConfig::get_DepthSensorUsage()
+// 0x000007F6 GoogleARCore.CameraConfigDepthSensorUsage GoogleARCore.CameraConfig::get_DepthSensorUsage()
 extern void CameraConfig_get_DepthSensorUsage_m325DDE96DFC7ED7888D56FA8DC5686167590BF86 (void);
-// 0x0000063E System.Void GoogleARCore.CameraConfig::set_DepthSensorUsage(GoogleARCore.CameraConfigDepthSensorUsage)
+// 0x000007F7 System.Void GoogleARCore.CameraConfig::set_DepthSensorUsage(GoogleARCore.CameraConfigDepthSensorUsage)
 extern void CameraConfig_set_DepthSensorUsage_m98981BF356C590481A9E9B87619ECC46EF0BFEBC (void);
-// 0x0000063F System.Void GoogleARCore.CameraImageBytes::.ctor(System.IntPtr)
+// 0x000007F8 System.Void GoogleARCore.CameraImageBytes::.ctor(System.IntPtr)
 extern void CameraImageBytes__ctor_mF5AF7A89B22B2145969E5A98816946AC5B77C54C (void);
-// 0x00000640 System.Boolean GoogleARCore.CameraImageBytes::get_IsAvailable()
+// 0x000007F9 System.Boolean GoogleARCore.CameraImageBytes::get_IsAvailable()
 extern void CameraImageBytes_get_IsAvailable_m993B32B89B9D55E198CD568DF4BEC0849D238C9D (void);
-// 0x00000641 System.Void GoogleARCore.CameraImageBytes::set_IsAvailable(System.Boolean)
+// 0x000007FA System.Void GoogleARCore.CameraImageBytes::set_IsAvailable(System.Boolean)
 extern void CameraImageBytes_set_IsAvailable_mCC30B02873572AEE6DA1EC3FC919F2A39BB732B6 (void);
-// 0x00000642 System.Int32 GoogleARCore.CameraImageBytes::get_Width()
+// 0x000007FB System.Int32 GoogleARCore.CameraImageBytes::get_Width()
 extern void CameraImageBytes_get_Width_m3185B83DEEB6FB208C553A3E1815E0280AE78867 (void);
-// 0x00000643 System.Void GoogleARCore.CameraImageBytes::set_Width(System.Int32)
+// 0x000007FC System.Void GoogleARCore.CameraImageBytes::set_Width(System.Int32)
 extern void CameraImageBytes_set_Width_m4D82492E17AD6C93EB8490563994465E8CE53C5D (void);
-// 0x00000644 System.Int32 GoogleARCore.CameraImageBytes::get_Height()
+// 0x000007FD System.Int32 GoogleARCore.CameraImageBytes::get_Height()
 extern void CameraImageBytes_get_Height_m39212D6FE5F276F314C8A550040C834032F88F62 (void);
-// 0x00000645 System.Void GoogleARCore.CameraImageBytes::set_Height(System.Int32)
+// 0x000007FE System.Void GoogleARCore.CameraImageBytes::set_Height(System.Int32)
 extern void CameraImageBytes_set_Height_mEB82F4BA2D5533D9E1A70B8E5A215C39E1D7CEAC (void);
-// 0x00000646 System.IntPtr GoogleARCore.CameraImageBytes::get_Y()
+// 0x000007FF System.IntPtr GoogleARCore.CameraImageBytes::get_Y()
 extern void CameraImageBytes_get_Y_m7A8CDBD2E15BA7029D1EF82FEC5C338F8DBDB604 (void);
-// 0x00000647 System.Void GoogleARCore.CameraImageBytes::set_Y(System.IntPtr)
+// 0x00000800 System.Void GoogleARCore.CameraImageBytes::set_Y(System.IntPtr)
 extern void CameraImageBytes_set_Y_mC112B8C7F0A57593E0BFD059DADCE739BC7E3117 (void);
-// 0x00000648 System.IntPtr GoogleARCore.CameraImageBytes::get_U()
+// 0x00000801 System.IntPtr GoogleARCore.CameraImageBytes::get_U()
 extern void CameraImageBytes_get_U_m79350DFD8A427909C574693F82553CC513D8AA80 (void);
-// 0x00000649 System.Void GoogleARCore.CameraImageBytes::set_U(System.IntPtr)
+// 0x00000802 System.Void GoogleARCore.CameraImageBytes::set_U(System.IntPtr)
 extern void CameraImageBytes_set_U_mCDCBEEE20996E65A8F44F7E51539B9B3B6D14336 (void);
-// 0x0000064A System.IntPtr GoogleARCore.CameraImageBytes::get_V()
+// 0x00000803 System.IntPtr GoogleARCore.CameraImageBytes::get_V()
 extern void CameraImageBytes_get_V_m2FDCE4033716EB82E935FA00293A402E1CD404F6 (void);
-// 0x0000064B System.Void GoogleARCore.CameraImageBytes::set_V(System.IntPtr)
+// 0x00000804 System.Void GoogleARCore.CameraImageBytes::set_V(System.IntPtr)
 extern void CameraImageBytes_set_V_m2AFE27A59C0E91503BAB51432417727FFB1F23E2 (void);
-// 0x0000064C System.Int32 GoogleARCore.CameraImageBytes::get_YRowStride()
+// 0x00000805 System.Int32 GoogleARCore.CameraImageBytes::get_YRowStride()
 extern void CameraImageBytes_get_YRowStride_mCBE8E6003D4848A5C43DD80DA9892CB4F7AD1F59 (void);
-// 0x0000064D System.Void GoogleARCore.CameraImageBytes::set_YRowStride(System.Int32)
+// 0x00000806 System.Void GoogleARCore.CameraImageBytes::set_YRowStride(System.Int32)
 extern void CameraImageBytes_set_YRowStride_mF6420B9BFB700FBB884F87752A44AE5E75EB9BE6 (void);
-// 0x0000064E System.Int32 GoogleARCore.CameraImageBytes::get_UVPixelStride()
+// 0x00000807 System.Int32 GoogleARCore.CameraImageBytes::get_UVPixelStride()
 extern void CameraImageBytes_get_UVPixelStride_mE8C52E44FBFA3E8401FA2804DC2667C62684BCE0 (void);
-// 0x0000064F System.Void GoogleARCore.CameraImageBytes::set_UVPixelStride(System.Int32)
+// 0x00000808 System.Void GoogleARCore.CameraImageBytes::set_UVPixelStride(System.Int32)
 extern void CameraImageBytes_set_UVPixelStride_m1CC5C625D24189ADAD8F2D159CB85E608B44A357 (void);
-// 0x00000650 System.Int32 GoogleARCore.CameraImageBytes::get_UVRowStride()
+// 0x00000809 System.Int32 GoogleARCore.CameraImageBytes::get_UVRowStride()
 extern void CameraImageBytes_get_UVRowStride_m4ADB1D97DD015EC6345F5308AA96BB7485B080F8 (void);
-// 0x00000651 System.Void GoogleARCore.CameraImageBytes::set_UVRowStride(System.Int32)
+// 0x0000080A System.Void GoogleARCore.CameraImageBytes::set_UVRowStride(System.Int32)
 extern void CameraImageBytes_set_UVRowStride_m287B4537987CB283016C4E40B1EE593EB5DB6E0F (void);
-// 0x00000652 System.Void GoogleARCore.CameraImageBytes::Release()
+// 0x0000080B System.Void GoogleARCore.CameraImageBytes::Release()
 extern void CameraImageBytes_Release_m30BF5003D1F520C2D27CEFCC044BB60560C95BB7 (void);
-// 0x00000653 System.Void GoogleARCore.CameraImageBytes::Dispose()
+// 0x0000080C System.Void GoogleARCore.CameraImageBytes::Dispose()
 extern void CameraImageBytes_Dispose_mCCF768CEFEA63B0CDCD2A1C0019B4B5AA64B982B (void);
-// 0x00000654 System.Void GoogleARCore.CameraIntrinsics::.ctor(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2Int)
+// 0x0000080D System.Void GoogleARCore.CameraIntrinsics::.ctor(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2Int)
 extern void CameraIntrinsics__ctor_m26C38BA3EB54A108F3B5FFC289EF61C5D8A93C1B (void);
-// 0x00000655 System.Void GoogleARCore.CameraMetadataValue::.ctor(System.SByte)
+// 0x0000080E System.Void GoogleARCore.CameraMetadataValue::.ctor(System.SByte)
 extern void CameraMetadataValue__ctor_mA44F5901221118D24D41A87D5F6DA4AF7B09B29C (void);
-// 0x00000656 System.Void GoogleARCore.CameraMetadataValue::.ctor(System.Int32)
+// 0x0000080F System.Void GoogleARCore.CameraMetadataValue::.ctor(System.Int32)
 extern void CameraMetadataValue__ctor_mD07636EDEA839756D548A00234F9C363988C744C (void);
-// 0x00000657 System.Void GoogleARCore.CameraMetadataValue::.ctor(System.Int64)
+// 0x00000810 System.Void GoogleARCore.CameraMetadataValue::.ctor(System.Int64)
 extern void CameraMetadataValue__ctor_m0D90F73D6472BEEF6B8EABB53F61EBB484EA8484 (void);
-// 0x00000658 System.Void GoogleARCore.CameraMetadataValue::.ctor(System.Single)
+// 0x00000811 System.Void GoogleARCore.CameraMetadataValue::.ctor(System.Single)
 extern void CameraMetadataValue__ctor_m1FAA0D18CD671F432197EC6C9BCDC05A6FD4FD90 (void);
-// 0x00000659 System.Void GoogleARCore.CameraMetadataValue::.ctor(System.Double)
+// 0x00000812 System.Void GoogleARCore.CameraMetadataValue::.ctor(System.Double)
 extern void CameraMetadataValue__ctor_m484E2532C6C2EEE9DB8367F08219E8018B999BC0 (void);
-// 0x0000065A System.Void GoogleARCore.CameraMetadataValue::.ctor(GoogleARCore.CameraMetadataRational)
+// 0x00000813 System.Void GoogleARCore.CameraMetadataValue::.ctor(GoogleARCore.CameraMetadataRational)
 extern void CameraMetadataValue__ctor_mB0C8B3DF36D14CAD10AB398B6BDEB6E60F28A0FE (void);
-// 0x0000065B System.Type GoogleARCore.CameraMetadataValue::get_ValueType()
+// 0x00000814 System.Type GoogleARCore.CameraMetadataValue::get_ValueType()
 extern void CameraMetadataValue_get_ValueType_m8CB08B7657016CCD5F9C08AFCE79E11FDB65E138 (void);
-// 0x0000065C System.SByte GoogleARCore.CameraMetadataValue::AsByte()
+// 0x00000815 System.SByte GoogleARCore.CameraMetadataValue::AsByte()
 extern void CameraMetadataValue_AsByte_m223C58F4B77EA887B31EEC1881B742E19C29E577 (void);
-// 0x0000065D System.Int32 GoogleARCore.CameraMetadataValue::AsInt()
+// 0x00000816 System.Int32 GoogleARCore.CameraMetadataValue::AsInt()
 extern void CameraMetadataValue_AsInt_m1EC6C6018E0D9645DA2CB5E951024B7ADA825A6A (void);
-// 0x0000065E System.Single GoogleARCore.CameraMetadataValue::AsFloat()
+// 0x00000817 System.Single GoogleARCore.CameraMetadataValue::AsFloat()
 extern void CameraMetadataValue_AsFloat_mE8EB6303D69AC09D7E963709E0215F6A5EF871F7 (void);
-// 0x0000065F System.Int64 GoogleARCore.CameraMetadataValue::AsLong()
+// 0x00000818 System.Int64 GoogleARCore.CameraMetadataValue::AsLong()
 extern void CameraMetadataValue_AsLong_m68693025D07C020CED338404055DE4CBA8C77A77 (void);
-// 0x00000660 System.Double GoogleARCore.CameraMetadataValue::AsDouble()
+// 0x00000819 System.Double GoogleARCore.CameraMetadataValue::AsDouble()
 extern void CameraMetadataValue_AsDouble_mF66AE95DBC4FEF9F1BCE27BB455F44C17E68624B (void);
-// 0x00000661 GoogleARCore.CameraMetadataRational GoogleARCore.CameraMetadataValue::AsRational()
+// 0x0000081A GoogleARCore.CameraMetadataRational GoogleARCore.CameraMetadataValue::AsRational()
 extern void CameraMetadataValue_AsRational_m02FC0402FA04604CEA6EB74C0E8049938830F043 (void);
-// 0x00000662 System.Void GoogleARCore.CameraMetadataValue::LogError(GoogleARCoreInternal.ArCameraMetadataType)
+// 0x0000081B System.Void GoogleARCore.CameraMetadataValue::LogError(GoogleARCoreInternal.ArCameraMetadataType)
 extern void CameraMetadataValue_LogError_mEA36A8314EB255578837727131FD22499AB69078 (void);
-// 0x00000663 System.Void GoogleARCore.TrackedPlane::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+// 0x0000081C System.Void GoogleARCore.TrackedPlane::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
 extern void TrackedPlane__ctor_mA9E50A563553F96DD19D638D031B2FD3673AD9A5 (void);
-// 0x00000664 GoogleARCore.TrackedPlane GoogleARCore.TrackedPlane::get_SubsumedBy()
+// 0x0000081D GoogleARCore.TrackedPlane GoogleARCore.TrackedPlane::get_SubsumedBy()
 extern void TrackedPlane_get_SubsumedBy_mFF128CD72ACCE7CC0A27D3E4E458CDCA034FBCD6 (void);
-// 0x00000665 System.Void GoogleARCore.TrackedPoint::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+// 0x0000081E System.Void GoogleARCore.TrackedPoint::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
 extern void TrackedPoint__ctor_mD16B31C326156E46DBD59A068F696CB187CC3CAB (void);
-// 0x00000666 GoogleARCore.TrackedPointOrientationMode GoogleARCore.TrackedPoint::get_OrientationMode()
+// 0x0000081F GoogleARCore.TrackedPointOrientationMode GoogleARCore.TrackedPoint::get_OrientationMode()
 extern void TrackedPoint_get_OrientationMode_m6787786E020EF98638A2123C3CB7B19DD2CA73EB (void);
-// 0x00000667 System.Void GoogleARCore.DetectedPlane::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+// 0x00000820 System.Void GoogleARCore.DetectedPlane::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
 extern void DetectedPlane__ctor_m6270E19C04A431D7A3D5239E653E59C88D9BA12B (void);
-// 0x00000668 GoogleARCore.DetectedPlane GoogleARCore.DetectedPlane::get_SubsumedBy()
+// 0x00000821 GoogleARCore.DetectedPlane GoogleARCore.DetectedPlane::get_SubsumedBy()
 extern void DetectedPlane_get_SubsumedBy_m4B799B0327C30345C62A41A0A5EBD7BE8B15A976 (void);
-// 0x00000669 UnityEngine.Pose GoogleARCore.DetectedPlane::get_CenterPose()
+// 0x00000822 UnityEngine.Pose GoogleARCore.DetectedPlane::get_CenterPose()
 extern void DetectedPlane_get_CenterPose_m6EB481AFDE1CFD5E34EE4D6318C992F64BADA33E (void);
-// 0x0000066A System.Single GoogleARCore.DetectedPlane::get_ExtentX()
+// 0x00000823 System.Single GoogleARCore.DetectedPlane::get_ExtentX()
 extern void DetectedPlane_get_ExtentX_m0A472763E127D79F3652631A108749CE3DBAA561 (void);
-// 0x0000066B System.Single GoogleARCore.DetectedPlane::get_ExtentZ()
+// 0x00000824 System.Single GoogleARCore.DetectedPlane::get_ExtentZ()
 extern void DetectedPlane_get_ExtentZ_mF4BC200E6E9F1DC75D3ACE2A7EC1603199E6E172 (void);
-// 0x0000066C GoogleARCore.DetectedPlaneType GoogleARCore.DetectedPlane::get_PlaneType()
+// 0x00000825 GoogleARCore.DetectedPlaneType GoogleARCore.DetectedPlane::get_PlaneType()
 extern void DetectedPlane_get_PlaneType_m5CB97B98C411294207CC3154C9DEA1472A6B424E (void);
-// 0x0000066D System.Void GoogleARCore.DetectedPlane::GetBoundaryPolygon(System.Collections.Generic.List`1<UnityEngine.Vector3>)
+// 0x00000826 System.Void GoogleARCore.DetectedPlane::GetBoundaryPolygon(System.Collections.Generic.List`1<UnityEngine.Vector3>)
 extern void DetectedPlane_GetBoundaryPolygon_m957991D38B27006AEDF2CDCEEAD85BDB25A48CA3 (void);
-// 0x0000066E GoogleARCoreInternal.ApiCoordinates2dType GoogleARCore.DisplayUvCoordinateTypeExtension::ToApiCoordinates2dType(GoogleARCore.DisplayUvCoordinateType)
+// 0x00000827 GoogleARCoreInternal.ApiCoordinates2dType GoogleARCore.DisplayUvCoordinateTypeExtension::ToApiCoordinates2dType(GoogleARCore.DisplayUvCoordinateType)
 extern void DisplayUvCoordinateTypeExtension_ToApiCoordinates2dType_m6B474F7C72285BD5F55EA626C6D97F44C0498BBD (void);
-// 0x0000066F System.Void GoogleARCore.DisplayUvCoords::.ctor(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x00000828 System.Void GoogleARCore.DisplayUvCoords::.ctor(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
 extern void DisplayUvCoords__ctor_m60739043D5BF12149382B98F3C02D397850665DB (void);
-// 0x00000670 GoogleARCoreInternal.ApiDisplayUvCoords GoogleARCore.DisplayUvCoords::op_Implicit(GoogleARCore.DisplayUvCoords)
+// 0x00000829 GoogleARCoreInternal.ApiDisplayUvCoords GoogleARCore.DisplayUvCoords::op_Implicit(GoogleARCore.DisplayUvCoords)
 extern void DisplayUvCoords_op_Implicit_mF0F7B9F477CE85B16F899E311FC6B34F2878893D (void);
-// 0x00000671 System.Void GoogleARCore.DisplayUvCoords::.cctor()
+// 0x0000082A System.Void GoogleARCore.DisplayUvCoords::.cctor()
 extern void DisplayUvCoords__cctor_m48461CED069CB1F084CCA19EF71561104F88EFFE (void);
-// 0x00000672 System.Void GoogleARCore.EnvironmentalLight::Update()
+// 0x0000082B System.Void GoogleARCore.EnvironmentalLight::Update()
 extern void EnvironmentalLight_Update_mC756D7B36465553C64C8A0CB3BE6015C4BA4F6AF (void);
-// 0x00000673 System.Void GoogleARCore.EnvironmentalLight::.ctor()
+// 0x0000082C System.Void GoogleARCore.EnvironmentalLight::.ctor()
 extern void EnvironmentalLight__ctor_m588ED1B015954CBEAD8ABFA9313A803EF0FA20E1 (void);
-// 0x00000674 System.Void GoogleARCore.FeaturePoint::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+// 0x0000082D System.Void GoogleARCore.FeaturePoint::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
 extern void FeaturePoint__ctor_mB4C8E825E7A6398572D68955EC76AB0D3117F5CC (void);
-// 0x00000675 UnityEngine.Pose GoogleARCore.FeaturePoint::get_Pose()
+// 0x0000082E UnityEngine.Pose GoogleARCore.FeaturePoint::get_Pose()
 extern void FeaturePoint_get_Pose_m1967DB11A89AD97D2D98E10248394D3D8049AF1C (void);
-// 0x00000676 GoogleARCore.FeaturePointOrientationMode GoogleARCore.FeaturePoint::get_OrientationMode()
+// 0x0000082F GoogleARCore.FeaturePointOrientationMode GoogleARCore.FeaturePoint::get_OrientationMode()
 extern void FeaturePoint_get_OrientationMode_mEB746C1812004FDF4658A3D8318D8F05BAAD83AB (void);
-// 0x00000677 UnityEngine.Pose GoogleARCore.Frame::get_Pose()
+// 0x00000830 UnityEngine.Pose GoogleARCore.Frame::get_Pose()
 extern void Frame_get_Pose_mBA42A7BC39243E1E0168F57031A54D3D48CE027B (void);
-// 0x00000678 GoogleARCore.LightEstimate GoogleARCore.Frame::get_LightEstimate()
+// 0x00000831 GoogleARCore.LightEstimate GoogleARCore.Frame::get_LightEstimate()
 extern void Frame_get_LightEstimate_mCF32D242BEEBC3D584EF075AAAF95C4DA8370675 (void);
-// 0x00000679 System.Boolean GoogleARCore.Frame::Raycast(System.Single,System.Single,GoogleARCore.TrackableHitFlags,GoogleARCore.TrackableHit&)
+// 0x00000832 System.Boolean GoogleARCore.Frame::Raycast(System.Single,System.Single,GoogleARCore.TrackableHitFlags,GoogleARCore.TrackableHit&)
 extern void Frame_Raycast_mDB0AD7C574EFED6215B68683D564CAD171A2C684 (void);
-// 0x0000067A System.Boolean GoogleARCore.Frame::RaycastInstantPlacement(System.Single,System.Single,System.Single,GoogleARCore.TrackableHit&)
+// 0x00000833 System.Boolean GoogleARCore.Frame::RaycastInstantPlacement(System.Single,System.Single,System.Single,GoogleARCore.TrackableHit&)
 extern void Frame_RaycastInstantPlacement_mFE99B0A0DA720AF69F704127AF0232E2FC4161E5 (void);
-// 0x0000067B System.Boolean GoogleARCore.Frame::Raycast(UnityEngine.Vector3,UnityEngine.Vector3,GoogleARCore.TrackableHit&,System.Single,GoogleARCore.TrackableHitFlags)
+// 0x00000834 System.Boolean GoogleARCore.Frame::Raycast(UnityEngine.Vector3,UnityEngine.Vector3,GoogleARCore.TrackableHit&,System.Single,GoogleARCore.TrackableHitFlags)
 extern void Frame_Raycast_m27FB6A0EE6113E77D6ED0F7CE259D338FB3144C1 (void);
-// 0x0000067C System.Boolean GoogleARCore.Frame::RaycastAll(System.Single,System.Single,GoogleARCore.TrackableHitFlags,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
+// 0x00000835 System.Boolean GoogleARCore.Frame::RaycastAll(System.Single,System.Single,GoogleARCore.TrackableHitFlags,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
 extern void Frame_RaycastAll_m1B56F89C774CED8E07F0C652DE2CC488E713F7A6 (void);
-// 0x0000067D System.Boolean GoogleARCore.Frame::RaycastAll(UnityEngine.Vector3,UnityEngine.Vector3,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>,System.Single,GoogleARCore.TrackableHitFlags)
+// 0x00000836 System.Boolean GoogleARCore.Frame::RaycastAll(UnityEngine.Vector3,UnityEngine.Vector3,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>,System.Single,GoogleARCore.TrackableHitFlags)
 extern void Frame_RaycastAll_mAEEAAF6497892C2E39407BEB5C4416D1DEA01B1D (void);
-// 0x0000067E System.Void GoogleARCore.Frame::.ctor()
+// 0x00000837 System.Void GoogleARCore.Frame::.ctor()
 extern void Frame__ctor_mEC13786CC0D69DEFDD484749230392F992081CAC (void);
-// 0x0000067F System.Void GoogleARCore.Frame::.cctor()
+// 0x00000838 System.Void GoogleARCore.Frame::.cctor()
 extern void Frame__cctor_mA126AE16477F82C0855A56F30A51D9E9D32B0EA6 (void);
-// 0x00000680 System.Boolean GoogleARCore.Frame/CameraMetadata::TryGetValues(GoogleARCore.CameraMetadataTag,System.Collections.Generic.List`1<GoogleARCore.CameraMetadataValue>)
+// 0x00000839 System.Boolean GoogleARCore.Frame/CameraMetadata::TryGetValues(GoogleARCore.CameraMetadataTag,System.Collections.Generic.List`1<GoogleARCore.CameraMetadataValue>)
 extern void CameraMetadata_TryGetValues_m9B114FA0EBA24EAA459322C83ECDB79BDEBF75D3 (void);
-// 0x00000681 System.Boolean GoogleARCore.Frame/CameraMetadata::GetAllCameraMetadataTags(System.Collections.Generic.List`1<GoogleARCore.CameraMetadataTag>)
+// 0x0000083A System.Boolean GoogleARCore.Frame/CameraMetadata::GetAllCameraMetadataTags(System.Collections.Generic.List`1<GoogleARCore.CameraMetadataTag>)
 extern void CameraMetadata_GetAllCameraMetadataTags_m2B3EB7861E17A504BDDEED805228D96E331DB6E0 (void);
-// 0x00000682 System.Boolean GoogleARCore.Frame/PointCloud::get_IsUpdatedThisFrame()
+// 0x0000083B System.Boolean GoogleARCore.Frame/PointCloud::get_IsUpdatedThisFrame()
 extern void PointCloud_get_IsUpdatedThisFrame_m1E612FE441252E8F827442EF611404474C296158 (void);
-// 0x00000683 System.Int32 GoogleARCore.Frame/PointCloud::get_PointCount()
+// 0x0000083C System.Int32 GoogleARCore.Frame/PointCloud::get_PointCount()
 extern void PointCloud_get_PointCount_m0015A1B3CE4520BE3DADA0AF8211480742563610 (void);
-// 0x00000684 UnityEngine.Vector4 GoogleARCore.Frame/PointCloud::GetPoint(System.Int32)
+// 0x0000083D UnityEngine.Vector4 GoogleARCore.Frame/PointCloud::GetPoint(System.Int32)
 extern void PointCloud_GetPoint_m21D9CBDA004E6795089610D4283366B035A61ED0 (void);
-// 0x00000685 GoogleARCore.PointCloudPoint GoogleARCore.Frame/PointCloud::GetPointAsStruct(System.Int32)
+// 0x0000083E GoogleARCore.PointCloudPoint GoogleARCore.Frame/PointCloud::GetPointAsStruct(System.Int32)
 extern void PointCloud_GetPointAsStruct_m1B363C626F48637F89AE66621A54166591C29526 (void);
-// 0x00000686 System.Void GoogleARCore.Frame/PointCloud::CopyPoints(System.Collections.Generic.List`1<UnityEngine.Vector4>)
+// 0x0000083F System.Void GoogleARCore.Frame/PointCloud::CopyPoints(System.Collections.Generic.List`1<UnityEngine.Vector4>)
 extern void PointCloud_CopyPoints_m214041094E4E8BAB2D786ACC13FF69FD9FDC7044 (void);
-// 0x00000687 UnityEngine.Texture GoogleARCore.Frame/CameraImage::get_Texture()
+// 0x00000840 UnityEngine.Texture GoogleARCore.Frame/CameraImage::get_Texture()
 extern void CameraImage_get_Texture_m76EE0021C88B0A8050444219A9C3E4A147D23ADC (void);
-// 0x00000688 GoogleARCore.DisplayUvCoords GoogleARCore.Frame/CameraImage::get_DisplayUvCoords()
+// 0x00000841 GoogleARCore.DisplayUvCoords GoogleARCore.Frame/CameraImage::get_DisplayUvCoords()
 extern void CameraImage_get_DisplayUvCoords_m83FFCE2B1D5E47AB3716AFF79A15D101D93AFB98 (void);
-// 0x00000689 GoogleARCore.DisplayUvCoords GoogleARCore.Frame/CameraImage::get_TextureDisplayUvs()
+// 0x00000842 GoogleARCore.DisplayUvCoords GoogleARCore.Frame/CameraImage::get_TextureDisplayUvs()
 extern void CameraImage_get_TextureDisplayUvs_mEB37EF8885E89A415EBE67B01C3C14722404C2D3 (void);
-// 0x0000068A GoogleARCore.DisplayUvCoords GoogleARCore.Frame/CameraImage::get_ImageDisplayUvs()
+// 0x00000843 GoogleARCore.DisplayUvCoords GoogleARCore.Frame/CameraImage::get_ImageDisplayUvs()
 extern void CameraImage_get_ImageDisplayUvs_m5E0D259AC0C5A2E9C1A8592D5B0E71FF9B907F5D (void);
-// 0x0000068B GoogleARCore.CameraIntrinsics GoogleARCore.Frame/CameraImage::get_TextureIntrinsics()
+// 0x00000844 GoogleARCore.CameraIntrinsics GoogleARCore.Frame/CameraImage::get_TextureIntrinsics()
 extern void CameraImage_get_TextureIntrinsics_m00A0F9B61C872B778B1F30EC5F78C30FC6FD1167 (void);
-// 0x0000068C GoogleARCore.CameraIntrinsics GoogleARCore.Frame/CameraImage::get_ImageIntrinsics()
+// 0x00000845 GoogleARCore.CameraIntrinsics GoogleARCore.Frame/CameraImage::get_ImageIntrinsics()
 extern void CameraImage_get_ImageIntrinsics_mD09CE7861EC429C630B248041C0C2AFAE605E744 (void);
-// 0x0000068D UnityEngine.Vector2 GoogleARCore.Frame/CameraImage::TransformCoordinate(UnityEngine.Vector2,GoogleARCore.DisplayUvCoordinateType,GoogleARCore.DisplayUvCoordinateType)
+// 0x00000846 UnityEngine.Vector2 GoogleARCore.Frame/CameraImage::TransformCoordinate(UnityEngine.Vector2,GoogleARCore.DisplayUvCoordinateType,GoogleARCore.DisplayUvCoordinateType)
 extern void CameraImage_TransformCoordinate_m5965E5FF2EB55044424C86F4C0CC0BC3F8267FEB (void);
-// 0x0000068E GoogleARCore.CameraImageBytes GoogleARCore.Frame/CameraImage::AcquireCameraImageBytes()
+// 0x00000847 GoogleARCore.CameraImageBytes GoogleARCore.Frame/CameraImage::AcquireCameraImageBytes()
 extern void CameraImage_AcquireCameraImageBytes_m47A81F47B93DDAF65319AC2A855601FC889B4559 (void);
-// 0x0000068F UnityEngine.Matrix4x4 GoogleARCore.Frame/CameraImage::GetCameraProjectionMatrix(System.Single,System.Single)
+// 0x00000848 UnityEngine.Matrix4x4 GoogleARCore.Frame/CameraImage::GetCameraProjectionMatrix(System.Single,System.Single)
 extern void CameraImage_GetCameraProjectionMatrix_m61A791AEA398F3161F137A877FA2261A1958ECB2 (void);
-// 0x00000690 GoogleARCore.DepthStatus GoogleARCore.Frame/CameraImage::UpdateDepthTexture(UnityEngine.Texture2D&)
+// 0x00000849 GoogleARCore.DepthStatus GoogleARCore.Frame/CameraImage::UpdateDepthTexture(UnityEngine.Texture2D&)
 extern void CameraImage_UpdateDepthTexture_m935EC5CA058C863335FC28B9F6003AAC1D7914D1 (void);
-// 0x00000691 GoogleARCore.AsyncTask`1<GoogleARCore.AndroidPermissionsRequestResult> GoogleARCore.IAndroidPermissionsCheck::RequestAndroidPermission(System.String)
-// 0x00000692 System.Void GoogleARCore.InstantPlacementPoint::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+// 0x0000084A GoogleARCore.AsyncTask`1<GoogleARCore.AndroidPermissionsRequestResult> GoogleARCore.IAndroidPermissionsCheck::RequestAndroidPermission(System.String)
+// 0x0000084B System.Void GoogleARCore.InstantPlacementPoint::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
 extern void InstantPlacementPoint__ctor_m1959A93A0F4646F26E9EABA2F98D340AFB2FA43A (void);
-// 0x00000693 UnityEngine.Pose GoogleARCore.InstantPlacementPoint::get_Pose()
+// 0x0000084C UnityEngine.Pose GoogleARCore.InstantPlacementPoint::get_Pose()
 extern void InstantPlacementPoint_get_Pose_m27CC68CE12A9A56B09F7E0DCD9AD2B1E4CF53126 (void);
-// 0x00000694 GoogleARCore.InstantPlacementPointTrackingMethod GoogleARCore.InstantPlacementPoint::get_TrackingMethod()
+// 0x0000084D GoogleARCore.InstantPlacementPointTrackingMethod GoogleARCore.InstantPlacementPoint::get_TrackingMethod()
 extern void InstantPlacementPoint_get_TrackingMethod_m2DBDD8E7C652D230ACAE573773192562187C4E31 (void);
-// 0x00000695 System.Void GoogleARCore.LightEstimate::.ctor(GoogleARCore.LightEstimateState,System.Single,UnityEngine.Color)
+// 0x0000084E System.Void GoogleARCore.LightEstimate::.ctor(GoogleARCore.LightEstimateState,System.Single,UnityEngine.Color)
 extern void LightEstimate__ctor_m310CD49C086841757CC2190C55F7D4333AD1A76A (void);
-// 0x00000696 System.Void GoogleARCore.LightEstimate::.ctor(GoogleARCore.LightEstimateState,System.Single,UnityEngine.Color,UnityEngine.Quaternion,UnityEngine.Color,System.Single[0...,0...],System.Int64)
+// 0x0000084F System.Void GoogleARCore.LightEstimate::.ctor(GoogleARCore.LightEstimateState,System.Single,UnityEngine.Color,UnityEngine.Quaternion,UnityEngine.Color,System.Single[0...,0...],System.Int64)
 extern void LightEstimate__ctor_m783B4E63203D34758A66486A9128578BEC1E4F50 (void);
-// 0x00000697 GoogleARCore.LightEstimationMode GoogleARCore.LightEstimate::get_Mode()
+// 0x00000850 GoogleARCore.LightEstimationMode GoogleARCore.LightEstimate::get_Mode()
 extern void LightEstimate_get_Mode_m8F2F39B45441FFFF91611ECF913CE812EB502073 (void);
-// 0x00000698 System.Void GoogleARCore.LightEstimate::set_Mode(GoogleARCore.LightEstimationMode)
+// 0x00000851 System.Void GoogleARCore.LightEstimate::set_Mode(GoogleARCore.LightEstimationMode)
 extern void LightEstimate_set_Mode_m0F087241096B00D6FD783B2563EB6FA53AAD4B9C (void);
-// 0x00000699 GoogleARCore.LightEstimateState GoogleARCore.LightEstimate::get_State()
+// 0x00000852 GoogleARCore.LightEstimateState GoogleARCore.LightEstimate::get_State()
 extern void LightEstimate_get_State_mC9B568F2227DA1BB2CD9E10E6A9C81E76D281BFA (void);
-// 0x0000069A System.Void GoogleARCore.LightEstimate::set_State(GoogleARCore.LightEstimateState)
+// 0x00000853 System.Void GoogleARCore.LightEstimate::set_State(GoogleARCore.LightEstimateState)
 extern void LightEstimate_set_State_mD79864FFD7138F7109B7698940CDD21EDE625062 (void);
-// 0x0000069B System.Single GoogleARCore.LightEstimate::get_PixelIntensity()
+// 0x00000854 System.Single GoogleARCore.LightEstimate::get_PixelIntensity()
 extern void LightEstimate_get_PixelIntensity_m56533CFB1936B47B2E478A38043809BEE3BDA421 (void);
-// 0x0000069C System.Void GoogleARCore.LightEstimate::set_PixelIntensity(System.Single)
+// 0x00000855 System.Void GoogleARCore.LightEstimate::set_PixelIntensity(System.Single)
 extern void LightEstimate_set_PixelIntensity_m1632970C806194EAC57C8D0B1B448B5D47E6B725 (void);
-// 0x0000069D UnityEngine.Color GoogleARCore.LightEstimate::get_ColorCorrection()
+// 0x00000856 UnityEngine.Color GoogleARCore.LightEstimate::get_ColorCorrection()
 extern void LightEstimate_get_ColorCorrection_mC7E6EB59B1656F003B20B371BD1D348A7B8FC6B3 (void);
-// 0x0000069E System.Void GoogleARCore.LightEstimate::set_ColorCorrection(UnityEngine.Color)
+// 0x00000857 System.Void GoogleARCore.LightEstimate::set_ColorCorrection(UnityEngine.Color)
 extern void LightEstimate_set_ColorCorrection_m99705AFD0C11397D9A6391CD14E4EC7E1A76B89C (void);
-// 0x0000069F UnityEngine.Quaternion GoogleARCore.LightEstimate::get_DirectionalLightRotation()
+// 0x00000858 UnityEngine.Quaternion GoogleARCore.LightEstimate::get_DirectionalLightRotation()
 extern void LightEstimate_get_DirectionalLightRotation_m86FE4F80BB4909E31A91BE084D40DF5A2CF50C3C (void);
-// 0x000006A0 System.Void GoogleARCore.LightEstimate::set_DirectionalLightRotation(UnityEngine.Quaternion)
+// 0x00000859 System.Void GoogleARCore.LightEstimate::set_DirectionalLightRotation(UnityEngine.Quaternion)
 extern void LightEstimate_set_DirectionalLightRotation_mDE989BF78E930F1AF49645C2573315023A337E65 (void);
-// 0x000006A1 UnityEngine.Color GoogleARCore.LightEstimate::get_DirectionalLightColor()
+// 0x0000085A UnityEngine.Color GoogleARCore.LightEstimate::get_DirectionalLightColor()
 extern void LightEstimate_get_DirectionalLightColor_mFBC9E476860B70756B05C55F726162E0C141A2F9 (void);
-// 0x000006A2 System.Void GoogleARCore.LightEstimate::set_DirectionalLightColor(UnityEngine.Color)
+// 0x0000085B System.Void GoogleARCore.LightEstimate::set_DirectionalLightColor(UnityEngine.Color)
 extern void LightEstimate_set_DirectionalLightColor_mE59B5F632CDE7E8F951A7166E119ECFE733BB522 (void);
-// 0x000006A3 UnityEngine.Rendering.SphericalHarmonicsL2 GoogleARCore.LightEstimate::get_AmbientProbe()
+// 0x0000085C UnityEngine.Rendering.SphericalHarmonicsL2 GoogleARCore.LightEstimate::get_AmbientProbe()
 extern void LightEstimate_get_AmbientProbe_m023DD72E11AB85CC0717DB2D7BDEF70302F7F974 (void);
-// 0x000006A4 System.Void GoogleARCore.LightEstimate::set_AmbientProbe(UnityEngine.Rendering.SphericalHarmonicsL2)
+// 0x0000085D System.Void GoogleARCore.LightEstimate::set_AmbientProbe(UnityEngine.Rendering.SphericalHarmonicsL2)
 extern void LightEstimate_set_AmbientProbe_m4CF7E568A9C61ED290F5B1788F594FA6FEB1E02F (void);
-// 0x000006A5 UnityEngine.Cubemap GoogleARCore.LightEstimate::get_ReflectionProbe()
+// 0x0000085E UnityEngine.Cubemap GoogleARCore.LightEstimate::get_ReflectionProbe()
 extern void LightEstimate_get_ReflectionProbe_m4DA58E486E5C4CFBC434CC599ADD37DD676A7DB7 (void);
-// 0x000006A6 System.Int64 GoogleARCore.LightEstimate::get_Timestamp()
+// 0x0000085F System.Int64 GoogleARCore.LightEstimate::get_Timestamp()
 extern void LightEstimate_get_Timestamp_mFB3DB5521C6DF8368AC34EB8604FEB82758443EF (void);
-// 0x000006A7 System.Void GoogleARCore.LightEstimate::set_Timestamp(System.Int64)
+// 0x00000860 System.Void GoogleARCore.LightEstimate::set_Timestamp(System.Int64)
 extern void LightEstimate_set_Timestamp_m26BD87EC362F72A1FB2E20BC0BE9709A3BBB67CE (void);
-// 0x000006A8 System.Void GoogleARCore.LightEstimate::InitializeLightEstimateMode()
+// 0x00000861 System.Void GoogleARCore.LightEstimate::InitializeLightEstimateMode()
 extern void LightEstimate_InitializeLightEstimateMode_m36EC68AED321ABF3C67B05041E05D0A6542F6AC1 (void);
-// 0x000006A9 System.Void GoogleARCore.PointCloudPoint::.ctor(System.Int32,UnityEngine.Vector3,System.Single)
+// 0x00000862 System.Void GoogleARCore.PointCloudPoint::.ctor(System.Int32,UnityEngine.Vector3,System.Single)
 extern void PointCloudPoint__ctor_m2883C98D050DDC1E9B419214036552DF3552DAF7 (void);
-// 0x000006AA System.Int32 GoogleARCore.PointCloudPoint::get_Id()
+// 0x00000863 System.Int32 GoogleARCore.PointCloudPoint::get_Id()
 extern void PointCloudPoint_get_Id_mE9AAB4B2099BA9E680F5EBC564DE0F6BB6200F2B (void);
-// 0x000006AB System.Void GoogleARCore.PointCloudPoint::set_Id(System.Int32)
+// 0x00000864 System.Void GoogleARCore.PointCloudPoint::set_Id(System.Int32)
 extern void PointCloudPoint_set_Id_m6C1BD9348068B89051332DFF71CCA5ED78D254D8 (void);
-// 0x000006AC UnityEngine.Vector3 GoogleARCore.PointCloudPoint::get_Position()
+// 0x00000865 UnityEngine.Vector3 GoogleARCore.PointCloudPoint::get_Position()
 extern void PointCloudPoint_get_Position_m290BBE69DE21CE32EE05A50A1E55DC1EE7637480 (void);
-// 0x000006AD System.Void GoogleARCore.PointCloudPoint::set_Position(UnityEngine.Vector3)
+// 0x00000866 System.Void GoogleARCore.PointCloudPoint::set_Position(UnityEngine.Vector3)
 extern void PointCloudPoint_set_Position_m5581BA5CB723F2D7EC84920EF52C8C8F7DB37935 (void);
-// 0x000006AE System.Single GoogleARCore.PointCloudPoint::get_Confidence()
+// 0x00000867 System.Single GoogleARCore.PointCloudPoint::get_Confidence()
 extern void PointCloudPoint_get_Confidence_m1214310D466A35415C8F28514656C8924F221161 (void);
-// 0x000006AF System.Void GoogleARCore.PointCloudPoint::set_Confidence(System.Single)
+// 0x00000868 System.Void GoogleARCore.PointCloudPoint::set_Confidence(System.Single)
 extern void PointCloudPoint_set_Confidence_m9E78E379612A419DCFDB4F2C2B68E79A5935D748 (void);
-// 0x000006B0 UnityEngine.Vector3 GoogleARCore.PointCloudPoint::op_Implicit(GoogleARCore.PointCloudPoint)
+// 0x00000869 UnityEngine.Vector3 GoogleARCore.PointCloudPoint::op_Implicit(GoogleARCore.PointCloudPoint)
 extern void PointCloudPoint_op_Implicit_m97A1DB4FAD8F9320A48EF9F2F16B362B48B60684 (void);
-// 0x000006B1 GoogleARCore.SessionStatus GoogleARCore.Session::get_Status()
+// 0x0000086A GoogleARCore.SessionStatus GoogleARCore.Session::get_Status()
 extern void Session_get_Status_m95FAF64F05BC42C4E3601D29694DE5134468F77B (void);
-// 0x000006B2 GoogleARCore.LostTrackingReason GoogleARCore.Session::get_LostTrackingReason()
+// 0x0000086B GoogleARCore.LostTrackingReason GoogleARCore.Session::get_LostTrackingReason()
 extern void Session_get_LostTrackingReason_m7CD779587DBB900960FF5E8362750F6727AD616B (void);
-// 0x000006B3 GoogleARCore.RecordingStatus GoogleARCore.Session::get_RecordingStatus()
+// 0x0000086C GoogleARCore.RecordingStatus GoogleARCore.Session::get_RecordingStatus()
 extern void Session_get_RecordingStatus_m18EE00567FF1A15DF62FA073B6231E0AEE018DF0 (void);
-// 0x000006B4 GoogleARCore.PlaybackStatus GoogleARCore.Session::get_PlaybackStatus()
+// 0x0000086D GoogleARCore.PlaybackStatus GoogleARCore.Session::get_PlaybackStatus()
 extern void Session_get_PlaybackStatus_mEF2D5DAE8FDE55EE3B8D096FB4A56DA8D7D56A9E (void);
-// 0x000006B5 GoogleARCore.Anchor GoogleARCore.Session::CreateAnchor(UnityEngine.Pose,GoogleARCore.Trackable)
+// 0x0000086E GoogleARCore.Anchor GoogleARCore.Session::CreateAnchor(UnityEngine.Pose,GoogleARCore.Trackable)
 extern void Session_CreateAnchor_mDB0CD2EA85E25AD3D58A521BC360B69695BC240F (void);
-// 0x000006B6 System.Void GoogleARCore.Session::GetTrackables(System.Collections.Generic.List`1<T>,GoogleARCore.TrackableQueryFilter)
-// 0x000006B7 GoogleARCore.CameraConfig GoogleARCore.Session::GetCameraConfig()
+// 0x0000086F System.Void GoogleARCore.Session::GetTrackables(System.Collections.Generic.List`1<T>,GoogleARCore.TrackableQueryFilter)
+// 0x00000870 GoogleARCore.CameraConfig GoogleARCore.Session::GetCameraConfig()
 extern void Session_GetCameraConfig_m432C07859A3877FBEFE4BA60C72DCBFB9F7BBDBA (void);
-// 0x000006B8 GoogleARCore.AsyncTask`1<GoogleARCore.ApkAvailabilityStatus> GoogleARCore.Session::CheckApkAvailability()
+// 0x00000871 GoogleARCore.AsyncTask`1<GoogleARCore.ApkAvailabilityStatus> GoogleARCore.Session::CheckApkAvailability()
 extern void Session_CheckApkAvailability_m612384E6EA259AB5C2D014ECD0DA5CDD557DC496 (void);
-// 0x000006B9 GoogleARCore.AsyncTask`1<GoogleARCore.ApkInstallationStatus> GoogleARCore.Session::RequestApkInstallation(System.Boolean)
+// 0x00000872 GoogleARCore.AsyncTask`1<GoogleARCore.ApkInstallationStatus> GoogleARCore.Session::RequestApkInstallation(System.Boolean)
 extern void Session_RequestApkInstallation_m65F1E3D6CB9F8D21B977FC1F1AD7F5897C8C2311 (void);
-// 0x000006BA System.Boolean GoogleARCore.Session::IsDepthModeSupported(GoogleARCore.DepthMode)
+// 0x00000873 System.Boolean GoogleARCore.Session::IsDepthModeSupported(GoogleARCore.DepthMode)
 extern void Session_IsDepthModeSupported_m13039A70D0FDD9AFD4E3436EF49C82A0E04E8C4F (void);
-// 0x000006BB GoogleARCore.RecordingResult GoogleARCore.Session::StartRecording(GoogleARCore.ARCoreRecordingConfig)
+// 0x00000874 GoogleARCore.RecordingResult GoogleARCore.Session::StartRecording(GoogleARCore.ARCoreRecordingConfig)
 extern void Session_StartRecording_m0932B43D654285A1ABC1D39376F12319254337A8 (void);
-// 0x000006BC GoogleARCore.RecordingResult GoogleARCore.Session::StopRecording()
+// 0x00000875 GoogleARCore.RecordingResult GoogleARCore.Session::StopRecording()
 extern void Session_StopRecording_m4C13C2C60193F00CF5C62FE48423C14D6A356506 (void);
-// 0x000006BD GoogleARCore.PlaybackResult GoogleARCore.Session::SetPlaybackDataset(System.String)
+// 0x00000876 GoogleARCore.PlaybackResult GoogleARCore.Session::SetPlaybackDataset(System.String)
 extern void Session_SetPlaybackDataset_mEC8CB1CCAA2990141CA04EC6677686DD49F73897 (void);
-// 0x000006BE System.Boolean GoogleARCore.SessionStatusExtensions::IsNotInitialized(GoogleARCore.SessionStatus)
+// 0x00000877 System.Boolean GoogleARCore.SessionStatusExtensions::IsNotInitialized(GoogleARCore.SessionStatus)
 extern void SessionStatusExtensions_IsNotInitialized_m58B0FD02265EA1FE8130035E3027F34B5AB74714 (void);
-// 0x000006BF System.Boolean GoogleARCore.SessionStatusExtensions::IsValid(GoogleARCore.SessionStatus)
+// 0x00000878 System.Boolean GoogleARCore.SessionStatusExtensions::IsValid(GoogleARCore.SessionStatus)
 extern void SessionStatusExtensions_IsValid_m9EBC74EDB6B08E71948AE7BF43AE855EEE6C2F60 (void);
-// 0x000006C0 System.Boolean GoogleARCore.SessionStatusExtensions::IsError(GoogleARCore.SessionStatus)
+// 0x00000879 System.Boolean GoogleARCore.SessionStatusExtensions::IsError(GoogleARCore.SessionStatus)
 extern void SessionStatusExtensions_IsError_m019482EE495F877FBA5DF73ABA9C65D1228C1BE3 (void);
-// 0x000006C1 System.Void GoogleARCore.Trackable::.ctor()
+// 0x0000087A System.Void GoogleARCore.Trackable::.ctor()
 extern void Trackable__ctor_mF7762ADC3D8212810BB1D608E33A083E50AEEEBB (void);
-// 0x000006C2 System.Void GoogleARCore.Trackable::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+// 0x0000087B System.Void GoogleARCore.Trackable::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
 extern void Trackable__ctor_mF6F5545FC3BE33704CDC3AA2D707C748593B6FE4 (void);
-// 0x000006C3 System.Void GoogleARCore.Trackable::Finalize()
+// 0x0000087C System.Void GoogleARCore.Trackable::Finalize()
 extern void Trackable_Finalize_m4138105A241884808B289F6A0776566A902A304E (void);
-// 0x000006C4 GoogleARCore.TrackingState GoogleARCore.Trackable::get_TrackingState()
+// 0x0000087D GoogleARCore.TrackingState GoogleARCore.Trackable::get_TrackingState()
 extern void Trackable_get_TrackingState_m46711CDCBE0F69FCA0CA024631B7FF7CADDC93EB (void);
-// 0x000006C5 GoogleARCore.Anchor GoogleARCore.Trackable::CreateAnchor(UnityEngine.Pose)
+// 0x0000087E GoogleARCore.Anchor GoogleARCore.Trackable::CreateAnchor(UnityEngine.Pose)
 extern void Trackable_CreateAnchor_mA233B0685621CB7F08FABABA7C61E3CADB6B6438 (void);
-// 0x000006C6 System.Void GoogleARCore.Trackable::GetAllAnchors(System.Collections.Generic.List`1<GoogleARCore.Anchor>)
+// 0x0000087F System.Void GoogleARCore.Trackable::GetAllAnchors(System.Collections.Generic.List`1<GoogleARCore.Anchor>)
 extern void Trackable_GetAllAnchors_mBFECF7B8AC9212D1CA2DF52775E35FD261ED2CC0 (void);
-// 0x000006C7 System.Boolean GoogleARCore.Trackable::IsSessionDestroyed()
+// 0x00000880 System.Boolean GoogleARCore.Trackable::IsSessionDestroyed()
 extern void Trackable_IsSessionDestroyed_mA9304B402B992D331BA4EBBCD9F4D52507FFC1B5 (void);
-// 0x000006C8 System.Void GoogleARCore.TrackableHit::.ctor(UnityEngine.Pose,System.Single,GoogleARCore.TrackableHitFlags,GoogleARCore.Trackable)
+// 0x00000881 System.Void GoogleARCore.TrackableHit::.ctor(UnityEngine.Pose,System.Single,GoogleARCore.TrackableHitFlags,GoogleARCore.Trackable)
 extern void TrackableHit__ctor_m1CA46D9176F1FCD563AD49327E6F81C3E6D63113 (void);
-// 0x000006C9 UnityEngine.Pose GoogleARCore.TrackableHit::get_Pose()
+// 0x00000882 UnityEngine.Pose GoogleARCore.TrackableHit::get_Pose()
 extern void TrackableHit_get_Pose_mFCB6E74CE76DDAC71E561FCED237C32E2ACCE50A (void);
-// 0x000006CA System.Void GoogleARCore.TrackableHit::set_Pose(UnityEngine.Pose)
+// 0x00000883 System.Void GoogleARCore.TrackableHit::set_Pose(UnityEngine.Pose)
 extern void TrackableHit_set_Pose_mEBDBBE07514C65A3E23A59AE9529A4CDF2192A39 (void);
-// 0x000006CB System.Single GoogleARCore.TrackableHit::get_Distance()
+// 0x00000884 System.Single GoogleARCore.TrackableHit::get_Distance()
 extern void TrackableHit_get_Distance_mCBCD76BD1C8071BF4A8C01D9808658AFABC3AC18 (void);
-// 0x000006CC System.Void GoogleARCore.TrackableHit::set_Distance(System.Single)
+// 0x00000885 System.Void GoogleARCore.TrackableHit::set_Distance(System.Single)
 extern void TrackableHit_set_Distance_mA4563891C28BA38E29B2F88A8918970B4D449191 (void);
-// 0x000006CD GoogleARCore.TrackableHitFlags GoogleARCore.TrackableHit::get_Flags()
+// 0x00000886 GoogleARCore.TrackableHitFlags GoogleARCore.TrackableHit::get_Flags()
 extern void TrackableHit_get_Flags_mA85B2890BDF24375EA458B6DB9F0115D48F85DF3 (void);
-// 0x000006CE System.Void GoogleARCore.TrackableHit::set_Flags(GoogleARCore.TrackableHitFlags)
+// 0x00000887 System.Void GoogleARCore.TrackableHit::set_Flags(GoogleARCore.TrackableHitFlags)
 extern void TrackableHit_set_Flags_m68344347260FE485EF7AAA44B5ECAC48BDAB3235 (void);
-// 0x000006CF GoogleARCore.Trackable GoogleARCore.TrackableHit::get_Trackable()
+// 0x00000888 GoogleARCore.Trackable GoogleARCore.TrackableHit::get_Trackable()
 extern void TrackableHit_get_Trackable_m8E9A79D89A9A97D999B8BFE0B2F390EF4F5D345F (void);
-// 0x000006D0 System.Void GoogleARCore.TrackableHit::set_Trackable(GoogleARCore.Trackable)
+// 0x00000889 System.Void GoogleARCore.TrackableHit::set_Trackable(GoogleARCore.Trackable)
 extern void TrackableHit_set_Trackable_m5C3B46B58AE6602F723E43DD70A5AC2A1EDE5F8C (void);
-// 0x000006D1 System.Void GoogleARCore.VersionInfo::.cctor()
+// 0x0000088A System.Void GoogleARCore.VersionInfo::.cctor()
 extern void VersionInfo__cctor_m1BF4584B90B1441F3BCE8D2CAD7DC0135B9D455A (void);
-// 0x000006D2 System.String GoogleARCore.CrossPlatform.XPAnchor::get_CloudId()
+// 0x0000088B System.String GoogleARCore.CrossPlatform.XPAnchor::get_CloudId()
 extern void XPAnchor_get_CloudId_m511176FB09A5A4227E59B24CE7ECA2554B835726 (void);
-// 0x000006D3 System.Void GoogleARCore.CrossPlatform.XPAnchor::set_CloudId(System.String)
+// 0x0000088C System.Void GoogleARCore.CrossPlatform.XPAnchor::set_CloudId(System.String)
 extern void XPAnchor_set_CloudId_mB8AAE3CF0D5DE4D2DE594E3A46A827A6F59892E1 (void);
-// 0x000006D4 GoogleARCore.CrossPlatform.XPTrackingState GoogleARCore.CrossPlatform.XPAnchor::get_TrackingState()
+// 0x0000088D GoogleARCore.CrossPlatform.XPTrackingState GoogleARCore.CrossPlatform.XPAnchor::get_TrackingState()
 extern void XPAnchor_get_TrackingState_m73F121F89EE908E82DF7621FEF13A1131A385A9E (void);
-// 0x000006D5 GoogleARCoreInternal.NativeSession GoogleARCore.CrossPlatform.XPAnchor::get__nativeSession()
+// 0x0000088E GoogleARCoreInternal.NativeSession GoogleARCore.CrossPlatform.XPAnchor::get__nativeSession()
 extern void XPAnchor_get__nativeSession_mC6DD6B1A5D1E6775D80F508DF54BB77997CC07E2 (void);
-// 0x000006D6 System.Void GoogleARCore.CrossPlatform.XPAnchor::set__nativeSession(GoogleARCoreInternal.NativeSession)
+// 0x0000088F System.Void GoogleARCore.CrossPlatform.XPAnchor::set__nativeSession(GoogleARCoreInternal.NativeSession)
 extern void XPAnchor_set__nativeSession_m42CC4346673407FA5D30F27F93B7DBBADF1EEF61 (void);
-// 0x000006D7 System.IntPtr GoogleARCore.CrossPlatform.XPAnchor::get__nativeHandle()
+// 0x00000890 System.IntPtr GoogleARCore.CrossPlatform.XPAnchor::get__nativeHandle()
 extern void XPAnchor_get__nativeHandle_m616BA3DFB4E5125A5EAB9B7E99F5276B12184A5A (void);
-// 0x000006D8 System.Void GoogleARCore.CrossPlatform.XPAnchor::set__nativeHandle(System.IntPtr)
+// 0x00000891 System.Void GoogleARCore.CrossPlatform.XPAnchor::set__nativeHandle(System.IntPtr)
 extern void XPAnchor_set__nativeHandle_m75970DD8CB4D3A95313209AC6647D08206D97665 (void);
-// 0x000006D9 GoogleARCore.CrossPlatform.XPAnchor GoogleARCore.CrossPlatform.XPAnchor::Factory(GoogleARCoreInternal.NativeSession,System.IntPtr,System.Boolean)
+// 0x00000892 GoogleARCore.CrossPlatform.XPAnchor GoogleARCore.CrossPlatform.XPAnchor::Factory(GoogleARCoreInternal.NativeSession,System.IntPtr,System.Boolean)
 extern void XPAnchor_Factory_m85B07D433F205534834987B685159422FFD61709 (void);
-// 0x000006DA System.Void GoogleARCore.CrossPlatform.XPAnchor::Update()
+// 0x00000893 System.Void GoogleARCore.CrossPlatform.XPAnchor::Update()
 extern void XPAnchor_Update_mD7BE6AADB84EB28333BCBA0F4868B771808C86B9 (void);
-// 0x000006DB System.Void GoogleARCore.CrossPlatform.XPAnchor::OnDestroy()
+// 0x00000894 System.Void GoogleARCore.CrossPlatform.XPAnchor::OnDestroy()
 extern void XPAnchor_OnDestroy_m73F2E5DFD4251D9D63216095F665507D64B3D9F8 (void);
-// 0x000006DC System.Boolean GoogleARCore.CrossPlatform.XPAnchor::IsSessionDestroyed()
+// 0x00000895 System.Boolean GoogleARCore.CrossPlatform.XPAnchor::IsSessionDestroyed()
 extern void XPAnchor_IsSessionDestroyed_m25A01F943C3EF434F75C2C3FA8746ECC45FEECBA (void);
-// 0x000006DD System.Void GoogleARCore.CrossPlatform.XPAnchor::.ctor()
+// 0x00000896 System.Void GoogleARCore.CrossPlatform.XPAnchor::.ctor()
 extern void XPAnchor__ctor_m1A3C4C530A8DD9A99EFE6EF7425E6C08B713F231 (void);
-// 0x000006DE System.Void GoogleARCore.CrossPlatform.XPAnchor::.cctor()
+// 0x00000897 System.Void GoogleARCore.CrossPlatform.XPAnchor::.cctor()
 extern void XPAnchor__cctor_m40B355720D78841E98580D855A426FA9E44FB0DD (void);
-// 0x000006DF GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCore.CrossPlatform.XPSession::CreateCloudAnchor(GoogleARCore.Anchor)
+// 0x00000898 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCore.CrossPlatform.XPSession::CreateCloudAnchor(GoogleARCore.Anchor)
 extern void XPSession_CreateCloudAnchor_mB7F2C6B6D0F86B19FEA4A211FCD5AFA2D46020D5 (void);
-// 0x000006E0 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCore.CrossPlatform.XPSession::ResolveCloudAnchor(System.String)
+// 0x00000899 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCore.CrossPlatform.XPSession::ResolveCloudAnchor(System.String)
 extern void XPSession_ResolveCloudAnchor_m1A87EC6B91CA3D14F99C0888BBC3DB9FE450A050 (void);
-// 0x000006E1 System.Void GoogleARCore.CrossPlatform.XPSession::CancelCloudAnchorAsyncTask(System.String)
+// 0x0000089A System.Void GoogleARCore.CrossPlatform.XPSession::CancelCloudAnchorAsyncTask(System.String)
 extern void XPSession_CancelCloudAnchorAsyncTask_m6610F288B5D1B63E8A2E7988D15E1B86BDA441E7 (void);
-// 0x000006E2 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCore.CrossPlatform.XPSession::CreateCloudAnchor(GoogleARCore.Anchor,System.Int32)
+// 0x0000089B GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCore.CrossPlatform.XPSession::CreateCloudAnchor(GoogleARCore.Anchor,System.Int32)
 extern void XPSession_CreateCloudAnchor_m93A09112F67998503F23E2B5126FB242AA24855A (void);
-// 0x000006E3 GoogleARCore.CrossPlatform.FeatureMapQuality GoogleARCore.CrossPlatform.XPSession::EstimateFeatureMapQualityForHosting(UnityEngine.Pose)
+// 0x0000089C GoogleARCore.CrossPlatform.FeatureMapQuality GoogleARCore.CrossPlatform.XPSession::EstimateFeatureMapQualityForHosting(UnityEngine.Pose)
 extern void XPSession_EstimateFeatureMapQualityForHosting_m9C5FB1FE2E3B4AF925F50660D6038DEA6D1CBEDA (void);
-// 0x000006E4 UnityEngine.Pose GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::GetCameraPose()
+// 0x0000089D UnityEngine.Pose GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::GetCameraPose()
 extern void ARViewManager_GetCameraPose_m8C0B95B4822AC2C6978CB3CF1DE4FB5C70C17113 (void);
-// 0x000006E5 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnInputFieldValueChanged(System.String)
+// 0x0000089E System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnInputFieldValueChanged(System.String)
 extern void ARViewManager_OnInputFieldValueChanged_mDEBE1AEC2EA14FE1827EF415B93F28708BA3B24A (void);
-// 0x000006E6 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnSaveButtonClicked()
+// 0x0000089F System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnSaveButtonClicked()
 extern void ARViewManager_OnSaveButtonClicked_m24CA3C95439DE69EE4F8AC36E37DEA66D4DF51EF (void);
-// 0x000006E7 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnShareButtonClicked()
+// 0x000008A0 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnShareButtonClicked()
 extern void ARViewManager_OnShareButtonClicked_mC1650C540ABAD36B2FE2D1812DA7B151459F0BC1 (void);
-// 0x000006E8 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnCopyCompleted()
+// 0x000008A1 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnCopyCompleted()
 extern void ARViewManager_OnCopyCompleted_m3577CC9A576C6CD0594170793FC45B60BD744E38 (void);
-// 0x000006E9 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::Awake()
+// 0x000008A2 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::Awake()
 extern void ARViewManager_Awake_mA5E5A366567B4E7925B25AFA1D30FC0FADDEAA8C (void);
-// 0x000006EA System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnEnable()
+// 0x000008A3 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnEnable()
 extern void ARViewManager_OnEnable_mFC55803C4DC1B1ADE78825198ED2096BEA6BFE57 (void);
-// 0x000006EB System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnDisable()
+// 0x000008A4 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnDisable()
 extern void ARViewManager_OnDisable_m4735D568743334ED6C56F1576F0637B6CAA38C41 (void);
-// 0x000006EC System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::Update()
+// 0x000008A5 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::Update()
 extern void ARViewManager_Update_m41DAAEBDD2383E96098C0E4C3C1578616747F445 (void);
-// 0x000006ED System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::PerformHitTest(UnityEngine.Vector2)
+// 0x000008A6 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::PerformHitTest(UnityEngine.Vector2)
 extern void ARViewManager_PerformHitTest_m20B774E0463253D99244776BB5E36BCE241E55D5 (void);
-// 0x000006EE System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::HostingCloudAnchor()
+// 0x000008A7 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::HostingCloudAnchor()
 extern void ARViewManager_HostingCloudAnchor_m1A0FA3187903399B1117C5E49D8E8A0E2693650E (void);
-// 0x000006EF System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::ResolvingCloudAnchors()
+// 0x000008A8 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::ResolvingCloudAnchors()
 extern void ARViewManager_ResolvingCloudAnchors_m309684E1C78D2006B42A95AA04AA34682D55113C (void);
-// 0x000006F0 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnAnchorHostedFinished(System.Boolean,System.String)
+// 0x000008A9 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnAnchorHostedFinished(System.Boolean,System.String)
 extern void ARViewManager_OnAnchorHostedFinished_mF5A21CF14956C8E231EAD4B1FC733E3EB62CBCFE (void);
-// 0x000006F1 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnAnchorResolvedFinished(System.Boolean,System.String)
+// 0x000008AA System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnAnchorResolvedFinished(System.Boolean,System.String)
 extern void ARViewManager_OnAnchorResolvedFinished_m597A68D08333B8E9B88172A8E47B6995D4170D03 (void);
-// 0x000006F2 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::UpdateInitialInstruction()
+// 0x000008AB System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::UpdateInitialInstruction()
 extern void ARViewManager_UpdateInitialInstruction_m37FC2A4143C63779DA2D8B3C148D6BFF757D5145 (void);
-// 0x000006F3 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::ARCoreLifecycleUpdate()
+// 0x000008AC System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::ARCoreLifecycleUpdate()
 extern void ARViewManager_ARCoreLifecycleUpdate_m38CAE0F8DB161B9900444F681D2E4BF52FC3E236 (void);
-// 0x000006F4 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::ReturnToHomePage(System.String)
+// 0x000008AD System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::ReturnToHomePage(System.String)
 extern void ARViewManager_ReturnToHomePage_m582EE0D0D056E905653D8233A1A5CAD434C8F72B (void);
-// 0x000006F5 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::DoReturnToHomePage()
+// 0x000008AE System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::DoReturnToHomePage()
 extern void ARViewManager_DoReturnToHomePage_m81DBC32DD06C21508925A79A10EB5D58F973BC62 (void);
-// 0x000006F6 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::DoHideInstructionBar()
+// 0x000008AF System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::DoHideInstructionBar()
 extern void ARViewManager_DoHideInstructionBar_mAA4651C7E323FADFA1CDC2D57C1BF783B6B575FB (void);
-// 0x000006F7 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::SetSaveButtonActive(System.Boolean)
+// 0x000008B0 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::SetSaveButtonActive(System.Boolean)
 extern void ARViewManager_SetSaveButtonActive_mBCC8D675E37E36E5F6F3CF9460512DD2406E721A (void);
-// 0x000006F8 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::.ctor()
+// 0x000008B1 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::.ctor()
 extern void ARViewManager__ctor_mA4C08ACB058CAA84749AF8EA74BAAD7E4100CEAB (void);
-// 0x000006F9 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::<HostingCloudAnchor>b__33_0(GoogleARCore.CrossPlatform.CloudAnchorResult)
+// 0x000008B2 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::<HostingCloudAnchor>b__33_0(GoogleARCore.CrossPlatform.CloudAnchorResult)
 extern void ARViewManager_U3CHostingCloudAnchorU3Eb__33_0_m1100D58FAFCB3738D3CBE0B37A3A91B805FD668C (void);
-// 0x000006FA System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager/<>c__DisplayClass34_0::.ctor()
+// 0x000008B3 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager/<>c__DisplayClass34_0::.ctor()
 extern void U3CU3Ec__DisplayClass34_0__ctor_m9AA508F46C389A435AF808EDCDCE5042A0B146A0 (void);
-// 0x000006FB System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager/<>c__DisplayClass34_0::<ResolvingCloudAnchors>b__0(GoogleARCore.CrossPlatform.CloudAnchorResult)
+// 0x000008B4 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager/<>c__DisplayClass34_0::<ResolvingCloudAnchors>b__0(GoogleARCore.CrossPlatform.CloudAnchorResult)
 extern void U3CU3Ec__DisplayClass34_0_U3CResolvingCloudAnchorsU3Eb__0_mD2C96F5FDE87B483D4105D0EAA43BE6E14B065B8 (void);
-// 0x000006FC System.Void GoogleARCore.Examples.PersistentCloudAnchors.CircleRenderer::SetAlpha(System.Single)
+// 0x000008B5 System.Void GoogleARCore.Examples.PersistentCloudAnchors.CircleRenderer::SetAlpha(System.Single)
 extern void CircleRenderer_SetAlpha_m99E1F226BCF38FBDE23F5871B3DEF10995DDCEFD (void);
-// 0x000006FD System.Void GoogleARCore.Examples.PersistentCloudAnchors.CircleRenderer::DrawArc(UnityEngine.Vector3,System.Single,System.Single)
+// 0x000008B6 System.Void GoogleARCore.Examples.PersistentCloudAnchors.CircleRenderer::DrawArc(UnityEngine.Vector3,System.Single,System.Single)
 extern void CircleRenderer_DrawArc_m23588A5F0044E380754CB2EE6F2A0487EAEF68ED (void);
-// 0x000006FE System.Void GoogleARCore.Examples.PersistentCloudAnchors.CircleRenderer::Update()
+// 0x000008B7 System.Void GoogleARCore.Examples.PersistentCloudAnchors.CircleRenderer::Update()
 extern void CircleRenderer_Update_mDDC38AC6E8C3000883911441BDBE6B8E1D3911E7 (void);
-// 0x000006FF System.Void GoogleARCore.Examples.PersistentCloudAnchors.CircleRenderer::.ctor()
+// 0x000008B8 System.Void GoogleARCore.Examples.PersistentCloudAnchors.CircleRenderer::.ctor()
 extern void CircleRenderer__ctor_mE42AEFB72597E96E415946B089AC7A00AC02FB9A (void);
-// 0x00000700 System.Void GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory::.ctor(System.String,System.String,System.DateTime)
+// 0x000008B9 System.Void GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory::.ctor(System.String,System.String,System.DateTime)
 extern void CloudAnchorHistory__ctor_mE70F11A6DF68D0699A2574C0DF25877284C90D5E (void);
-// 0x00000701 System.Void GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory::.ctor(System.String,System.String)
+// 0x000008BA System.Void GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory::.ctor(System.String,System.String)
 extern void CloudAnchorHistory__ctor_m5D68E421D65A0DC4F1B36238B9EE1ACD981AA547 (void);
-// 0x00000702 System.DateTime GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory::get_CreatedTime()
+// 0x000008BB System.DateTime GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory::get_CreatedTime()
 extern void CloudAnchorHistory_get_CreatedTime_m7E6ED1A149BA899E4D8B6A83DC84C6109252D448 (void);
-// 0x00000703 System.String GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory::ToString()
+// 0x000008BC System.String GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory::ToString()
 extern void CloudAnchorHistory_ToString_m3617CCDCE6A6600F81DA362E5256299ABAA42557 (void);
-// 0x00000704 System.Void GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistoryCollection::.ctor()
+// 0x000008BD System.Void GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistoryCollection::.ctor()
 extern void CloudAnchorHistoryCollection__ctor_m1BA0362101196B8B4F80EA531BC6687393D1DF0E (void);
-// 0x00000705 System.Void GoogleARCore.Examples.PersistentCloudAnchors.DoubleLabelsItem::SetLabels(System.String,System.String)
+// 0x000008BE System.Void GoogleARCore.Examples.PersistentCloudAnchors.DoubleLabelsItem::SetLabels(System.String,System.String)
 extern void DoubleLabelsItem_SetLabels_mFFEB0856689F0693FCC333D4C99E279125A431C1 (void);
-// 0x00000706 System.Void GoogleARCore.Examples.PersistentCloudAnchors.DoubleLabelsItem::.ctor()
+// 0x000008BF System.Void GoogleARCore.Examples.PersistentCloudAnchors.DoubleLabelsItem::.ctor()
 extern void DoubleLabelsItem__ctor_mE983414C4C8758017CC027CAB7AB2E4EEA861E61 (void);
-// 0x00000707 System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::get_IsVisited()
+// 0x000008C0 System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::get_IsVisited()
 extern void MapQualityBar_get_IsVisited_m060E6B8DDFCC931679D64584298E3FDE83FB7DFC (void);
-// 0x00000708 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::set_IsVisited(System.Boolean)
+// 0x000008C1 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::set_IsVisited(System.Boolean)
 extern void MapQualityBar_set_IsVisited_mC05F66C21B33D7F5627DEB97C38075CA259148F8 (void);
-// 0x00000709 System.Int32 GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::get_QualityState()
+// 0x000008C2 System.Int32 GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::get_QualityState()
 extern void MapQualityBar_get_QualityState_m4619BC8ECF30D312A937DD508D62C2CA1436741E (void);
-// 0x0000070A System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::set_QualityState(System.Int32)
+// 0x000008C3 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::set_QualityState(System.Int32)
 extern void MapQualityBar_set_QualityState_m846C3306DCB4CBB9F26A96518AC63907B8334A78 (void);
-// 0x0000070B System.Single GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::get_Weight()
+// 0x000008C4 System.Single GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::get_Weight()
 extern void MapQualityBar_get_Weight_m334689DC97734DF2CAA3E3C1B69DDA9C3326EE46 (void);
-// 0x0000070C System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::SetAlpha(System.Single)
+// 0x000008C5 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::SetAlpha(System.Single)
 extern void MapQualityBar_SetAlpha_m9BC5171803F161BB01FABC4714FC7D724B8BBE91 (void);
-// 0x0000070D System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::Update()
+// 0x000008C6 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::Update()
 extern void MapQualityBar_Update_m69918372E457E623FF70F51543FAFC288FF5A8EE (void);
-// 0x0000070E System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::.ctor()
+// 0x000008C7 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::.ctor()
 extern void MapQualityBar__ctor_m0FE370D1B2EC69A22E4995BE2160157EE866BCA3 (void);
-// 0x0000070F System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::.cctor()
+// 0x000008C8 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::.cctor()
 extern void MapQualityBar__cctor_mCB2BABC85860694598D08641F79EEB0AD025AAA9 (void);
-// 0x00000710 System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::get_ReachQualityThreshold()
+// 0x000008C9 System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::get_ReachQualityThreshold()
 extern void MapQualityIndicator_get_ReachQualityThreshold_mD157AF4261E6763179E955E54DBFEE9FC601D4C9 (void);
-// 0x00000711 System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::get_ReachTopviewAngle()
+// 0x000008CA System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::get_ReachTopviewAngle()
 extern void MapQualityIndicator_get_ReachTopviewAngle_mD43548938CF939A88852A300D13777474E639065 (void);
-// 0x00000712 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::DrawIndicator(GoogleARCore.DetectedPlaneType,UnityEngine.Camera)
+// 0x000008CB System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::DrawIndicator(GoogleARCore.DetectedPlaneType,UnityEngine.Camera)
 extern void MapQualityIndicator_DrawIndicator_m31A8693CE11536585BE5D2894B94519B2819105F (void);
-// 0x00000713 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::Awake()
+// 0x000008CC System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::Awake()
 extern void MapQualityIndicator_Awake_m10D4BE05F47F26E72800C2F24CA471CCCE7535AB (void);
-// 0x00000714 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::Update()
+// 0x000008CD System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::Update()
 extern void MapQualityIndicator_Update_m627C606A19E750F3E71F97052B1194D740D8A24E (void);
-// 0x00000715 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::DrawRing()
+// 0x000008CE System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::DrawRing()
 extern void MapQualityIndicator_DrawRing_m736AA14A446463AE03ABB76AFA530B2CCB9C283B (void);
-// 0x00000716 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::DrawBars()
+// 0x000008CF System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::DrawBars()
 extern void MapQualityIndicator_DrawBars_mE4FFE4A7300EB6974F77DBDA3EE284692C39EF8B (void);
-// 0x00000717 System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::IsLookingAtBar(GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar)
+// 0x000008D0 System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::IsLookingAtBar(GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar)
 extern void MapQualityIndicator_IsLookingAtBar_mA33347F231C7251EFAFF6DD0B4B8EB23870A158A (void);
-// 0x00000718 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::PlayDisappearAnimation()
+// 0x000008D1 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::PlayDisappearAnimation()
 extern void MapQualityIndicator_PlayDisappearAnimation_mEE47ABED8C210D58F51E6A3C47909D8171E6D7F4 (void);
-// 0x00000719 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::.ctor()
+// 0x000008D2 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::.ctor()
 extern void MapQualityIndicator__ctor_m4BF7B2E292EE0BE01D83309764B2408830FA9438 (void);
-// 0x0000071A System.Collections.Generic.List`1<GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown/OptionData> GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::get_Options()
+// 0x000008D3 System.Collections.Generic.List`1<GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown/OptionData> GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::get_Options()
 extern void MultiselectionDropdown_get_Options_mD27B71236C2A869F862750AEB227EE8D242894D6 (void);
-// 0x0000071B System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::set_Options(System.Collections.Generic.List`1<GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown/OptionData>)
+// 0x000008D4 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::set_Options(System.Collections.Generic.List`1<GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown/OptionData>)
 extern void MultiselectionDropdown_set_Options_m1BC924C57E138CE125322FAAD0C1F1C1FCEA59F2 (void);
-// 0x0000071C System.Collections.Generic.List`1<System.Int32> GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::get_SelectedValues()
+// 0x000008D5 System.Collections.Generic.List`1<System.Int32> GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::get_SelectedValues()
 extern void MultiselectionDropdown_get_SelectedValues_mC81EF4506EB9FFE55C7E851C0C469BF68D675A26 (void);
-// 0x0000071D System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::Deselect()
+// 0x000008D6 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::Deselect()
 extern void MultiselectionDropdown_Deselect_mBF6087158711325D3750F97EDE04BF3D183BD10A (void);
-// 0x0000071E System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::UnityEngine.EventSystems.IPointerClickHandler.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+// 0x000008D7 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::UnityEngine.EventSystems.IPointerClickHandler.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
 extern void MultiselectionDropdown_UnityEngine_EventSystems_IPointerClickHandler_OnPointerClick_m4BDD6F807C610CF0D1C235BC008DB5488D0CFCC1 (void);
-// 0x0000071F System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::UnityEngine.EventSystems.ISubmitHandler.OnSubmit(UnityEngine.EventSystems.BaseEventData)
+// 0x000008D8 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::UnityEngine.EventSystems.ISubmitHandler.OnSubmit(UnityEngine.EventSystems.BaseEventData)
 extern void MultiselectionDropdown_UnityEngine_EventSystems_ISubmitHandler_OnSubmit_m00E8CD6C48D54B4982A6035706FFB5197272E841 (void);
-// 0x00000720 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::UnityEngine.EventSystems.ICancelHandler.OnCancel(UnityEngine.EventSystems.BaseEventData)
+// 0x000008D9 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::UnityEngine.EventSystems.ICancelHandler.OnCancel(UnityEngine.EventSystems.BaseEventData)
 extern void MultiselectionDropdown_UnityEngine_EventSystems_ICancelHandler_OnCancel_m84941FFC9AF84DB0E53E45D2DFD30A286D4C0E94 (void);
-// 0x00000721 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::Awake()
+// 0x000008DA System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::Awake()
 extern void MultiselectionDropdown_Awake_mBAA17F4481AD94241084B47FE8FA7F8055615137 (void);
-// 0x00000722 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::OnSelectionChanged(System.Boolean)
+// 0x000008DB System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::OnSelectionChanged(System.Boolean)
 extern void MultiselectionDropdown_OnSelectionChanged_mE27849D78D142A29D57781739EE36A590758A9F8 (void);
-// 0x00000723 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::UpdateOptionRect()
+// 0x000008DC System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::UpdateOptionRect()
 extern void MultiselectionDropdown_UpdateOptionRect_m4B434189AD46C731ABB8B36E507D9B2665632164 (void);
-// 0x00000724 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::.ctor()
+// 0x000008DD System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::.ctor()
 extern void MultiselectionDropdown__ctor_m16B7B87131BBD572D445A126E483F52C7D31058D (void);
-// 0x00000725 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown/OptionData::.ctor(System.String,System.String)
+// 0x000008DE System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown/OptionData::.ctor(System.String,System.String)
 extern void OptionData__ctor_mFB4967F09FB86F9D1151E112E3E6A001ECC20903 (void);
-// 0x00000726 UnityEngine.Camera GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::get_MainCamera()
+// 0x000008DF UnityEngine.Camera GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::get_MainCamera()
 extern void PersistentCloudAnchorsController_get_MainCamera_mA0B8C2E76F3352CD8B817ABEAC96682E13E1729B (void);
-// 0x00000727 UnityEngine.GameObject GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::get_PlaneGenerator()
+// 0x000008E0 UnityEngine.GameObject GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::get_PlaneGenerator()
 extern void PersistentCloudAnchorsController_get_PlaneGenerator_mA5F55AC55852BB9CC8D2A8DD53C5721AFBE9CDCA (void);
-// 0x00000728 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::OnHostButtonClicked()
+// 0x000008E1 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::OnHostButtonClicked()
 extern void PersistentCloudAnchorsController_OnHostButtonClicked_mA75BA89E0CBC9EBC121ECDC2FA630CBFD66E0956 (void);
-// 0x00000729 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::OnResolveButtonClicked()
+// 0x000008E2 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::OnResolveButtonClicked()
 extern void PersistentCloudAnchorsController_OnResolveButtonClicked_m730CB11CB2C93AD9CB6AB4BCB50720C6509782A4 (void);
-// 0x0000072A System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::OnLearnMoreButtonClicked()
+// 0x000008E3 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::OnLearnMoreButtonClicked()
 extern void PersistentCloudAnchorsController_OnLearnMoreButtonClicked_mA141E3BEE0B7B16E7A7CFC17BDCC7B0649416603 (void);
-// 0x0000072B System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SwitchToHomePage()
+// 0x000008E4 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SwitchToHomePage()
 extern void PersistentCloudAnchorsController_SwitchToHomePage_m00C753C79B322B538B0486E1ECCDD48230EACF8A (void);
-// 0x0000072C System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SwitchToResolveMenu()
+// 0x000008E5 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SwitchToResolveMenu()
 extern void PersistentCloudAnchorsController_SwitchToResolveMenu_m7CCE6357F763B865BD448C5F657448BD6BFA1C29 (void);
-// 0x0000072D System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SwitchToPrivacyPrompt()
+// 0x000008E6 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SwitchToPrivacyPrompt()
 extern void PersistentCloudAnchorsController_SwitchToPrivacyPrompt_mAFE42AE8BBA0A61D80FA02A33595D882509D2D1E (void);
-// 0x0000072E System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SwitchToARView()
+// 0x000008E7 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SwitchToARView()
 extern void PersistentCloudAnchorsController_SwitchToARView_mE93C67579651E476510CD0483B4A07636A337A8C (void);
-// 0x0000072F GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistoryCollection GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::LoadCloudAnchorHistory()
+// 0x000008E8 GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistoryCollection GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::LoadCloudAnchorHistory()
 extern void PersistentCloudAnchorsController_LoadCloudAnchorHistory_m880BED98037CD56441357252D9BA2D098AA9A155 (void);
-// 0x00000730 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SaveCloudAnchorHistory(GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory)
+// 0x000008E9 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SaveCloudAnchorHistory(GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory)
 extern void PersistentCloudAnchorsController_SaveCloudAnchorHistory_mE0AAC2330498ADF4209357857344A6A194A85C6F (void);
-// 0x00000731 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::Awake()
+// 0x000008EA System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::Awake()
 extern void PersistentCloudAnchorsController_Awake_mD477A25A28F59ADC9E93D1AB66FA139E69683125 (void);
-// 0x00000732 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::Update()
+// 0x000008EB System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::Update()
 extern void PersistentCloudAnchorsController_Update_m3EE99BC97F6CEEA1F2FF8E8A4288D8D267FFE191 (void);
-// 0x00000733 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::ResetAllViews()
+// 0x000008EC System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::ResetAllViews()
 extern void PersistentCloudAnchorsController_ResetAllViews_mF999C0D831C3C8B97925BB54DE94D38482B9E15D (void);
-// 0x00000734 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SetPlatformActive(System.Boolean)
+// 0x000008ED System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SetPlatformActive(System.Boolean)
 extern void PersistentCloudAnchorsController_SetPlatformActive_mDA430BFDF448F5C056AD133CB61DE3E9BD3DE8F2 (void);
-// 0x00000735 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::.ctor()
+// 0x000008EE System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::.ctor()
 extern void PersistentCloudAnchorsController__ctor_mC3C5611900C58C2356E458AFBA97AD82568E4B1B (void);
-// 0x00000736 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController/<>c__DisplayClass27_0::.ctor()
+// 0x000008EF System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController/<>c__DisplayClass27_0::.ctor()
 extern void U3CU3Ec__DisplayClass27_0__ctor_m1582A9C4CD1DBAA95DCB2309D088B2C0B6EBB66D (void);
-// 0x00000737 System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController/<>c__DisplayClass27_0::<LoadCloudAnchorHistory>b__0(GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory)
+// 0x000008F0 System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController/<>c__DisplayClass27_0::<LoadCloudAnchorHistory>b__0(GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory)
 extern void U3CU3Ec__DisplayClass27_0_U3CLoadCloudAnchorHistoryU3Eb__0_mC772E7119FA0E1A5D96963F76480DDA1DBF78D69 (void);
-// 0x00000738 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController/<>c::.cctor()
+// 0x000008F1 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController/<>c::.cctor()
 extern void U3CU3Ec__cctor_m67193C25BE506EB62DE6F05653DF01B617984B28 (void);
-// 0x00000739 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController/<>c::.ctor()
+// 0x000008F2 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController/<>c::.ctor()
 extern void U3CU3Ec__ctor_m4E21C027A76D55C475AE6599D4E04BD453FAC734 (void);
-// 0x0000073A System.Int32 GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController/<>c::<SaveCloudAnchorHistory>b__28_0(GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory,GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory)
+// 0x000008F3 System.Int32 GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController/<>c::<SaveCloudAnchorHistory>b__28_0(GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory,GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory)
 extern void U3CU3Ec_U3CSaveCloudAnchorHistoryU3Eb__28_0_mEE5AA21CA192710D38862E540BB57F7ED73BE4E9 (void);
-// 0x0000073B System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnInputFieldValueChanged(System.String)
+// 0x000008F4 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnInputFieldValueChanged(System.String)
 extern void ResolveMenuManager_OnInputFieldValueChanged_mF3C51160CBBE13DF7929BF2DA4589F3D9B5ABC81 (void);
-// 0x0000073C System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnInputFieldEndEdit(System.String)
+// 0x000008F5 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnInputFieldEndEdit(System.String)
 extern void ResolveMenuManager_OnInputFieldEndEdit_m59FC78B4B7D456CCD89AC1FF44A7256593B624DE (void);
-// 0x0000073D System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnResolvingSelectionChanged()
+// 0x000008F6 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnResolvingSelectionChanged()
 extern void ResolveMenuManager_OnResolvingSelectionChanged_m2C3BA6A253824785CC3B585C98640C101D4B7ABC (void);
-// 0x0000073E System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::Awake()
+// 0x000008F7 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::Awake()
 extern void ResolveMenuManager_Awake_mFFE1A0A0C6C447DEB53DCE7B8DDDAA7FE7CA5F4E (void);
-// 0x0000073F System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnEnable()
+// 0x000008F8 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnEnable()
 extern void ResolveMenuManager_OnEnable_m5D7F8BAC4AA2A74BA57235FEE3952C530EF829EE (void);
-// 0x00000740 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnDisable()
+// 0x000008F9 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnDisable()
 extern void ResolveMenuManager_OnDisable_m4690EC5C67F47F3B593A43D0B1CA843C5FAD3E66 (void);
-// 0x00000741 System.String GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::FormatDateTime(System.DateTime)
+// 0x000008FA System.String GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::FormatDateTime(System.DateTime)
 extern void ResolveMenuManager_FormatDateTime_mB89AE5D367534E677442130A00B9FBAE35C6E296 (void);
-// 0x00000742 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::SetButtonActive(UnityEngine.UI.Button,System.Boolean)
+// 0x000008FB System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::SetButtonActive(UnityEngine.UI.Button,System.Boolean)
 extern void ResolveMenuManager_SetButtonActive_mDB878FAEB74B10882CB061039EDBA167DA5A1AC2 (void);
-// 0x00000743 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::.ctor()
+// 0x000008FC System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::.ctor()
 extern void ResolveMenuManager__ctor_m847A0653EBF738C260E76D89DB931DDEDC31E605 (void);
-// 0x00000744 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::.ctor(GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1<T>)
-// 0x00000745 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::add_onStart(System.Action`1<T>)
-// 0x00000746 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::remove_onStart(System.Action`1<T>)
-// 0x00000747 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::add_onUpdated(System.Action`1<T>)
-// 0x00000748 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::remove_onUpdated(System.Action`1<T>)
-// 0x00000749 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::add_onFinished(System.Action`1<T>)
-// 0x0000074A System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::remove_onFinished(System.Action`1<T>)
-// 0x0000074B System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::get_WasCancelled()
-// 0x0000074C System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::set_WasCancelled(System.Boolean)
-// 0x0000074D UnityEngine.GameObject GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::get_TargetObject()
-// 0x0000074E System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::set_TargetObject(UnityEngine.GameObject)
-// 0x0000074F GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1<T> GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::get__recognizer()
-// 0x00000750 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::set__recognizer(GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1<T>)
-// 0x00000751 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::Update()
-// 0x00000752 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::Cancel()
-// 0x00000753 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::CanStart()
-// 0x00000754 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::OnStart()
-// 0x00000755 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::UpdateGesture()
-// 0x00000756 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::OnCancel()
-// 0x00000757 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::OnFinish()
-// 0x00000758 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::Complete()
-// 0x00000759 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::Start()
-// 0x0000075A System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::add_onGestureStarted(System.Action`1<T>)
-// 0x0000075B System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::remove_onGestureStarted(System.Action`1<T>)
-// 0x0000075C System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::Update()
-// 0x0000075D System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::TryCreateGestures()
-// 0x0000075E System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::TryCreateOneFingerGestureOnTouchBegan(System.Func`2<UnityEngine.Touch,T>)
-// 0x0000075F System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::TryCreateTwoFingerGestureOnTouchBegan(System.Func`3<UnityEngine.Touch,UnityEngine.Touch,T>)
-// 0x00000760 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::TryCreateGestureTwoFingerGestureOnTouchBeganForTouchIndex(System.Int32,System.Func`3<UnityEngine.Touch,UnityEngine.Touch,T>)
-// 0x00000761 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::OnStart(T)
-// 0x00000762 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::OnFinished(T)
-// 0x00000763 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::.ctor()
-// 0x00000764 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::.ctor()
+// 0x000008FD System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::.ctor(GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1<T>)
+// 0x000008FE System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::add_onStart(System.Action`1<T>)
+// 0x000008FF System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::remove_onStart(System.Action`1<T>)
+// 0x00000900 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::add_onUpdated(System.Action`1<T>)
+// 0x00000901 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::remove_onUpdated(System.Action`1<T>)
+// 0x00000902 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::add_onFinished(System.Action`1<T>)
+// 0x00000903 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::remove_onFinished(System.Action`1<T>)
+// 0x00000904 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::get_WasCancelled()
+// 0x00000905 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::set_WasCancelled(System.Boolean)
+// 0x00000906 UnityEngine.GameObject GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::get_TargetObject()
+// 0x00000907 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::set_TargetObject(UnityEngine.GameObject)
+// 0x00000908 GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1<T> GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::get__recognizer()
+// 0x00000909 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::set__recognizer(GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1<T>)
+// 0x0000090A System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::Update()
+// 0x0000090B System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::Cancel()
+// 0x0000090C System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::CanStart()
+// 0x0000090D System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::OnStart()
+// 0x0000090E System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::UpdateGesture()
+// 0x0000090F System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::OnCancel()
+// 0x00000910 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::OnFinish()
+// 0x00000911 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::Complete()
+// 0x00000912 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::Start()
+// 0x00000913 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::add_onGestureStarted(System.Action`1<T>)
+// 0x00000914 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::remove_onGestureStarted(System.Action`1<T>)
+// 0x00000915 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::Update()
+// 0x00000916 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::TryCreateGestures()
+// 0x00000917 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::TryCreateOneFingerGestureOnTouchBegan(System.Func`2<UnityEngine.Touch,T>)
+// 0x00000918 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::TryCreateTwoFingerGestureOnTouchBegan(System.Func`3<UnityEngine.Touch,UnityEngine.Touch,T>)
+// 0x00000919 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::TryCreateGestureTwoFingerGestureOnTouchBeganForTouchIndex(System.Int32,System.Func`3<UnityEngine.Touch,UnityEngine.Touch,T>)
+// 0x0000091A System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::OnStart(T)
+// 0x0000091B System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::OnFinished(T)
+// 0x0000091C System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::.ctor()
+// 0x0000091D System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::.ctor()
 extern void GestureTouchesUtility__ctor_mC5A9159C334AC551B83C28ABB57FF56A3EEB0699 (void);
-// 0x00000765 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::TryFindTouch(System.Int32,UnityEngine.Touch&)
+// 0x0000091E System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::TryFindTouch(System.Int32,UnityEngine.Touch&)
 extern void GestureTouchesUtility_TryFindTouch_mAC25F52EA463712F44ACD02B7C4DD35292CA8F49 (void);
-// 0x00000766 System.Single GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::PixelsToInches(System.Single)
+// 0x0000091F System.Single GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::PixelsToInches(System.Single)
 extern void GestureTouchesUtility_PixelsToInches_mB025EF38259E12139F6DD1E4DD9FD21BBF4172D2 (void);
-// 0x00000767 System.Single GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::InchesToPixels(System.Single)
+// 0x00000920 System.Single GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::InchesToPixels(System.Single)
 extern void GestureTouchesUtility_InchesToPixels_m3F854A8DE2D1B1C286B50C6A1E022F9423226853 (void);
-// 0x00000768 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::IsTouchOffScreenEdge(UnityEngine.Touch)
+// 0x00000921 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::IsTouchOffScreenEdge(UnityEngine.Touch)
 extern void GestureTouchesUtility_IsTouchOffScreenEdge_m1DDD7FED1770BE20CB2DCA04CB80F840A20643C8 (void);
-// 0x00000769 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::RaycastFromCamera(UnityEngine.Vector2,UnityEngine.RaycastHit&)
+// 0x00000922 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::RaycastFromCamera(UnityEngine.Vector2,UnityEngine.RaycastHit&)
 extern void GestureTouchesUtility_RaycastFromCamera_mDFBACED5901DF0A3E065F032633A7E1A6662C9FE (void);
-// 0x0000076A System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::LockFingerId(System.Int32)
+// 0x00000923 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::LockFingerId(System.Int32)
 extern void GestureTouchesUtility_LockFingerId_m3AA4E1728542BAEF782B6047442D1DF7F008CAFC (void);
-// 0x0000076B System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::ReleaseFingerId(System.Int32)
+// 0x00000924 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::ReleaseFingerId(System.Int32)
 extern void GestureTouchesUtility_ReleaseFingerId_m549F445CCBEF80D875F310719AD7A976D6C8CC44 (void);
-// 0x0000076C System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::IsFingerIdRetained(System.Int32)
+// 0x00000925 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::IsFingerIdRetained(System.Int32)
 extern void GestureTouchesUtility_IsFingerIdRetained_mA8C2A19E2FF6EC2F8E723A1504E5671813A84FFE (void);
-// 0x0000076D GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::GetInstance()
+// 0x00000926 GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::GetInstance()
 extern void GestureTouchesUtility_GetInstance_mDA012D8E1731F76F369D53583C11B5E3624A2D45 (void);
-// 0x0000076E GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility/Placement GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility::GetBestPlacementPosition(UnityEngine.Vector3,UnityEngine.Vector2,System.Single,System.Single,System.Single,GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility/TranslationMode)
+// 0x00000927 GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility/Placement GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility::GetBestPlacementPosition(UnityEngine.Vector3,UnityEngine.Vector2,System.Single,System.Single,System.Single,GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility/TranslationMode)
 extern void TransformationUtility_GetBestPlacementPosition_m9385A068E6EDB4A3F4E3470DFC650AD3EFED2A89 (void);
-// 0x0000076F UnityEngine.Vector3 GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility::LimitTranslation(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+// 0x00000928 UnityEngine.Vector3 GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility::LimitTranslation(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
 extern void TransformationUtility_LimitTranslation_m5867FD7E3A1F121C606CDF4E99A10A4C45993C8A (void);
-// 0x00000770 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility::IsPlaneTypeAllowed(GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility/TranslationMode,GoogleARCore.DetectedPlaneType)
+// 0x00000929 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility::IsPlaneTypeAllowed(GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility/TranslationMode,GoogleARCore.DetectedPlaneType)
 extern void TransformationUtility_IsPlaneTypeAllowed_m31A8A3AC5F1185F9DB4459F22A29B42E51C9922A (void);
-// 0x00000771 System.Void GoogleARCore.Examples.HelloAR.HelloARController::Awake()
+// 0x0000092A System.Void GoogleARCore.Examples.HelloAR.HelloARController::Awake()
 extern void HelloARController_Awake_m272FB8CD85A590CB0771A9B3E83EE04BADA2CCC8 (void);
-// 0x00000772 System.Void GoogleARCore.Examples.HelloAR.HelloARController::Update()
+// 0x0000092B System.Void GoogleARCore.Examples.HelloAR.HelloARController::Update()
 extern void HelloARController_Update_m58BF01E3544B81ABD5A747709A4CC585100B677E (void);
-// 0x00000773 System.Void GoogleARCore.Examples.HelloAR.HelloARController::UpdateApplicationLifecycle()
+// 0x0000092C System.Void GoogleARCore.Examples.HelloAR.HelloARController::UpdateApplicationLifecycle()
 extern void HelloARController_UpdateApplicationLifecycle_mC4DF692A3A9E2A64D155F4A4569E29152B5C9C1D (void);
-// 0x00000774 System.Void GoogleARCore.Examples.HelloAR.HelloARController::DoQuit()
+// 0x0000092D System.Void GoogleARCore.Examples.HelloAR.HelloARController::DoQuit()
 extern void HelloARController_DoQuit_mF5850F94DA6ABA620DC1D7B699A4F94263A0FA8B (void);
-// 0x00000775 System.Void GoogleARCore.Examples.HelloAR.HelloARController::ShowAndroidToastMessage(System.String)
+// 0x0000092E System.Void GoogleARCore.Examples.HelloAR.HelloARController::ShowAndroidToastMessage(System.String)
 extern void HelloARController_ShowAndroidToastMessage_m2457C7D8F443F096C5B130B78AEE4ED723C21E9C (void);
-// 0x00000776 System.Void GoogleARCore.Examples.HelloAR.HelloARController::.ctor()
+// 0x0000092F System.Void GoogleARCore.Examples.HelloAR.HelloARController::.ctor()
 extern void HelloARController__ctor_mB357B0F55B6C8C8C24AF396B7047211BB438AA9F (void);
-// 0x00000777 System.Void GoogleARCore.Examples.HelloAR.HelloARController/<>c__DisplayClass13_0::.ctor()
+// 0x00000930 System.Void GoogleARCore.Examples.HelloAR.HelloARController/<>c__DisplayClass13_0::.ctor()
 extern void U3CU3Ec__DisplayClass13_0__ctor_mC45574D953A38380DA3EDED1BF218BBB313DA91E (void);
-// 0x00000778 System.Void GoogleARCore.Examples.HelloAR.HelloARController/<>c__DisplayClass13_0::<ShowAndroidToastMessage>b__0()
-extern void U3CU3Ec__DisplayClass13_0_U3CShowAndroidToastMessageU3Eb__0_m6CF576A2934249666D3B47FD4E2257D31D1BAC24 (void);
-// 0x00000779 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::Start()
+// 0x00000931 System.Void GoogleARCore.Examples.HelloAR.HelloARController/<>c__DisplayClass13_1::.ctor()
+extern void U3CU3Ec__DisplayClass13_1__ctor_m5B43AE81E4CC004A8FAC40A07C9A6BFDF05FABA7 (void);
+// 0x00000932 System.Void GoogleARCore.Examples.HelloAR.HelloARController/<>c__DisplayClass13_1::<ShowAndroidToastMessage>b__0()
+extern void U3CU3Ec__DisplayClass13_1_U3CShowAndroidToastMessageU3Eb__0_m14AE3A7DAED00229F42BF3B7223800DAEE669E8E (void);
+// 0x00000933 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::Start()
 extern void SettingsMenu_Start_mC2D1D5266F8CA8F9ACFBC2B7EC93279122291082 (void);
-// 0x0000077A System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnDestroy()
+// 0x00000934 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnDestroy()
 extern void SettingsMenu_OnDestroy_m0D88AB147B08079792A48081F2FC915475ED5CF0 (void);
-// 0x0000077B System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnMenuClosed()
+// 0x00000935 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnMenuClosed()
 extern void SettingsMenu_OnMenuClosed_m03FADEDC11872809F7D88F49701201F36F76F7E0 (void);
-// 0x0000077C System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnMenuButtonClick()
+// 0x00000936 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnMenuButtonClick()
 extern void SettingsMenu_OnMenuButtonClick_mD3041E16B655775CB1AC2B085C6A0583B69B0C89 (void);
-// 0x0000077D System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnClickDepthMenu()
+// 0x00000937 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnClickDepthMenu()
 extern void SettingsMenu_OnClickDepthMenu_m00FD080B75171A0BD1CE4B43C015B3FEDB85855B (void);
-// 0x0000077E System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnClickInstantPlacementMenu()
+// 0x00000938 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnClickInstantPlacementMenu()
 extern void SettingsMenu_OnClickInstantPlacementMenu_m2D7E2DE0C29BE8BDF7C26767B20BBF0DEBD5DDD3 (void);
-// 0x0000077F System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::.ctor()
+// 0x00000939 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::.ctor()
 extern void SettingsMenu__ctor_m8C4AF446041E4BD6E10762E514419CF81D94B2FC (void);
-// 0x00000780 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::Awake()
+// 0x0000093A System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::Awake()
 extern void ComputerVisionController_Awake_mB1C023599A7CDBF51C90ABF7B3CB9D61053A2D64 (void);
-// 0x00000781 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::Start()
+// 0x0000093B System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::Start()
 extern void ComputerVisionController_Start_mD1302DFE589FADC2251E7FA500ED15B39D27F70A (void);
-// 0x00000782 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::Update()
+// 0x0000093C System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::Update()
 extern void ComputerVisionController_Update_mE6429EF835AD2C9A35C0C6550695F583389ECCEC (void);
-// 0x00000783 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnLowResolutionCheckboxValueChanged(System.Boolean)
+// 0x0000093D System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnLowResolutionCheckboxValueChanged(System.Boolean)
 extern void ComputerVisionController_OnLowResolutionCheckboxValueChanged_m0DCBA30DAB806BA7AE880D03AD3E35EC2313D946 (void);
-// 0x00000784 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnHighResolutionCheckboxValueChanged(System.Boolean)
+// 0x0000093E System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnHighResolutionCheckboxValueChanged(System.Boolean)
 extern void ComputerVisionController_OnHighResolutionCheckboxValueChanged_m8B2C649C191ACA305D0A35350C5C9586650DBC7C (void);
-// 0x00000785 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnAutoFocusCheckboxValueChanged(System.Boolean)
+// 0x0000093F System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnAutoFocusCheckboxValueChanged(System.Boolean)
 extern void ComputerVisionController_OnAutoFocusCheckboxValueChanged_m6ACFB3ECB966240363DB7F38586E40A9EAE23F4F (void);
-// 0x00000786 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnBackgroundClicked()
+// 0x00000940 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnBackgroundClicked()
 extern void ComputerVisionController_OnBackgroundClicked_mAF3CA879A4CFDA280331B535ADF66B0E50538EB4 (void);
-// 0x00000787 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::UpdateFrameRate()
+// 0x00000941 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::UpdateFrameRate()
 extern void ComputerVisionController_UpdateFrameRate_m998B5EE5BC77160C23B1D51F1448E886C1786093 (void);
-// 0x00000788 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnImageAvailable(System.Int32,System.Int32,System.Int32,System.IntPtr,System.Int32)
+// 0x00000942 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnImageAvailable(System.Int32,System.Int32,System.Int32,System.IntPtr,System.Int32)
 extern void ComputerVisionController_OnImageAvailable_m1FA6173E4E10A97F5FCE833D68522A7954345324 (void);
-// 0x00000789 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::QuitOnConnectionErrors()
+// 0x00000943 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::QuitOnConnectionErrors()
 extern void ComputerVisionController_QuitOnConnectionErrors_mAC80770315EEBB3197F001E04C1B260236A4DBD0 (void);
-// 0x0000078A System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::ShowAndroidToastMessage(System.String)
+// 0x00000944 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::ShowAndroidToastMessage(System.String)
 extern void ComputerVisionController_ShowAndroidToastMessage_mB93D483A4B6E512AB47AAC273CE33F94D90C0CE7 (void);
-// 0x0000078B System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::DoQuit()
+// 0x00000945 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::DoQuit()
 extern void ComputerVisionController_DoQuit_m701872DCDE052EEFB611D8F7CD50B04A3B19B251 (void);
-// 0x0000078C System.String GoogleARCore.Examples.ComputerVision.ComputerVisionController::CameraIntrinsicsToString(GoogleARCore.CameraIntrinsics,System.String)
+// 0x00000946 System.String GoogleARCore.Examples.ComputerVision.ComputerVisionController::CameraIntrinsicsToString(GoogleARCore.CameraIntrinsics,System.String)
 extern void ComputerVisionController_CameraIntrinsicsToString_m3B0A78E43A4CF67287910AB545903123699008F8 (void);
-// 0x0000078D System.Int32 GoogleARCore.Examples.ComputerVision.ComputerVisionController::ChooseCameraConfiguration(System.Collections.Generic.List`1<GoogleARCore.CameraConfig>)
+// 0x00000947 System.Int32 GoogleARCore.Examples.ComputerVision.ComputerVisionController::ChooseCameraConfiguration(System.Collections.Generic.List`1<GoogleARCore.CameraConfig>)
 extern void ComputerVisionController_ChooseCameraConfiguration_m87645B249B5740E45F3308CD1155CE1E107F0F0A (void);
-// 0x0000078E System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::.ctor()
+// 0x00000948 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::.ctor()
 extern void ComputerVisionController__ctor_mB5560EF1EAD3CA3D2499CD068A4E4104E74271F6 (void);
-// 0x0000078F System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::.cctor()
+// 0x00000949 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::.cctor()
 extern void ComputerVisionController__cctor_m58E7A56C968C67A26ACD8DE0C1AE00B1C706BB15 (void);
-// 0x00000790 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController/<>c__DisplayClass35_0::.ctor()
+// 0x0000094A System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController/<>c__DisplayClass35_0::.ctor()
 extern void U3CU3Ec__DisplayClass35_0__ctor_m9B163BF85466261D12A23F05D0D8556E8EB2BE09 (void);
-// 0x00000791 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController/<>c__DisplayClass35_0::<ShowAndroidToastMessage>b__0()
-extern void U3CU3Ec__DisplayClass35_0_U3CShowAndroidToastMessageU3Eb__0_m8B38D0D5E6F6E2ABAFDBCE59AE46EA0F82A59AFC (void);
-// 0x00000792 System.Boolean GoogleARCore.Examples.ComputerVision.EdgeDetector::Detect(System.Byte[],System.IntPtr,System.Int32,System.Int32,System.Int32)
+// 0x0000094B System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController/<>c__DisplayClass35_1::.ctor()
+extern void U3CU3Ec__DisplayClass35_1__ctor_m412163FCD1132992822BE053D03B66334956BDEA (void);
+// 0x0000094C System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController/<>c__DisplayClass35_1::<ShowAndroidToastMessage>b__0()
+extern void U3CU3Ec__DisplayClass35_1_U3CShowAndroidToastMessageU3Eb__0_m2636228604C758794937649AEB922A9252FB3CA3 (void);
+// 0x0000094D System.Boolean GoogleARCore.Examples.ComputerVision.EdgeDetector::Detect(System.Byte[],System.IntPtr,System.Int32,System.Int32,System.Int32)
 extern void EdgeDetector_Detect_m5722258FEF9A935BD88F13F9538C518A59ECBB79 (void);
-// 0x00000793 System.Void GoogleARCore.Examples.ComputerVision.EdgeDetector::Sobel(System.Byte[],System.IntPtr,System.Int32,System.Int32,System.Int32)
+// 0x0000094E System.Void GoogleARCore.Examples.ComputerVision.EdgeDetector::Sobel(System.Byte[],System.IntPtr,System.Int32,System.Int32,System.Int32)
 extern void EdgeDetector_Sobel_mCB1C8FA6074BBACE6FDCDA503E1CF7A649DA81F2 (void);
-// 0x00000794 System.Void GoogleARCore.Examples.ComputerVision.EdgeDetector::.ctor()
+// 0x0000094F System.Void GoogleARCore.Examples.ComputerVision.EdgeDetector::.ctor()
 extern void EdgeDetector__ctor_m5C2CA6C81108EC8074269E3918647A58E9793C9C (void);
-// 0x00000795 System.Void GoogleARCore.Examples.ComputerVision.EdgeDetector::.cctor()
+// 0x00000950 System.Void GoogleARCore.Examples.ComputerVision.EdgeDetector::.cctor()
 extern void EdgeDetector__cctor_mEE9DFF1786B97D6762A4CEB6DA9BEF9480BFE416 (void);
-// 0x00000796 System.Void GoogleARCore.Examples.ComputerVision.PointClickHandler::add_OnPointClickDetected(System.Action)
+// 0x00000951 System.Void GoogleARCore.Examples.ComputerVision.PointClickHandler::add_OnPointClickDetected(System.Action)
 extern void PointClickHandler_add_OnPointClickDetected_mD2B6695BA1D8D81158895E7171F46CB3ADE55E10 (void);
-// 0x00000797 System.Void GoogleARCore.Examples.ComputerVision.PointClickHandler::remove_OnPointClickDetected(System.Action)
+// 0x00000952 System.Void GoogleARCore.Examples.ComputerVision.PointClickHandler::remove_OnPointClickDetected(System.Action)
 extern void PointClickHandler_remove_OnPointClickDetected_m76B1D4BAEEC75C43226E96B8F5A1CB24CE5D3DA9 (void);
-// 0x00000798 System.Void GoogleARCore.Examples.ComputerVision.PointClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+// 0x00000953 System.Void GoogleARCore.Examples.ComputerVision.PointClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
 extern void PointClickHandler_OnPointerClick_m6A025B02E8AA9F698EBF80D3C7BC90D57CAE63CB (void);
-// 0x00000799 System.Void GoogleARCore.Examples.ComputerVision.PointClickHandler::.ctor()
+// 0x00000954 System.Void GoogleARCore.Examples.ComputerVision.PointClickHandler::.ctor()
 extern void PointClickHandler__ctor_m7B13280DB0BFE8D5E675B9C589E6F4E6F1F5F2A9 (void);
-// 0x0000079A System.Void GoogleARCore.Examples.ComputerVision.TextureReader::add_OnImageAvailableCallback(GoogleARCore.Examples.ComputerVision.TextureReader/OnImageAvailableCallbackFunc)
+// 0x00000955 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::add_OnImageAvailableCallback(GoogleARCore.Examples.ComputerVision.TextureReader/OnImageAvailableCallbackFunc)
 extern void TextureReader_add_OnImageAvailableCallback_m5D17622369DA6236C1B2EC1D6AD5522F2A6DEDC1 (void);
-// 0x0000079B System.Void GoogleARCore.Examples.ComputerVision.TextureReader::remove_OnImageAvailableCallback(GoogleARCore.Examples.ComputerVision.TextureReader/OnImageAvailableCallbackFunc)
+// 0x00000956 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::remove_OnImageAvailableCallback(GoogleARCore.Examples.ComputerVision.TextureReader/OnImageAvailableCallbackFunc)
 extern void TextureReader_remove_OnImageAvailableCallback_mE48D3D1CD4FC38606E4301DDF0B629728B8DE6D8 (void);
-// 0x0000079C System.Void GoogleARCore.Examples.ComputerVision.TextureReader::Start()
+// 0x00000957 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::Start()
 extern void TextureReader_Start_m91DF232A1AABFF7CD9DBB43485AFD08FDFF31D10 (void);
-// 0x0000079D System.Void GoogleARCore.Examples.ComputerVision.TextureReader::Apply()
+// 0x00000958 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::Apply()
 extern void TextureReader_Apply_m656F77673A909A82D90DE4452648CDB9EDF1F7B1 (void);
-// 0x0000079E System.Void GoogleARCore.Examples.ComputerVision.TextureReader::Update()
+// 0x00000959 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::Update()
 extern void TextureReader_Update_m28871BF7B7811B55ED6C94759C631C4B0C83B54C (void);
-// 0x0000079F System.Void GoogleARCore.Examples.ComputerVision.TextureReader::OnDestroy()
+// 0x0000095A System.Void GoogleARCore.Examples.ComputerVision.TextureReader::OnDestroy()
 extern void TextureReader_OnDestroy_m03203C1B9B9A60952B2339C35D10B1E1382B0D23 (void);
-// 0x000007A0 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::OnDisable()
+// 0x0000095B System.Void GoogleARCore.Examples.ComputerVision.TextureReader::OnDisable()
 extern void TextureReader_OnDisable_m87E9B8791CCB9C07FE1CA25EF3D048584D17F5ED (void);
-// 0x000007A1 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::.ctor()
+// 0x0000095C System.Void GoogleARCore.Examples.ComputerVision.TextureReader::.ctor()
 extern void TextureReader__ctor_m3030DAD6FBF8A338B62307A62783CF36B01B51D8 (void);
-// 0x000007A2 System.Void GoogleARCore.Examples.ComputerVision.TextureReader/OnImageAvailableCallbackFunc::.ctor(System.Object,System.IntPtr)
+// 0x0000095D System.Void GoogleARCore.Examples.ComputerVision.TextureReader/OnImageAvailableCallbackFunc::.ctor(System.Object,System.IntPtr)
 extern void OnImageAvailableCallbackFunc__ctor_m6F81D4C8CE78DDA2DDADF2C1B7EB966B5A1BEFC4 (void);
-// 0x000007A3 System.Void GoogleARCore.Examples.ComputerVision.TextureReader/OnImageAvailableCallbackFunc::Invoke(GoogleARCore.Examples.ComputerVision.TextureReaderApi/ImageFormatType,System.Int32,System.Int32,System.IntPtr,System.Int32)
+// 0x0000095E System.Void GoogleARCore.Examples.ComputerVision.TextureReader/OnImageAvailableCallbackFunc::Invoke(GoogleARCore.Examples.ComputerVision.TextureReaderApi/ImageFormatType,System.Int32,System.Int32,System.IntPtr,System.Int32)
 extern void OnImageAvailableCallbackFunc_Invoke_mC8F2424C8ED58894792D385FB5EF2663B07B3BC7 (void);
-// 0x000007A4 System.IAsyncResult GoogleARCore.Examples.ComputerVision.TextureReader/OnImageAvailableCallbackFunc::BeginInvoke(GoogleARCore.Examples.ComputerVision.TextureReaderApi/ImageFormatType,System.Int32,System.Int32,System.IntPtr,System.Int32,System.AsyncCallback,System.Object)
+// 0x0000095F System.IAsyncResult GoogleARCore.Examples.ComputerVision.TextureReader/OnImageAvailableCallbackFunc::BeginInvoke(GoogleARCore.Examples.ComputerVision.TextureReaderApi/ImageFormatType,System.Int32,System.Int32,System.IntPtr,System.Int32,System.AsyncCallback,System.Object)
 extern void OnImageAvailableCallbackFunc_BeginInvoke_m5A718DE43A4D428F1876C69F5DDA425F0FB47A0C (void);
-// 0x000007A5 System.Void GoogleARCore.Examples.ComputerVision.TextureReader/OnImageAvailableCallbackFunc::EndInvoke(System.IAsyncResult)
+// 0x00000960 System.Void GoogleARCore.Examples.ComputerVision.TextureReader/OnImageAvailableCallbackFunc::EndInvoke(System.IAsyncResult)
 extern void OnImageAvailableCallbackFunc_EndInvoke_m745662455FA6D91B0F8D5520BED01BF9A7F64BAF (void);
-// 0x000007A6 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi::Create(GoogleARCore.Examples.ComputerVision.TextureReaderApi/ImageFormatType,System.Int32,System.Int32,System.Boolean)
+// 0x00000961 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi::Create(GoogleARCore.Examples.ComputerVision.TextureReaderApi/ImageFormatType,System.Int32,System.Int32,System.Boolean)
 extern void TextureReaderApi_Create_mE41BF44BBDDB55255D9BF86263C8F0701417FDA5 (void);
-// 0x000007A7 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi::Destroy()
+// 0x00000962 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi::Destroy()
 extern void TextureReaderApi_Destroy_m2F36FE5236EAE87AE6F774F4B1A76C4B35342FE4 (void);
-// 0x000007A8 System.Int32 GoogleARCore.Examples.ComputerVision.TextureReaderApi::SubmitFrame(System.Int32,System.Int32,System.Int32)
+// 0x00000963 System.Int32 GoogleARCore.Examples.ComputerVision.TextureReaderApi::SubmitFrame(System.Int32,System.Int32,System.Int32)
 extern void TextureReaderApi_SubmitFrame_mC22EEC75114CCC86D61C8B28F28F18EDE86806CE (void);
-// 0x000007A9 System.IntPtr GoogleARCore.Examples.ComputerVision.TextureReaderApi::AcquireFrame(System.Int32,System.Int32&)
+// 0x00000964 System.IntPtr GoogleARCore.Examples.ComputerVision.TextureReaderApi::AcquireFrame(System.Int32,System.Int32&)
 extern void TextureReaderApi_AcquireFrame_m707F57333C885FC976BEEB5254CD437F7C6FA262 (void);
-// 0x000007AA System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi::ReleaseFrame(System.Int32)
+// 0x00000965 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi::ReleaseFrame(System.Int32)
 extern void TextureReaderApi_ReleaseFrame_mBAE8FCEF23A24AA5BCF00E92DE17ABAA3A476E10 (void);
-// 0x000007AB System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi::.ctor()
+// 0x00000966 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi::.ctor()
 extern void TextureReaderApi__ctor_m108956040442BDF7F0CEEF4035D9131B7975D19E (void);
-// 0x000007AC System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi/ExternApi::TextureReader_create(System.Int32,System.Int32,System.Int32,System.Boolean)
+// 0x00000967 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi/ExternApi::TextureReader_create(System.Int32,System.Int32,System.Int32,System.Boolean)
 extern void ExternApi_TextureReader_create_m93758104DCAD0D0A57ADA4863D47A1EA27125E83 (void);
-// 0x000007AD System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi/ExternApi::TextureReader_destroy()
+// 0x00000968 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi/ExternApi::TextureReader_destroy()
 extern void ExternApi_TextureReader_destroy_m76AFD66BA0B6CE75492CB86237B604C7F52FA6DF (void);
-// 0x000007AE System.Int32 GoogleARCore.Examples.ComputerVision.TextureReaderApi/ExternApi::TextureReader_submitFrame(System.Int32,System.Int32,System.Int32)
+// 0x00000969 System.Int32 GoogleARCore.Examples.ComputerVision.TextureReaderApi/ExternApi::TextureReader_submitFrame(System.Int32,System.Int32,System.Int32)
 extern void ExternApi_TextureReader_submitFrame_m74248D5FA9F95EA5719C8127737E4D13ACD5E9E0 (void);
-// 0x000007AF System.IntPtr GoogleARCore.Examples.ComputerVision.TextureReaderApi/ExternApi::TextureReader_acquireFrame(System.Int32,System.Int32&)
+// 0x0000096A System.IntPtr GoogleARCore.Examples.ComputerVision.TextureReaderApi/ExternApi::TextureReader_acquireFrame(System.Int32,System.Int32&)
 extern void ExternApi_TextureReader_acquireFrame_m3DAC8298590DFAEC53C81AF803165B55BC7CF029 (void);
-// 0x000007B0 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi/ExternApi::TextureReader_releaseFrame(System.Int32)
+// 0x0000096B System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi/ExternApi::TextureReader_releaseFrame(System.Int32)
 extern void ExternApi_TextureReader_releaseFrame_m8C3C77EA88A1EDA047FF608F2DF6780ABBF408E6 (void);
-// 0x000007B1 System.Void GoogleARCore.Examples.Common.DepthEffect::Awake()
+// 0x0000096C System.Void GoogleARCore.Examples.Common.DepthEffect::Awake()
 extern void DepthEffect_Awake_m3D7C49DEFB76E3A35A88E6E1E8A779A8F7E0A235 (void);
-// 0x000007B2 System.Void GoogleARCore.Examples.Common.DepthEffect::Update()
+// 0x0000096D System.Void GoogleARCore.Examples.Common.DepthEffect::Update()
 extern void DepthEffect_Update_m725EE5C2F71C12452D786128AF1BC76F459DBF48 (void);
-// 0x000007B3 System.Void GoogleARCore.Examples.Common.DepthEffect::OnEnable()
+// 0x0000096E System.Void GoogleARCore.Examples.Common.DepthEffect::OnEnable()
 extern void DepthEffect_OnEnable_mD21E3B96BD6E1228D4F3598411C95842194D2B49 (void);
-// 0x000007B4 System.Void GoogleARCore.Examples.Common.DepthEffect::OnDisable()
+// 0x0000096F System.Void GoogleARCore.Examples.Common.DepthEffect::OnDisable()
 extern void DepthEffect_OnDisable_mEE131FEA221DD3E9D0414C7072C9DFF4E3F4C1A1 (void);
-// 0x000007B5 System.Void GoogleARCore.Examples.Common.DepthEffect::OnRenderImage(UnityEngine.RenderTexture,UnityEngine.RenderTexture)
+// 0x00000970 System.Void GoogleARCore.Examples.Common.DepthEffect::OnRenderImage(UnityEngine.RenderTexture,UnityEngine.RenderTexture)
 extern void DepthEffect_OnRenderImage_mF4B8CAA3DA3B771E8A6D03DEEB73E14C523F0D6F (void);
-// 0x000007B6 System.Void GoogleARCore.Examples.Common.DepthEffect::UpdateScreenOrientationOnMaterial()
+// 0x00000971 System.Void GoogleARCore.Examples.Common.DepthEffect::UpdateScreenOrientationOnMaterial()
 extern void DepthEffect_UpdateScreenOrientationOnMaterial_m662705C5199A8684D23B05C7E407FD17885E31A5 (void);
-// 0x000007B7 System.Void GoogleARCore.Examples.Common.DepthEffect::.ctor()
+// 0x00000972 System.Void GoogleARCore.Examples.Common.DepthEffect::.ctor()
 extern void DepthEffect__ctor_m3D28434BB259B75060660B2F427DEBE6CB390074 (void);
-// 0x000007B8 System.Void GoogleARCore.Examples.Common.DepthEffect::.cctor()
+// 0x00000973 System.Void GoogleARCore.Examples.Common.DepthEffect::.cctor()
 extern void DepthEffect__cctor_m651D63E83B389E3CE48278E8534FDD48DAB2DB00 (void);
-// 0x000007B9 System.Void GoogleARCore.Examples.Common.DepthMenu::Start()
+// 0x00000974 System.Void GoogleARCore.Examples.Common.DepthMenu::Start()
 extern void DepthMenu_Start_m668858B5709031410987C852E911194DA84941B4 (void);
-// 0x000007BA System.Void GoogleARCore.Examples.Common.DepthMenu::OnDestroy()
+// 0x00000975 System.Void GoogleARCore.Examples.Common.DepthMenu::OnDestroy()
 extern void DepthMenu_OnDestroy_m86712041CC768A2FB22E888E942D0CB4671C4514 (void);
-// 0x000007BB System.Void GoogleARCore.Examples.Common.DepthMenu::ConfigureDepthBeforePlacingFirstAsset()
+// 0x00000976 System.Void GoogleARCore.Examples.Common.DepthMenu::ConfigureDepthBeforePlacingFirstAsset()
 extern void DepthMenu_ConfigureDepthBeforePlacingFirstAsset_m19301E983188DEDD80417626B6B0F1B4A5B99E7C (void);
-// 0x000007BC System.Boolean GoogleARCore.Examples.Common.DepthMenu::IsDepthEnabled()
+// 0x00000977 System.Boolean GoogleARCore.Examples.Common.DepthMenu::IsDepthEnabled()
 extern void DepthMenu_IsDepthEnabled_mCE66945E6F9B6C9AC2C7B5C7FEFA2001F6AC2D3B (void);
-// 0x000007BD System.Void GoogleARCore.Examples.Common.DepthMenu::OnMenuButtonClicked()
+// 0x00000978 System.Void GoogleARCore.Examples.Common.DepthMenu::OnMenuButtonClicked()
 extern void DepthMenu_OnMenuButtonClicked_m65EEF0EE57E6549ACBDCBDF7F959ED218122D1E5 (void);
-// 0x000007BE System.Void GoogleARCore.Examples.Common.DepthMenu::OnApplyButtonClicked()
+// 0x00000979 System.Void GoogleARCore.Examples.Common.DepthMenu::OnApplyButtonClicked()
 extern void DepthMenu_OnApplyButtonClicked_mBD85DE82F45B8036E6E14FF9F8F45281554BD31C (void);
-// 0x000007BF System.Void GoogleARCore.Examples.Common.DepthMenu::OnCancelButtonClicked()
+// 0x0000097A System.Void GoogleARCore.Examples.Common.DepthMenu::OnCancelButtonClicked()
 extern void DepthMenu_OnCancelButtonClicked_mAF45DE801F7C62D7A073632FA50ADFA180D7AFAC (void);
-// 0x000007C0 System.Void GoogleARCore.Examples.Common.DepthMenu::OnEnableDepthButtonClicked()
+// 0x0000097B System.Void GoogleARCore.Examples.Common.DepthMenu::OnEnableDepthButtonClicked()
 extern void DepthMenu_OnEnableDepthButtonClicked_m9A01D37189111FDE50DDE8C971FAAC93D2829B90 (void);
-// 0x000007C1 System.Void GoogleARCore.Examples.Common.DepthMenu::OnDisableDepthButtonClicked()
+// 0x0000097C System.Void GoogleARCore.Examples.Common.DepthMenu::OnDisableDepthButtonClicked()
 extern void DepthMenu_OnDisableDepthButtonClicked_m9F67076BCE4B91B98C695F4D6BED8E764C80E07E (void);
-// 0x000007C2 System.Void GoogleARCore.Examples.Common.DepthMenu::OnEnableDepthToggleValueChanged(System.Boolean)
+// 0x0000097D System.Void GoogleARCore.Examples.Common.DepthMenu::OnEnableDepthToggleValueChanged(System.Boolean)
 extern void DepthMenu_OnEnableDepthToggleValueChanged_mA4E69C4A7F04EF0539DCA8F0CECB6C559F03F43D (void);
-// 0x000007C3 System.Void GoogleARCore.Examples.Common.DepthMenu::ConfigureDepth(System.Boolean)
+// 0x0000097E System.Void GoogleARCore.Examples.Common.DepthMenu::ConfigureDepth(System.Boolean)
 extern void DepthMenu_ConfigureDepth_mB6D008D8CEA5952AE5FE22F9F4B99C689B0683EF (void);
-// 0x000007C4 System.Void GoogleARCore.Examples.Common.DepthMenu::ApplyDepthState()
+// 0x0000097F System.Void GoogleARCore.Examples.Common.DepthMenu::ApplyDepthState()
 extern void DepthMenu_ApplyDepthState_mBA6E48008EF646889B16E960B383F1779CDF1292 (void);
-// 0x000007C5 System.Void GoogleARCore.Examples.Common.DepthMenu::.ctor()
+// 0x00000980 System.Void GoogleARCore.Examples.Common.DepthMenu::.ctor()
 extern void DepthMenu__ctor_m0D442060FAA7258FBE1FF4C7B9BC662A71DD69E9 (void);
-// 0x000007C6 System.Void GoogleARCore.Examples.Common.DepthTexture::Start()
+// 0x00000981 System.Void GoogleARCore.Examples.Common.DepthTexture::Start()
 extern void DepthTexture_Start_m388CAEADB9D7EBC5F9595C883CDC3620D342485B (void);
-// 0x000007C7 System.Void GoogleARCore.Examples.Common.DepthTexture::Update()
+// 0x00000982 System.Void GoogleARCore.Examples.Common.DepthTexture::Update()
 extern void DepthTexture_Update_m2B76384D237558537C36947A479EE6842B4D645A (void);
-// 0x000007C8 System.Void GoogleARCore.Examples.Common.DepthTexture::UpdateScreenOrientationOnMaterial()
+// 0x00000983 System.Void GoogleARCore.Examples.Common.DepthTexture::UpdateScreenOrientationOnMaterial()
 extern void DepthTexture_UpdateScreenOrientationOnMaterial_m9612F32F20E88D11BF4890390A1467A65FD3009D (void);
-// 0x000007C9 System.Void GoogleARCore.Examples.Common.DepthTexture::.ctor()
+// 0x00000984 System.Void GoogleARCore.Examples.Common.DepthTexture::.ctor()
 extern void DepthTexture__ctor_mDD679C74F537691CB9A87B2BF8BFF327710242D1 (void);
-// 0x000007CA System.Void GoogleARCore.Examples.Common.DepthTexture::.cctor()
+// 0x00000985 System.Void GoogleARCore.Examples.Common.DepthTexture::.cctor()
 extern void DepthTexture__cctor_mACD40F6C9B1B0DB760F5996B1AB5227B6386FF99 (void);
-// 0x000007CB System.Void GoogleARCore.Examples.Common.DetectedPlaneGenerator::Update()
+// 0x00000986 System.Void GoogleARCore.Examples.Common.DetectedPlaneGenerator::Update()
 extern void DetectedPlaneGenerator_Update_m3BA6529A9E4EE2AC7E7B586706D3C1D4F467FADC (void);
-// 0x000007CC System.Void GoogleARCore.Examples.Common.DetectedPlaneGenerator::.ctor()
+// 0x00000987 System.Void GoogleARCore.Examples.Common.DetectedPlaneGenerator::.ctor()
 extern void DetectedPlaneGenerator__ctor_m416D01ACE4B379DB8E30C42C958FFC2024A16ADD (void);
-// 0x000007CD System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::Awake()
+// 0x00000988 System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::Awake()
 extern void DetectedPlaneVisualizer_Awake_mC868F499FBC424BC46A4DF4BC4623DE74DD27D91 (void);
-// 0x000007CE System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::Update()
+// 0x00000989 System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::Update()
 extern void DetectedPlaneVisualizer_Update_m1BFD0F8CD72F5B2770D07ABB1437B9F0AE75E388 (void);
-// 0x000007CF System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::Initialize(GoogleARCore.DetectedPlane)
+// 0x0000098A System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::Initialize(GoogleARCore.DetectedPlane)
 extern void DetectedPlaneVisualizer_Initialize_m708DEFD51A88C937DEC48546B44446703D3915F0 (void);
-// 0x000007D0 System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::UpdateMeshIfNeeded()
+// 0x0000098B System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::UpdateMeshIfNeeded()
 extern void DetectedPlaneVisualizer_UpdateMeshIfNeeded_m025AAC22AA2C1CC3C1AD659B56D1C0AC3E9660AA (void);
-// 0x000007D1 System.Boolean GoogleARCore.Examples.Common.DetectedPlaneVisualizer::AreVerticesListsEqual(System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector3>)
+// 0x0000098C System.Boolean GoogleARCore.Examples.Common.DetectedPlaneVisualizer::AreVerticesListsEqual(System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector3>)
 extern void DetectedPlaneVisualizer_AreVerticesListsEqual_mF317FC5B26F69AF155A204F65D6C654C3B077568 (void);
-// 0x000007D2 System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::.ctor()
+// 0x0000098D System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::.ctor()
 extern void DetectedPlaneVisualizer__ctor_m09244A86B513FE98183EC142C6DD451AA729496B (void);
-// 0x000007D3 System.Void GoogleARCore.Examples.Common.InstantPlacementEffect::InitializeWithTrackable(GoogleARCore.Trackable)
+// 0x0000098E System.Void GoogleARCore.Examples.Common.InstantPlacementEffect::InitializeWithTrackable(GoogleARCore.Trackable)
 extern void InstantPlacementEffect_InitializeWithTrackable_mD94EC723CF89DAAB8808CB67319A3E03EFC2774B (void);
-// 0x000007D4 System.Void GoogleARCore.Examples.Common.InstantPlacementEffect::Update()
+// 0x0000098F System.Void GoogleARCore.Examples.Common.InstantPlacementEffect::Update()
 extern void InstantPlacementEffect_Update_mC95A69A63B360E8E8200A99324932DC329F00BEC (void);
-// 0x000007D5 System.Void GoogleARCore.Examples.Common.InstantPlacementEffect::.ctor()
+// 0x00000990 System.Void GoogleARCore.Examples.Common.InstantPlacementEffect::.ctor()
 extern void InstantPlacementEffect__ctor_m3B9FC6950C68B082E6252CD4650AEEEFDFD45F78 (void);
-// 0x000007D6 System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::Start()
+// 0x00000991 System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::Start()
 extern void InstantPlacementMenu_Start_m1D8096B61802690B2D32E7D806EA01A39EFDD729 (void);
-// 0x000007D7 System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::OnDestroy()
+// 0x00000992 System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::OnDestroy()
 extern void InstantPlacementMenu_OnDestroy_m4BA76A00942849BB79278078B6CDFF9ECAEA666F (void);
-// 0x000007D8 System.Boolean GoogleARCore.Examples.Common.InstantPlacementMenu::IsInstantPlacementEnabled()
+// 0x00000993 System.Boolean GoogleARCore.Examples.Common.InstantPlacementMenu::IsInstantPlacementEnabled()
 extern void InstantPlacementMenu_IsInstantPlacementEnabled_m65D1FCB34A03DCF12F3081321440C5E6C2560AED (void);
-// 0x000007D9 System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::ApplySettings()
+// 0x00000994 System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::ApplySettings()
 extern void InstantPlacementMenu_ApplySettings_m8FCBF78CDEDAE3EEFA445308FD78DCCED8347127 (void);
-// 0x000007DA System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::ResetSettings()
+// 0x00000995 System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::ResetSettings()
 extern void InstantPlacementMenu_ResetSettings_m787F5E9A661FEA32662C3502F104F675684892F6 (void);
-// 0x000007DB System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::.ctor()
+// 0x00000996 System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::.ctor()
 extern void InstantPlacementMenu__ctor_m6D771A23939DAC6BB329869CA587604C89CEE47C (void);
-// 0x000007DC System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::Start()
+// 0x00000997 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::Start()
 extern void PlaneDiscoveryGuide_Start_m13E705B7F8238620519438BFF1451DB855A2BB0C (void);
-// 0x000007DD System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::OnDestroy()
+// 0x00000998 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::OnDestroy()
 extern void PlaneDiscoveryGuide_OnDestroy_m1EA7636E3BDE6EFA5A87F136752BC97BCFAA0D5A (void);
-// 0x000007DE System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::Update()
+// 0x00000999 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::Update()
 extern void PlaneDiscoveryGuide_Update_mE94DB4B4424C59FEE935B8E7A413CA98DF546B7A (void);
-// 0x000007DF System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::EnablePlaneDiscoveryGuide(System.Boolean)
+// 0x0000099A System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::EnablePlaneDiscoveryGuide(System.Boolean)
 extern void PlaneDiscoveryGuide_EnablePlaneDiscoveryGuide_m765F436BC95EAB7F681DA975C8790D98B602B837 (void);
-// 0x000007E0 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::OnOpenButtonClicked()
+// 0x0000099B System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::OnOpenButtonClicked()
 extern void PlaneDiscoveryGuide_OnOpenButtonClicked_mFFE465CF47D4090CF7D1F2DF4CF00E61650A21D3 (void);
-// 0x000007E1 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::OnGotItButtonClicked()
+// 0x0000099C System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::OnGotItButtonClicked()
 extern void PlaneDiscoveryGuide_OnGotItButtonClicked_mD702FE3165AA7CEFFDB436E10C6B764273C7CEE8 (void);
-// 0x000007E2 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::UpdateDetectedPlaneTrackingState()
+// 0x0000099D System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::UpdateDetectedPlaneTrackingState()
 extern void PlaneDiscoveryGuide_UpdateDetectedPlaneTrackingState_m00E657459ED822D626178CFA42F03F7B52E99160 (void);
-// 0x000007E3 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::UpdateUI()
+// 0x0000099E System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::UpdateUI()
 extern void PlaneDiscoveryGuide_UpdateUI_mC34CA0F0434FB9D981C67D505941A2DE5128207A (void);
-// 0x000007E4 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::CheckFieldsAreNotNull()
+// 0x0000099F System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::CheckFieldsAreNotNull()
 extern void PlaneDiscoveryGuide_CheckFieldsAreNotNull_mD021C700FD82C35FC4F971468CFA79EDEACBE73D (void);
-// 0x000007E5 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::.ctor()
+// 0x000009A0 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::.ctor()
 extern void PlaneDiscoveryGuide__ctor_mF4B80FA606E8664694B47D1CFEB09B75071701AF (void);
-// 0x000007E6 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::Start()
+// 0x000009A1 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::Start()
 extern void PointcloudVisualizer_Start_m34F1BB597FAAB2606D74DDA715D4C2F71380F66D (void);
-// 0x000007E7 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::OnDisable()
+// 0x000009A2 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::OnDisable()
 extern void PointcloudVisualizer_OnDisable_m7A90E17647AF27C2B9B7D4915692F9D00B4216CF (void);
-// 0x000007E8 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::Update()
+// 0x000009A3 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::Update()
 extern void PointcloudVisualizer_Update_m1DECF4408206D74C44F5CD334971F4328DF231FE (void);
-// 0x000007E9 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::ClearCachedPoints()
+// 0x000009A4 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::ClearCachedPoints()
 extern void PointcloudVisualizer_ClearCachedPoints_mF9366D8F1BDCED030AFDE2FA5C0053AD653A2301 (void);
-// 0x000007EA System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::UpdateResolution()
+// 0x000009A5 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::UpdateResolution()
 extern void PointcloudVisualizer_UpdateResolution_m19FBB6A30BB5A9BA65197F213A2F5687F48DDBE3 (void);
-// 0x000007EB System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::UpdateColor()
+// 0x000009A6 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::UpdateColor()
 extern void PointcloudVisualizer_UpdateColor_m43AD3FB251F365E58650178028F916CB6D4F36E0 (void);
-// 0x000007EC System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::AddPointsIncrementallyToCache()
+// 0x000009A7 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::AddPointsIncrementallyToCache()
 extern void PointcloudVisualizer_AddPointsIncrementallyToCache_m0950F490607FE8EAA0921B5EB4FF469044B3D668 (void);
-// 0x000007ED System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::AddAllPointsToCache()
+// 0x000009A8 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::AddAllPointsToCache()
 extern void PointcloudVisualizer_AddAllPointsToCache_mCFE2A5FD38B5CED581D9B6C78F8929C188CA7794 (void);
-// 0x000007EE System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::AddPointToCache(UnityEngine.Vector3)
+// 0x000009A9 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::AddPointToCache(UnityEngine.Vector3)
 extern void PointcloudVisualizer_AddPointToCache_mCFE2592631C8E2F383BFAEDC111D3648FF2A384B (void);
-// 0x000007EF System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::UpdatePointSize()
+// 0x000009AA System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::UpdatePointSize()
 extern void PointcloudVisualizer_UpdatePointSize_m35E33897A3AD93D9763B8FDF3A8C276D837699B8 (void);
-// 0x000007F0 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::UpdateMesh()
+// 0x000009AB System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::UpdateMesh()
 extern void PointcloudVisualizer_UpdateMesh_mBBA5B6C7E64B18096968DE35CE234392BBF05B0E (void);
-// 0x000007F1 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::.ctor()
+// 0x000009AC System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::.ctor()
 extern void PointcloudVisualizer__ctor_m6090D6BC0732906997ADD1200E5D2CA6263C2C71 (void);
-// 0x000007F2 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer/PointInfo::.ctor(UnityEngine.Vector3,UnityEngine.Vector2,System.Single)
+// 0x000009AD System.Void GoogleARCore.Examples.Common.PointcloudVisualizer/PointInfo::.ctor(UnityEngine.Vector3,UnityEngine.Vector2,System.Single)
 extern void PointInfo__ctor_m19400B1DF8BFBE3C676C53482B19808BFFAEF6B0 (void);
-// 0x000007F3 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer/<>c::.cctor()
+// 0x000009AE System.Void GoogleARCore.Examples.Common.PointcloudVisualizer/<>c::.cctor()
 extern void U3CU3Ec__cctor_m44235B0AEB57C025BC6AEB51E7DF2F586CDEAB73 (void);
-// 0x000007F4 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer/<>c::.ctor()
+// 0x000009AF System.Void GoogleARCore.Examples.Common.PointcloudVisualizer/<>c::.ctor()
 extern void U3CU3Ec__ctor_mFF88EFE60AF38D16875AD7BFED28D5D98CAA4820 (void);
-// 0x000007F5 UnityEngine.Vector3 GoogleARCore.Examples.Common.PointcloudVisualizer/<>c::<UpdateMesh>b__26_0(GoogleARCore.Examples.Common.PointcloudVisualizer/PointInfo)
+// 0x000009B0 UnityEngine.Vector3 GoogleARCore.Examples.Common.PointcloudVisualizer/<>c::<UpdateMesh>b__26_0(GoogleARCore.Examples.Common.PointcloudVisualizer/PointInfo)
 extern void U3CU3Ec_U3CUpdateMeshU3Eb__26_0_m8C284FC95B22BD87013DD31FB3F984F945FEAF2D (void);
-// 0x000007F6 UnityEngine.Vector2 GoogleARCore.Examples.Common.PointcloudVisualizer/<>c::<UpdateMesh>b__26_1(GoogleARCore.Examples.Common.PointcloudVisualizer/PointInfo)
+// 0x000009B1 UnityEngine.Vector2 GoogleARCore.Examples.Common.PointcloudVisualizer/<>c::<UpdateMesh>b__26_1(GoogleARCore.Examples.Common.PointcloudVisualizer/PointInfo)
 extern void U3CU3Ec_U3CUpdateMeshU3Eb__26_1_mBCB116298FE1ED34FFDEC16D07F4261678BE913A (void);
-// 0x000007F7 System.Void GoogleARCore.Examples.Common.RawImageVideoPlayer::Start()
+// 0x000009B2 System.Void GoogleARCore.Examples.Common.RawImageVideoPlayer::Start()
 extern void RawImageVideoPlayer_Start_m9F62264FA2AC1BCE1813F392BA916B50EF20401C (void);
-// 0x000007F8 System.Void GoogleARCore.Examples.Common.RawImageVideoPlayer::Update()
+// 0x000009B3 System.Void GoogleARCore.Examples.Common.RawImageVideoPlayer::Update()
 extern void RawImageVideoPlayer_Update_m575D00034426A7EDE53B26D459B7842DBC9ACEE1 (void);
-// 0x000007F9 System.Void GoogleARCore.Examples.Common.RawImageVideoPlayer::PrepareCompleted(UnityEngine.Video.VideoPlayer)
+// 0x000009B4 System.Void GoogleARCore.Examples.Common.RawImageVideoPlayer::PrepareCompleted(UnityEngine.Video.VideoPlayer)
 extern void RawImageVideoPlayer_PrepareCompleted_m897DC7FAC336E068AA96F8F34D3F865CA2E98605 (void);
-// 0x000007FA System.Void GoogleARCore.Examples.Common.RawImageVideoPlayer::.ctor()
+// 0x000009B5 System.Void GoogleARCore.Examples.Common.RawImageVideoPlayer::.ctor()
 extern void RawImageVideoPlayer__ctor_m5897BF1C811012FEA8D9B0456C7B96BB1364F9DE (void);
-// 0x000007FB System.Void GoogleARCore.Examples.Common.SafeAreaScaler::Update()
+// 0x000009B6 System.Void GoogleARCore.Examples.Common.SafeAreaScaler::Update()
 extern void SafeAreaScaler_Update_m301B806EAF58FA392B1116EF868564CEB1B6DEC3 (void);
-// 0x000007FC System.Void GoogleARCore.Examples.Common.SafeAreaScaler::MatchRectTransformToSafeArea()
+// 0x000009B7 System.Void GoogleARCore.Examples.Common.SafeAreaScaler::MatchRectTransformToSafeArea()
 extern void SafeAreaScaler_MatchRectTransformToSafeArea_m4984F3F1602A0346AC6FF74D40242C42B707737C (void);
-// 0x000007FD System.Void GoogleARCore.Examples.Common.SafeAreaScaler::.ctor()
+// 0x000009B8 System.Void GoogleARCore.Examples.Common.SafeAreaScaler::.ctor()
 extern void SafeAreaScaler__ctor_m536AF55FE1139E667F12B74530704407938EE4C6 (void);
-// 0x000007FE System.Void GoogleARCore.Examples.Common.ShadowQuadHelper::Start()
+// 0x000009B9 System.Void GoogleARCore.Examples.Common.ShadowQuadHelper::Start()
 extern void ShadowQuadHelper_Start_m74C693B9D3162B520E0B6CBB18E8090C2AF9BDB4 (void);
-// 0x000007FF System.Void GoogleARCore.Examples.Common.ShadowQuadHelper::Update()
+// 0x000009BA System.Void GoogleARCore.Examples.Common.ShadowQuadHelper::Update()
 extern void ShadowQuadHelper_Update_m00404BC4B130E37CF5E5015736F65447ECDB79F3 (void);
-// 0x00000800 System.Void GoogleARCore.Examples.Common.ShadowQuadHelper::.ctor()
+// 0x000009BB System.Void GoogleARCore.Examples.Common.ShadowQuadHelper::.ctor()
 extern void ShadowQuadHelper__ctor_mF14032150462E8A4BA1918817FD748AE884552A0 (void);
-// 0x00000801 System.Void GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::Update()
+// 0x000009BC System.Void GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::Update()
 extern void ARCoreWorldOriginHelper_Update_m429DA47769106584C8183C46228A1D86CB8A68ED (void);
-// 0x00000802 System.Void GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::SetWorldOrigin(UnityEngine.Transform)
+// 0x000009BD System.Void GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::SetWorldOrigin(UnityEngine.Transform)
 extern void ARCoreWorldOriginHelper_SetWorldOrigin_m033CDDB04935E7DA745DD37BBD9B3DC9C3045AB9 (void);
-// 0x00000803 System.Boolean GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::Raycast(System.Single,System.Single,GoogleARCore.TrackableHitFlags,GoogleARCore.TrackableHit&)
+// 0x000009BE System.Boolean GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::Raycast(System.Single,System.Single,GoogleARCore.TrackableHitFlags,GoogleARCore.TrackableHit&)
 extern void ARCoreWorldOriginHelper_Raycast_m7DB8682741AF74A1A1F464AF133F428909CCEFC9 (void);
-// 0x00000804 UnityEngine.Pose GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::WorldToAnchorPose(UnityEngine.Pose)
+// 0x000009BF UnityEngine.Pose GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::WorldToAnchorPose(UnityEngine.Pose)
 extern void ARCoreWorldOriginHelper_WorldToAnchorPose_m02E907F4F6FDB148948A6C76AE702E2D748D73AD (void);
-// 0x00000805 System.Void GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::.ctor()
+// 0x000009C0 System.Void GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::.ctor()
 extern void ARCoreWorldOriginHelper__ctor_mE731D7253A042F0E06B5CE137D4E8D79CE406258 (void);
-// 0x00000806 System.Boolean GoogleARCore.Examples.CloudAnchors.ARKitHelper::RaycastPlane(UnityEngine.Camera,System.Single,System.Single,UnityEngine.Pose&)
+// 0x000009C1 System.Boolean GoogleARCore.Examples.CloudAnchors.ARKitHelper::RaycastPlane(UnityEngine.Camera,System.Single,System.Single,UnityEngine.Pose&)
 extern void ARKitHelper_RaycastPlane_m1BFA0BA771CAFC4C07C3AD166D346570C160DDAC (void);
-// 0x00000807 UnityEngine.Component GoogleARCore.Examples.CloudAnchors.ARKitHelper::CreateAnchor(UnityEngine.Pose)
+// 0x000009C2 UnityEngine.Component GoogleARCore.Examples.CloudAnchors.ARKitHelper::CreateAnchor(UnityEngine.Pose)
 extern void ARKitHelper_CreateAnchor_m99D9144A4ADAA4246834F94DE9785E3EAE2AD137 (void);
-// 0x00000808 System.Void GoogleARCore.Examples.CloudAnchors.ARKitHelper::SetWorldOrigin(UnityEngine.Transform)
+// 0x000009C3 System.Void GoogleARCore.Examples.CloudAnchors.ARKitHelper::SetWorldOrigin(UnityEngine.Transform)
 extern void ARKitHelper_SetWorldOrigin_m135C2468F3AB56CFEA18D24699BF6302B52C4AA2 (void);
-// 0x00000809 System.Void GoogleARCore.Examples.CloudAnchors.ARKitHelper::.ctor()
+// 0x000009C4 System.Void GoogleARCore.Examples.CloudAnchors.ARKitHelper::.ctor()
 extern void ARKitHelper__ctor_m158CC7D659C79208816390D0AC9A61E4F26455F5 (void);
-// 0x0000080A System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::Awake()
+// 0x000009C5 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::Awake()
 extern void AnchorController_Awake_mCAF05F8BA944EB49E07EE200DE5752D453BAC969 (void);
-// 0x0000080B System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::OnStartClient()
+// 0x000009C6 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::OnStartClient()
 extern void AnchorController_OnStartClient_m1354E5E86519349A8CF18A74568B25163F19411F (void);
-// 0x0000080C System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::Update()
+// 0x000009C7 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::Update()
 extern void AnchorController_Update_m50FF0BDBB192D5708A315863646EFFDCE3EBD6FE (void);
-// 0x0000080D System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::CmdSetCloudAnchorId(System.String)
+// 0x000009C8 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::CmdSetCloudAnchorId(System.String)
 extern void AnchorController_CmdSetCloudAnchorId_mBFD803C7B6A980FEE69EADA06851C0DE75F7C06B (void);
-// 0x0000080E System.String GoogleARCore.Examples.CloudAnchors.AnchorController::GetCloudAnchorId()
+// 0x000009C9 System.String GoogleARCore.Examples.CloudAnchors.AnchorController::GetCloudAnchorId()
 extern void AnchorController_GetCloudAnchorId_mABCE8B7DC8B779DD755D78F4E04B10A6281DF10E (void);
-// 0x0000080F System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::HostLastPlacedAnchor(UnityEngine.Component)
+// 0x000009CA System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::HostLastPlacedAnchor(UnityEngine.Component)
 extern void AnchorController_HostLastPlacedAnchor_m8EB92698DC953DD7B6398517DBBD324822BB7776 (void);
-// 0x00000810 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::ResolveAnchorFromId(System.String)
+// 0x000009CB System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::ResolveAnchorFromId(System.String)
 extern void AnchorController_ResolveAnchorFromId_mAB44E54F3E9A2C5B175FD15BB8167F9AE7366CB1 (void);
-// 0x00000811 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::OnResolved(UnityEngine.Transform)
+// 0x000009CC System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::OnResolved(UnityEngine.Transform)
 extern void AnchorController_OnResolved_mF3A1DEAE2755EB227469A2A82EA0EC0F7B4AAD00 (void);
-// 0x00000812 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::OnChangeId(System.String)
+// 0x000009CD System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::OnChangeId(System.String)
 extern void AnchorController_OnChangeId_mB4A85472069B07572BA1EDF3502EFC4EAE4F26C3 (void);
-// 0x00000813 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::.ctor()
+// 0x000009CE System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::.ctor()
 extern void AnchorController__ctor_mE15F88D4B25B29CDB8925F14CBB4087815845599 (void);
-// 0x00000814 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::<HostLastPlacedAnchor>b__13_0(GoogleARCore.CrossPlatform.CloudAnchorResult)
+// 0x000009CF System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::<HostLastPlacedAnchor>b__13_0(GoogleARCore.CrossPlatform.CloudAnchorResult)
 extern void AnchorController_U3CHostLastPlacedAnchorU3Eb__13_0_m930DE0AAEB075052963F164C9CB634B3D72260AF (void);
-// 0x00000815 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::UNetVersion()
+// 0x000009D0 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::UNetVersion()
 extern void AnchorController_UNetVersion_mE7DED172D82ACC94A65EA0331052CEF76BF873DF (void);
-// 0x00000816 System.String GoogleARCore.Examples.CloudAnchors.AnchorController::get_Network_cloudAnchorId()
+// 0x000009D1 System.String GoogleARCore.Examples.CloudAnchors.AnchorController::get_Network_cloudAnchorId()
 extern void AnchorController_get_Network_cloudAnchorId_m2BB8F8C814E979B1EB5B58280A6AFBF3EFFCC843 (void);
-// 0x00000817 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::set_Network_cloudAnchorId(System.String)
+// 0x000009D2 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::set_Network_cloudAnchorId(System.String)
 extern void AnchorController_set_Network_cloudAnchorId_m227FFF7AD04B0F52ADD1DB41219810FBA8BD64D2 (void);
-// 0x00000818 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::InvokeCmdCmdSetCloudAnchorId(UnityEngine.Networking.NetworkBehaviour,UnityEngine.Networking.NetworkReader)
+// 0x000009D3 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::InvokeCmdCmdSetCloudAnchorId(UnityEngine.Networking.NetworkBehaviour,UnityEngine.Networking.NetworkReader)
 extern void AnchorController_InvokeCmdCmdSetCloudAnchorId_m6DB37F5E4363EFCAF21E70CF175D6C1998174A97 (void);
-// 0x00000819 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::CallCmdSetCloudAnchorId(System.String)
+// 0x000009D4 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::CallCmdSetCloudAnchorId(System.String)
 extern void AnchorController_CallCmdSetCloudAnchorId_mDA421922D413FED57DF703974888426F4D47EB1E (void);
-// 0x0000081A System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::.cctor()
+// 0x000009D5 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::.cctor()
 extern void AnchorController__cctor_mFC6E64E2CDF0DE32CC114B85924F89D0CE3D639F (void);
-// 0x0000081B System.Boolean GoogleARCore.Examples.CloudAnchors.AnchorController::OnSerialize(UnityEngine.Networking.NetworkWriter,System.Boolean)
+// 0x000009D6 System.Boolean GoogleARCore.Examples.CloudAnchors.AnchorController::OnSerialize(UnityEngine.Networking.NetworkWriter,System.Boolean)
 extern void AnchorController_OnSerialize_mCB53C623AB6FB2B4420B7248C1455F3413291231 (void);
-// 0x0000081C System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::OnDeserialize(UnityEngine.Networking.NetworkReader,System.Boolean)
+// 0x000009D7 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::OnDeserialize(UnityEngine.Networking.NetworkReader,System.Boolean)
 extern void AnchorController_OnDeserialize_m7B2D4918D8BBE558A051175FCEEE954B541E1EAB (void);
-// 0x0000081D System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::PreStartClient()
+// 0x000009D8 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::PreStartClient()
 extern void AnchorController_PreStartClient_mD448DB8D61A2E5580D3918324A591D6ECA799408 (void);
-// 0x0000081E System.Void GoogleARCore.Examples.CloudAnchors.AnchorController/<>c__DisplayClass14_0::.ctor()
+// 0x000009D9 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController/<>c__DisplayClass14_0::.ctor()
 extern void U3CU3Ec__DisplayClass14_0__ctor_mD29A8C68398088D2FF78CB78A4263C9FA89EBCC2 (void);
-// 0x0000081F System.Void GoogleARCore.Examples.CloudAnchors.AnchorController/<>c__DisplayClass14_0::<ResolveAnchorFromId>b__0(GoogleARCore.CrossPlatform.CloudAnchorResult)
+// 0x000009DA System.Void GoogleARCore.Examples.CloudAnchors.AnchorController/<>c__DisplayClass14_0::<ResolveAnchorFromId>b__0(GoogleARCore.CrossPlatform.CloudAnchorResult)
 extern void U3CU3Ec__DisplayClass14_0_U3CResolveAnchorFromIdU3Eb__0_m7306151138E81ACA86D51D26C85C19F49985C86D (void);
-// 0x00000820 System.Boolean GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::get_IsOriginPlaced()
+// 0x000009DB System.Boolean GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::get_IsOriginPlaced()
 extern void CloudAnchorsExampleController_get_IsOriginPlaced_m2231FAA2B51B188750849B98D429304AE1484D6C (void);
-// 0x00000821 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::set_IsOriginPlaced(System.Boolean)
+// 0x000009DC System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::set_IsOriginPlaced(System.Boolean)
 extern void CloudAnchorsExampleController_set_IsOriginPlaced_mD8753B11585DEF68D1E1433ECBDD7A5B2BC556CE (void);
-// 0x00000822 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnStartNowButtonClicked()
+// 0x000009DD System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnStartNowButtonClicked()
 extern void CloudAnchorsExampleController_OnStartNowButtonClicked_mE3DEDB8396A2A7102E7AD92E708F31A9C2B58F83 (void);
-// 0x00000823 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnLearnMoreButtonClicked()
+// 0x000009DE System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnLearnMoreButtonClicked()
 extern void CloudAnchorsExampleController_OnLearnMoreButtonClicked_m16812AF74471A591600EBF44B187E3F5D10D6483 (void);
-// 0x00000824 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::Awake()
+// 0x000009DF System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::Awake()
 extern void CloudAnchorsExampleController_Awake_m05403C6727474711A849987F16F674A2029AA1CD (void);
-// 0x00000825 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::Start()
+// 0x000009E0 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::Start()
 extern void CloudAnchorsExampleController_Start_m671F38F89B3CF5E5E55878A01399696AC92C764D (void);
-// 0x00000826 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::Update()
+// 0x000009E1 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnDestroy()
+extern void CloudAnchorsExampleController_OnDestroy_m56587EB380BAD31397D2B6834CCAD1762B8FFABC (void);
+// 0x000009E2 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::Update()
 extern void CloudAnchorsExampleController_Update_m4DCFCD187543C361AF61DCF5F8EAC73CC9B56B17 (void);
-// 0x00000827 System.Boolean GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::IsResolvingPrepareTimePassed()
+// 0x000009E3 System.Collections.IEnumerator GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::playerCoroutine()
+extern void CloudAnchorsExampleController_playerCoroutine_m6FC72E19F4C8119C3066549B1F24F5A67213D883 (void);
+// 0x000009E4 System.Boolean GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::IsResolvingPrepareTimePassed()
 extern void CloudAnchorsExampleController_IsResolvingPrepareTimePassed_mE06ADD521B0CE13430B23FE00B7D070EBF1F376B (void);
-// 0x00000828 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::SetWorldOrigin(UnityEngine.Transform)
+// 0x000009E5 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::SetWorldOrigin(UnityEngine.Transform)
 extern void CloudAnchorsExampleController_SetWorldOrigin_mFEF12F76F6A7807B2AE737271C856FE39DAA6FD7 (void);
-// 0x00000829 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnLobbyVisibilityChanged(System.Boolean)
+// 0x000009E6 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnLobbyVisibilityChanged(System.Boolean)
 extern void CloudAnchorsExampleController_OnLobbyVisibilityChanged_m13864B3B131D6578CFD431B9B05DE1F944BF74CF (void);
-// 0x0000082A System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnResolvingTimeoutPassed()
+// 0x000009E7 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnResolvingTimeoutPassed()
 extern void CloudAnchorsExampleController_OnResolvingTimeoutPassed_m9F2B3132AFBF0FF4062AA7B6FDA4F9EEFFF9394B (void);
-// 0x0000082B System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnEnterHostingModeClick()
+// 0x000009E8 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnEnterHostingModeClick()
 extern void CloudAnchorsExampleController_OnEnterHostingModeClick_m17045F61CA75C2B275C7900456402AC777943F28 (void);
-// 0x0000082C System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnEnterResolvingModeClick()
+// 0x000009E9 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnEnterResolvingModeClick()
 extern void CloudAnchorsExampleController_OnEnterResolvingModeClick_m3D8DDE295E5E7D39063B510962A5453ED0DCC298 (void);
-// 0x0000082D System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnAnchorInstantiated(System.Boolean)
+// 0x000009EA System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnAnchorInstantiated(System.Boolean)
 extern void CloudAnchorsExampleController_OnAnchorInstantiated_mD5E9465DB2193F1157888B5017D9372527D8280B (void);
-// 0x0000082E System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnAnchorHosted(System.Boolean,System.String)
+// 0x000009EB System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnAnchorHosted(System.Boolean,System.String)
 extern void CloudAnchorsExampleController_OnAnchorHosted_m2B9D87527A9996C6373B61B4F81A263B1B47C57E (void);
-// 0x0000082F System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnAnchorResolved(System.Boolean,System.String)
+// 0x000009EC System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnAnchorResolved(System.Boolean,System.String)
 extern void CloudAnchorsExampleController_OnAnchorResolved_m4FF6CCDC11A3A0CFD46AFBFE83323069E5DF0DF8 (void);
-// 0x00000830 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnConnectedToServer()
+// 0x000009ED System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnConnectedToServer()
 extern void CloudAnchorsExampleController_OnConnectedToServer_mD31FA8F78F7244FCB0E50B4A74CEB66285A0A7FA (void);
-// 0x00000831 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnDisconnectedFromServer()
+// 0x000009EE System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnDisconnectedFromServer()
 extern void CloudAnchorsExampleController_OnDisconnectedFromServer_mA961927280F4675C29A407D7E0C9B2A7E8F55260 (void);
-// 0x00000832 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::InstantiateAnchor()
+// 0x000009EF System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::InstantiateAnchor()
 extern void CloudAnchorsExampleController_InstantiateAnchor_m349ABEE8F66B00CA98695712F15B0448F1F43511 (void);
-// 0x00000833 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::InstantiateStar()
+// 0x000009F0 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::InstantiateStar()
 extern void CloudAnchorsExampleController_InstantiateStar_m5CBD9C203BA2F364B35B192E6A81BBF8B02CCD58 (void);
-// 0x00000834 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::SetPlatformActive()
+// 0x000009F1 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::SetPlatformActive()
 extern void CloudAnchorsExampleController_SetPlatformActive_m557ABA36F85F2C036D3ADCB40998EAC4D5C3AA53 (void);
-// 0x00000835 System.Boolean GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::CanPlaceStars()
+// 0x000009F2 System.Boolean GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::CanPlaceStars()
 extern void CloudAnchorsExampleController_CanPlaceStars_m06F33EC162CE729F8F09B1F5F642CD0976D5D10C (void);
-// 0x00000836 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::ResetStatus()
+// 0x000009F3 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::ResetStatus()
 extern void CloudAnchorsExampleController_ResetStatus_m7BA20834F878DED2B81305C4A2AC6443A186044D (void);
-// 0x00000837 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::SwitchActiveScreen(GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController/ActiveScreen)
+// 0x000009F4 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::SwitchActiveScreen(GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController/ActiveScreen)
 extern void CloudAnchorsExampleController_SwitchActiveScreen_mB678F29FC8A38E4AB947B50E9F5094D3BB719A1E (void);
-// 0x00000838 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::UpdateApplicationLifecycle()
+// 0x000009F5 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::UpdateApplicationLifecycle()
 extern void CloudAnchorsExampleController_UpdateApplicationLifecycle_mD75231F8EAE0D8894E45EFB7FBAB6D2819BA0397 (void);
-// 0x00000839 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::QuitWithReason(System.String)
+// 0x000009F6 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::QuitWithReason(System.String)
 extern void CloudAnchorsExampleController_QuitWithReason_mC9B4E085A811395E6844F98DBC43D5117B644198 (void);
-// 0x0000083A System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::ReturnToLobbyWithReason(System.String)
+// 0x000009F7 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::ReturnToLobbyWithReason(System.String)
 extern void CloudAnchorsExampleController_ReturnToLobbyWithReason_m08E2141D9A9C2A6AF272180EC22787337A996CB6 (void);
-// 0x0000083B System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::DoQuit()
+// 0x000009F8 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::DoQuit()
 extern void CloudAnchorsExampleController_DoQuit_m18CF9C001BD854E19FC9A9AC4480E0B642599027 (void);
-// 0x0000083C System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::DoReturnToLobby()
+// 0x000009F9 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::DoReturnToLobby()
 extern void CloudAnchorsExampleController_DoReturnToLobby_mCE3244B975DD8947263AEF60F2ABA3A24E5922CE (void);
-// 0x0000083D System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::.ctor()
+// 0x000009FA System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnClickFire()
+extern void CloudAnchorsExampleController_OnClickFire_mD95D29945B78A11487C0F061A7EDC10244AB3625 (void);
+// 0x000009FB System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnEvent(ExitGames.Client.Photon.EventData)
+extern void CloudAnchorsExampleController_OnEvent_mB3B42E01AB1DEBE812A4BAD159DF2ED4DA373B7B (void);
+// 0x000009FC System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnJoinedRoom()
+extern void CloudAnchorsExampleController_OnJoinedRoom_mC4261EE4049C5AB4C0015CDB1EF9F1969EF0E819 (void);
+// 0x000009FD System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::.ctor()
 extern void CloudAnchorsExampleController__ctor_m4FC7580318798742F15BAD9E104186BE1C39786C (void);
-// 0x0000083E System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::add_OnClientConnected(System.Action)
+// 0x000009FE System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController/<playerCoroutine>d__40::.ctor(System.Int32)
+extern void U3CplayerCoroutineU3Ed__40__ctor_mED84D6AF8AEF5FFD4C82ED206BF3BEF05EEED854 (void);
+// 0x000009FF System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController/<playerCoroutine>d__40::System.IDisposable.Dispose()
+extern void U3CplayerCoroutineU3Ed__40_System_IDisposable_Dispose_mE09457EB05B660A7D5D4BDBE3DBC425A88BA8BB9 (void);
+// 0x00000A00 System.Boolean GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController/<playerCoroutine>d__40::MoveNext()
+extern void U3CplayerCoroutineU3Ed__40_MoveNext_m411D2B2CE6B964C2F242FE56530CC801289370BD (void);
+// 0x00000A01 System.Object GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController/<playerCoroutine>d__40::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CplayerCoroutineU3Ed__40_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF17B3C1B45883C465999C70C3BCE6085DE6F9B4A (void);
+// 0x00000A02 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController/<playerCoroutine>d__40::System.Collections.IEnumerator.Reset()
+extern void U3CplayerCoroutineU3Ed__40_System_Collections_IEnumerator_Reset_m8ACFDFB00C9A598FC561633FBED5879FBC5925D1 (void);
+// 0x00000A03 System.Object GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController/<playerCoroutine>d__40::System.Collections.IEnumerator.get_Current()
+extern void U3CplayerCoroutineU3Ed__40_System_Collections_IEnumerator_get_Current_m4BA0CA1B997FA08DF327EC6A1EA463DB83103C72 (void);
+// 0x00000A04 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::add_OnClientConnected(System.Action)
 extern void CloudAnchorsNetworkManager_add_OnClientConnected_m9AEF0CC740A2865658EC8DC08DA11317173BE6E6 (void);
-// 0x0000083F System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::remove_OnClientConnected(System.Action)
+// 0x00000A05 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::remove_OnClientConnected(System.Action)
 extern void CloudAnchorsNetworkManager_remove_OnClientConnected_mF9D7C60A81EE593CD2273F49FE5CF6F77FC62E95 (void);
-// 0x00000840 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::add_OnClientDisconnected(System.Action)
+// 0x00000A06 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::add_OnClientDisconnected(System.Action)
 extern void CloudAnchorsNetworkManager_add_OnClientDisconnected_m07EE6BEFB4C203D140D626B1C87B769D29320794 (void);
-// 0x00000841 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::remove_OnClientDisconnected(System.Action)
+// 0x00000A07 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::remove_OnClientDisconnected(System.Action)
 extern void CloudAnchorsNetworkManager_remove_OnClientDisconnected_m6F7E6FA4BE0378854C1859117FB72D200C143D86 (void);
-// 0x00000842 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::OnClientConnect(UnityEngine.Networking.NetworkConnection)
+// 0x00000A08 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::OnClientConnect(UnityEngine.Networking.NetworkConnection)
 extern void CloudAnchorsNetworkManager_OnClientConnect_m5B2299B0720BF2EF509BCFB0559DFE7A9B856E71 (void);
-// 0x00000843 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::OnClientDisconnect(UnityEngine.Networking.NetworkConnection)
+// 0x00000A09 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::OnClientDisconnect(UnityEngine.Networking.NetworkConnection)
 extern void CloudAnchorsNetworkManager_OnClientDisconnect_m0D7AE639A921071D8D4D0A48DB1A1142C4025EFD (void);
-// 0x00000844 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::.ctor()
+// 0x00000A0A System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::.ctor()
 extern void CloudAnchorsNetworkManager__ctor_mBF031252523E53E008B6036DD0F69CD75D7048B6 (void);
-// 0x00000845 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::OnStartLocalPlayer()
+// 0x00000A0B System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::OnStartLocalPlayer()
 extern void LocalPlayerController_OnStartLocalPlayer_mAFE98929D8902EECC1B5D0966DFD385FC0A9B8C9 (void);
-// 0x00000846 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::SpawnAnchor(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Component)
+// 0x00000A0C System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::SpawnAnchor(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Component)
 extern void LocalPlayerController_SpawnAnchor_m2ED9812B4A900E9982455BFF94C7B7D373EFAFA2 (void);
-// 0x00000847 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::CmdSpawnStar(UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x00000A0D System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::CmdSpawnStar(UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void LocalPlayerController_CmdSpawnStar_m026E1172EDEBE5EFBB49BCDEFABE0851C9ACE147 (void);
-// 0x00000848 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::.ctor()
+// 0x00000A0E System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::.ctor()
 extern void LocalPlayerController__ctor_m78164AB75BAB940A597F3C2706EB36D33F6E2C9A (void);
-// 0x00000849 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::UNetVersion()
+// 0x00000A0F System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::UNetVersion()
 extern void LocalPlayerController_UNetVersion_m96879ECE04D9CBC84FA9EA73D42870DC4E44C318 (void);
-// 0x0000084A System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::InvokeCmdCmdSpawnStar(UnityEngine.Networking.NetworkBehaviour,UnityEngine.Networking.NetworkReader)
+// 0x00000A10 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::InvokeCmdCmdSpawnStar(UnityEngine.Networking.NetworkBehaviour,UnityEngine.Networking.NetworkReader)
 extern void LocalPlayerController_InvokeCmdCmdSpawnStar_m1C764CA9E16B8BE21CE49DE6095B5CDBF721F295 (void);
-// 0x0000084B System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::CallCmdSpawnStar(UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x00000A11 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::CallCmdSpawnStar(UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void LocalPlayerController_CallCmdSpawnStar_m577F567997326B5D5D916E5F6737DA7C65CC58E0 (void);
-// 0x0000084C System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::.cctor()
+// 0x00000A12 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::.cctor()
 extern void LocalPlayerController__cctor_mECE12E062104CCBB3E8573C33F9F42A929F2D175 (void);
-// 0x0000084D System.Boolean GoogleARCore.Examples.CloudAnchors.LocalPlayerController::OnSerialize(UnityEngine.Networking.NetworkWriter,System.Boolean)
+// 0x00000A13 System.Boolean GoogleARCore.Examples.CloudAnchors.LocalPlayerController::OnSerialize(UnityEngine.Networking.NetworkWriter,System.Boolean)
 extern void LocalPlayerController_OnSerialize_mAA9B18043252E8623107B5395088E7868AE315B4 (void);
-// 0x0000084E System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::OnDeserialize(UnityEngine.Networking.NetworkReader,System.Boolean)
+// 0x00000A14 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::OnDeserialize(UnityEngine.Networking.NetworkReader,System.Boolean)
 extern void LocalPlayerController_OnDeserialize_m6E52C82DEEA6723BAE049F75604CACE07DD662D1 (void);
-// 0x0000084F System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::PreStartClient()
+// 0x00000A15 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::PreStartClient()
 extern void LocalPlayerController_PreStartClient_m47ECA6B718B7D00663EBD3F3AFE3EC0F2562990C (void);
-// 0x00000850 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::Awake()
+// 0x00000A16 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::Awake()
 extern void NetworkManagerUIController_Awake_m67B1F00361B54C6AF9710C024E0F7DAF0A38DD5A (void);
-// 0x00000851 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnCreateRoomClicked()
+// 0x00000A17 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnCreateRoomClicked()
 extern void NetworkManagerUIController_OnCreateRoomClicked_m7B0AD4758C1EFF2B19684B2D6877E414D26D9F8D (void);
-// 0x00000852 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnReturnToLobbyClick()
+// 0x00000A18 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnReturnToLobbyClick()
 extern void NetworkManagerUIController_OnReturnToLobbyClick_m1F797F50485D08D58BDB2B735F1C9B9A60602D18 (void);
-// 0x00000853 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnRefhreshRoomListClicked()
+// 0x00000A19 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnRefhreshRoomListClicked()
 extern void NetworkManagerUIController_OnRefhreshRoomListClicked_m079D87F580F805C8CD1D26572E4E861576B42166 (void);
-// 0x00000854 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnAnchorInstantiated(System.Boolean)
+// 0x00000A1A System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnAnchorInstantiated(System.Boolean)
 extern void NetworkManagerUIController_OnAnchorInstantiated_m5C526271484C430C9F697E04566C908DE90D3830 (void);
-// 0x00000855 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnAnchorHosted(System.Boolean,System.String)
+// 0x00000A1B System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnAnchorHosted(System.Boolean,System.String)
 extern void NetworkManagerUIController_OnAnchorHosted_m31F1A640EB0F357AD9FCB712A6C0A33133C12455 (void);
-// 0x00000856 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnAnchorResolved(System.Boolean,System.String)
+// 0x00000A1C System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnAnchorResolved(System.Boolean,System.String)
 extern void NetworkManagerUIController_OnAnchorResolved_mBA55D6AB0337FD0B72B2BB4DD3BA67A158F4E6E8 (void);
-// 0x00000857 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::ShowDebugMessage(System.String)
+// 0x00000A1D System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::ShowDebugMessage(System.String)
 extern void NetworkManagerUIController_ShowDebugMessage_mF2012AC7F6026D83D0A2A05EBB0F1CEFB65857F0 (void);
-// 0x00000858 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnJoinRoomClicked(UnityEngine.Networking.Match.MatchInfoSnapshot)
+// 0x00000A1E System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnJoinRoomClicked(UnityEngine.Networking.Match.MatchInfoSnapshot)
 extern void NetworkManagerUIController_OnJoinRoomClicked_m2F1C00DEE82DEAB107327E81B5D5AB22B2161D91 (void);
-// 0x00000859 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnMatchList(System.Boolean,System.String,System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchInfoSnapshot>)
+// 0x00000A1F System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnMatchList(System.Boolean,System.String,System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchInfoSnapshot>)
 extern void NetworkManagerUIController_OnMatchList_m75F027EC1801BCB9632A221C1FCE1E16118C6C5D (void);
-// 0x0000085A System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnMatchCreate(System.Boolean,System.String,UnityEngine.Networking.Match.MatchInfo)
+// 0x00000A20 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnMatchCreate(System.Boolean,System.String,UnityEngine.Networking.Match.MatchInfo)
 extern void NetworkManagerUIController_OnMatchCreate_m7FB8720824ADBBE417461BD35171A046A5BF4E7B (void);
-// 0x0000085B System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnMatchJoined(System.Boolean,System.String,UnityEngine.Networking.Match.MatchInfo)
+// 0x00000A21 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnMatchJoined(System.Boolean,System.String,UnityEngine.Networking.Match.MatchInfo)
 extern void NetworkManagerUIController_OnMatchJoined_m4360840253C15DFF2B10FCA022010082A53A4792 (void);
-// 0x0000085C System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnMatchDropped(System.Boolean,System.String)
+// 0x00000A22 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnMatchDropped(System.Boolean,System.String)
 extern void NetworkManagerUIController_OnMatchDropped_mF6BEB2E03FC560BBB61CFC9CFB217570F3A432E3 (void);
-// 0x0000085D System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::ChangeLobbyUIVisibility(System.Boolean)
+// 0x00000A23 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::ChangeLobbyUIVisibility(System.Boolean)
 extern void NetworkManagerUIController_ChangeLobbyUIVisibility_m4042971B373408A13EB79C9D92E26AFAB000369D (void);
-// 0x0000085E System.String GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::GetRoomNumberFromNetworkId(UnityEngine.Networking.Types.NetworkID)
+// 0x00000A24 System.String GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::GetRoomNumberFromNetworkId(UnityEngine.Networking.Types.NetworkID)
 extern void NetworkManagerUIController_GetRoomNumberFromNetworkId_mC16A0720151E6A54D160F022A20E966CBF3D1DB9 (void);
-// 0x0000085F System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::.ctor()
+// 0x00000A25 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::.ctor()
 extern void NetworkManagerUIController__ctor_m0B94D7CBF356D105888852DCA54E7914EA404BAA (void);
-// 0x00000860 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController/<>c__DisplayClass20_0::.ctor()
+// 0x00000A26 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController/<>c__DisplayClass20_0::.ctor()
 extern void U3CU3Ec__DisplayClass20_0__ctor_m00C80A06997889FE356E51F1EC4B81CF16ECE16C (void);
-// 0x00000861 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController/<>c__DisplayClass20_0::<OnMatchList>b__0()
+// 0x00000A27 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController/<>c__DisplayClass20_0::<OnMatchList>b__0()
 extern void U3CU3Ec__DisplayClass20_0_U3COnMatchListU3Eb__0_m7252CD6A00F5D780013EB0775DE8ADC536C90183 (void);
-// 0x00000862 System.Void GoogleARCore.Examples.CloudAnchors.StarController::Awake()
+// 0x00000A28 System.Void GoogleARCore.Examples.CloudAnchors.StarController::Awake()
 extern void StarController_Awake_mEC46F36AEBD7372FD4041D11065EE2244DA44FDE (void);
-// 0x00000863 System.Void GoogleARCore.Examples.CloudAnchors.StarController::Update()
+// 0x00000A29 System.Void GoogleARCore.Examples.CloudAnchors.StarController::Update()
 extern void StarController_Update_m7EBECDEDD148E01926A64825CA860CD7537A52D7 (void);
-// 0x00000864 System.Void GoogleARCore.Examples.CloudAnchors.StarController::.ctor()
+// 0x00000A2A System.Void GoogleARCore.Examples.CloudAnchors.StarController::.ctor()
 extern void StarController__ctor_mCE11025CAD0B0E4B9CEDF4642A6282F41CBDD9C3 (void);
-// 0x00000865 System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageExampleController::Awake()
+// 0x00000A2B System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageExampleController::Awake()
 extern void AugmentedImageExampleController_Awake_mF20C2F0AF0A174C65C1B42DECE14DA0AB7B8CC1D (void);
-// 0x00000866 System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageExampleController::Update()
+// 0x00000A2C System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageExampleController::Update()
 extern void AugmentedImageExampleController_Update_m1ABD4B64D07220D7E70D4198202C038538152C0F (void);
-// 0x00000867 System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageExampleController::.ctor()
+// 0x00000A2D System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageExampleController::.ctor()
 extern void AugmentedImageExampleController__ctor_mCA6EC63233658C90CCA73D40860EC6986C123F09 (void);
-// 0x00000868 System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageVisualizer::Update()
+// 0x00000A2E System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageVisualizer::Update()
 extern void AugmentedImageVisualizer_Update_m59BB29315403BFD976D5C18C3E543B32E5E37778 (void);
-// 0x00000869 System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageVisualizer::.ctor()
+// 0x00000A2F System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageVisualizer::.ctor()
 extern void AugmentedImageVisualizer__ctor_m0BC340D4DCE91AE715A6B878388828BC5C8F53AB (void);
-// 0x0000086A GoogleARCore.AugmentedFace GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::get_AumgnetedFace()
+// 0x00000A30 GoogleARCore.AugmentedFace GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::get_AumgnetedFace()
 extern void ARCoreAugmentedFaceMeshFilter_get_AumgnetedFace_m563DFA894D6FA118057B72E71A97C7E4DCA92EA0 (void);
-// 0x0000086B System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::set_AumgnetedFace(GoogleARCore.AugmentedFace)
+// 0x00000A31 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::set_AumgnetedFace(GoogleARCore.AugmentedFace)
 extern void ARCoreAugmentedFaceMeshFilter_set_AumgnetedFace_m0515212E9DBB26BE04CCA8190B45525814A7FCC7 (void);
-// 0x0000086C System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::Awake()
+// 0x00000A32 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::Awake()
 extern void ARCoreAugmentedFaceMeshFilter_Awake_mE61E26F521B4CE1CCFC677DC939B668B24128651 (void);
-// 0x0000086D System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::Update()
+// 0x00000A33 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::Update()
 extern void ARCoreAugmentedFaceMeshFilter_Update_m6F91C08AFDF6DC49F40A211BE32BA355D3FEEA85 (void);
-// 0x0000086E System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::UpdateMesh()
+// 0x00000A34 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::UpdateMesh()
 extern void ARCoreAugmentedFaceMeshFilter_UpdateMesh_m254D7403B3285B5B5B5A9ABAE57C1D820BB89EF0 (void);
-// 0x0000086F System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::.ctor()
+// 0x00000A35 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::.ctor()
 extern void ARCoreAugmentedFaceMeshFilter__ctor_mC8814568C985BDF7156988111B50434724FB4AD0 (void);
-// 0x00000870 GoogleARCore.AugmentedFace GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::get_AumgnetedFace()
+// 0x00000A36 GoogleARCore.AugmentedFace GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::get_AumgnetedFace()
 extern void ARCoreAugmentedFaceRig_get_AumgnetedFace_mD21AB50AE001AC426E4EB4D61E67B0D40A8C68BF (void);
-// 0x00000871 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::set_AumgnetedFace(GoogleARCore.AugmentedFace)
+// 0x00000A37 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::set_AumgnetedFace(GoogleARCore.AugmentedFace)
 extern void ARCoreAugmentedFaceRig_set_AumgnetedFace_m01FD7F86465B94A6C4880A9F30F176450288E22B (void);
-// 0x00000872 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::Awake()
+// 0x00000A38 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::Awake()
 extern void ARCoreAugmentedFaceRig_Awake_m950E38039263B82FBB08BF6D73AE91978B431B99 (void);
-// 0x00000873 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::Update()
+// 0x00000A39 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::Update()
 extern void ARCoreAugmentedFaceRig_Update_m26C2EA006B9B721EFA854A4C90DD318192254A10 (void);
-// 0x00000874 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::InitializeFaceRegions()
+// 0x00000A3A System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::InitializeFaceRegions()
 extern void ARCoreAugmentedFaceRig_InitializeFaceRegions_m874936D1D70370CE2FE4D73A5E1FCD9C44A8816F (void);
-// 0x00000875 UnityEngine.Transform GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::FindChildTransformRecursive(UnityEngine.Transform,System.String)
+// 0x00000A3B UnityEngine.Transform GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::FindChildTransformRecursive(UnityEngine.Transform,System.String)
 extern void ARCoreAugmentedFaceRig_FindChildTransformRecursive_m03748C58563ED9154527A34428DCBAEEB26A01AD (void);
-// 0x00000876 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::UpdateRegions()
+// 0x00000A3C System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::UpdateRegions()
 extern void ARCoreAugmentedFaceRig_UpdateRegions_m30E1331B7A2DAB52F17CCDE506EC3DBE88004103 (void);
-// 0x00000877 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::.ctor()
+// 0x00000A3D System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::.ctor()
 extern void ARCoreAugmentedFaceRig__ctor_m827F8821C175E716BE5F391B038D5DEE6B36EF95 (void);
-// 0x00000878 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::.cctor()
+// 0x00000A3E System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::.cctor()
 extern void ARCoreAugmentedFaceRig__cctor_mC117CE8205A8830E61B97A9A6EBA89EC084AF8F4 (void);
-// 0x00000879 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::Awake()
+// 0x00000A3F System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::Awake()
 extern void AugmentedFacesExampleController_Awake_mCEE803695EE12C60C42FD0F495AABEEB98EF6705 (void);
-// 0x0000087A System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::Update()
+// 0x00000A40 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::Update()
 extern void AugmentedFacesExampleController_Update_m272D533589C7857E59143DC1199646B17CE93A16 (void);
-// 0x0000087B System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::UpdateApplicationLifecycle()
+// 0x00000A41 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::UpdateApplicationLifecycle()
 extern void AugmentedFacesExampleController_UpdateApplicationLifecycle_m063BBA63E93723E8757C0BD7DF64D918C7BAB307 (void);
-// 0x0000087C System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::DoQuit()
+// 0x00000A42 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::DoQuit()
 extern void AugmentedFacesExampleController_DoQuit_m3D9134D2E83CCD40E679763FC79AE1BCA6E38D69 (void);
-// 0x0000087D System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::ShowAndroidToastMessage(System.String)
+// 0x00000A43 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::ShowAndroidToastMessage(System.String)
 extern void AugmentedFacesExampleController_ShowAndroidToastMessage_m1188C61DFA8B9DE4DB6236070ADFD451EBF8441B (void);
-// 0x0000087E System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::.ctor()
+// 0x00000A44 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::.ctor()
 extern void AugmentedFacesExampleController__ctor_mA4AB7E98CF83DBABD1C314EEF092718FF768FEBC (void);
-// 0x0000087F System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController/<>c__DisplayClass7_0::.ctor()
+// 0x00000A45 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController/<>c__DisplayClass7_0::.ctor()
 extern void U3CU3Ec__DisplayClass7_0__ctor_m4A33D27CF3C106FEEDD0EF27865A8CC88B2276CF (void);
-// 0x00000880 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController/<>c__DisplayClass7_0::<ShowAndroidToastMessage>b__0()
-extern void U3CU3Ec__DisplayClass7_0_U3CShowAndroidToastMessageU3Eb__0_m0A861E1AAE2E76C90AFC2B7E00493FD07B58FD91 (void);
-// 0x00000881 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::Start()
+// 0x00000A46 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController/<>c__DisplayClass7_1::.ctor()
+extern void U3CU3Ec__DisplayClass7_1__ctor_m389099F9C2946E3188BE6EF2DE14229369E22FA6 (void);
+// 0x00000A47 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController/<>c__DisplayClass7_1::<ShowAndroidToastMessage>b__0()
+extern void U3CU3Ec__DisplayClass7_1_U3CShowAndroidToastMessageU3Eb__0_mAFAB80BF0710676547999A0F383DC70635BE10D0 (void);
+// 0x00000A48 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::Start()
 extern void FreeSpaceRenderer_Start_m5D07FC8F4B2E9F262CB52CD88531598B08138D57 (void);
-// 0x00000882 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::Update()
+// 0x00000A49 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::Update()
 extern void FreeSpaceRenderer_Update_mB54300FB192533C9962F2B36F263583B9E9614A0 (void);
-// 0x00000883 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::UpdateTouch()
+// 0x00000A4A System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::UpdateTouch()
 extern void FreeSpaceRenderer_UpdateTouch_m12A7EFE219B043D8AEBF5D11FFAC99271E43BC21 (void);
-// 0x00000884 System.Boolean GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::TestCollisionAtSingleWorldPoint(UnityEngine.Vector3)
+// 0x00000A4B System.Boolean GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::TestCollisionAtSingleWorldPoint(UnityEngine.Vector3)
 extern void FreeSpaceRenderer_TestCollisionAtSingleWorldPoint_m2A0688F96747F3120F6E9123FD8D8A2FEA208C39 (void);
-// 0x00000885 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::RenderFreeSpace()
+// 0x00000A4C System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::RenderFreeSpace()
 extern void FreeSpaceRenderer_RenderFreeSpace_mC6E9D5382DC04228273D18FF8A4001C899091D7E (void);
-// 0x00000886 System.Boolean GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::TestCollisionOfBoxAtWorldPoint(UnityEngine.Vector3,UnityEngine.Vector3[])
+// 0x00000A4D System.Boolean GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::TestCollisionOfBoxAtWorldPoint(UnityEngine.Vector3,UnityEngine.Vector3[])
 extern void FreeSpaceRenderer_TestCollisionOfBoxAtWorldPoint_mA90277434739F119F6001FE9CA60890120D6F9CA (void);
-// 0x00000887 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::VisualizeWorldRegion(UnityEngine.Vector3,System.Single)
+// 0x00000A4E System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::VisualizeWorldRegion(UnityEngine.Vector3,System.Single)
 extern void FreeSpaceRenderer_VisualizeWorldRegion_mD77CCF322498D2124BFA731ADECD10258524B561 (void);
-// 0x00000888 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::ClearFreeSpaceWorldMap()
+// 0x00000A4F System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::ClearFreeSpaceWorldMap()
 extern void FreeSpaceRenderer_ClearFreeSpaceWorldMap_m96F67649BFE52104CEB8A45DE528FA1B280432D4 (void);
-// 0x00000889 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::ClearFreeSpaceScreenMap()
+// 0x00000A50 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::ClearFreeSpaceScreenMap()
 extern void FreeSpaceRenderer_ClearFreeSpaceScreenMap_mC7F3E53ED33DA03A528F1A5D720039A5DEF2934C (void);
-// 0x0000088A System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::AddWorldVertexToHashSet(UnityEngine.Vector3)
+// 0x00000A51 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::AddWorldVertexToHashSet(UnityEngine.Vector3)
 extern void FreeSpaceRenderer_AddWorldVertexToHashSet_m76777A280310E39E6CAC2ED51197D0E54CF48B6B (void);
-// 0x0000088B System.Boolean GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::IsWorldRegionExplored(UnityEngine.Vector3)
+// 0x00000A52 System.Boolean GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::IsWorldRegionExplored(UnityEngine.Vector3)
 extern void FreeSpaceRenderer_IsWorldRegionExplored_mADD74735DD7C059D000FA98133408D1BBA9DE68D (void);
-// 0x0000088C System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::AddScreenPointToHashSet(UnityEngine.Vector2)
+// 0x00000A53 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::AddScreenPointToHashSet(UnityEngine.Vector2)
 extern void FreeSpaceRenderer_AddScreenPointToHashSet_mF31E6D8AB51A9B761AD3F1F0394C08458CBBF8A0 (void);
-// 0x0000088D System.Boolean GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::IsScreenPointRegionExplored(UnityEngine.Vector2)
+// 0x00000A54 System.Boolean GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::IsScreenPointRegionExplored(UnityEngine.Vector2)
 extern void FreeSpaceRenderer_IsScreenPointRegionExplored_m63659FE50AD357FE07F4F27016666AB7EEC7F589 (void);
-// 0x0000088E System.Int32 GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::GetWorldPointHashId(UnityEngine.Vector3)
+// 0x00000A55 System.Int32 GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::GetWorldPointHashId(UnityEngine.Vector3)
 extern void FreeSpaceRenderer_GetWorldPointHashId_m13AE3C469160B012C85B60F7338557B9BC0464FD (void);
-// 0x0000088F System.Int32 GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::GetScreenPointHashId(UnityEngine.Vector2)
+// 0x00000A56 System.Int32 GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::GetScreenPointHashId(UnityEngine.Vector2)
 extern void FreeSpaceRenderer_GetScreenPointHashId_mE487A01AE2FCB9F9E80AED9EDFE343B20ACF28E6 (void);
-// 0x00000890 System.Single GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::FetchEnvironmentDepth(UnityEngine.Vector3)
+// 0x00000A57 System.Single GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::FetchEnvironmentDepth(UnityEngine.Vector3)
 extern void FreeSpaceRenderer_FetchEnvironmentDepth_mEC565C5DC7C30853E4FC12F380AB6D171DE3A585 (void);
-// 0x00000891 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::InitializeCameraIntrinsics()
+// 0x00000A58 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::InitializeCameraIntrinsics()
 extern void FreeSpaceRenderer_InitializeCameraIntrinsics_m6F9189C50DE21D17DDB47A695ED6E62B8D3C99BE (void);
-// 0x00000892 UnityEngine.Vector3 GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::ComputeVertexInCameraSpace(System.Int32,System.Int32,System.Single)
+// 0x00000A59 UnityEngine.Vector3 GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::ComputeVertexInCameraSpace(System.Int32,System.Int32,System.Single)
 extern void FreeSpaceRenderer_ComputeVertexInCameraSpace_mE57C56CA5785C877A6E70DB311479E629C7BE6A3 (void);
-// 0x00000893 UnityEngine.Vector3 GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::ComputeVertexInWorldSpace(UnityEngine.Vector3)
+// 0x00000A5A UnityEngine.Vector3 GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::ComputeVertexInWorldSpace(UnityEngine.Vector3)
 extern void FreeSpaceRenderer_ComputeVertexInWorldSpace_mE99AC9B4C3454E9EF17F4F7962FFB8A0089DC318 (void);
-// 0x00000894 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::UpdateScreenOrientation()
+// 0x00000A5B System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::UpdateScreenOrientation()
 extern void FreeSpaceRenderer_UpdateScreenOrientation_m5CBBD6B6803DAE3D98B900B7426C4D010AB2BEFA (void);
-// 0x00000895 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::.ctor()
+// 0x00000A5C System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::.ctor()
 extern void FreeSpaceRenderer__ctor_m6C041C7780BF6A047CD902D41A682170BC37EA4B (void);
-// 0x00000896 System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::.cctor()
+// 0x00000A5D System.Void GoogleARCore.Examples.FreeSpaceRenderer.FreeSpaceRenderer::.cctor()
 extern void FreeSpaceRenderer__cctor_mD2ABC0A617B25888B619F0DDF1B2287F1408F5DB (void);
-// 0x00000897 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::SetCollisionDetector(GoogleARCore.Examples.ObjectManipulation.CollisionDetector)
+// 0x00000A5E System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::SetCollisionDetector(GoogleARCore.Examples.ObjectManipulation.CollisionDetector)
 extern void CollisionAwareManipulator_SetCollisionDetector_m903CDFA33403937DDC7E863A3F851F98CE1EA33F (void);
-// 0x00000898 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::Start()
+// 0x00000A5F System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::Start()
 extern void CollisionAwareManipulator_Start_m4FDB11E55E65AF534C0F4DC2738FC8357BE9DC5A (void);
-// 0x00000899 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::Update()
+// 0x00000A60 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::Update()
 extern void CollisionAwareManipulator_Update_mEACE9DB1FC87C323B6FBF7FFECBA95DE5F103726 (void);
-// 0x0000089A System.Boolean GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000A61 System.Boolean GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void CollisionAwareManipulator_CanStartManipulationForGesture_mF8751B5EC86B46E7E4D61D30083C65A6F4433BB5 (void);
-// 0x0000089B System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000A62 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void CollisionAwareManipulator_OnStartManipulation_m5974203AA1361C7D67CFF149D499C471C298333F (void);
-// 0x0000089C System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000A63 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void CollisionAwareManipulator_OnContinueManipulation_m478ED6D40575266590DE306E9F021E08D666BED7 (void);
-// 0x0000089D System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000A64 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void CollisionAwareManipulator_OnEndManipulation_m53409002D44E8540539EB2DD0386E361AC43AC10 (void);
-// 0x0000089E System.Single GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::FetchEnvironmentDepth(UnityEngine.Vector3)
+// 0x00000A65 System.Single GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::FetchEnvironmentDepth(UnityEngine.Vector3)
 extern void CollisionAwareManipulator_FetchEnvironmentDepth_m3D241C0E645387A51A3F036B567322B4DE30BC30 (void);
-// 0x0000089F GoogleARCore.Examples.ObjectManipulation.CollisionResults GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::CollisionTestSingleVertex(UnityEngine.Vector3)
+// 0x00000A66 GoogleARCore.Examples.ObjectManipulation.CollisionResults GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::CollisionTestSingleVertex(UnityEngine.Vector3)
 extern void CollisionAwareManipulator_CollisionTestSingleVertex_mA0385726A6E9AAED6D718233A4E866E64A55BF3F (void);
-// 0x000008A0 UnityEngine.Vector3[] GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::GetVerticesInChildren(UnityEngine.GameObject)
+// 0x00000A67 UnityEngine.Vector3[] GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::GetVerticesInChildren(UnityEngine.GameObject)
 extern void CollisionAwareManipulator_GetVerticesInChildren_m995DFCA40F38F142909918090BD7855C44C4094B (void);
-// 0x000008A1 System.Boolean GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::TestCollision(UnityEngine.Vector3)
+// 0x00000A68 System.Boolean GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::TestCollision(UnityEngine.Vector3)
 extern void CollisionAwareManipulator_TestCollision_m46360D9F1909BC037D3AE43C67897CD25ECBC05A (void);
-// 0x000008A2 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::UpdatePosition()
+// 0x00000A69 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::UpdatePosition()
 extern void CollisionAwareManipulator_UpdatePosition_m5C7E4D1C1107B3AD465A2560E10431581FB9E117 (void);
-// 0x000008A3 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::.ctor()
+// 0x00000A6A System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::.ctor()
 extern void CollisionAwareManipulator__ctor_m95C35B7E970E3242FFF6E587D1B75A641CDBB225 (void);
-// 0x000008A4 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::.cctor()
+// 0x00000A6B System.Void GoogleARCore.Examples.ObjectManipulation.CollisionAwareManipulator::.cctor()
 extern void CollisionAwareManipulator__cctor_m5479892F0893BDD46A4A3DBFEDA91F93F7954DB1 (void);
-// 0x000008A5 System.Boolean GoogleARCore.Examples.ObjectManipulation.CollisionDetector::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+// 0x00000A6C System.Boolean GoogleARCore.Examples.ObjectManipulation.CollisionDetector::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TapGesture)
 extern void CollisionDetector_CanStartManipulationForGesture_mB1A9043541014BCB5B7D48DA7882DE9FB87BC0E1 (void);
-// 0x000008A6 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionDetector::Update()
+// 0x00000A6D System.Void GoogleARCore.Examples.ObjectManipulation.CollisionDetector::Update()
 extern void CollisionDetector_Update_mC15AE759578E4DC01B920C6348DB282D7E3DB653 (void);
-// 0x000008A7 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionDetector::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+// 0x00000A6E System.Void GoogleARCore.Examples.ObjectManipulation.CollisionDetector::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
 extern void CollisionDetector_OnEndManipulation_mA38791DEE7335CF6A7F2EA137BCC5B7E0CA00BD7 (void);
-// 0x000008A8 System.Void GoogleARCore.Examples.ObjectManipulation.CollisionDetector::.ctor()
+// 0x00000A6F System.Void GoogleARCore.Examples.ObjectManipulation.CollisionDetector::.ctor()
 extern void CollisionDetector__ctor_m180F34E1DBA46D76AFC2F52671AEE91CE9282F63 (void);
-// 0x000008A9 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer,UnityEngine.Touch)
+// 0x00000A70 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer,UnityEngine.Touch)
 extern void DragGesture__ctor_m07F64F4B62DF6E75D6CF9F6F670DECA18C6D38AC (void);
-// 0x000008AA System.Int32 GoogleARCore.Examples.ObjectManipulation.DragGesture::get_FingerId()
+// 0x00000A71 System.Int32 GoogleARCore.Examples.ObjectManipulation.DragGesture::get_FingerId()
 extern void DragGesture_get_FingerId_mBB6E8E5687075A54FF7B89D9A0B5E629334F19A8 (void);
-// 0x000008AB System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::set_FingerId(System.Int32)
+// 0x00000A72 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::set_FingerId(System.Int32)
 extern void DragGesture_set_FingerId_mBF70A9ED1548A27C52538548B72A78FC09D5945F (void);
-// 0x000008AC UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.DragGesture::get_StartPosition()
+// 0x00000A73 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.DragGesture::get_StartPosition()
 extern void DragGesture_get_StartPosition_m072F19ED9FAA432BF514D81155F6586DE9FE4DC0 (void);
-// 0x000008AD System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::set_StartPosition(UnityEngine.Vector2)
+// 0x00000A74 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::set_StartPosition(UnityEngine.Vector2)
 extern void DragGesture_set_StartPosition_mC2D8A6C442DE4DDE04330129E771C99ADBD9A8D4 (void);
-// 0x000008AE UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.DragGesture::get_Position()
+// 0x00000A75 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.DragGesture::get_Position()
 extern void DragGesture_get_Position_mE5A01E067C88E45D776472CBB12B3B29083E429B (void);
-// 0x000008AF System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::set_Position(UnityEngine.Vector2)
+// 0x00000A76 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::set_Position(UnityEngine.Vector2)
 extern void DragGesture_set_Position_m8A3652DA67A5ECA0836ACAA04C2613DAB5C901CA (void);
-// 0x000008B0 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.DragGesture::get_Delta()
+// 0x00000A77 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.DragGesture::get_Delta()
 extern void DragGesture_get_Delta_mDC6C31840415ACC87D132791788037C360360250 (void);
-// 0x000008B1 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::set_Delta(UnityEngine.Vector2)
+// 0x00000A78 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::set_Delta(UnityEngine.Vector2)
 extern void DragGesture_set_Delta_m5D55140EEEC4AFA57FC2CA39CFE39E952AC6D556 (void);
-// 0x000008B2 System.Boolean GoogleARCore.Examples.ObjectManipulation.DragGesture::CanStart()
+// 0x00000A79 System.Boolean GoogleARCore.Examples.ObjectManipulation.DragGesture::CanStart()
 extern void DragGesture_CanStart_m4976A4D11E0C1086228B7F579C0B24D94B1060BC (void);
-// 0x000008B3 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::OnStart()
+// 0x00000A7A System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::OnStart()
 extern void DragGesture_OnStart_m4DBC6AEE77D2DE2FF153B159557FF5B5F24F3594 (void);
-// 0x000008B4 System.Boolean GoogleARCore.Examples.ObjectManipulation.DragGesture::UpdateGesture()
+// 0x00000A7B System.Boolean GoogleARCore.Examples.ObjectManipulation.DragGesture::UpdateGesture()
 extern void DragGesture_UpdateGesture_m72D3E7521ECE60D41435DB7A9B61970B5AFEA1B5 (void);
-// 0x000008B5 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::OnCancel()
+// 0x00000A7C System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::OnCancel()
 extern void DragGesture_OnCancel_m947D8D127EBC8A74F3F1DB6F4ED81E53F7AF01B5 (void);
-// 0x000008B6 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::OnFinish()
+// 0x00000A7D System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::OnFinish()
 extern void DragGesture_OnFinish_m8EADB2ACFA57352FC0DDD9E42C9EC57DF9DF5F5B (void);
-// 0x000008B7 GoogleARCore.Examples.ObjectManipulation.DragGesture GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer::CreateGesture(UnityEngine.Touch)
+// 0x00000A7E GoogleARCore.Examples.ObjectManipulation.DragGesture GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer::CreateGesture(UnityEngine.Touch)
 extern void DragGestureRecognizer_CreateGesture_m3EAC7E3DBEFC8CCE35BDA726B4AD6F4FAC181FCA (void);
-// 0x000008B8 System.Void GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer::TryCreateGestures()
+// 0x00000A7F System.Void GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer::TryCreateGestures()
 extern void DragGestureRecognizer_TryCreateGestures_m41BECEFDE15EF2EECB3572820B3EFEC1D773E6F4 (void);
-// 0x000008B9 System.Void GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer::.ctor()
+// 0x00000A80 System.Void GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer::.ctor()
 extern void DragGestureRecognizer__ctor_m4B086A898F30256692BA02FC6D3BBCE4A4941CDB (void);
-// 0x000008BA System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer,UnityEngine.Touch,UnityEngine.Touch)
+// 0x00000A81 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer,UnityEngine.Touch,UnityEngine.Touch)
 extern void PinchGesture__ctor_m9639430AFEC5DF918F87FF222743AFA769450DA8 (void);
-// 0x000008BB System.Int32 GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_FingerId1()
+// 0x00000A82 System.Int32 GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_FingerId1()
 extern void PinchGesture_get_FingerId1_m29FA5D4CC733F6A96AF93A34341E63330AD849B0 (void);
-// 0x000008BC System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_FingerId1(System.Int32)
+// 0x00000A83 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_FingerId1(System.Int32)
 extern void PinchGesture_set_FingerId1_m6AB3D7A977BF350AE4123FBADA16A1E5D78C5684 (void);
-// 0x000008BD System.Int32 GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_FingerId2()
+// 0x00000A84 System.Int32 GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_FingerId2()
 extern void PinchGesture_get_FingerId2_m5AE6C915A403E0A4A9FC35429997BB23EE781AF4 (void);
-// 0x000008BE System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_FingerId2(System.Int32)
+// 0x00000A85 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_FingerId2(System.Int32)
 extern void PinchGesture_set_FingerId2_mA8D70F9967B65224E7926769812DCD2E74BA4C84 (void);
-// 0x000008BF UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_StartPosition1()
+// 0x00000A86 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_StartPosition1()
 extern void PinchGesture_get_StartPosition1_mA8E7962FD47972BFB377A8E5E1DE49E0C9EF24B7 (void);
-// 0x000008C0 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_StartPosition1(UnityEngine.Vector2)
+// 0x00000A87 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_StartPosition1(UnityEngine.Vector2)
 extern void PinchGesture_set_StartPosition1_m0CFE848EE35AFD1A63DF4AA8AA3BF0633D1AD73C (void);
-// 0x000008C1 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_StartPosition2()
+// 0x00000A88 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_StartPosition2()
 extern void PinchGesture_get_StartPosition2_m296F8FD455F25CCA380FA496114C7AF807770BE5 (void);
-// 0x000008C2 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_StartPosition2(UnityEngine.Vector2)
+// 0x00000A89 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_StartPosition2(UnityEngine.Vector2)
 extern void PinchGesture_set_StartPosition2_m708179A8B48A38E32E63BDD963E61D53C20947BE (void);
-// 0x000008C3 System.Single GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_Gap()
+// 0x00000A8A System.Single GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_Gap()
 extern void PinchGesture_get_Gap_mADA3E116E02D4771471B2D66E9C6013270A1978F (void);
-// 0x000008C4 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_Gap(System.Single)
+// 0x00000A8B System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_Gap(System.Single)
 extern void PinchGesture_set_Gap_m2F96B351A5F96740D07075E751F9256C64A9B083 (void);
-// 0x000008C5 System.Single GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_GapDelta()
+// 0x00000A8C System.Single GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_GapDelta()
 extern void PinchGesture_get_GapDelta_mA7BD1800B45D5AC01259193BE7DC5D85F2891559 (void);
-// 0x000008C6 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_GapDelta(System.Single)
+// 0x00000A8D System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_GapDelta(System.Single)
 extern void PinchGesture_set_GapDelta_mE4B43E041CBC395EF4393050F69B0FD3D5EED83F (void);
-// 0x000008C7 System.Boolean GoogleARCore.Examples.ObjectManipulation.PinchGesture::CanStart()
+// 0x00000A8E System.Boolean GoogleARCore.Examples.ObjectManipulation.PinchGesture::CanStart()
 extern void PinchGesture_CanStart_mC2513165AC2DF5923F3C16843FB425448D3D91C3 (void);
-// 0x000008C8 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::OnStart()
+// 0x00000A8F System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::OnStart()
 extern void PinchGesture_OnStart_m871DCDC4CB9D46F0422EE05E0172062A933D75BF (void);
-// 0x000008C9 System.Boolean GoogleARCore.Examples.ObjectManipulation.PinchGesture::UpdateGesture()
+// 0x00000A90 System.Boolean GoogleARCore.Examples.ObjectManipulation.PinchGesture::UpdateGesture()
 extern void PinchGesture_UpdateGesture_m2A00394289B7FB7608B1A6C174121DB2761EFE43 (void);
-// 0x000008CA System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::OnCancel()
+// 0x00000A91 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::OnCancel()
 extern void PinchGesture_OnCancel_mBFD7FA3A27166172D7C613E7F0797D68C1A2FD2A (void);
-// 0x000008CB System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::OnFinish()
+// 0x00000A92 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::OnFinish()
 extern void PinchGesture_OnFinish_m416F7F7FC0955D01D477A9C32C8802E9411DC2C4 (void);
-// 0x000008CC GoogleARCore.Examples.ObjectManipulation.PinchGesture GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer::CreateGesture(UnityEngine.Touch,UnityEngine.Touch)
+// 0x00000A93 GoogleARCore.Examples.ObjectManipulation.PinchGesture GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer::CreateGesture(UnityEngine.Touch,UnityEngine.Touch)
 extern void PinchGestureRecognizer_CreateGesture_m2475606C341B19FBFF100E1A36BF499AA26999E8 (void);
-// 0x000008CD System.Void GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer::TryCreateGestures()
+// 0x00000A94 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer::TryCreateGestures()
 extern void PinchGestureRecognizer_TryCreateGestures_m7CF039FF551CC3E3DA4B37BDB0B3B5D8E35D1BD0 (void);
-// 0x000008CE System.Void GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer::.ctor()
+// 0x00000A95 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer::.ctor()
 extern void PinchGestureRecognizer__ctor_m3AA48DB00C1D71F9394A5113F829883C0B3B9381 (void);
-// 0x000008CF System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer,UnityEngine.Touch)
+// 0x00000A96 System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer,UnityEngine.Touch)
 extern void TapGesture__ctor_mF80DA534F0EED728E4666A2A49CAB1EC6C480B72 (void);
-// 0x000008D0 System.Int32 GoogleARCore.Examples.ObjectManipulation.TapGesture::get_FingerId()
+// 0x00000A97 System.Int32 GoogleARCore.Examples.ObjectManipulation.TapGesture::get_FingerId()
 extern void TapGesture_get_FingerId_m7C9F965E59534AA4AE17DED16AFB35D95A05AE35 (void);
-// 0x000008D1 System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::set_FingerId(System.Int32)
+// 0x00000A98 System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::set_FingerId(System.Int32)
 extern void TapGesture_set_FingerId_mD23904C6ABAB0552A6A7F7871F76FAB1C92C9136 (void);
-// 0x000008D2 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TapGesture::get_StartPosition()
+// 0x00000A99 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TapGesture::get_StartPosition()
 extern void TapGesture_get_StartPosition_m4691214DBC04E256A0703D103E4779720D954DC1 (void);
-// 0x000008D3 System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::set_StartPosition(UnityEngine.Vector2)
+// 0x00000A9A System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::set_StartPosition(UnityEngine.Vector2)
 extern void TapGesture_set_StartPosition_mF0AED45BAF76493917DDC2EF2DC1A2AB34830F8B (void);
-// 0x000008D4 System.Boolean GoogleARCore.Examples.ObjectManipulation.TapGesture::CanStart()
+// 0x00000A9B System.Boolean GoogleARCore.Examples.ObjectManipulation.TapGesture::CanStart()
 extern void TapGesture_CanStart_m6BBDCC8CB64E69D78F22F117CDDD1CBEB2002428 (void);
-// 0x000008D5 System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::OnStart()
+// 0x00000A9C System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::OnStart()
 extern void TapGesture_OnStart_mE2B174EAF83A091434015A7699E77EDF16A90D81 (void);
-// 0x000008D6 System.Boolean GoogleARCore.Examples.ObjectManipulation.TapGesture::UpdateGesture()
+// 0x00000A9D System.Boolean GoogleARCore.Examples.ObjectManipulation.TapGesture::UpdateGesture()
 extern void TapGesture_UpdateGesture_m9DD3E19745FC80CFBFD4BC77B0BD15EEE74CB6DE (void);
-// 0x000008D7 System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::OnCancel()
+// 0x00000A9E System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::OnCancel()
 extern void TapGesture_OnCancel_mC34365CA95C9938129C88150D797D866FD0B9A33 (void);
-// 0x000008D8 System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::OnFinish()
+// 0x00000A9F System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::OnFinish()
 extern void TapGesture_OnFinish_mAE777995CDE47691993B5409234AB4A37407A6F3 (void);
-// 0x000008D9 GoogleARCore.Examples.ObjectManipulation.TapGesture GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer::CreateGesture(UnityEngine.Touch)
+// 0x00000AA0 GoogleARCore.Examples.ObjectManipulation.TapGesture GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer::CreateGesture(UnityEngine.Touch)
 extern void TapGestureRecognizer_CreateGesture_m505374D8BF06D468C0B6E4B2C0774D4B92C129AE (void);
-// 0x000008DA System.Void GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer::TryCreateGestures()
+// 0x00000AA1 System.Void GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer::TryCreateGestures()
 extern void TapGestureRecognizer_TryCreateGestures_m96AD111F16EE28C8BEC3A400F03826B9D156D07D (void);
-// 0x000008DB System.Void GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer::.ctor()
+// 0x00000AA2 System.Void GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer::.ctor()
 extern void TapGestureRecognizer__ctor_m7609123483D64036C6ED07627CB3987ED17CDC6D (void);
-// 0x000008DC System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer,UnityEngine.Touch,UnityEngine.Touch)
+// 0x00000AA3 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer,UnityEngine.Touch,UnityEngine.Touch)
 extern void TwistGesture__ctor_m5C6727E0D757706DFCFB999945CFE21A6C644B38 (void);
-// 0x000008DD System.Int32 GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_FingerId1()
+// 0x00000AA4 System.Int32 GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_FingerId1()
 extern void TwistGesture_get_FingerId1_mE194ECC51043A8FB6BA5E4B90A0CEDE681E9D51F (void);
-// 0x000008DE System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_FingerId1(System.Int32)
+// 0x00000AA5 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_FingerId1(System.Int32)
 extern void TwistGesture_set_FingerId1_m46AD364D14CDD985AA22E94C134A63E7D246C9FF (void);
-// 0x000008DF System.Int32 GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_FingerId2()
+// 0x00000AA6 System.Int32 GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_FingerId2()
 extern void TwistGesture_get_FingerId2_m6AFE4C2E0D3CC5A7AECE9CC4D2E26EE7A16E5771 (void);
-// 0x000008E0 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_FingerId2(System.Int32)
+// 0x00000AA7 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_FingerId2(System.Int32)
 extern void TwistGesture_set_FingerId2_mDABBFA40DEAA855CC8B967C0D6F05DA0AFA86AEA (void);
-// 0x000008E1 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_StartPosition1()
+// 0x00000AA8 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_StartPosition1()
 extern void TwistGesture_get_StartPosition1_mC9DB00D72EA60F8EC517C18907AB5BE6FEB298CF (void);
-// 0x000008E2 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_StartPosition1(UnityEngine.Vector2)
+// 0x00000AA9 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_StartPosition1(UnityEngine.Vector2)
 extern void TwistGesture_set_StartPosition1_m5424F3694C1B04DE5657CBCE0B4181CC73BCBF39 (void);
-// 0x000008E3 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_StartPosition2()
+// 0x00000AAA UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_StartPosition2()
 extern void TwistGesture_get_StartPosition2_mCA90C7537DEC9F555BE4918222831C26DE287776 (void);
-// 0x000008E4 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_StartPosition2(UnityEngine.Vector2)
+// 0x00000AAB System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_StartPosition2(UnityEngine.Vector2)
 extern void TwistGesture_set_StartPosition2_mB83C075CED131F652940F2F9CA5C15C5055AF8FB (void);
-// 0x000008E5 System.Single GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_DeltaRotation()
+// 0x00000AAC System.Single GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_DeltaRotation()
 extern void TwistGesture_get_DeltaRotation_mCDA617AC17089C7F06A0F7FE6ECBEF54BD29576E (void);
-// 0x000008E6 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_DeltaRotation(System.Single)
+// 0x00000AAD System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_DeltaRotation(System.Single)
 extern void TwistGesture_set_DeltaRotation_mA68CF5B824503DEED547E18567B132DB596B4141 (void);
-// 0x000008E7 System.Boolean GoogleARCore.Examples.ObjectManipulation.TwistGesture::CanStart()
+// 0x00000AAE System.Boolean GoogleARCore.Examples.ObjectManipulation.TwistGesture::CanStart()
 extern void TwistGesture_CanStart_mC340747949DBB45767F7F391B44142800A8550B3 (void);
-// 0x000008E8 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::OnStart()
+// 0x00000AAF System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::OnStart()
 extern void TwistGesture_OnStart_mEDBEA1143C21AB519124B047701EEE859534F2CC (void);
-// 0x000008E9 System.Boolean GoogleARCore.Examples.ObjectManipulation.TwistGesture::UpdateGesture()
+// 0x00000AB0 System.Boolean GoogleARCore.Examples.ObjectManipulation.TwistGesture::UpdateGesture()
 extern void TwistGesture_UpdateGesture_m3820B1FE67B857E2A818E0E89039AF9E4AE31BDC (void);
-// 0x000008EA System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::OnCancel()
+// 0x00000AB1 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::OnCancel()
 extern void TwistGesture_OnCancel_m17ADBD67F7CB4D7AA328CFB49B35F1005E6EE9AD (void);
-// 0x000008EB System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::OnFinish()
+// 0x00000AB2 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::OnFinish()
 extern void TwistGesture_OnFinish_m06850DD4108CC547D7C6FDDF3C8EE9CDE2960501 (void);
-// 0x000008EC System.Single GoogleARCore.Examples.ObjectManipulation.TwistGesture::CalculateDeltaRotation(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x00000AB3 System.Single GoogleARCore.Examples.ObjectManipulation.TwistGesture::CalculateDeltaRotation(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
 extern void TwistGesture_CalculateDeltaRotation_mD44373D5999E11AE4104AD19134351D6D73DEFEC (void);
-// 0x000008ED GoogleARCore.Examples.ObjectManipulation.TwistGesture GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer::CreateGesture(UnityEngine.Touch,UnityEngine.Touch)
+// 0x00000AB4 GoogleARCore.Examples.ObjectManipulation.TwistGesture GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer::CreateGesture(UnityEngine.Touch,UnityEngine.Touch)
 extern void TwistGestureRecognizer_CreateGesture_m00E66C3C64528CC8C496724EED8FA61F418A0B75 (void);
-// 0x000008EE System.Void GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer::TryCreateGestures()
+// 0x00000AB5 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer::TryCreateGestures()
 extern void TwistGestureRecognizer_TryCreateGestures_m68FF35A8BC89238B518DFD78E05C9C89EDB01642 (void);
-// 0x000008EF System.Void GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer::.ctor()
+// 0x00000AB6 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer::.ctor()
 extern void TwistGestureRecognizer__ctor_m2E5B53AB6DFE3A0E6BA8DA59CF39A46F37DFB446 (void);
-// 0x000008F0 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer,UnityEngine.Touch,UnityEngine.Touch)
+// 0x00000AB7 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer,UnityEngine.Touch,UnityEngine.Touch)
 extern void TwoFingerDragGesture__ctor_m6C1B16F33B46810FB16A178F08F8D739695706E0 (void);
-// 0x000008F1 System.Int32 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_FingerId1()
+// 0x00000AB8 System.Int32 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_FingerId1()
 extern void TwoFingerDragGesture_get_FingerId1_mD1B064C54CFC4C412B91C5DE45565311752B4F64 (void);
-// 0x000008F2 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_FingerId1(System.Int32)
+// 0x00000AB9 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_FingerId1(System.Int32)
 extern void TwoFingerDragGesture_set_FingerId1_m99FBB331111C6912271CB1122A6E6368F4DCD522 (void);
-// 0x000008F3 System.Int32 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_FingerId2()
+// 0x00000ABA System.Int32 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_FingerId2()
 extern void TwoFingerDragGesture_get_FingerId2_m52F5A60A2CEC4ED3F78958AF4F6C0B13E95253CE (void);
-// 0x000008F4 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_FingerId2(System.Int32)
+// 0x00000ABB System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_FingerId2(System.Int32)
 extern void TwoFingerDragGesture_set_FingerId2_m8B61B1AF535FAB25DD4E936233DB6794C0C4B29F (void);
-// 0x000008F5 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_StartPosition1()
+// 0x00000ABC UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_StartPosition1()
 extern void TwoFingerDragGesture_get_StartPosition1_m5A104A8F1886939D62194603F783F19CED565D0C (void);
-// 0x000008F6 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_StartPosition1(UnityEngine.Vector2)
+// 0x00000ABD System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_StartPosition1(UnityEngine.Vector2)
 extern void TwoFingerDragGesture_set_StartPosition1_m2D780CC670321D4D6B9A15DEA4E089D9108CACAE (void);
-// 0x000008F7 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_StartPosition2()
+// 0x00000ABE UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_StartPosition2()
 extern void TwoFingerDragGesture_get_StartPosition2_mDF80E00B3394FDF8EBA0D9A918A8B4D4DD4CE1C2 (void);
-// 0x000008F8 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_StartPosition2(UnityEngine.Vector2)
+// 0x00000ABF System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_StartPosition2(UnityEngine.Vector2)
 extern void TwoFingerDragGesture_set_StartPosition2_m7A6EDBE5731C4939FDC730C678F9D4EAE74577C4 (void);
-// 0x000008F9 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_Position()
+// 0x00000AC0 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_Position()
 extern void TwoFingerDragGesture_get_Position_m65A5299B965F23B2B30C7E707BDC74C3EDFB8BD2 (void);
-// 0x000008FA System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_Position(UnityEngine.Vector2)
+// 0x00000AC1 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_Position(UnityEngine.Vector2)
 extern void TwoFingerDragGesture_set_Position_m4ADF24869CE376506C2F7B2E657DDFD589070D3A (void);
-// 0x000008FB UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_Delta()
+// 0x00000AC2 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_Delta()
 extern void TwoFingerDragGesture_get_Delta_m54FD15611F5980C5C72D73B516EEAF86E6C4728B (void);
-// 0x000008FC System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_Delta(UnityEngine.Vector2)
+// 0x00000AC3 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_Delta(UnityEngine.Vector2)
 extern void TwoFingerDragGesture_set_Delta_m9CF0F852B22EA85FD3BF2AFE41A568DBF832A0E9 (void);
-// 0x000008FD System.Boolean GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::CanStart()
+// 0x00000AC4 System.Boolean GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::CanStart()
 extern void TwoFingerDragGesture_CanStart_mE453411F693FA6E55A07EB5513E0E56E080FA086 (void);
-// 0x000008FE System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::OnStart()
+// 0x00000AC5 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::OnStart()
 extern void TwoFingerDragGesture_OnStart_m9943B798225B89237873990DCB7839C599E51125 (void);
-// 0x000008FF System.Boolean GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::UpdateGesture()
+// 0x00000AC6 System.Boolean GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::UpdateGesture()
 extern void TwoFingerDragGesture_UpdateGesture_m79A052D1D6F4E8905B35B7C39765BF7E19E70B4A (void);
-// 0x00000900 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::OnCancel()
+// 0x00000AC7 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::OnCancel()
 extern void TwoFingerDragGesture_OnCancel_m02C8595B7430C125CA4A6549B6521B5572EF9744 (void);
-// 0x00000901 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::OnFinish()
+// 0x00000AC8 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::OnFinish()
 extern void TwoFingerDragGesture_OnFinish_m82C8AF76D53C8C1513492BD92CDDEEE32C4A9253 (void);
-// 0x00000902 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer::CreateGesture(UnityEngine.Touch,UnityEngine.Touch)
+// 0x00000AC9 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer::CreateGesture(UnityEngine.Touch,UnityEngine.Touch)
 extern void TwoFingerDragGestureRecognizer_CreateGesture_mFE24C8F6F8225D29D7848C9E49EC1981E1A6EB1D (void);
-// 0x00000903 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer::TryCreateGestures()
+// 0x00000ACA System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer::TryCreateGestures()
 extern void TwoFingerDragGestureRecognizer_TryCreateGestures_m91A321F4AB6C3A42F3081C47153246BA321A7EEE (void);
-// 0x00000904 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer::.ctor()
+// 0x00000ACB System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer::.ctor()
 extern void TwoFingerDragGestureRecognizer__ctor_m006692FDB5517C575D374F6B3EAD9CAC69BFA0C7 (void);
-// 0x00000905 GoogleARCore.Examples.ObjectManipulation.ManipulationSystem GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_Instance()
+// 0x00000ACC GoogleARCore.Examples.ObjectManipulation.ManipulationSystem GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_Instance()
 extern void ManipulationSystem_get_Instance_mB12C3A94F936FC03ADC391E974D8445D76A12146 (void);
-// 0x00000906 GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_DragGestureRecognizer()
+// 0x00000ACD GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_DragGestureRecognizer()
 extern void ManipulationSystem_get_DragGestureRecognizer_m9C9007D26BD4D36004319D20DBD9E52E8B6BC1F6 (void);
-// 0x00000907 GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_PinchGestureRecognizer()
+// 0x00000ACE GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_PinchGestureRecognizer()
 extern void ManipulationSystem_get_PinchGestureRecognizer_m70C0A38F4F3CCEDF2649B3A5B1244755BC730887 (void);
-// 0x00000908 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_TwoFingerDragGestureRecognizer()
+// 0x00000ACF GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_TwoFingerDragGestureRecognizer()
 extern void ManipulationSystem_get_TwoFingerDragGestureRecognizer_m115F1C10D368AE66D5C79B92577E424B6805090B (void);
-// 0x00000909 GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_TapGestureRecognizer()
+// 0x00000AD0 GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_TapGestureRecognizer()
 extern void ManipulationSystem_get_TapGestureRecognizer_m56C379F24A203B5805FC5E98EFF4621759E85D22 (void);
-// 0x0000090A GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_TwistGestureRecognizer()
+// 0x00000AD1 GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_TwistGestureRecognizer()
 extern void ManipulationSystem_get_TwistGestureRecognizer_m2BCFE5DCE07857C96D7EE746CA959E5088740ED5 (void);
-// 0x0000090B UnityEngine.GameObject GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_SelectedObject()
+// 0x00000AD2 UnityEngine.GameObject GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_SelectedObject()
 extern void ManipulationSystem_get_SelectedObject_mF3BEAE81B91CF4DCF4ABC70D80745B477A0ACE6F (void);
-// 0x0000090C System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::set_SelectedObject(UnityEngine.GameObject)
+// 0x00000AD3 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::set_SelectedObject(UnityEngine.GameObject)
 extern void ManipulationSystem_set_SelectedObject_m4624AD79DC63E2E456F96D4384129B8E83F07E62 (void);
-// 0x0000090D System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::Awake()
+// 0x00000AD4 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::Awake()
 extern void ManipulationSystem_Awake_mF2F0CD8DC26757411156A3255146AF3B5599F2FF (void);
-// 0x0000090E System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::Update()
+// 0x00000AD5 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::Update()
 extern void ManipulationSystem_Update_m5BC92060FBBFDEE533EDAD0F4D66E1AF84317ADE (void);
-// 0x0000090F System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::Deselect()
+// 0x00000AD6 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::Deselect()
 extern void ManipulationSystem_Deselect_m112A5D8A9C260DDECD849E89E1AA114AE7EDCC7E (void);
-// 0x00000910 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::Select(UnityEngine.GameObject)
+// 0x00000AD7 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::Select(UnityEngine.GameObject)
 extern void ManipulationSystem_Select_m421581C9D80B3269141E0EEEEDB9331E8163BC8A (void);
-// 0x00000911 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::.ctor()
+// 0x00000AD8 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::.ctor()
 extern void ManipulationSystem__ctor_mD5C016C2A826EE75764D51A58992739F8ED11387 (void);
-// 0x00000912 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::.cctor()
+// 0x00000AD9 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::.cctor()
 extern void ManipulationSystem__cctor_mAAF91B381473E11E93578C2390486E996592B55C (void);
-// 0x00000913 System.Boolean GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+// 0x00000ADA System.Boolean GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
 extern void ElevationManipulator_CanStartManipulationForGesture_m65AA24B6198FD0EE825D49E88065C7D896B89D44 (void);
-// 0x00000914 System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+// 0x00000ADB System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
 extern void ElevationManipulator_OnStartManipulation_m3FCF552A7A1F0CBD19BAFA0DC909532199BE8CC1 (void);
-// 0x00000915 System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+// 0x00000ADC System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
 extern void ElevationManipulator_OnContinueManipulation_m087D23B19469DAEA608CA5ACC528D1C0C3344D11 (void);
-// 0x00000916 System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+// 0x00000ADD System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
 extern void ElevationManipulator_OnEndManipulation_m7C25FA8E8E8F32A6CFFDED1D0ECEA9B0E3D414E2 (void);
-// 0x00000917 System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnStartElevationVisualization(UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x00000ADE System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnStartElevationVisualization(UnityEngine.Vector3,UnityEngine.Vector3)
 extern void ElevationManipulator_OnStartElevationVisualization_m502EB419E80068C7826E5AA95E379C144590AE33 (void);
-// 0x00000918 System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnContinueElevationVisualization(UnityEngine.Vector3)
+// 0x00000ADF System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnContinueElevationVisualization(UnityEngine.Vector3)
 extern void ElevationManipulator_OnContinueElevationVisualization_mC0D0C9E9C5CD6B946762A0878BDE9DB93849ECF5 (void);
-// 0x00000919 System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnEndElevationVisualization()
+// 0x00000AE0 System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnEndElevationVisualization()
 extern void ElevationManipulator_OnEndElevationVisualization_m565BBE75FD8B79962AD2772A2319275EFE968CC4 (void);
-// 0x0000091A System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::.ctor()
+// 0x00000AE1 System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::.ctor()
 extern void ElevationManipulator__ctor_m0483A4608983080DC4A0DAE9E287ED65B4418FC0 (void);
-// 0x0000091B System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::Select()
+// 0x00000AE2 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::Select()
 extern void Manipulator_Select_m007FDBFDC0369F87071F99F6F1A2BB728EF50C40 (void);
-// 0x0000091C System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::Deselect()
+// 0x00000AE3 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::Deselect()
 extern void Manipulator_Deselect_m48D2101A86EEA761D97F4F7E4EF2548BC5F02BAF (void);
-// 0x0000091D System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::IsSelected()
+// 0x00000AE4 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::IsSelected()
 extern void Manipulator_IsSelected_m6D141BF57E7379E9D54F12BBD098903F930514D0 (void);
-// 0x0000091E System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000AE5 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void Manipulator_CanStartManipulationForGesture_m3A1FC8FEDDFCBE1A2BFD2A1393B75C1805492AF4 (void);
-// 0x0000091F System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+// 0x00000AE6 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
 extern void Manipulator_CanStartManipulationForGesture_mF64DCD0AEA08DD7E47FFF04FFCB7CE4229E52ABB (void);
-// 0x00000920 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+// 0x00000AE7 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TapGesture)
 extern void Manipulator_CanStartManipulationForGesture_mF58EB085A107E75C4A8E9F5AE5A22DBEB01E43D2 (void);
-// 0x00000921 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+// 0x00000AE8 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
 extern void Manipulator_CanStartManipulationForGesture_m7703C732F2B656E675FDB56F91F7FE0240F962CF (void);
-// 0x00000922 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+// 0x00000AE9 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
 extern void Manipulator_CanStartManipulationForGesture_m4B10FBF3DF54D8D82B719E71A5FAFB1C327FFBD5 (void);
-// 0x00000923 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000AEA System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void Manipulator_OnStartManipulation_m6BAF404A751F2917625BF63C040F6A416C21A37B (void);
-// 0x00000924 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+// 0x00000AEB System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
 extern void Manipulator_OnStartManipulation_mDDB173CCBC7F4632E334BDCEA4EBD40C429BF18F (void);
-// 0x00000925 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+// 0x00000AEC System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
 extern void Manipulator_OnStartManipulation_mE1B872E9C58FEEF55582F8F8D9B2AC30E777D7BF (void);
-// 0x00000926 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+// 0x00000AED System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
 extern void Manipulator_OnStartManipulation_m0AF03128D4FE3390BF670BB14DEB949D193813F4 (void);
-// 0x00000927 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+// 0x00000AEE System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
 extern void Manipulator_OnStartManipulation_mDB9D562D408846532B1DB5768C86C8A49696DE86 (void);
-// 0x00000928 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000AEF System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void Manipulator_OnContinueManipulation_mD2A8BE3D2D2D1FB0FBB40B0DFE7591384F9DF0BB (void);
-// 0x00000929 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+// 0x00000AF0 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
 extern void Manipulator_OnContinueManipulation_m425A13AEE169910306D0ADDA1FB7EB01CD0E2EE0 (void);
-// 0x0000092A System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+// 0x00000AF1 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
 extern void Manipulator_OnContinueManipulation_mDF523C374F42A2E8FB401C95460EEA7BCCB0C528 (void);
-// 0x0000092B System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+// 0x00000AF2 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
 extern void Manipulator_OnContinueManipulation_mF63E05FCDE0DE284609798809EAD0A0F6994829C (void);
-// 0x0000092C System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+// 0x00000AF3 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
 extern void Manipulator_OnContinueManipulation_m4377076410C25DE415F9D1132748D74646D49F6E (void);
-// 0x0000092D System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000AF4 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void Manipulator_OnEndManipulation_m1663E7E0D47051FC9428734E790EBF3E8E785E9C (void);
-// 0x0000092E System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+// 0x00000AF5 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
 extern void Manipulator_OnEndManipulation_mEDF727E1EA9C9B400E21C4A1C2B1B34641567A2F (void);
-// 0x0000092F System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+// 0x00000AF6 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
 extern void Manipulator_OnEndManipulation_mC70E2A0A3112F0A7F876B6DD50CF25B9D3947CD4 (void);
-// 0x00000930 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+// 0x00000AF7 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
 extern void Manipulator_OnEndManipulation_m0137FAD7B03E8E5480B208CD575ECD3DD13C1FB1 (void);
-// 0x00000931 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+// 0x00000AF8 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
 extern void Manipulator_OnEndManipulation_m824043C6A82161AA2EA1062C17BE93CBBD8C6D58 (void);
-// 0x00000932 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnSelected()
+// 0x00000AF9 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnSelected()
 extern void Manipulator_OnSelected_mDE1F3D421F082E83E1DB89218F1122E66DFC4559 (void);
-// 0x00000933 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnDeselected()
+// 0x00000AFA System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnDeselected()
 extern void Manipulator_OnDeselected_m6C8E79554B68CF2BBD2D1CD35683F79FBB5E7035 (void);
-// 0x00000934 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEnable()
+// 0x00000AFB System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEnable()
 extern void Manipulator_OnEnable_mAF4CE41031224211DBCF98E7289FD1FC8B0DDAC0 (void);
-// 0x00000935 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnDisable()
+// 0x00000AFC System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnDisable()
 extern void Manipulator_OnDisable_m586D031C331A8C553A69058CCFBEB22C6AD3788F (void);
-// 0x00000936 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::Update()
+// 0x00000AFD System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::Update()
 extern void Manipulator_Update_m907B7F3590A47C96EEDBD7D164466C7172FCD44D (void);
-// 0x00000937 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::ConnectToRecognizers()
+// 0x00000AFE System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::ConnectToRecognizers()
 extern void Manipulator_ConnectToRecognizers_mD266B6CB1FA47DF52198E6F834A21C7CFD4D73CF (void);
-// 0x00000938 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::DisconnectFromRecognizers()
+// 0x00000AFF System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::DisconnectFromRecognizers()
 extern void Manipulator_DisconnectFromRecognizers_m3368359B80C82CCC33CA84339D34E6173168FFCF (void);
-// 0x00000939 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000B00 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void Manipulator_OnGestureStarted_m79CE38B3A92955286A3C69B62EA56D8DB6EAD95D (void);
-// 0x0000093A System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+// 0x00000B01 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
 extern void Manipulator_OnGestureStarted_m57A1C4237D63CC79A4E01C57E14E8FF547D9B5E4 (void);
-// 0x0000093B System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+// 0x00000B02 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.TapGesture)
 extern void Manipulator_OnGestureStarted_m9A9FE078644E37D2CFBA95C243AAA07605C130D2 (void);
-// 0x0000093C System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+// 0x00000B03 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
 extern void Manipulator_OnGestureStarted_mADC210F6D92B5F86D9AC6C08F2D57E702AFC4480 (void);
-// 0x0000093D System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+// 0x00000B04 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
 extern void Manipulator_OnGestureStarted_mB1A439FBE9F2C943A0CB49A7E729C771E46E563C (void);
-// 0x0000093E System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000B05 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void Manipulator_OnUpdated_m903B938A4B44F05B218EB5162DE74B9DDCCFA5D8 (void);
-// 0x0000093F System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+// 0x00000B06 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
 extern void Manipulator_OnUpdated_mD9CB24F0B79C98D25A3B17367BF0BBF1FD5A6432 (void);
-// 0x00000940 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+// 0x00000B07 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.TapGesture)
 extern void Manipulator_OnUpdated_m2CBAB137B1FAF089FB64485874144D3ED5B68FDB (void);
-// 0x00000941 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+// 0x00000B08 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
 extern void Manipulator_OnUpdated_m39AE566A355838A545CA41343C972DB2B10ADE3B (void);
-// 0x00000942 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+// 0x00000B09 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
 extern void Manipulator_OnUpdated_m57D6026F28E2366E6F30F576C4083768DAA2797A (void);
-// 0x00000943 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000B0A System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void Manipulator_OnFinished_m88BA772C9E04C8DB72D278C165100592105CBF77 (void);
-// 0x00000944 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+// 0x00000B0B System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
 extern void Manipulator_OnFinished_mFDFBEAF798568383FE9CF331E97B31F857B11ED4 (void);
-// 0x00000945 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+// 0x00000B0C System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.TapGesture)
 extern void Manipulator_OnFinished_mD29EF0DD39CBAF24D63B875E073CE83344E84EA2 (void);
-// 0x00000946 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+// 0x00000B0D System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
 extern void Manipulator_OnFinished_mC1A33A3BEDF882CD9E090571E9FCB00FB95F7BF7 (void);
-// 0x00000947 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+// 0x00000B0E System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
 extern void Manipulator_OnFinished_m51D964791596F89BFA7891BC491E92D039A870E1 (void);
-// 0x00000948 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::.ctor()
+// 0x00000B0F System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::.ctor()
 extern void Manipulator__ctor_m0FE74DEC4E42CC9A0BB72248E2C74A580A4377FB (void);
-// 0x00000949 System.Boolean GoogleARCore.Examples.ObjectManipulation.RotationManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000B10 System.Boolean GoogleARCore.Examples.ObjectManipulation.RotationManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void RotationManipulator_CanStartManipulationForGesture_mD48E5EA98AD6F0C4A57C2E7385BC2C4A02E93884 (void);
-// 0x0000094A System.Boolean GoogleARCore.Examples.ObjectManipulation.RotationManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+// 0x00000B11 System.Boolean GoogleARCore.Examples.ObjectManipulation.RotationManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
 extern void RotationManipulator_CanStartManipulationForGesture_m89074D97D71341B9F48CE461CD1CDB537835E29A (void);
-// 0x0000094B System.Void GoogleARCore.Examples.ObjectManipulation.RotationManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000B12 System.Void GoogleARCore.Examples.ObjectManipulation.RotationManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void RotationManipulator_OnContinueManipulation_m3466533B9FACB31C7B5398D3326FA51475C6BF99 (void);
-// 0x0000094C System.Void GoogleARCore.Examples.ObjectManipulation.RotationManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+// 0x00000B13 System.Void GoogleARCore.Examples.ObjectManipulation.RotationManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
 extern void RotationManipulator_OnContinueManipulation_m322E4E1F7478E07388859FC391AD7C82FCD9C1C9 (void);
-// 0x0000094D System.Void GoogleARCore.Examples.ObjectManipulation.RotationManipulator::.ctor()
+// 0x00000B14 System.Void GoogleARCore.Examples.ObjectManipulation.RotationManipulator::.ctor()
 extern void RotationManipulator__ctor_m47A995E7A52D82667F8AAD26612C1893F9A17D41 (void);
-// 0x0000094E System.Single GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::get__scaleDelta()
+// 0x00000B15 System.Single GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::get__scaleDelta()
 extern void ScaleManipulator_get__scaleDelta_m7C79BBB148DE966CB7DAC4333BFCF527978FF246 (void);
-// 0x0000094F System.Single GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::get__clampedScaleRatio()
+// 0x00000B16 System.Single GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::get__clampedScaleRatio()
 extern void ScaleManipulator_get__clampedScaleRatio_mCC35AA8B51A995C0FF48746C0A05474D3EEDC62D (void);
-// 0x00000950 System.Single GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::get__currentScale()
+// 0x00000B17 System.Single GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::get__currentScale()
 extern void ScaleManipulator_get__currentScale_m4479620178364722429735EC70EACE700ADB27A9 (void);
-// 0x00000951 System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::OnEnable()
+// 0x00000B18 System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::OnEnable()
 extern void ScaleManipulator_OnEnable_m1530F50801445E9C927B3538818930AF554C53F8 (void);
-// 0x00000952 System.Boolean GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+// 0x00000B19 System.Boolean GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
 extern void ScaleManipulator_CanStartManipulationForGesture_mDB51ABAC9C75094C462BD0CBE82695E0FBA69AC0 (void);
-// 0x00000953 System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+// 0x00000B1A System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
 extern void ScaleManipulator_OnStartManipulation_m4413F43881465CC45FFF279CE64A187A46F75A13 (void);
-// 0x00000954 System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+// 0x00000B1B System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
 extern void ScaleManipulator_OnContinueManipulation_m49C6131876B65955925014D70EDD7E8CDEA82C9E (void);
-// 0x00000955 System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+// 0x00000B1C System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
 extern void ScaleManipulator_OnEndManipulation_mE425658B49DCDA672BA18D88BB0CB16707BDF971 (void);
-// 0x00000956 System.Single GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::ElasticDelta()
+// 0x00000B1D System.Single GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::ElasticDelta()
 extern void ScaleManipulator_ElasticDelta_m6E96C82463C1401DB6E85553A4DEB2D513363CF8 (void);
-// 0x00000957 System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::LateUpdate()
+// 0x00000B1E System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::LateUpdate()
 extern void ScaleManipulator_LateUpdate_mE9BCEFE362AE548747C0F756A58B327B50EBCFB8 (void);
-// 0x00000958 System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::.ctor()
+// 0x00000B1F System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::.ctor()
 extern void ScaleManipulator__ctor_mB15E74322AEDA419D8FE163ED4B52AFAA1C8A46B (void);
-// 0x00000959 System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnElevationChanged(System.Single)
+// 0x00000B20 System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnElevationChanged(System.Single)
 extern void SelectionManipulator_OnElevationChanged_m1F224ADCB83E242FA0987EFC6DFC9F7B7E758575 (void);
-// 0x0000095A System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnElevationChangedScaled(System.Single)
+// 0x00000B21 System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnElevationChangedScaled(System.Single)
 extern void SelectionManipulator_OnElevationChangedScaled_m350B735A5820028966C3A48109F86E05063102F6 (void);
-// 0x0000095B System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::Update()
+// 0x00000B22 System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::Update()
 extern void SelectionManipulator_Update_m2A1AB71ABDB81F0D3E00AC29BFAED53F7061E9C3 (void);
-// 0x0000095C System.Boolean GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+// 0x00000B23 System.Boolean GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TapGesture)
 extern void SelectionManipulator_CanStartManipulationForGesture_mF4129C8B712ADF62EF81702F275EFD9135E317E3 (void);
-// 0x0000095D System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+// 0x00000B24 System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
 extern void SelectionManipulator_OnEndManipulation_mA73C6E86E399EA306FAB85719B5A64388A07490D (void);
-// 0x0000095E System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnSelected()
+// 0x00000B25 System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnSelected()
 extern void SelectionManipulator_OnSelected_m7998642AB3D908C586CD4D9FF8048B9BD46B743A (void);
-// 0x0000095F System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnDeselected()
+// 0x00000B26 System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnDeselected()
 extern void SelectionManipulator_OnDeselected_m261E3344D2EEB734ECE17089A0F28021FDB7CF3C (void);
-// 0x00000960 System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::.ctor()
+// 0x00000B27 System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::.ctor()
 extern void SelectionManipulator__ctor_m0F6BF1CD29041090FA802DF1C51BF19A7055BDC2 (void);
-// 0x00000961 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::Start()
+// 0x00000B28 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::Start()
 extern void TranslationManipulator_Start_mA20E635599C1E7C4AD29CA11C99F9C3394987BED (void);
-// 0x00000962 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::Update()
+// 0x00000B29 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::Update()
 extern void TranslationManipulator_Update_m81BDC30D0B5791F87DA5991D04588E277D9BBF0F (void);
-// 0x00000963 System.Boolean GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000B2A System.Boolean GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void TranslationManipulator_CanStartManipulationForGesture_m885BD1A43AE7A88E0FD84AB6682025724BBD19A3 (void);
-// 0x00000964 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000B2B System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void TranslationManipulator_OnStartManipulation_m5A9DB9A7A18BC7014E21864C8F1D6ED0F2876608 (void);
-// 0x00000965 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000B2C System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void TranslationManipulator_OnContinueManipulation_m0340C361311C6E8820AD3F4087E19164EC8196D5 (void);
-// 0x00000966 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+// 0x00000B2D System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
 extern void TranslationManipulator_OnEndManipulation_mAA915F048BE30B2727DE47E1C591040FBA03F162 (void);
-// 0x00000967 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::UpdatePosition()
+// 0x00000B2E System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::UpdatePosition()
 extern void TranslationManipulator_UpdatePosition_m8DD6027F977EE16936986461E031697D53D157B6 (void);
-// 0x00000968 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::.ctor()
+// 0x00000B2F System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::.ctor()
 extern void TranslationManipulator__ctor_mD2F4E42B27B4E506DFA5B9882B1F8D2479FADE0C (void);
-// 0x00000969 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::Update()
+// 0x00000B30 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::Update()
 extern void ObjectManipulationController_Update_m6BAF66BC1E183909C2100E7156824D3B1504A775 (void);
-// 0x0000096A System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::Awake()
+// 0x00000B31 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::Awake()
 extern void ObjectManipulationController_Awake_mD444FB29ABA09B634E4D30BF421317BCA88225DD (void);
-// 0x0000096B System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::UpdateApplicationLifecycle()
+// 0x00000B32 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::UpdateApplicationLifecycle()
 extern void ObjectManipulationController_UpdateApplicationLifecycle_m63C4AA2BF2D2563FD66028DC5214D18C1797D0F5 (void);
-// 0x0000096C System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::DoQuit()
+// 0x00000B33 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::DoQuit()
 extern void ObjectManipulationController_DoQuit_m8C861C8CFCB0F8148A5838F4A83E3B1F8B42704C (void);
-// 0x0000096D System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::ShowAndroidToastMessage(System.String)
+// 0x00000B34 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::ShowAndroidToastMessage(System.String)
 extern void ObjectManipulationController_ShowAndroidToastMessage_mC6EDA127988DB1B50530EFED831F379779E73511 (void);
-// 0x0000096E System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::.ctor()
+// 0x00000B35 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::.ctor()
 extern void ObjectManipulationController__ctor_m7ACF5D12C786F4C2C3CB61845E1BDDDAEACF5FF4 (void);
-// 0x0000096F System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController/<>c__DisplayClass5_0::.ctor()
+// 0x00000B36 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController/<>c__DisplayClass5_0::.ctor()
 extern void U3CU3Ec__DisplayClass5_0__ctor_m39724C193F51A7DAD745878010AD87CAD5FDE027 (void);
-// 0x00000970 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController/<>c__DisplayClass5_0::<ShowAndroidToastMessage>b__0()
-extern void U3CU3Ec__DisplayClass5_0_U3CShowAndroidToastMessageU3Eb__0_m0EA462BBD4768AFA185996E8E8F169F7427FD0D1 (void);
-// 0x00000971 System.Boolean GoogleARCore.Examples.ObjectManipulation.PawnManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+// 0x00000B37 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController/<>c__DisplayClass5_1::.ctor()
+extern void U3CU3Ec__DisplayClass5_1__ctor_mED25CE23D48376731450F43140995A54101D4D25 (void);
+// 0x00000B38 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController/<>c__DisplayClass5_1::<ShowAndroidToastMessage>b__0()
+extern void U3CU3Ec__DisplayClass5_1_U3CShowAndroidToastMessageU3Eb__0_m0F58122B297C88CDBE7017398F074CDB94093167 (void);
+// 0x00000B39 System.Boolean GoogleARCore.Examples.ObjectManipulation.PawnManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TapGesture)
 extern void PawnManipulator_CanStartManipulationForGesture_m426B93C5227FBCC47A0BE3D5D5275F6085A2EA7C (void);
-// 0x00000972 System.Void GoogleARCore.Examples.ObjectManipulation.PawnManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+// 0x00000B3A System.Void GoogleARCore.Examples.ObjectManipulation.PawnManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
 extern void PawnManipulator_OnEndManipulation_m7D7BAACD458E1EDB8B92D99B15C49188616907BF (void);
-// 0x00000973 System.Void GoogleARCore.Examples.ObjectManipulation.PawnManipulator::.ctor()
+// 0x00000B3B System.Void GoogleARCore.Examples.ObjectManipulation.PawnManipulator::.ctor()
 extern void PawnManipulator__ctor_m0E89ECBC6DA43C90AB8AAC9E5DD6257EA7B45CD9 (void);
-static Il2CppMethodPointer s_methodPointers[2419] = 
+static Il2CppMethodPointer s_methodPointers[2875] = 
 {
 	EmbeddedAttribute__ctor_m90D0B6DEB625101355554D49B2EE2FB67C875860,
 	IsReadOnlyAttribute__ctor_mF1843241F60B2240CFAE651F1FD8A7AE17E32ECD,
@@ -5459,6 +6371,447 @@ static Il2CppMethodPointer s_methodPointers[2419] =
 	WaterGridManager_Update_m4958222D5A201A51D759ED5ACA7E07FED87A76F6,
 	WaterGridManager_OnDestroy_m8439D64DE6936E7C6862AC9C6C2131C8F1142789,
 	WaterGridManager__ctor_m08C8B00CAE6EB0B82EF96250A9D4887FB480ACD7,
+	JoystickPlayerExample_FixedUpdate_m3D7D2B1BE8C20574423088EF0C338700444B04B2,
+	JoystickPlayerExample__ctor_mEE8014E341485D43F0629DE22DB9F407E47FC49B,
+	JoystickSetterExample_ModeChanged_m79A8E404B1B30FAEECF0A21A55933659F664249B,
+	JoystickSetterExample_AxisChanged_mE5DDF00D9E76A95282555A47E8789961A708642F,
+	JoystickSetterExample_SnapX_mD9AF3A51530489B40CACB5C4CE390B7BB930D7C7,
+	JoystickSetterExample_SnapY_m16DC4EBA6DAFCDDEF054FCF901169B33AB7B01BF,
+	JoystickSetterExample_Update_m0DEB8289C3A0133C8FAE885C6698C6082C51E3F6,
+	JoystickSetterExample__ctor_m2E65CFF997EC9703B4049E1F3870FC0AB3739C84,
+	Joystick_get_Horizontal_m1AE640531EE5E28A63A8D5AC757F9753DDA56321,
+	Joystick_get_Vertical_m56B4D1C75DABA23923EF2E9C20543858E90D23C2,
+	Joystick_get_Direction_mF002E7B698C393FF866864D4A552357C535D36C5,
+	Joystick_get_HandleRange_mF0843B8C3E187FB08DD7EFF63F4AA4E9D30F4C99,
+	Joystick_set_HandleRange_m7C2C550DE23BA7D39DD2015EFAC0DBB53087E0DD,
+	Joystick_get_DeadZone_m9CFD309045AF6FC6F40430F2E84B04AF644A7355,
+	Joystick_set_DeadZone_m9A107FE7A8EF41E9FBEB6979B1B17FD79C3F127C,
+	Joystick_get_AxisOptions_m3098305D1A5F1F48444A1ADAEC7BD46E980E274B,
+	Joystick_set_AxisOptions_m671D494CBF07962B24BF4024059715FA650BB9EF,
+	Joystick_get_SnapX_mE645B0DB8C99081261ED3DF264B9AB41E92769E6,
+	Joystick_set_SnapX_m710022BEA478442D17908F10F5BA53375705AC3B,
+	Joystick_get_SnapY_mF8086B253937812A6BF0BA6D0818313899CBA564,
+	Joystick_set_SnapY_mAD4C6843FD698B99D23F21C3A15D9CE928289508,
+	Joystick_Start_m3B4EEAA0389B5CCCA1479ACC4A167376E74BC275,
+	Joystick_OnPointerDown_mB2A665CAD2B74565B6A1ACE2CA5A98A66020CE18,
+	Joystick_OnDrag_m1127276AFCEF63DE869AC5156DE7712810B6C46D,
+	Joystick_HandleInput_m38CE2907CF406D1F4B327F197E0CCED1C6DD8CC7,
+	Joystick_FormatInput_m6EAB109EE0C7D5EB1389E2277AD72335EF140826,
+	Joystick_SnapFloat_m0A47278C9A57AC4A6696C0C13450F8F404580C19,
+	Joystick_OnPointerUp_m84FA57FCD3325BDEE02FED329B1C963C4DA2A037,
+	Joystick_ScreenPointToAnchoredPosition_mAD769BA610FABC0D9C47294736AB0832C558D3FD,
+	Joystick__ctor_mF7C14D62A9A6B3BD77F6365BB88DE406A9CE4E08,
+	DynamicJoystick_get_MoveThreshold_m58D7166511D10A9933A62403E6BD58A85A22FE11,
+	DynamicJoystick_set_MoveThreshold_m5A53DE83993960EA2650FB12F596E8C48C561199,
+	DynamicJoystick_Start_mA61574C0A57F93B6604DFD076E6D2B8959637FF6,
+	DynamicJoystick_OnPointerDown_m86184227C74C293693A120601730591FE892D477,
+	DynamicJoystick_OnPointerUp_m19326842BD55962349FA84108425A679F320166A,
+	DynamicJoystick_HandleInput_m9E141917F78D7887B05AEE4933F803D43F8A82AA,
+	DynamicJoystick__ctor_m30E27EBE028214E9F514F3788463A74511DC651D,
+	FixedJoystick__ctor_mC4A98EB3129E3091007AD83B5B93672E7E9151B6,
+	FloatingJoystick_Start_m290C93EC665E6DB28F837EE06CA2606EBA99C016,
+	FloatingJoystick_OnPointerDown_m8C00303A73289775A64DC879CCC9182B5BC849C5,
+	FloatingJoystick_OnPointerUp_m26F0DEE158E1947EE053FE21B01ADA413FF3D4A2,
+	FloatingJoystick__ctor_mA6F4B5F4A0C881759BFAD91256D5BE5E90399F8F,
+	VariableJoystick_get_MoveThreshold_m417DCAF09D8B811441FED64D4AE2854B00217EFA,
+	VariableJoystick_set_MoveThreshold_mBF85E683260C0609A921EE7A1AD636E34B8FF5A0,
+	VariableJoystick_SetMode_m600C4C6E1FA830CF452EE33155AD60671BBEB04C,
+	VariableJoystick_Start_m6BDC051D277BBFA7C373186E2825DE5429219169,
+	VariableJoystick_OnPointerDown_m1C27A5FF5BB7149FB39CC27B69DCBF3FB4F45ADB,
+	VariableJoystick_OnPointerUp_mFD7BF52D93B0B573E9227D5E971778EC003A1AC2,
+	VariableJoystick_HandleInput_m868BD21C589C135310923B8C794AD5BA316C2D3A,
+	VariableJoystick__ctor_m1E03B9859AAB8461C7A42706AE4E31606969C25F,
+	AppSettingsExtensions_GetChatSettings_m547048BD6E0B67404CD9EEE88C00F2396DF93BFC,
+	ChannelSelector_SetChannel_m73C936B325A97928B7A90D7C263923DB1608AD3E,
+	ChannelSelector_OnPointerClick_mF2CE1256B4C1587300BC65F68C57871E9D04EF5B,
+	ChannelSelector__ctor_m955A69F0C09110A7184264FC4A400625C9C3712B,
+	ChatAppIdCheckerUI_Update_m3E0F22639A6DC1534C8E37925CAD3F7F0C169A69,
+	ChatAppIdCheckerUI__ctor_m810602E0BA6ACAF276B84807C7531EDF0AA7895A,
+	ChatGui_get_UserName_mFC72D99B3857A2A850E610182954EF21BFDD656B,
+	ChatGui_set_UserName_m2A5D15C5A2C57BF815E69DEBD12771BBF5F28F0E,
+	ChatGui_Start_m39521BDC549E6122372E4BD4057244FE97C85F54,
+	ChatGui_Connect_m085418B018B9DC3121B4B4F763086FE181F7CCF0,
+	ChatGui_OnDestroy_m374C72D03D08B9C92F382B4AC9B5C7ECFCB0E33E,
+	ChatGui_OnApplicationQuit_mF07E706B4A1A3DD845DDD336D2FD8D67556BDC66,
+	ChatGui_Update_mEE5D2E3175984AC39518A58153C7961BB30F90BD,
+	ChatGui_OnEnterSend_mC29FE6FC78C35108FD2E3D44A5FE158744F09EFB,
+	ChatGui_OnClickSend_m2FA72879D41DD1187AA3ED5084D818ABFA2B6E49,
+	ChatGui_SendChatMessage_m5CEA1D17144CE9652A8B65E8860D0DA2E369594A,
+	ChatGui_PostHelpToCurrentChannel_mFFA856F30EAABC8F6CC153BB4BB0B42760EB102D,
+	ChatGui_DebugReturn_m8754F5B02E2B4ED03413E4CD95B810CC86617A4A,
+	ChatGui_OnConnected_m3EAFCA54E75B6AB28C363E920AE048EF5DCB4521,
+	ChatGui_OnDisconnected_m3003FC2C479F5537B1AA6F75747DA866D02B5532,
+	ChatGui_OnChatStateChange_mBC049CFBD2000061938736E7CCE03C1C91C0CB63,
+	ChatGui_OnSubscribed_m20D1F15C70C822E6AB5560B8E5140F9BD88596F1,
+	ChatGui_OnSubscribed_mA4CCF32073DDB115C554FDD5920B31620BB88B4D,
+	ChatGui_InstantiateChannelButton_m3848B8D380461CD3C4DDF9A90FE3EDD2E332ACDB,
+	ChatGui_InstantiateFriendButton_m7F07EDAD1DA6F0F76A44AFF743B7C4F459D9A849,
+	ChatGui_OnUnsubscribed_mCCCE787B3F97594074B62E14C601AFCAB61A47A2,
+	ChatGui_OnGetMessages_m399FFB8E1300C33A9EB374F9F2787374FEC80D1F,
+	ChatGui_OnPrivateMessage_m7E046C5EE238E0B998565EB88D5EC7CB0B62D76F,
+	ChatGui_OnStatusUpdate_mD19AEAB3025B776571DC5DA3AE50FFFB1C383AF1,
+	ChatGui_OnUserSubscribed_mE99340D2BD23C7D636899E650E54C37D0507DAD6,
+	ChatGui_OnUserUnsubscribed_m2E16B304BDD24E9D2C8D1A7914AEED529FF6EE7F,
+	ChatGui_OnChannelPropertiesChanged_m4E67A6E7A06ED0D03CA74B530C63AE494F68FF24,
+	ChatGui_OnUserPropertiesChanged_m5B403AC9F8175C04040510BCE6F7CEDD3B7D366B,
+	ChatGui_OnErrorInfo_m3C8983C40CEAD6BAFEC82A3997729AEBFC369C83,
+	ChatGui_AddMessageToSelectedChannel_m171FB1F09B4D53912B39728479F91056E18323E7,
+	ChatGui_ShowChannel_m48BBE9EA44EC7992C42B584E7CD2E05352789551,
+	ChatGui_OpenDashboard_m27812C12469AD5A0D2CA52D2B7E11593BCF9EC90,
+	ChatGui__ctor_mE9C452C98CEA2FA3D5007EAB2B295C57B4DCE205,
+	ChatGui__cctor_m7D892708067CB07DB58081A631DA9DFBAC7B3083,
+	FriendItem_set_FriendId_m8E9861AA8C28705ED7855791487BB3C012F60CBA,
+	FriendItem_get_FriendId_mEF088D10E35110124CC84308164FA4F5E5096DA3,
+	FriendItem_Awake_m6CC1DB18190F7F5A79029BE4AB4F6F29F519BDA0,
+	FriendItem_OnFriendStatusUpdate_mCC056D85F3DD38A7C9869E7919F64729ED0551B3,
+	FriendItem__ctor_mB9DE36BE9496080F797F23BCC813AC66857692B0,
+	IgnoreUiRaycastWhenInactive_IsRaycastLocationValid_mE22106037E41083C28AE240A56C2571C1A98D531,
+	IgnoreUiRaycastWhenInactive__ctor_m23CB38907F86355773CE8F77CC5AA54CC5854BD7,
+	NamePickGui_Start_m51D755E15E2717751111AB4747BE1116B6493729,
+	NamePickGui_EndEditOnEnter_m5FB829C5A26086E594AC805A82CD29B8F7C2D89E,
+	NamePickGui_StartChat_mE4FE987367755FCE2168B2883873504901E3319C,
+	NamePickGui__ctor_m40BA9A6C50F204FB90838B67DE6C01D345A5FAD6,
+	BulletScript_OnEnable_mD0EE0858734FE0157AE9B1FE65D02938E20D176D,
+	BulletScript_BulletDestroy_m2D515648C5859BA6FC68C86861A105574E5E16D8,
+	BulletScript_Update_mEEA5A09DE25F213593101C9F9B0BBB3D20348EAF,
+	BulletScript_OnTriggerEnter_m2AAE0602F5DD3B8214F2FFE0E7A0DFED1BC7EA29,
+	BulletScript__ctor_m100E1C957FFAB49CD0E873E7A47EF15F8DCD5E19,
+	U3CBulletDestroyU3Ed__1__ctor_m8A0B46FCA4C92BC9A6ACFB921B30AF054DDFF268,
+	U3CBulletDestroyU3Ed__1_System_IDisposable_Dispose_mE70AC2EE60F2C16DAB6FBE15D62443EA9A318EC5,
+	U3CBulletDestroyU3Ed__1_MoveNext_m53891F5C8B99554BAFDCFD3A05240A08273D2E26,
+	U3CBulletDestroyU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD4DA91EBF4E20D9019203C9972490A60BA14E478,
+	U3CBulletDestroyU3Ed__1_System_Collections_IEnumerator_Reset_mCD6AC3195AE8AF2A9FF1DB946D21521ADC5480EE,
+	U3CBulletDestroyU3Ed__1_System_Collections_IEnumerator_get_Current_mD84F7BD0E0ADF036A3C1E84AD264374596ADCE8E,
+	CharacterMove_Start_m3251498CAD39B9EA666C785524A5FB080F68DFA1,
+	CharacterMove_OnEnable_m830A8ED3C6B26B1B2DD7B1E11465D0F118C06826,
+	CharacterMove_Update_m4AD1549460617DDFFCF192E4154461AAF277371B,
+	CharacterMove_Move_mF1C81CFA3EF839E1BF57C77BF3715AC2EB6BADD6,
+	CharacterMove_FixedUpdate_m28488F92A80AAB8230AE1C9F8A28922972919B1A,
+	CharacterMove_OnTriggerEnter_m7B229D2C1124693E57D5537962C39A292B54BC6B,
+	CharacterMove__ctor_m6477C49AF6E86E0A771370DAF094CB4DA0AD0E80,
+	PhotonInit_Awake_m49730136DC495DC3BFC1344DB0674D479FE7FAEE,
+	PhotonInit_Start_m1B5287E2C639F12F8AF2D1D3C786F92917C8B202,
+	PhotonInit_OnConnected_m5E811E6E50FF1097BA91521E70D8A9A81771A5AB,
+	PhotonInit_OnConnectedToMaster_m99B4BFC1D014D5C235A0151C3F603B2C6B716E98,
+	PhotonInit_OnJoinedRoom_mFB114EC395EE95042925D3AA17EDB11D4ED10143,
+	PhotonInit_OnJoinRandomFailed_m2D30D61E32EDDE5595DBDC5F74EA73FCF3EEAC34,
+	PhotonInit__ctor_mA039617984587B3D5B0CE643B5D95A9C11EED08E,
+	PlayerSetting_Start_mF266408E19AF5ACB20268EBB0C833D6701BAA60C,
+	PlayerSetting__ctor_m4278BA9684EB10EA5142791EFC03DED5825D6E10,
+	ReaderClass_Update_m55EFB63C7FC2895A04286D83F109E5931AC2CCDF,
+	ReaderClass__ctor_m21691A15223CCECDB7F780FD1C88BCBA6EBD7BA0,
+	SingletoneClass_get_SINGLETONINT_mEFB4021F70633A79221B3C202CFAC9939919E6CF,
+	SingletoneClass_set_SINGLETONINT_mA335793DA15EFC327A2B2F11DF32EE634FBCFED5,
+	SingletoneClass__ctor_m558CA26B0F694555C9CF46830C7C16A5D56F120D,
+	SpawnStar_Start_m3F5F9EA8B5B2426BE9A36B9B98EEB00A94577904,
+	SpawnStar_OnClickMasterSpawn_mF84AF520A9362314BCA8AE1ACD8EAE3345BBE912,
+	SpawnStar_OnClickSpawn_m34C8E9E98A76F413417F486BDF4A732756F59776,
+	SpawnStar__ctor_mCA93EB59DC91E8C666AD77D2FEC87302C78DE6E4,
+	SyncronizePhoton_Awake_m74A7960744983925D5C6ABC06D66B458FFEB99B4,
+	SyncronizePhoton_Update_m12ED518213F91BB9835956EC234950B72883493C,
+	SyncronizePhoton_OnPhotonSerializeView_m4CC233B48D2D58BE180CF36B564798976A0AE9FF,
+	SyncronizePhoton__ctor_m5DE29E92A4BAA495EAB119E2ADC5285B416E369C,
+	ChatController_OnEnable_mBC3BFC05A1D47069DFA58A4F0E39CFF8FAD44FF2,
+	ChatController_OnDisable_m268A7488A3FDEB850FC3BC91A0BBDA767D42876B,
+	ChatController_AddToChatOutput_m43856EEA133E04C24701A2616E7F10D7FFA68371,
+	ChatController__ctor_m3B66A5F749B457D865E8BDA1DE481C8CF1158026,
+	DropdownSample_OnButtonClick_m97641451A2EAC4FC6682897A948A37FDD6BF9EA6,
+	DropdownSample__ctor_m87664E3DC75A1A9AA19FEE6ED6B993AB1E50E2B9,
+	EnvMapAnimator_Awake_mFFC04BC5320F83CA8C45FF36A11BF43AC17C6B93,
+	EnvMapAnimator_Start_mC0D348CAB0F0DC920EF3D3A008688B533F66D1BE,
+	EnvMapAnimator__ctor_mC151D673A394E2E7CEA8774C4004985028C5C3EC,
+	U3CStartU3Ed__4__ctor_m4D65F4FC2207AE4B6BE963AF9B5EDC55C7E29B23,
+	U3CStartU3Ed__4_System_IDisposable_Dispose_mFEE2ACED70A3D825988E28CC61FEF8DCD7660A5B,
+	U3CStartU3Ed__4_MoveNext_m2F1A8053A32AD86DA80F86391EC32EDC1C396AEE,
+	U3CStartU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF03E2A57659B8F598AC450183F55D43F903C0A1E,
+	U3CStartU3Ed__4_System_Collections_IEnumerator_Reset_m268BA538CF6812C56EB281C0CE29D5AA2E9A2CAB,
+	U3CStartU3Ed__4_System_Collections_IEnumerator_get_Current_mFE9CA9F52F9AFA1E4C9DBADA2064F854D6931CFF,
+	TMP_DigitValidator_Validate_m5D303EB8CD6E9E7D526D633BA1021884051FE226,
+	TMP_DigitValidator__ctor_m1E838567EF38170662F1BAF52A847CC2C258333E,
+	TMP_PhoneNumberValidator_Validate_mF0E90A277E9E91BC213DD02DC60088D03C9436B1,
+	TMP_PhoneNumberValidator__ctor_mB3C36CAAE3B52554C44A1D19194F0176B5A8EED3,
+	TMP_TextEventHandler_get_onCharacterSelection_m90C39320C726E8E542D91F4BBD690697349F5385,
+	TMP_TextEventHandler_set_onCharacterSelection_m5ED7658EB101C6740A921FA150DE18C443BDA0C4,
+	TMP_TextEventHandler_get_onSpriteSelection_m0E645AE1DFE19B011A3319474D0CF0DA612C8B7B,
+	TMP_TextEventHandler_set_onSpriteSelection_m4AFC6772C3357218956A5D33B3CD19F3AAF39788,
+	TMP_TextEventHandler_get_onWordSelection_mA42B89A37810FB659FCFA8539339A3BB8037203A,
+	TMP_TextEventHandler_set_onWordSelection_m4A839FAFFABAFECD073B82BA8826E1CD033C0076,
+	TMP_TextEventHandler_get_onLineSelection_mB701B6C713AD4EFC61E1B30A564EE54ADE31F58D,
+	TMP_TextEventHandler_set_onLineSelection_m0B2337598350E51D0A17B8FCB3AAA533F312F3DA,
+	TMP_TextEventHandler_get_onLinkSelection_mF5C3875D661F5B1E3712566FE16D332EA37D15BB,
+	TMP_TextEventHandler_set_onLinkSelection_m200566EDEB2C9299647F3EEAC588B51818D360A5,
+	TMP_TextEventHandler_Awake_m43EB03A4A6776A624F79457EC49E78E7B5BA1C70,
+	TMP_TextEventHandler_LateUpdate_mE1D989C40DA8E54E116E3C60217DFCAADD6FDE11,
+	TMP_TextEventHandler_OnPointerEnter_m8FC88F25858B24CE68BE80C727A3F0227A8EE5AC,
+	TMP_TextEventHandler_OnPointerExit_mBB2A74D55741F631A678A5D6997D40247FE75D44,
+	TMP_TextEventHandler_SendOnCharacterSelection_m78983D3590F1B0C242BEAB0A11FDBDABDD1814EC,
+	TMP_TextEventHandler_SendOnSpriteSelection_m10C257A74F121B95E7077F7E488FBC52380A6C53,
+	TMP_TextEventHandler_SendOnWordSelection_m95A4E5A00E339E5B8BA9AA63B98DB3E81C8B8F66,
+	TMP_TextEventHandler_SendOnLineSelection_mE85BA6ECE1188B666FD36839B8970C3E0130BC43,
+	TMP_TextEventHandler_SendOnLinkSelection_m299E6620DFD835C8258A3F48B4EA076C304E9B77,
+	TMP_TextEventHandler__ctor_m6345DC1CEA2E4209E928AD1E61C3ACA4227DD9B8,
+	CharacterSelectionEvent__ctor_m06BC183AF31BA4A2055A44514BC3FF0539DD04C7,
+	SpriteSelectionEvent__ctor_m0F760052E9A5AF44A7AF7AC006CB4B24809590F2,
+	WordSelectionEvent__ctor_m106CDEB17C520C9D20CE7120DE6BBBDEDB48886C,
+	LineSelectionEvent__ctor_m5D735FDA9B71B9147C6F791B331498F145D75018,
+	LinkSelectionEvent__ctor_m7AB7977D0D0F8883C5A98DD6BB2D390BC3CAB8E0,
+	Benchmark01_Start_mE7E5146B0D8D926CC410CAA48F3B617A0A7D955C,
+	Benchmark01__ctor_mB92568AA7A9E13B92315B6270FCA23584A7D0F7F,
+	U3CStartU3Ed__10__ctor_mBE5D8B4B98C372BD6DC3936437999DF3048DE3AB,
+	U3CStartU3Ed__10_System_IDisposable_Dispose_m1F4180A7FDAE9AC5F11F30B67F813B3D7CD56D73,
+	U3CStartU3Ed__10_MoveNext_mF3B1D38CD37FD5187C3192141DB380747C66AD3C,
+	U3CStartU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m22B2975D42326E3DE437174BBE4F0E8790CB6591,
+	U3CStartU3Ed__10_System_Collections_IEnumerator_Reset_m514DA545ECA10AA62BFC239BB582FF0017B91D2B,
+	U3CStartU3Ed__10_System_Collections_IEnumerator_get_Current_m6904A738F04118BA24E473F1809B3D69E711627E,
+	Benchmark01_UGUI_Start_m2F8F9E1798943DA8086A7C7E73BA9D7C67482BD4,
+	Benchmark01_UGUI__ctor_mACFE8D997EAB50FDBD7F671C1A25A892D9F78376,
+	U3CStartU3Ed__10__ctor_m653B757B49A674E239C804FFF4EDEF325B5DB651,
+	U3CStartU3Ed__10_System_IDisposable_Dispose_mAD0BC985E1E01C8369A7A955A60D3E545B0B3561,
+	U3CStartU3Ed__10_MoveNext_mF9B2C8D290035BC9A79C4347772B5B7B9D404DE1,
+	U3CStartU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF438D42D7C5A811FF9A283F8780F015FF55826CD,
+	U3CStartU3Ed__10_System_Collections_IEnumerator_Reset_m65545EB5B6DDDDAB5ACF92600137C1C754B322BA,
+	U3CStartU3Ed__10_System_Collections_IEnumerator_get_Current_mD4523BE1D1014AAF1C0709EB767C0B0F47D739D2,
+	Benchmark02_Start_m315C0DF3A9AC66B4F5802FDAED056E7E5F3D2046,
+	Benchmark02__ctor_m526B38D3B7E75905208E4E57B168D8AC1900F4E5,
+	Benchmark03_Awake_mD23429C1EE428EEF4ED9A753385BF194BAA41A77,
+	Benchmark03_Start_m19E638DED29CB7F96362F3C346DC47217C4AF516,
+	Benchmark03__ctor_m89F9102259BE1694EC418E9023DC563F3999B0BE,
+	Benchmark04_Start_mEABD467C12547066E33359FDC433E8B5BAD43DB9,
+	Benchmark04__ctor_m5015375E0C8D19060CB5DE14CBF4AC02DDD70E7C,
+	CameraController_Awake_m420393892377B9703EC97764B34E32890FC5283E,
+	CameraController_Start_m32D90EE7232BE6DE08D224F824F8EB9571655610,
+	CameraController_LateUpdate_m6D81DEBA4E8B443CF2AD8288F0E76E3A6B3B5373,
+	CameraController_GetPlayerInput_m6695FE20CFC691585A6AC279EDB338EC9DD13FE3,
+	CameraController__ctor_m09187FB27B590118043D4DC7B89B93164124C124,
+	ObjectSpin_Awake_mC1EB9630B6D3BAE645D3DD79C264F71F7B18A1AA,
+	ObjectSpin_Update_mD39DCBA0789DC0116037C442F0BA1EE6752E36D3,
+	ObjectSpin__ctor_m1827B9648659746252026432DFED907AEC6007FC,
+	ShaderPropAnimator_Awake_mE04C66A41CA53AB73733E7D2CCD21B30A360C5A8,
+	ShaderPropAnimator_Start_mC5AC59C59AF2F71E0CF65F11ACD787488140EDD2,
+	ShaderPropAnimator_AnimateProperties_mAF49CD157AD41377CE00AA10F0C06C8BF5AA0469,
+	ShaderPropAnimator__ctor_mAA626BC8AEEB00C5AE362FE8690D3F2200CE6E64,
+	U3CAnimatePropertiesU3Ed__6__ctor_mFAC0F8A7368D9D35AD2780C118E13414DA79B56A,
+	U3CAnimatePropertiesU3Ed__6_System_IDisposable_Dispose_m628EECBFCBC49087298185F17BC2AE7A73FC8A7B,
+	U3CAnimatePropertiesU3Ed__6_MoveNext_m8A58CCFDAE59F55AB1BB2C103800886E62C807CF,
+	U3CAnimatePropertiesU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0742A0FA62C518EBD119ED5FEBF849F918E12390,
+	U3CAnimatePropertiesU3Ed__6_System_Collections_IEnumerator_Reset_mC076F281DD17668D6CE42EB04EA974DE1FFB3F6B,
+	U3CAnimatePropertiesU3Ed__6_System_Collections_IEnumerator_get_Current_mA585E786DA86D2589EBCA029AD9E64E8B5135362,
+	SimpleScript_Start_m75CD9CEDCAFA9A991753478D7C28407C7329FB8F,
+	SimpleScript_Update_mE8C3930DCC1767C2DF59B622FABD188E6FB91BE5,
+	SimpleScript__ctor_mEB370A69544227EF04C48C604A28502ADAA73697,
+	SkewTextExample_Awake_m6FBA7E7DC9AFDD3099F0D0B9CDE91574551105DB,
+	SkewTextExample_Start_m536F82F3A5D229332694688C59F396E07F88153F,
+	SkewTextExample_CopyAnimationCurve_m555177255F5828DBC7E677ED06F7EFFC052886B3,
+	SkewTextExample_WarpText_m0E0C46988600673F0E5DFA3133534DC6CA5950D3,
+	SkewTextExample__ctor_m945059906734DD38CF860CD32B3E07635D0E1F86,
+	U3CWarpTextU3Ed__7__ctor_mEAD3C39209B75514446A44B6C2FA76F8097EBD6F,
+	U3CWarpTextU3Ed__7_System_IDisposable_Dispose_m32AA7120BE15547799BDC515FA3486488952BDCF,
+	U3CWarpTextU3Ed__7_MoveNext_mB832E4A3DFDDFECC460A510BBC664F218B3D7FCF,
+	U3CWarpTextU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3CF506B740C16FEDE58B6E1BE4556CAC2C6AEAD1,
+	U3CWarpTextU3Ed__7_System_Collections_IEnumerator_Reset_mDDCDBB794F21DF70178A75747D8D8398F38A9C2F,
+	U3CWarpTextU3Ed__7_System_Collections_IEnumerator_get_Current_m6D89CF1910F76577E23C924B535E93FD1B01CF0A,
+	TMP_ExampleScript_01_Awake_m381EF5B50E1D012B8CA1883DEFF604EEAE6D95F4,
+	TMP_ExampleScript_01_Update_m31611F22A608784F164A24444195B33B714567FB,
+	TMP_ExampleScript_01__ctor_m3641F2E0D25B6666CE77773A4A493C4C4D3D3A12,
+	TMP_FrameRateCounter_Awake_m958B668086DB4A38D9C56E3F8C2DCCB6FF11FAA3,
+	TMP_FrameRateCounter_Start_mC642CA714D0FB8482D2AC6192D976DA179EE3720,
+	TMP_FrameRateCounter_Update_m5E41B55573D86C3D345BFE11C489B00229BCEE21,
+	TMP_FrameRateCounter_Set_FrameCounter_Position_mA72ECDE464E3290E4F533491FC8113B8D4068BE1,
+	TMP_FrameRateCounter__ctor_mC79D5BF3FAE2BB7D22D9955A75E3483725BA619C,
+	TMP_TextEventCheck_OnEnable_mE6D5125EEE0720E6F414978A496066E7CF1592DF,
+	TMP_TextEventCheck_OnDisable_m94F087C259890C48D4F5464ABA4CD1D0E5863A9A,
+	TMP_TextEventCheck_OnCharacterSelection_mDA044F0808D61A99CDA374075943CEB1C92C253D,
+	TMP_TextEventCheck_OnSpriteSelection_mE8FFA550F38F5447CA37205698A30A41ADE901E0,
+	TMP_TextEventCheck_OnWordSelection_m6037166D18A938678A2B06F28A5DCB3E09FAC61B,
+	TMP_TextEventCheck_OnLineSelection_mD2BAA6C8ABD61F0442A40C5448FA7774D782C363,
+	TMP_TextEventCheck_OnLinkSelection_m184B11D5E35AC4EA7CDCE3340AB9FEE3C14BF41C,
+	TMP_TextEventCheck__ctor_mA5E82EE7CE8F8836FC6CF3823CBC7356005B898B,
+	TMP_TextInfoDebugTool__ctor_mF6AA30660FBD4CE708B6147833853498993CB9EE,
+	TMP_TextSelector_A_Awake_mD7252A5075E30E3BF9BEF4353F7AA2A9203FC943,
+	TMP_TextSelector_A_LateUpdate_mDBBC09726332EDDEAF7C30AB6C08FB33261F79FD,
+	TMP_TextSelector_A_OnPointerEnter_mC19B85FB5B4E6EB47832C39F0115A513B85060D0,
+	TMP_TextSelector_A_OnPointerExit_mE51C850F54B18A5C96E3BE015DFBB0F079E5AE66,
+	TMP_TextSelector_A__ctor_mEB83D3952B32CEE9A871EC60E3AE9B79048302BF,
+	TMP_TextSelector_B_Awake_m7E413A43C54DF9E0FE70C4E69FC682391B47205A,
+	TMP_TextSelector_B_OnEnable_m0828D13E2D407B90038442228D54FB0D7B3D29FB,
+	TMP_TextSelector_B_OnDisable_m2B559A85B52C8CAFC7350CC7B4F8E5BC773EF781,
+	TMP_TextSelector_B_ON_TEXT_CHANGED_m1597DBE7C7EBE7CFA4DC395897A4779387B59910,
+	TMP_TextSelector_B_LateUpdate_m8BA10E368C7F3483E9EC05589BBE45D7EFC75691,
+	TMP_TextSelector_B_OnPointerEnter_m0A0064632E4C0E0ADCD4358AD5BC168BFB74AC4D,
+	TMP_TextSelector_B_OnPointerExit_m667659102B5B17FBAF56593B7034E5EC1C48D43F,
+	TMP_TextSelector_B_OnPointerClick_m8DB2D22EE2F4D3965115791C81F985D82021469F,
+	TMP_TextSelector_B_OnPointerUp_m303500BE309B56F3ADCE8B461CEC50C8D5ED70BC,
+	TMP_TextSelector_B_RestoreCachedVertexAttributes_m3D637CF2C6CA663922EBE56FFD672BE582E9F1F2,
+	TMP_TextSelector_B__ctor_mE654F9F1570570C4BACDA79640B8DB3033D91C33,
+	TMP_UiFrameRateCounter_Awake_m83DBE22B6CC551BE5E385048B92067679716179E,
+	TMP_UiFrameRateCounter_Start_m59DA342A492C9EF8AD5C4512753211BF3796C944,
+	TMP_UiFrameRateCounter_Update_m28FC233C475AA15A3BE399BF9345977089997749,
+	TMP_UiFrameRateCounter_Set_FrameCounter_Position_m2025933902F312C0EC4B6A864196A8BA8D545647,
+	TMP_UiFrameRateCounter__ctor_m5774BF4B9389770FC34991095557B24417600F84,
+	TMPro_InstructionOverlay_Awake_m2444EA8749D72BCEA4DC30A328E3745AB19062EC,
+	TMPro_InstructionOverlay_Set_FrameCounter_Position_m62B897E4DB2D6B1936833EC54D9C246D68D50EEB,
+	TMPro_InstructionOverlay__ctor_m7AB5B851B4BFB07547E460D6B7B9D969DEB4A7CF,
+	TeleType_Awake_m099FCB202F2A8299B133DC56ECB9D01A16C08DFE,
+	TeleType_Start_m72DE9DE597F4FA0B1CA02115CBC1E74EB53F63F7,
+	TeleType__ctor_m12A79B34F66CBFDCA8F582F0689D1731586B90AF,
+	U3CStartU3Ed__4__ctor_mF3575DBEBF4F153F6A899AF3362940298C11B629,
+	U3CStartU3Ed__4_System_IDisposable_Dispose_m6DABFDBC2A313BF6DD90AA1C43B4EF9D6249CBE9,
+	U3CStartU3Ed__4_MoveNext_mEF7A3215376BDFB52C3DA9D26FF0459074E89715,
+	U3CStartU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m66DC06D52865D30DAA78DBD70B6554D13E2EA70B,
+	U3CStartU3Ed__4_System_Collections_IEnumerator_Reset_mE854A2CECA0E01F3C2D90DA4F720CF0F387994F8,
+	U3CStartU3Ed__4_System_Collections_IEnumerator_get_Current_m77D3936B94684C817EE9F6D2C903238A457D5261,
+	TextConsoleSimulator_Awake_mA51EE182A528CCA5CAEA8DBE8AD30E43FDFAE7B0,
+	TextConsoleSimulator_Start_m429701BE4C9A52AA6B257172A4D85D58E091E7DA,
+	TextConsoleSimulator_OnEnable_m3397FBCDA8D9DA264D2149288BE4DCF63368AB50,
+	TextConsoleSimulator_OnDisable_m43DF869E864789E215873192ECFCDC51ABA79712,
+	TextConsoleSimulator_ON_TEXT_CHANGED_m51F06EE5DD9B32FEFB529743F209C6E6C41BE3B8,
+	TextConsoleSimulator_RevealCharacters_mE8E415644F7BD2056D0809F7BB0FA9A2F9FE8534,
+	TextConsoleSimulator_RevealWords_mFDBC863D30BC63ADCF2860F303AF252E27D0F4F4,
+	TextConsoleSimulator__ctor_m4719FB9D4D89F37234757D93876DF0193E8E2848,
+	U3CRevealCharactersU3Ed__7__ctor_mD45A85F5F50909F70C80AC8CE460F4FD261CDE9D,
+	U3CRevealCharactersU3Ed__7_System_IDisposable_Dispose_m85F270FDC11A4D79E9CF47AADC9FA1FBF032F86C,
+	U3CRevealCharactersU3Ed__7_MoveNext_mA9A6555E50889A7AA73F20749F25989165023DE3,
+	U3CRevealCharactersU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5BBAE6868EB7F1C11BE5DF001641E18C9D625F83,
+	U3CRevealCharactersU3Ed__7_System_Collections_IEnumerator_Reset_mA9F4893381AB24E01EAEBFC38A88AF363A9A0691,
+	U3CRevealCharactersU3Ed__7_System_Collections_IEnumerator_get_Current_mFD0B7538B1A650FB389FFE9296B0E51AEA5B6B6F,
+	U3CRevealWordsU3Ed__8__ctor_m22FF9E770988107A928C5D1EA639F60239BFFEF0,
+	U3CRevealWordsU3Ed__8_System_IDisposable_Dispose_m3EAF6EF4A8C99A71FEED251BF3F28A26BF6AD7F8,
+	U3CRevealWordsU3Ed__8_MoveNext_m3811753E2384D4CBBAD6BD712EBA4FAF00D73210,
+	U3CRevealWordsU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA3F93E4AA532F15D52D68B7121805C014AB2D7FB,
+	U3CRevealWordsU3Ed__8_System_Collections_IEnumerator_Reset_mCDC8982948ED5F7743567569CA1D4A354218714F,
+	U3CRevealWordsU3Ed__8_System_Collections_IEnumerator_get_Current_mF39E492D576810F58DB9031556CFD6806FD32E27,
+	TextMeshProFloatingText_Awake_m679E597FF18E192C1FBD263D0E5ECEA392412046,
+	TextMeshProFloatingText_Start_m68E511DEEDA883FE0F0999B329451F3A8A7269B1,
+	TextMeshProFloatingText_DisplayTextMeshProFloatingText_m3C381B8A53C58CF001D7A9212B8BDA6F368CC2C7,
+	TextMeshProFloatingText_DisplayTextMeshFloatingText_m22691E6EA41B7FCF782B03954865D8E3B890E4DF,
+	TextMeshProFloatingText__ctor_m968E2691E21A93C010CF8205BC3666ADF712457E,
+	U3CDisplayTextMeshProFloatingTextU3Ed__12__ctor_mA27BBC06A409A9D9FB03E0D2C74677486B80D168,
+	U3CDisplayTextMeshProFloatingTextU3Ed__12_System_IDisposable_Dispose_m510FB73335FCBCBEC6AC61A4F2A0217722BF27FC,
+	U3CDisplayTextMeshProFloatingTextU3Ed__12_MoveNext_m8DFB6850F5F9B8DF05173D4CB9C76B997EC87B57,
+	U3CDisplayTextMeshProFloatingTextU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCD7B5218C81C0872AB501CD54626F1284A4F73BF,
+	U3CDisplayTextMeshProFloatingTextU3Ed__12_System_Collections_IEnumerator_Reset_mD2D32B94CA8D5A6D502BA38BDE1969C856368F73,
+	U3CDisplayTextMeshProFloatingTextU3Ed__12_System_Collections_IEnumerator_get_Current_m59B2488B0E3C72CE97659E8D19BB13C6E0A44E90,
+	U3CDisplayTextMeshFloatingTextU3Ed__13__ctor_m359EAC129649F98C759B341846A6DC07F95230D2,
+	U3CDisplayTextMeshFloatingTextU3Ed__13_System_IDisposable_Dispose_m36DE8722B670A7DDD9E70107024590B20A4E0B18,
+	U3CDisplayTextMeshFloatingTextU3Ed__13_MoveNext_mB7D320C272AAA835590B8460DA89DEBC0A243815,
+	U3CDisplayTextMeshFloatingTextU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m891591B80D28B1DF2CF9EB78C19DA672A81231A2,
+	U3CDisplayTextMeshFloatingTextU3Ed__13_System_Collections_IEnumerator_Reset_m5EF21CA1E0C64E67D18D9355B5E064C93452F5B2,
+	U3CDisplayTextMeshFloatingTextU3Ed__13_System_Collections_IEnumerator_get_Current_m4850A72D887C4DA3F53CA1A1A2BEAD5C5C6605A1,
+	TextMeshSpawner_Awake_mDF8CCC9C6B7380D6FA027263CDC3BC00EF75AEFB,
+	TextMeshSpawner_Start_m7CC21883CA786A846A44921D2E37C201C25439BA,
+	TextMeshSpawner__ctor_m1255777673BE591F62B4FC55EB999DBD7A7CB5A1,
+	VertexColorCycler_Awake_m84B4548078500DA811F3ADFF66186373BE8EDABC,
+	VertexColorCycler_Start_mC3FF90808EDD6A02F08375E909254778D5268B66,
+	VertexColorCycler_AnimateVertexColors_m6960F777E4876DFCA726BCAE7A8163850D58FA42,
+	VertexColorCycler__ctor_m09990A8066C8A957A96CDBEBDA980399283B45E9,
+	U3CAnimateVertexColorsU3Ed__3__ctor_m0038B1054BCC928D35F8C0021ED7D2E1C533E35F,
+	U3CAnimateVertexColorsU3Ed__3_System_IDisposable_Dispose_m5BAD394A0B09B3E0FF19E91521E02C2B3ADD6007,
+	U3CAnimateVertexColorsU3Ed__3_MoveNext_m2842AF5B12AFC17112D1AE75E46AB1B12776D2A6,
+	U3CAnimateVertexColorsU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAE810D7968957A09C88E61C29DAAEC68E4AF1E51,
+	U3CAnimateVertexColorsU3Ed__3_System_Collections_IEnumerator_Reset_m72ABAC50E9E4D972FB44CAFF387F3E23FEC5D932,
+	U3CAnimateVertexColorsU3Ed__3_System_Collections_IEnumerator_get_Current_m8DE595A1D01F3A507A356F8BCE020D0851412B52,
+	VertexJitter_Awake_m9C5586A35BD9C928455D6479C93C1CE095447D8F,
+	VertexJitter_OnEnable_m97ED60DBD350C72D1436ADFB8009A6F33A78C825,
+	VertexJitter_OnDisable_mF8D32D6E02E41A73C3E958FB6EE5D1D659D2A846,
+	VertexJitter_Start_m8A0FED7ED16F90DBF287E09BFCBD7B26E07DBF97,
+	VertexJitter_ON_TEXT_CHANGED_mC7AB0113F6823D4FF415A096314B55D9C1BE9549,
+	VertexJitter_AnimateVertexColors_mECAE037FC0CBA52CAC71C0B61E88829FF18BCC16,
+	VertexJitter__ctor_m550C9169D6FCD6F60D6AABCB8B4955DF58A12DCE,
+	U3CAnimateVertexColorsU3Ed__11__ctor_m0222C3457F5ACA497FE3A8EC829DE4AD11A169F8,
+	U3CAnimateVertexColorsU3Ed__11_System_IDisposable_Dispose_m717E79A39A8161ADDA9E62F7CDFB67B8F2D65099,
+	U3CAnimateVertexColorsU3Ed__11_MoveNext_m169A75C7E2147372CB933520B670AF77907C1C6B,
+	U3CAnimateVertexColorsU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m920EBA43D59A1A88E27FED92CF0AC0DF90179479,
+	U3CAnimateVertexColorsU3Ed__11_System_Collections_IEnumerator_Reset_m6C045A6DD0B60F1512457448E615877EAB86D75D,
+	U3CAnimateVertexColorsU3Ed__11_System_Collections_IEnumerator_get_Current_m017345FE58B497EAFC9D0CB1FB733F76EB3449AF,
+	VertexShakeA_Awake_m005C6F9EE8A8FD816CD3A736D6AF199CD2B615A2,
+	VertexShakeA_OnEnable_m9F60F3951A7D0DF4201A0409F0ADC05243D324EA,
+	VertexShakeA_OnDisable_m59B86895C03B278B2E634A7C68CC942344A8D2D2,
+	VertexShakeA_Start_m3E623C28F873F54F4AC7579433C7C50B2A3319DE,
+	VertexShakeA_ON_TEXT_CHANGED_m7AD31F3239351E0916E4D02148F46A80DC148D7E,
+	VertexShakeA_AnimateVertexColors_mC451E2732A4E3E90E2553811AD75903EEF974599,
+	VertexShakeA__ctor_m7E6FD1700BD08616532AF22B3B489A18B88DFB62,
+	U3CAnimateVertexColorsU3Ed__11__ctor_m92612416BEC0EBF5E9849FB603629C0F2F95FEF2,
+	U3CAnimateVertexColorsU3Ed__11_System_IDisposable_Dispose_m77D966994D4717EAFD8EFE169F3E8A4EE8B05B81,
+	U3CAnimateVertexColorsU3Ed__11_MoveNext_mCEEDE03667D329386BB4AE7B8252B7A9B54F443F,
+	U3CAnimateVertexColorsU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDCCD3645ACF9B18D760B341C863F853996FA9BCE,
+	U3CAnimateVertexColorsU3Ed__11_System_Collections_IEnumerator_Reset_mB9444B5E58B4E97105C447F547C0F74C51BCFBFA,
+	U3CAnimateVertexColorsU3Ed__11_System_Collections_IEnumerator_get_Current_m5CC464185D5C0251C6206E20AFFA681BA0525A7E,
+	VertexShakeB_Awake_m99C9A0474DBFE462DC88C898F958C1805376F9D5,
+	VertexShakeB_OnEnable_m64299258797D745CDFE7F3CBEC4708BDBC7C3971,
+	VertexShakeB_OnDisable_m07D520A8D7BCD8D188CE9F5CC7845F47D5AD6EF4,
+	VertexShakeB_Start_m9642281210FA5F701A324B78850331E4638B2DD1,
+	VertexShakeB_ON_TEXT_CHANGED_m5650D69D258D0EEF35AF390D6D5086B327B308A5,
+	VertexShakeB_AnimateVertexColors_mDF7A7E7028361D288DF588D9301541E4FA1EFA87,
+	VertexShakeB__ctor_m605A778C36B506B5763A1AE17B01F8DCCBCD51EC,
+	U3CAnimateVertexColorsU3Ed__10__ctor_m3E3B1D286DEBED2BC028AD490308568B930C3760,
+	U3CAnimateVertexColorsU3Ed__10_System_IDisposable_Dispose_m0F9D4B2A6ED0500C2120DBA29932CC279E8908DC,
+	U3CAnimateVertexColorsU3Ed__10_MoveNext_m0534E436514E663BF024364E524EE5716FF15C8E,
+	U3CAnimateVertexColorsU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF2A8BAFC0261ACBBE8EEA74DE4B498D30C68AE3D,
+	U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_Reset_m5F12D7C6F2523BEB6326FE49AE972116D6157CBB,
+	U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_get_Current_mB9C12786011A3B78517AEFAE8D5A78B95A4219AD,
+	VertexZoom_Awake_m1B5D386B98CF2EB05A8155B238D6F6E8275D181C,
+	VertexZoom_OnEnable_m7F980FC038FC2534C428A5FD33E3E13AEAEB4EEC,
+	VertexZoom_OnDisable_m880C38B62B4BB05AF49F12F75B83FFA2F0519884,
+	VertexZoom_Start_m10A182DCEF8D430DADAFBFFA3F04171F8E60C84C,
+	VertexZoom_ON_TEXT_CHANGED_mB696E443C61D2212AC93A7615AA58106DD25250F,
+	VertexZoom_AnimateVertexColors_mEFBA6C940DFECB485236C247358A32011A7963ED,
+	VertexZoom__ctor_mE7B36F2D3EC8EF397AB0AD7A19E988C06927A3B2,
+	U3CU3Ec__DisplayClass10_0__ctor_m4EC5F8042B5AC645EA7D0913E50FD22144DBD348,
+	U3CU3Ec__DisplayClass10_0_U3CAnimateVertexColorsU3Eb__0_m959A7E1D6162B5AAF28B953AFB04D7943BCAB107,
+	U3CAnimateVertexColorsU3Ed__10__ctor_m537CF0A5ADF5BBC2DF784BF526E3F32EB528E1B2,
+	U3CAnimateVertexColorsU3Ed__10_System_IDisposable_Dispose_mF0CD944C393771101D2718A660E1DFF22385819F,
+	U3CAnimateVertexColorsU3Ed__10_MoveNext_m8340EFEB2B2CF6EA1545CFB6967968CA171FEE66,
+	U3CAnimateVertexColorsU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m093E922A5A046910B2A7EE826D804CA3064A7BD9,
+	U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_Reset_mDED63FD52741D58D8D5A3E53415F91B6560F680C,
+	U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_get_Current_m933EBF7C4300C7C1E3EE60E4741110025877CA5F,
+	WarpTextExample_Awake_mEDB072A485F3F37270FC736E1A201624D696B4B0,
+	WarpTextExample_Start_m36448AEA494658D7C129C3B71BF3A64CC4DFEDC4,
+	WarpTextExample_CopyAnimationCurve_m744026E638662DA48AC81ED21E0589E3E4E05FAB,
+	WarpTextExample_WarpText_mA29C98CF3B92F253C2DD2BADFC76618F8324BEF2,
+	WarpTextExample__ctor_m62299DFDB704027267321007E16DB87D93D0F099,
+	U3CWarpTextU3Ed__8__ctor_m9FADE04C27A0034C5A276232FCA187AECDC6BF49,
+	U3CWarpTextU3Ed__8_System_IDisposable_Dispose_m5AB0DCF4B3DE6C290487F3DBBC7BAE931130DE60,
+	U3CWarpTextU3Ed__8_MoveNext_m9C83C8455FF8ADFBAA8D05958C3048612A96EB84,
+	U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9D5776AF80C4227401ADD7E13D98F2530CB9E7A1,
+	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m4F2FBBE7B375E6FC837736B4275A7B601A01F535,
+	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m01FA935D93D737C9DDD88A051F7DFC393DD7BD25,
+	ConnectAndJoinRandomLb_Start_m8784F9A942632995E527C9AAC79D40049C1B4421,
+	ConnectAndJoinRandomLb_Update_m27F506BAFEF2C3264B9030218D0ADB86478750E2,
+	ConnectAndJoinRandomLb_OnConnected_m5879B131543322FA6CC2D9FB2B4C196698680114,
+	ConnectAndJoinRandomLb_OnConnectedToMaster_mCCF5E7C0A7A1A8486F3571F05B2E0662C7C939F2,
+	ConnectAndJoinRandomLb_OnDisconnected_m2576DA0537A899046151D7FA51E25AC367F800A7,
+	ConnectAndJoinRandomLb_OnCustomAuthenticationResponse_m8F6E456A2C572923AD8E720088C22588A1DB1459,
+	ConnectAndJoinRandomLb_OnCustomAuthenticationFailed_m447EA30CA679C12865C767F01D060A3A2EF74C5B,
+	ConnectAndJoinRandomLb_OnRegionListReceived_m6F54D1CDC5C51EF9ED8C44E439E83210851CDA8E,
+	ConnectAndJoinRandomLb_OnRoomListUpdate_m91AEF2D4CB5CC06810FED71B26B736DDC2938DA0,
+	ConnectAndJoinRandomLb_OnLobbyStatisticsUpdate_m02972ED26C4B5FCECE1E7A0B482A32E53363F2F7,
+	ConnectAndJoinRandomLb_OnJoinedLobby_m171BA1094BCA0FC7A1D13EA07C858CD2D2F423EF,
+	ConnectAndJoinRandomLb_OnLeftLobby_m1BCA515302514D0EF88687D2216D67A9D724B0F4,
+	ConnectAndJoinRandomLb_OnFriendListUpdate_m6E1EBEFEC84BA9FFA5296B547431BDB692E053DB,
+	ConnectAndJoinRandomLb_OnCreatedRoom_mB1906ADF16C593829B0DD191F319716A97B10583,
+	ConnectAndJoinRandomLb_OnCreateRoomFailed_mD11765F8AA8A45B8AC5555207281A43ABA829D24,
+	ConnectAndJoinRandomLb_OnJoinedRoom_mCE9BDE69A13EA84E9ACA73E064A695B9D3754E8B,
+	ConnectAndJoinRandomLb_OnJoinRoomFailed_m5622896774D36D4960735E32F353869D9D6DF94C,
+	ConnectAndJoinRandomLb_OnJoinRandomFailed_m4BCA35CBE444C5AD28D7D713E92E893198F91B69,
+	ConnectAndJoinRandomLb_OnLeftRoom_m488901B35215F9B70BACC7A08ABB123F3B605137,
+	ConnectAndJoinRandomLb_OnRegionPingCompleted_mD76EE8F39A7AE8EF7E071B9E1C5D1A52452FEF17,
+	ConnectAndJoinRandomLb__ctor_mD06217DD59635BD5DC39E8E14274D6604FDF85C1,
+	EventSystemSpawner_OnEnable_m92046CF7C2B99309677158A5205E37FA11EE9302,
+	EventSystemSpawner__ctor_m6FCC0DAF89825B22BEDC803B5E02B42FB86CF331,
+	OnStartDelete_Start_m033082A59BA5941F5740FAD3CDD2D4501430DD33,
+	OnStartDelete__ctor_m0B816BC930476E7580303D8E9E8E07444F0C5270,
+	TextButtonTransition_Awake_m5402B2656DCEF5F78D8BA1D3D7D77EBD7F07AC9E,
+	TextButtonTransition_OnEnable_mD3229078DB78111EDC0B823872D1E381F3C15A5F,
+	TextButtonTransition_OnDisable_mAB2CCC24F8B8F1D664154DC1D0D7E47A925A3B72,
+	TextButtonTransition_OnPointerEnter_m28E7599E058554E4C13D7EA152521BCF4C104B07,
+	TextButtonTransition_OnPointerExit_m25F271B30D439D9AD93483E1CC08FC198A3E9A02,
+	TextButtonTransition__ctor_m9E3AFEA1BEFD79F8F0D16DA749243B7D43B78570,
+	TextToggleIsOnTransition_OnEnable_mA240AFB3178800D5275FB5BD05D54449EC49BAF2,
+	TextToggleIsOnTransition_OnDisable_m824A3816D8873B0A5F86F4F401FF080163560404,
+	TextToggleIsOnTransition_OnValueChanged_m2C3DAB9655DD596BFC184D0A5B4F83D36C8B2FFB,
+	TextToggleIsOnTransition_OnPointerEnter_m01E7951E3FE9C9C9A1FC1D5E26EFF4041799E0E5,
+	TextToggleIsOnTransition_OnPointerExit_mBF6DDD1410475F0C6118F9C85F572E669FBB4C20,
+	TextToggleIsOnTransition__ctor_mA401C98E0CC8F9B8728B46138CCF941C6E471F04,
 	InstantPreviewManager_get_IsProvidingPlatform_m6B3A4A83E27112AEB2420F6A7DEA8D4C0101AA6E,
 	InstantPreviewManager_ValidateSessionConfig_m34756A1707AB698AA63D67D7440DB074831A8BF5,
 	InstantPreviewManager_GenerateInstantPreviewSupportedConfig_mEA2DB2BE07A8016F969758CD310A574CE495ABDB,
@@ -6676,7 +8029,8 @@ static Il2CppMethodPointer s_methodPointers[2419] =
 	HelloARController_ShowAndroidToastMessage_m2457C7D8F443F096C5B130B78AEE4ED723C21E9C,
 	HelloARController__ctor_mB357B0F55B6C8C8C24AF396B7047211BB438AA9F,
 	U3CU3Ec__DisplayClass13_0__ctor_mC45574D953A38380DA3EDED1BF218BBB313DA91E,
-	U3CU3Ec__DisplayClass13_0_U3CShowAndroidToastMessageU3Eb__0_m6CF576A2934249666D3B47FD4E2257D31D1BAC24,
+	U3CU3Ec__DisplayClass13_1__ctor_m5B43AE81E4CC004A8FAC40A07C9A6BFDF05FABA7,
+	U3CU3Ec__DisplayClass13_1_U3CShowAndroidToastMessageU3Eb__0_m14AE3A7DAED00229F42BF3B7223800DAEE669E8E,
 	SettingsMenu_Start_mC2D1D5266F8CA8F9ACFBC2B7EC93279122291082,
 	SettingsMenu_OnDestroy_m0D88AB147B08079792A48081F2FC915475ED5CF0,
 	SettingsMenu_OnMenuClosed_m03FADEDC11872809F7D88F49701201F36F76F7E0,
@@ -6701,7 +8055,8 @@ static Il2CppMethodPointer s_methodPointers[2419] =
 	ComputerVisionController__ctor_mB5560EF1EAD3CA3D2499CD068A4E4104E74271F6,
 	ComputerVisionController__cctor_m58E7A56C968C67A26ACD8DE0C1AE00B1C706BB15,
 	U3CU3Ec__DisplayClass35_0__ctor_m9B163BF85466261D12A23F05D0D8556E8EB2BE09,
-	U3CU3Ec__DisplayClass35_0_U3CShowAndroidToastMessageU3Eb__0_m8B38D0D5E6F6E2ABAFDBCE59AE46EA0F82A59AFC,
+	U3CU3Ec__DisplayClass35_1__ctor_m412163FCD1132992822BE053D03B66334956BDEA,
+	U3CU3Ec__DisplayClass35_1_U3CShowAndroidToastMessageU3Eb__0_m2636228604C758794937649AEB922A9252FB3CA3,
 	EdgeDetector_Detect_m5722258FEF9A935BD88F13F9538C518A59ECBB79,
 	EdgeDetector_Sobel_mCB1C8FA6074BBACE6FDCDA503E1CF7A649DA81F2,
 	EdgeDetector__ctor_m5C2CA6C81108EC8074269E3918647A58E9793C9C,
@@ -6850,7 +8205,9 @@ static Il2CppMethodPointer s_methodPointers[2419] =
 	CloudAnchorsExampleController_OnLearnMoreButtonClicked_m16812AF74471A591600EBF44B187E3F5D10D6483,
 	CloudAnchorsExampleController_Awake_m05403C6727474711A849987F16F674A2029AA1CD,
 	CloudAnchorsExampleController_Start_m671F38F89B3CF5E5E55878A01399696AC92C764D,
+	CloudAnchorsExampleController_OnDestroy_m56587EB380BAD31397D2B6834CCAD1762B8FFABC,
 	CloudAnchorsExampleController_Update_m4DCFCD187543C361AF61DCF5F8EAC73CC9B56B17,
+	CloudAnchorsExampleController_playerCoroutine_m6FC72E19F4C8119C3066549B1F24F5A67213D883,
 	CloudAnchorsExampleController_IsResolvingPrepareTimePassed_mE06ADD521B0CE13430B23FE00B7D070EBF1F376B,
 	CloudAnchorsExampleController_SetWorldOrigin_mFEF12F76F6A7807B2AE737271C856FE39DAA6FD7,
 	CloudAnchorsExampleController_OnLobbyVisibilityChanged_m13864B3B131D6578CFD431B9B05DE1F944BF74CF,
@@ -6873,7 +8230,16 @@ static Il2CppMethodPointer s_methodPointers[2419] =
 	CloudAnchorsExampleController_ReturnToLobbyWithReason_m08E2141D9A9C2A6AF272180EC22787337A996CB6,
 	CloudAnchorsExampleController_DoQuit_m18CF9C001BD854E19FC9A9AC4480E0B642599027,
 	CloudAnchorsExampleController_DoReturnToLobby_mCE3244B975DD8947263AEF60F2ABA3A24E5922CE,
+	CloudAnchorsExampleController_OnClickFire_mD95D29945B78A11487C0F061A7EDC10244AB3625,
+	CloudAnchorsExampleController_OnEvent_mB3B42E01AB1DEBE812A4BAD159DF2ED4DA373B7B,
+	CloudAnchorsExampleController_OnJoinedRoom_mC4261EE4049C5AB4C0015CDB1EF9F1969EF0E819,
 	CloudAnchorsExampleController__ctor_m4FC7580318798742F15BAD9E104186BE1C39786C,
+	U3CplayerCoroutineU3Ed__40__ctor_mED84D6AF8AEF5FFD4C82ED206BF3BEF05EEED854,
+	U3CplayerCoroutineU3Ed__40_System_IDisposable_Dispose_mE09457EB05B660A7D5D4BDBE3DBC425A88BA8BB9,
+	U3CplayerCoroutineU3Ed__40_MoveNext_m411D2B2CE6B964C2F242FE56530CC801289370BD,
+	U3CplayerCoroutineU3Ed__40_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF17B3C1B45883C465999C70C3BCE6085DE6F9B4A,
+	U3CplayerCoroutineU3Ed__40_System_Collections_IEnumerator_Reset_m8ACFDFB00C9A598FC561633FBED5879FBC5925D1,
+	U3CplayerCoroutineU3Ed__40_System_Collections_IEnumerator_get_Current_m4BA0CA1B997FA08DF327EC6A1EA463DB83103C72,
 	CloudAnchorsNetworkManager_add_OnClientConnected_m9AEF0CC740A2865658EC8DC08DA11317173BE6E6,
 	CloudAnchorsNetworkManager_remove_OnClientConnected_mF9D7C60A81EE593CD2273F49FE5CF6F77FC62E95,
 	CloudAnchorsNetworkManager_add_OnClientDisconnected_m07EE6BEFB4C203D140D626B1C87B769D29320794,
@@ -6940,7 +8306,8 @@ static Il2CppMethodPointer s_methodPointers[2419] =
 	AugmentedFacesExampleController_ShowAndroidToastMessage_m1188C61DFA8B9DE4DB6236070ADFD451EBF8441B,
 	AugmentedFacesExampleController__ctor_mA4AB7E98CF83DBABD1C314EEF092718FF768FEBC,
 	U3CU3Ec__DisplayClass7_0__ctor_m4A33D27CF3C106FEEDD0EF27865A8CC88B2276CF,
-	U3CU3Ec__DisplayClass7_0_U3CShowAndroidToastMessageU3Eb__0_m0A861E1AAE2E76C90AFC2B7E00493FD07B58FD91,
+	U3CU3Ec__DisplayClass7_1__ctor_m389099F9C2946E3188BE6EF2DE14229369E22FA6,
+	U3CU3Ec__DisplayClass7_1_U3CShowAndroidToastMessageU3Eb__0_mAFAB80BF0710676547999A0F383DC70635BE10D0,
 	FreeSpaceRenderer_Start_m5D07FC8F4B2E9F262CB52CD88531598B08138D57,
 	FreeSpaceRenderer_Update_mB54300FB192533C9962F2B36F263583B9E9614A0,
 	FreeSpaceRenderer_UpdateTouch_m12A7EFE219B043D8AEBF5D11FFAC99271E43BC21,
@@ -7180,7 +8547,8 @@ static Il2CppMethodPointer s_methodPointers[2419] =
 	ObjectManipulationController_ShowAndroidToastMessage_mC6EDA127988DB1B50530EFED831F379779E73511,
 	ObjectManipulationController__ctor_m7ACF5D12C786F4C2C3CB61845E1BDDDAEACF5FF4,
 	U3CU3Ec__DisplayClass5_0__ctor_m39724C193F51A7DAD745878010AD87CAD5FDE027,
-	U3CU3Ec__DisplayClass5_0_U3CShowAndroidToastMessageU3Eb__0_m0EA462BBD4768AFA185996E8E8F169F7427FD0D1,
+	U3CU3Ec__DisplayClass5_1__ctor_mED25CE23D48376731450F43140995A54101D4D25,
+	U3CU3Ec__DisplayClass5_1_U3CShowAndroidToastMessageU3Eb__0_m0F58122B297C88CDBE7017398F074CDB94093167,
 	PawnManipulator_CanStartManipulationForGesture_m426B93C5227FBCC47A0BE3D5D5275F6085A2EA7C,
 	PawnManipulator_OnEndManipulation_m7D7BAACD458E1EDB8B92D99B15C49188616907BF,
 	PawnManipulator__ctor_m0E89ECBC6DA43C90AB8AAC9E5DD6257EA7B45CD9,
@@ -7291,2640 +8659,3096 @@ extern void CloudAnchorHistory_ToString_m3617CCDCE6A6600F81DA362E5256299ABAA4255
 extern void PointInfo__ctor_m19400B1DF8BFBE3C676C53482B19808BFFAEF6B0_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[104] = 
 {
-	{ 0x0600031F, ApiDisplayUvCoords__ctor_m8B973F00E68C9BC23A7D14E0A761C98565A3A6B9_AdjustorThunk },
-	{ 0x06000320, ApiPoseData__ctor_m94E65E9F02608CEF22244B4357CDA654D71CB54D_AdjustorThunk },
-	{ 0x06000321, ApiPoseData_ToUnityPose_m2EF1FCFC4A2BA19F153B83C38A403299C04AE81D_AdjustorThunk },
-	{ 0x06000322, ApiPoseData_ToString_m53A6EBA12D91B5C904C4017EAE055406EB4E6217_AdjustorThunk },
-	{ 0x060005F6, AndroidPermissionsRequestResult__ctor_m83D38A943CE5EF982101F0107B8B4585E2491587_AdjustorThunk },
-	{ 0x060005F7, AndroidPermissionsRequestResult_get_PermissionNames_m9E21E9E4AF7671206500CF7BEE53FACBCD3D1D40_AdjustorThunk },
-	{ 0x060005F8, AndroidPermissionsRequestResult_set_PermissionNames_mAD71BA826FB257AAF561154E565A4C6616CFC84E_AdjustorThunk },
-	{ 0x060005F9, AndroidPermissionsRequestResult_get_GrantResults_mCDF8630EE629D85E65EDCB5158972C2A8BAF5B47_AdjustorThunk },
-	{ 0x060005FA, AndroidPermissionsRequestResult_set_GrantResults_mF49FD44DD2FA99684B64470B60709AC4FC29E766_AdjustorThunk },
-	{ 0x060005FB, AndroidPermissionsRequestResult_get_IsAllGranted_mCEE89AC4CD7FDA90DB1E30BAFAE3CDE85EF57CD7_AdjustorThunk },
-	{ 0x06000626, AugmentedImageDatabaseEntry__ctor_m30BDF81CE811354294E99C6686314999B36C4EC5_AdjustorThunk },
-	{ 0x06000630, CameraConfig__ctor_mBB0162988A865D7E76EB9162A871B791737A74F1_AdjustorThunk },
-	{ 0x06000631, CameraConfig_get_FacingDirection_m8D58F5E6CB4B0321BEE4B08FD1CAEEA6204292A1_AdjustorThunk },
-	{ 0x06000632, CameraConfig_set_FacingDirection_m6D682CCEAA3E416AFFA2B3ADE7F1A85D6E2CC330_AdjustorThunk },
-	{ 0x06000633, CameraConfig_get_ImageSize_m961AB7C0698922B180EEC20CBF60F46C641BE069_AdjustorThunk },
-	{ 0x06000634, CameraConfig_set_ImageSize_m49BC8A63EFE2899E5198E64474B09032052E90B1_AdjustorThunk },
-	{ 0x06000635, CameraConfig_get_TextureSize_m82496368BB62F9603052F57E770B73F3C8AF522C_AdjustorThunk },
-	{ 0x06000636, CameraConfig_set_TextureSize_m096E778E2D15CF6F4F7218EA10625A7597AD3B05_AdjustorThunk },
-	{ 0x06000637, CameraConfig_get_MinFPS_mCB9CF3FBCB3FE8EF97FFDBFDDCFF658279A23B4D_AdjustorThunk },
-	{ 0x06000638, CameraConfig_set_MinFPS_m1F3A0E5C53A5B722679C9E31B0308A19F6A3508D_AdjustorThunk },
-	{ 0x06000639, CameraConfig_get_MaxFPS_m3803E1C6DDBD4492FA790D08AD744E043C6186A4_AdjustorThunk },
-	{ 0x0600063A, CameraConfig_set_MaxFPS_m431391A0B9A37C4434FB4A32A9C32A5FCC3044B2_AdjustorThunk },
-	{ 0x0600063B, CameraConfig_get_StereoCameraUsage_mE1BDD5380601BC108F41B1CE8750CCB9F57CBBD3_AdjustorThunk },
-	{ 0x0600063C, CameraConfig_set_StereoCameraUsage_m9C630FDD1D5674C775FCBEF55FBD1F78BFC8B844_AdjustorThunk },
-	{ 0x0600063D, CameraConfig_get_DepthSensorUsage_m325DDE96DFC7ED7888D56FA8DC5686167590BF86_AdjustorThunk },
-	{ 0x0600063E, CameraConfig_set_DepthSensorUsage_m98981BF356C590481A9E9B87619ECC46EF0BFEBC_AdjustorThunk },
-	{ 0x0600063F, CameraImageBytes__ctor_mF5AF7A89B22B2145969E5A98816946AC5B77C54C_AdjustorThunk },
-	{ 0x06000640, CameraImageBytes_get_IsAvailable_m993B32B89B9D55E198CD568DF4BEC0849D238C9D_AdjustorThunk },
-	{ 0x06000641, CameraImageBytes_set_IsAvailable_mCC30B02873572AEE6DA1EC3FC919F2A39BB732B6_AdjustorThunk },
-	{ 0x06000642, CameraImageBytes_get_Width_m3185B83DEEB6FB208C553A3E1815E0280AE78867_AdjustorThunk },
-	{ 0x06000643, CameraImageBytes_set_Width_m4D82492E17AD6C93EB8490563994465E8CE53C5D_AdjustorThunk },
-	{ 0x06000644, CameraImageBytes_get_Height_m39212D6FE5F276F314C8A550040C834032F88F62_AdjustorThunk },
-	{ 0x06000645, CameraImageBytes_set_Height_mEB82F4BA2D5533D9E1A70B8E5A215C39E1D7CEAC_AdjustorThunk },
-	{ 0x06000646, CameraImageBytes_get_Y_m7A8CDBD2E15BA7029D1EF82FEC5C338F8DBDB604_AdjustorThunk },
-	{ 0x06000647, CameraImageBytes_set_Y_mC112B8C7F0A57593E0BFD059DADCE739BC7E3117_AdjustorThunk },
-	{ 0x06000648, CameraImageBytes_get_U_m79350DFD8A427909C574693F82553CC513D8AA80_AdjustorThunk },
-	{ 0x06000649, CameraImageBytes_set_U_mCDCBEEE20996E65A8F44F7E51539B9B3B6D14336_AdjustorThunk },
-	{ 0x0600064A, CameraImageBytes_get_V_m2FDCE4033716EB82E935FA00293A402E1CD404F6_AdjustorThunk },
-	{ 0x0600064B, CameraImageBytes_set_V_m2AFE27A59C0E91503BAB51432417727FFB1F23E2_AdjustorThunk },
-	{ 0x0600064C, CameraImageBytes_get_YRowStride_mCBE8E6003D4848A5C43DD80DA9892CB4F7AD1F59_AdjustorThunk },
-	{ 0x0600064D, CameraImageBytes_set_YRowStride_mF6420B9BFB700FBB884F87752A44AE5E75EB9BE6_AdjustorThunk },
-	{ 0x0600064E, CameraImageBytes_get_UVPixelStride_mE8C52E44FBFA3E8401FA2804DC2667C62684BCE0_AdjustorThunk },
-	{ 0x0600064F, CameraImageBytes_set_UVPixelStride_m1CC5C625D24189ADAD8F2D159CB85E608B44A357_AdjustorThunk },
-	{ 0x06000650, CameraImageBytes_get_UVRowStride_m4ADB1D97DD015EC6345F5308AA96BB7485B080F8_AdjustorThunk },
-	{ 0x06000651, CameraImageBytes_set_UVRowStride_m287B4537987CB283016C4E40B1EE593EB5DB6E0F_AdjustorThunk },
-	{ 0x06000652, CameraImageBytes_Release_m30BF5003D1F520C2D27CEFCC044BB60560C95BB7_AdjustorThunk },
-	{ 0x06000653, CameraImageBytes_Dispose_mCCF768CEFEA63B0CDCD2A1C0019B4B5AA64B982B_AdjustorThunk },
-	{ 0x06000654, CameraIntrinsics__ctor_m26C38BA3EB54A108F3B5FFC289EF61C5D8A93C1B_AdjustorThunk },
-	{ 0x06000655, CameraMetadataValue__ctor_mA44F5901221118D24D41A87D5F6DA4AF7B09B29C_AdjustorThunk },
-	{ 0x06000656, CameraMetadataValue__ctor_mD07636EDEA839756D548A00234F9C363988C744C_AdjustorThunk },
-	{ 0x06000657, CameraMetadataValue__ctor_m0D90F73D6472BEEF6B8EABB53F61EBB484EA8484_AdjustorThunk },
-	{ 0x06000658, CameraMetadataValue__ctor_m1FAA0D18CD671F432197EC6C9BCDC05A6FD4FD90_AdjustorThunk },
-	{ 0x06000659, CameraMetadataValue__ctor_m484E2532C6C2EEE9DB8367F08219E8018B999BC0_AdjustorThunk },
-	{ 0x0600065A, CameraMetadataValue__ctor_mB0C8B3DF36D14CAD10AB398B6BDEB6E60F28A0FE_AdjustorThunk },
-	{ 0x0600065B, CameraMetadataValue_get_ValueType_m8CB08B7657016CCD5F9C08AFCE79E11FDB65E138_AdjustorThunk },
-	{ 0x0600065C, CameraMetadataValue_AsByte_m223C58F4B77EA887B31EEC1881B742E19C29E577_AdjustorThunk },
-	{ 0x0600065D, CameraMetadataValue_AsInt_m1EC6C6018E0D9645DA2CB5E951024B7ADA825A6A_AdjustorThunk },
-	{ 0x0600065E, CameraMetadataValue_AsFloat_mE8EB6303D69AC09D7E963709E0215F6A5EF871F7_AdjustorThunk },
-	{ 0x0600065F, CameraMetadataValue_AsLong_m68693025D07C020CED338404055DE4CBA8C77A77_AdjustorThunk },
-	{ 0x06000660, CameraMetadataValue_AsDouble_mF66AE95DBC4FEF9F1BCE27BB455F44C17E68624B_AdjustorThunk },
-	{ 0x06000661, CameraMetadataValue_AsRational_m02FC0402FA04604CEA6EB74C0E8049938830F043_AdjustorThunk },
-	{ 0x06000662, CameraMetadataValue_LogError_mEA36A8314EB255578837727131FD22499AB69078_AdjustorThunk },
-	{ 0x0600066F, DisplayUvCoords__ctor_m60739043D5BF12149382B98F3C02D397850665DB_AdjustorThunk },
-	{ 0x06000695, LightEstimate__ctor_m310CD49C086841757CC2190C55F7D4333AD1A76A_AdjustorThunk },
-	{ 0x06000696, LightEstimate__ctor_m783B4E63203D34758A66486A9128578BEC1E4F50_AdjustorThunk },
-	{ 0x06000697, LightEstimate_get_Mode_m8F2F39B45441FFFF91611ECF913CE812EB502073_AdjustorThunk },
-	{ 0x06000698, LightEstimate_set_Mode_m0F087241096B00D6FD783B2563EB6FA53AAD4B9C_AdjustorThunk },
-	{ 0x06000699, LightEstimate_get_State_mC9B568F2227DA1BB2CD9E10E6A9C81E76D281BFA_AdjustorThunk },
-	{ 0x0600069A, LightEstimate_set_State_mD79864FFD7138F7109B7698940CDD21EDE625062_AdjustorThunk },
-	{ 0x0600069B, LightEstimate_get_PixelIntensity_m56533CFB1936B47B2E478A38043809BEE3BDA421_AdjustorThunk },
-	{ 0x0600069C, LightEstimate_set_PixelIntensity_m1632970C806194EAC57C8D0B1B448B5D47E6B725_AdjustorThunk },
-	{ 0x0600069D, LightEstimate_get_ColorCorrection_mC7E6EB59B1656F003B20B371BD1D348A7B8FC6B3_AdjustorThunk },
-	{ 0x0600069E, LightEstimate_set_ColorCorrection_m99705AFD0C11397D9A6391CD14E4EC7E1A76B89C_AdjustorThunk },
-	{ 0x0600069F, LightEstimate_get_DirectionalLightRotation_m86FE4F80BB4909E31A91BE084D40DF5A2CF50C3C_AdjustorThunk },
-	{ 0x060006A0, LightEstimate_set_DirectionalLightRotation_mDE989BF78E930F1AF49645C2573315023A337E65_AdjustorThunk },
-	{ 0x060006A1, LightEstimate_get_DirectionalLightColor_mFBC9E476860B70756B05C55F726162E0C141A2F9_AdjustorThunk },
-	{ 0x060006A2, LightEstimate_set_DirectionalLightColor_mE59B5F632CDE7E8F951A7166E119ECFE733BB522_AdjustorThunk },
-	{ 0x060006A3, LightEstimate_get_AmbientProbe_m023DD72E11AB85CC0717DB2D7BDEF70302F7F974_AdjustorThunk },
-	{ 0x060006A4, LightEstimate_set_AmbientProbe_m4CF7E568A9C61ED290F5B1788F594FA6FEB1E02F_AdjustorThunk },
-	{ 0x060006A5, LightEstimate_get_ReflectionProbe_m4DA58E486E5C4CFBC434CC599ADD37DD676A7DB7_AdjustorThunk },
-	{ 0x060006A6, LightEstimate_get_Timestamp_mFB3DB5521C6DF8368AC34EB8604FEB82758443EF_AdjustorThunk },
-	{ 0x060006A7, LightEstimate_set_Timestamp_m26BD87EC362F72A1FB2E20BC0BE9709A3BBB67CE_AdjustorThunk },
-	{ 0x060006A8, LightEstimate_InitializeLightEstimateMode_m36EC68AED321ABF3C67B05041E05D0A6542F6AC1_AdjustorThunk },
-	{ 0x060006A9, PointCloudPoint__ctor_m2883C98D050DDC1E9B419214036552DF3552DAF7_AdjustorThunk },
-	{ 0x060006AA, PointCloudPoint_get_Id_mE9AAB4B2099BA9E680F5EBC564DE0F6BB6200F2B_AdjustorThunk },
-	{ 0x060006AB, PointCloudPoint_set_Id_m6C1BD9348068B89051332DFF71CCA5ED78D254D8_AdjustorThunk },
-	{ 0x060006AC, PointCloudPoint_get_Position_m290BBE69DE21CE32EE05A50A1E55DC1EE7637480_AdjustorThunk },
-	{ 0x060006AD, PointCloudPoint_set_Position_m5581BA5CB723F2D7EC84920EF52C8C8F7DB37935_AdjustorThunk },
-	{ 0x060006AE, PointCloudPoint_get_Confidence_m1214310D466A35415C8F28514656C8924F221161_AdjustorThunk },
-	{ 0x060006AF, PointCloudPoint_set_Confidence_m9E78E379612A419DCFDB4F2C2B68E79A5935D748_AdjustorThunk },
-	{ 0x060006C8, TrackableHit__ctor_m1CA46D9176F1FCD563AD49327E6F81C3E6D63113_AdjustorThunk },
-	{ 0x060006C9, TrackableHit_get_Pose_mFCB6E74CE76DDAC71E561FCED237C32E2ACCE50A_AdjustorThunk },
-	{ 0x060006CA, TrackableHit_set_Pose_mEBDBBE07514C65A3E23A59AE9529A4CDF2192A39_AdjustorThunk },
-	{ 0x060006CB, TrackableHit_get_Distance_mCBCD76BD1C8071BF4A8C01D9808658AFABC3AC18_AdjustorThunk },
-	{ 0x060006CC, TrackableHit_set_Distance_mA4563891C28BA38E29B2F88A8918970B4D449191_AdjustorThunk },
-	{ 0x060006CD, TrackableHit_get_Flags_mA85B2890BDF24375EA458B6DB9F0115D48F85DF3_AdjustorThunk },
-	{ 0x060006CE, TrackableHit_set_Flags_m68344347260FE485EF7AAA44B5ECAC48BDAB3235_AdjustorThunk },
-	{ 0x060006CF, TrackableHit_get_Trackable_m8E9A79D89A9A97D999B8BFE0B2F390EF4F5D345F_AdjustorThunk },
-	{ 0x060006D0, TrackableHit_set_Trackable_m5C3B46B58AE6602F723E43DD70A5AC2A1EDE5F8C_AdjustorThunk },
-	{ 0x06000700, CloudAnchorHistory__ctor_mE70F11A6DF68D0699A2574C0DF25877284C90D5E_AdjustorThunk },
-	{ 0x06000701, CloudAnchorHistory__ctor_m5D68E421D65A0DC4F1B36238B9EE1ACD981AA547_AdjustorThunk },
-	{ 0x06000702, CloudAnchorHistory_get_CreatedTime_m7E6ED1A149BA899E4D8B6A83DC84C6109252D448_AdjustorThunk },
-	{ 0x06000703, CloudAnchorHistory_ToString_m3617CCDCE6A6600F81DA362E5256299ABAA42557_AdjustorThunk },
-	{ 0x060007F2, PointInfo__ctor_m19400B1DF8BFBE3C676C53482B19808BFFAEF6B0_AdjustorThunk },
+	{ 0x060004D8, ApiDisplayUvCoords__ctor_m8B973F00E68C9BC23A7D14E0A761C98565A3A6B9_AdjustorThunk },
+	{ 0x060004D9, ApiPoseData__ctor_m94E65E9F02608CEF22244B4357CDA654D71CB54D_AdjustorThunk },
+	{ 0x060004DA, ApiPoseData_ToUnityPose_m2EF1FCFC4A2BA19F153B83C38A403299C04AE81D_AdjustorThunk },
+	{ 0x060004DB, ApiPoseData_ToString_m53A6EBA12D91B5C904C4017EAE055406EB4E6217_AdjustorThunk },
+	{ 0x060007AF, AndroidPermissionsRequestResult__ctor_m83D38A943CE5EF982101F0107B8B4585E2491587_AdjustorThunk },
+	{ 0x060007B0, AndroidPermissionsRequestResult_get_PermissionNames_m9E21E9E4AF7671206500CF7BEE53FACBCD3D1D40_AdjustorThunk },
+	{ 0x060007B1, AndroidPermissionsRequestResult_set_PermissionNames_mAD71BA826FB257AAF561154E565A4C6616CFC84E_AdjustorThunk },
+	{ 0x060007B2, AndroidPermissionsRequestResult_get_GrantResults_mCDF8630EE629D85E65EDCB5158972C2A8BAF5B47_AdjustorThunk },
+	{ 0x060007B3, AndroidPermissionsRequestResult_set_GrantResults_mF49FD44DD2FA99684B64470B60709AC4FC29E766_AdjustorThunk },
+	{ 0x060007B4, AndroidPermissionsRequestResult_get_IsAllGranted_mCEE89AC4CD7FDA90DB1E30BAFAE3CDE85EF57CD7_AdjustorThunk },
+	{ 0x060007DF, AugmentedImageDatabaseEntry__ctor_m30BDF81CE811354294E99C6686314999B36C4EC5_AdjustorThunk },
+	{ 0x060007E9, CameraConfig__ctor_mBB0162988A865D7E76EB9162A871B791737A74F1_AdjustorThunk },
+	{ 0x060007EA, CameraConfig_get_FacingDirection_m8D58F5E6CB4B0321BEE4B08FD1CAEEA6204292A1_AdjustorThunk },
+	{ 0x060007EB, CameraConfig_set_FacingDirection_m6D682CCEAA3E416AFFA2B3ADE7F1A85D6E2CC330_AdjustorThunk },
+	{ 0x060007EC, CameraConfig_get_ImageSize_m961AB7C0698922B180EEC20CBF60F46C641BE069_AdjustorThunk },
+	{ 0x060007ED, CameraConfig_set_ImageSize_m49BC8A63EFE2899E5198E64474B09032052E90B1_AdjustorThunk },
+	{ 0x060007EE, CameraConfig_get_TextureSize_m82496368BB62F9603052F57E770B73F3C8AF522C_AdjustorThunk },
+	{ 0x060007EF, CameraConfig_set_TextureSize_m096E778E2D15CF6F4F7218EA10625A7597AD3B05_AdjustorThunk },
+	{ 0x060007F0, CameraConfig_get_MinFPS_mCB9CF3FBCB3FE8EF97FFDBFDDCFF658279A23B4D_AdjustorThunk },
+	{ 0x060007F1, CameraConfig_set_MinFPS_m1F3A0E5C53A5B722679C9E31B0308A19F6A3508D_AdjustorThunk },
+	{ 0x060007F2, CameraConfig_get_MaxFPS_m3803E1C6DDBD4492FA790D08AD744E043C6186A4_AdjustorThunk },
+	{ 0x060007F3, CameraConfig_set_MaxFPS_m431391A0B9A37C4434FB4A32A9C32A5FCC3044B2_AdjustorThunk },
+	{ 0x060007F4, CameraConfig_get_StereoCameraUsage_mE1BDD5380601BC108F41B1CE8750CCB9F57CBBD3_AdjustorThunk },
+	{ 0x060007F5, CameraConfig_set_StereoCameraUsage_m9C630FDD1D5674C775FCBEF55FBD1F78BFC8B844_AdjustorThunk },
+	{ 0x060007F6, CameraConfig_get_DepthSensorUsage_m325DDE96DFC7ED7888D56FA8DC5686167590BF86_AdjustorThunk },
+	{ 0x060007F7, CameraConfig_set_DepthSensorUsage_m98981BF356C590481A9E9B87619ECC46EF0BFEBC_AdjustorThunk },
+	{ 0x060007F8, CameraImageBytes__ctor_mF5AF7A89B22B2145969E5A98816946AC5B77C54C_AdjustorThunk },
+	{ 0x060007F9, CameraImageBytes_get_IsAvailable_m993B32B89B9D55E198CD568DF4BEC0849D238C9D_AdjustorThunk },
+	{ 0x060007FA, CameraImageBytes_set_IsAvailable_mCC30B02873572AEE6DA1EC3FC919F2A39BB732B6_AdjustorThunk },
+	{ 0x060007FB, CameraImageBytes_get_Width_m3185B83DEEB6FB208C553A3E1815E0280AE78867_AdjustorThunk },
+	{ 0x060007FC, CameraImageBytes_set_Width_m4D82492E17AD6C93EB8490563994465E8CE53C5D_AdjustorThunk },
+	{ 0x060007FD, CameraImageBytes_get_Height_m39212D6FE5F276F314C8A550040C834032F88F62_AdjustorThunk },
+	{ 0x060007FE, CameraImageBytes_set_Height_mEB82F4BA2D5533D9E1A70B8E5A215C39E1D7CEAC_AdjustorThunk },
+	{ 0x060007FF, CameraImageBytes_get_Y_m7A8CDBD2E15BA7029D1EF82FEC5C338F8DBDB604_AdjustorThunk },
+	{ 0x06000800, CameraImageBytes_set_Y_mC112B8C7F0A57593E0BFD059DADCE739BC7E3117_AdjustorThunk },
+	{ 0x06000801, CameraImageBytes_get_U_m79350DFD8A427909C574693F82553CC513D8AA80_AdjustorThunk },
+	{ 0x06000802, CameraImageBytes_set_U_mCDCBEEE20996E65A8F44F7E51539B9B3B6D14336_AdjustorThunk },
+	{ 0x06000803, CameraImageBytes_get_V_m2FDCE4033716EB82E935FA00293A402E1CD404F6_AdjustorThunk },
+	{ 0x06000804, CameraImageBytes_set_V_m2AFE27A59C0E91503BAB51432417727FFB1F23E2_AdjustorThunk },
+	{ 0x06000805, CameraImageBytes_get_YRowStride_mCBE8E6003D4848A5C43DD80DA9892CB4F7AD1F59_AdjustorThunk },
+	{ 0x06000806, CameraImageBytes_set_YRowStride_mF6420B9BFB700FBB884F87752A44AE5E75EB9BE6_AdjustorThunk },
+	{ 0x06000807, CameraImageBytes_get_UVPixelStride_mE8C52E44FBFA3E8401FA2804DC2667C62684BCE0_AdjustorThunk },
+	{ 0x06000808, CameraImageBytes_set_UVPixelStride_m1CC5C625D24189ADAD8F2D159CB85E608B44A357_AdjustorThunk },
+	{ 0x06000809, CameraImageBytes_get_UVRowStride_m4ADB1D97DD015EC6345F5308AA96BB7485B080F8_AdjustorThunk },
+	{ 0x0600080A, CameraImageBytes_set_UVRowStride_m287B4537987CB283016C4E40B1EE593EB5DB6E0F_AdjustorThunk },
+	{ 0x0600080B, CameraImageBytes_Release_m30BF5003D1F520C2D27CEFCC044BB60560C95BB7_AdjustorThunk },
+	{ 0x0600080C, CameraImageBytes_Dispose_mCCF768CEFEA63B0CDCD2A1C0019B4B5AA64B982B_AdjustorThunk },
+	{ 0x0600080D, CameraIntrinsics__ctor_m26C38BA3EB54A108F3B5FFC289EF61C5D8A93C1B_AdjustorThunk },
+	{ 0x0600080E, CameraMetadataValue__ctor_mA44F5901221118D24D41A87D5F6DA4AF7B09B29C_AdjustorThunk },
+	{ 0x0600080F, CameraMetadataValue__ctor_mD07636EDEA839756D548A00234F9C363988C744C_AdjustorThunk },
+	{ 0x06000810, CameraMetadataValue__ctor_m0D90F73D6472BEEF6B8EABB53F61EBB484EA8484_AdjustorThunk },
+	{ 0x06000811, CameraMetadataValue__ctor_m1FAA0D18CD671F432197EC6C9BCDC05A6FD4FD90_AdjustorThunk },
+	{ 0x06000812, CameraMetadataValue__ctor_m484E2532C6C2EEE9DB8367F08219E8018B999BC0_AdjustorThunk },
+	{ 0x06000813, CameraMetadataValue__ctor_mB0C8B3DF36D14CAD10AB398B6BDEB6E60F28A0FE_AdjustorThunk },
+	{ 0x06000814, CameraMetadataValue_get_ValueType_m8CB08B7657016CCD5F9C08AFCE79E11FDB65E138_AdjustorThunk },
+	{ 0x06000815, CameraMetadataValue_AsByte_m223C58F4B77EA887B31EEC1881B742E19C29E577_AdjustorThunk },
+	{ 0x06000816, CameraMetadataValue_AsInt_m1EC6C6018E0D9645DA2CB5E951024B7ADA825A6A_AdjustorThunk },
+	{ 0x06000817, CameraMetadataValue_AsFloat_mE8EB6303D69AC09D7E963709E0215F6A5EF871F7_AdjustorThunk },
+	{ 0x06000818, CameraMetadataValue_AsLong_m68693025D07C020CED338404055DE4CBA8C77A77_AdjustorThunk },
+	{ 0x06000819, CameraMetadataValue_AsDouble_mF66AE95DBC4FEF9F1BCE27BB455F44C17E68624B_AdjustorThunk },
+	{ 0x0600081A, CameraMetadataValue_AsRational_m02FC0402FA04604CEA6EB74C0E8049938830F043_AdjustorThunk },
+	{ 0x0600081B, CameraMetadataValue_LogError_mEA36A8314EB255578837727131FD22499AB69078_AdjustorThunk },
+	{ 0x06000828, DisplayUvCoords__ctor_m60739043D5BF12149382B98F3C02D397850665DB_AdjustorThunk },
+	{ 0x0600084E, LightEstimate__ctor_m310CD49C086841757CC2190C55F7D4333AD1A76A_AdjustorThunk },
+	{ 0x0600084F, LightEstimate__ctor_m783B4E63203D34758A66486A9128578BEC1E4F50_AdjustorThunk },
+	{ 0x06000850, LightEstimate_get_Mode_m8F2F39B45441FFFF91611ECF913CE812EB502073_AdjustorThunk },
+	{ 0x06000851, LightEstimate_set_Mode_m0F087241096B00D6FD783B2563EB6FA53AAD4B9C_AdjustorThunk },
+	{ 0x06000852, LightEstimate_get_State_mC9B568F2227DA1BB2CD9E10E6A9C81E76D281BFA_AdjustorThunk },
+	{ 0x06000853, LightEstimate_set_State_mD79864FFD7138F7109B7698940CDD21EDE625062_AdjustorThunk },
+	{ 0x06000854, LightEstimate_get_PixelIntensity_m56533CFB1936B47B2E478A38043809BEE3BDA421_AdjustorThunk },
+	{ 0x06000855, LightEstimate_set_PixelIntensity_m1632970C806194EAC57C8D0B1B448B5D47E6B725_AdjustorThunk },
+	{ 0x06000856, LightEstimate_get_ColorCorrection_mC7E6EB59B1656F003B20B371BD1D348A7B8FC6B3_AdjustorThunk },
+	{ 0x06000857, LightEstimate_set_ColorCorrection_m99705AFD0C11397D9A6391CD14E4EC7E1A76B89C_AdjustorThunk },
+	{ 0x06000858, LightEstimate_get_DirectionalLightRotation_m86FE4F80BB4909E31A91BE084D40DF5A2CF50C3C_AdjustorThunk },
+	{ 0x06000859, LightEstimate_set_DirectionalLightRotation_mDE989BF78E930F1AF49645C2573315023A337E65_AdjustorThunk },
+	{ 0x0600085A, LightEstimate_get_DirectionalLightColor_mFBC9E476860B70756B05C55F726162E0C141A2F9_AdjustorThunk },
+	{ 0x0600085B, LightEstimate_set_DirectionalLightColor_mE59B5F632CDE7E8F951A7166E119ECFE733BB522_AdjustorThunk },
+	{ 0x0600085C, LightEstimate_get_AmbientProbe_m023DD72E11AB85CC0717DB2D7BDEF70302F7F974_AdjustorThunk },
+	{ 0x0600085D, LightEstimate_set_AmbientProbe_m4CF7E568A9C61ED290F5B1788F594FA6FEB1E02F_AdjustorThunk },
+	{ 0x0600085E, LightEstimate_get_ReflectionProbe_m4DA58E486E5C4CFBC434CC599ADD37DD676A7DB7_AdjustorThunk },
+	{ 0x0600085F, LightEstimate_get_Timestamp_mFB3DB5521C6DF8368AC34EB8604FEB82758443EF_AdjustorThunk },
+	{ 0x06000860, LightEstimate_set_Timestamp_m26BD87EC362F72A1FB2E20BC0BE9709A3BBB67CE_AdjustorThunk },
+	{ 0x06000861, LightEstimate_InitializeLightEstimateMode_m36EC68AED321ABF3C67B05041E05D0A6542F6AC1_AdjustorThunk },
+	{ 0x06000862, PointCloudPoint__ctor_m2883C98D050DDC1E9B419214036552DF3552DAF7_AdjustorThunk },
+	{ 0x06000863, PointCloudPoint_get_Id_mE9AAB4B2099BA9E680F5EBC564DE0F6BB6200F2B_AdjustorThunk },
+	{ 0x06000864, PointCloudPoint_set_Id_m6C1BD9348068B89051332DFF71CCA5ED78D254D8_AdjustorThunk },
+	{ 0x06000865, PointCloudPoint_get_Position_m290BBE69DE21CE32EE05A50A1E55DC1EE7637480_AdjustorThunk },
+	{ 0x06000866, PointCloudPoint_set_Position_m5581BA5CB723F2D7EC84920EF52C8C8F7DB37935_AdjustorThunk },
+	{ 0x06000867, PointCloudPoint_get_Confidence_m1214310D466A35415C8F28514656C8924F221161_AdjustorThunk },
+	{ 0x06000868, PointCloudPoint_set_Confidence_m9E78E379612A419DCFDB4F2C2B68E79A5935D748_AdjustorThunk },
+	{ 0x06000881, TrackableHit__ctor_m1CA46D9176F1FCD563AD49327E6F81C3E6D63113_AdjustorThunk },
+	{ 0x06000882, TrackableHit_get_Pose_mFCB6E74CE76DDAC71E561FCED237C32E2ACCE50A_AdjustorThunk },
+	{ 0x06000883, TrackableHit_set_Pose_mEBDBBE07514C65A3E23A59AE9529A4CDF2192A39_AdjustorThunk },
+	{ 0x06000884, TrackableHit_get_Distance_mCBCD76BD1C8071BF4A8C01D9808658AFABC3AC18_AdjustorThunk },
+	{ 0x06000885, TrackableHit_set_Distance_mA4563891C28BA38E29B2F88A8918970B4D449191_AdjustorThunk },
+	{ 0x06000886, TrackableHit_get_Flags_mA85B2890BDF24375EA458B6DB9F0115D48F85DF3_AdjustorThunk },
+	{ 0x06000887, TrackableHit_set_Flags_m68344347260FE485EF7AAA44B5ECAC48BDAB3235_AdjustorThunk },
+	{ 0x06000888, TrackableHit_get_Trackable_m8E9A79D89A9A97D999B8BFE0B2F390EF4F5D345F_AdjustorThunk },
+	{ 0x06000889, TrackableHit_set_Trackable_m5C3B46B58AE6602F723E43DD70A5AC2A1EDE5F8C_AdjustorThunk },
+	{ 0x060008B9, CloudAnchorHistory__ctor_mE70F11A6DF68D0699A2574C0DF25877284C90D5E_AdjustorThunk },
+	{ 0x060008BA, CloudAnchorHistory__ctor_m5D68E421D65A0DC4F1B36238B9EE1ACD981AA547_AdjustorThunk },
+	{ 0x060008BB, CloudAnchorHistory_get_CreatedTime_m7E6ED1A149BA899E4D8B6A83DC84C6109252D448_AdjustorThunk },
+	{ 0x060008BC, CloudAnchorHistory_ToString_m3617CCDCE6A6600F81DA362E5256299ABAA42557_AdjustorThunk },
+	{ 0x060009AD, PointInfo__ctor_m19400B1DF8BFBE3C676C53482B19808BFFAEF6B0_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[2419] = 
+static const int32_t s_InvokerIndices[2875] = 
 {
-	1950,
-	1950,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1912,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1658,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	1950,
-	1650,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1650,
-	1631,
-	1950,
-	1032,
-	1950,
-	3135,
-	1650,
-	1650,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1912,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1934,
-	1950,
-	1650,
-	1950,
-	1950,
-	1950,
-	1950,
-	2704,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1934,
-	1950,
-	1950,
-	1934,
-	1631,
-	1950,
-	1950,
-	1934,
-	1036,
-	1036,
-	1950,
-	1950,
-	1652,
-	1950,
-	1950,
-	1950,
-	1950,
-	976,
-	1912,
-	1950,
-	1950,
-	1950,
-	3010,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1506,
-	1253,
-	1950,
-	1912,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1934,
-	1036,
-	1036,
-	1950,
-	1950,
-	3135,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	2805,
-	2715,
-	2965,
-	1950,
-	3135,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	3135,
-	1950,
-	1631,
-	1950,
-	1950,
-	3135,
-	2366,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	2001,
-	2918,
-	1950,
-	3135,
-	1950,
-	1950,
-	3117,
-	1631,
-	1950,
-	1950,
-	1594,
-	1950,
-	1950,
-	1950,
-	3135,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	3127,
-	3117,
-	3117,
-	3131,
-	3131,
-	3132,
-	3114,
-	3117,
-	3117,
-	3109,
-	3109,
-	3127,
-	3088,
-	3114,
-	3010,
-	3010,
-	2550,
-	2838,
-	3065,
-	2824,
-	3063,
-	3070,
-	2549,
-	2837,
-	2809,
-	2540,
-	3062,
-	2830,
-	3086,
-	2548,
-	2827,
-	3086,
-	3135,
-	3086,
-	3135,
-	1950,
-	1631,
-	1631,
-	1950,
-	1950,
-	3135,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	1950,
-	1950,
-	3135,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1032,
-	1950,
-	1950,
-	1950,
-	3135,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1303,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1934,
-	1912,
-	1946,
-	1946,
-	1947,
-	1579,
-	1912,
-	1950,
-	1950,
-	1934,
-	1912,
-	1946,
-	1946,
-	1947,
-	1579,
-	1912,
-	1950,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2407,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	2389,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2389,
+	2367,
+	2870,
+	1440,
+	2870,
+	4369,
+	2389,
+	2389,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2843,
+	2870,
+	2389,
+	2870,
+	2870,
+	2870,
+	2870,
+	3866,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2843,
+	2870,
+	2870,
+	2843,
+	2367,
+	2870,
+	2870,
+	2843,
+	1445,
+	1445,
+	2870,
+	2870,
+	2391,
+	2870,
+	2870,
+	2870,
+	2870,
+	1362,
+	2820,
+	2870,
+	2870,
+	2870,
+	4217,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2171,
+	1809,
+	2870,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2843,
+	1445,
+	1445,
+	2870,
+	2870,
+	4369,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	3983,
+	3882,
+	4162,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	4369,
+	2870,
+	2367,
+	2870,
+	2870,
+	4369,
+	3432,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2955,
+	4112,
+	2870,
+	4369,
+	2870,
+	2870,
+	4348,
+	2367,
+	2870,
+	2870,
+	2316,
+	2870,
+	2870,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	4359,
+	4348,
+	4348,
+	4365,
+	4365,
+	4366,
+	4345,
+	4348,
+	4348,
+	4340,
+	4340,
+	4359,
+	4303,
+	4345,
+	4217,
+	4217,
+	3675,
+	4019,
+	4275,
+	4005,
+	4273,
+	4280,
+	3674,
+	4018,
+	3987,
+	3661,
+	4272,
+	4011,
+	4298,
+	3673,
+	4008,
+	4298,
+	4369,
+	4298,
+	4369,
+	2870,
+	2367,
+	2367,
+	2870,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	1440,
+	2870,
+	2870,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	1881,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2843,
+	2820,
+	2865,
+	2865,
+	2866,
+	2301,
+	2820,
+	2870,
+	2870,
+	2843,
+	2820,
+	2865,
+	2865,
+	2866,
+	2301,
+	2820,
+	2870,
 	-1,
 	-1,
-	566,
-	1950,
-	1029,
-	566,
-	147,
-	786,
-	2434,
-	2580,
-	2580,
-	2194,
-	2384,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	1950,
-	1912,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1950,
-	1950,
+	816,
+	2870,
+	1437,
+	816,
+	224,
+	1106,
+	3519,
+	3717,
+	3717,
+	3215,
+	3455,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
 	-1,
 	-1,
 	-1,
 	-1,
 	-1,
-	1053,
-	1652,
-	1937,
-	1934,
-	1505,
-	873,
-	1950,
-	1948,
-	1950,
-	1535,
-	1631,
-	1950,
-	1921,
-	1950,
-	1319,
-	1631,
-	1950,
-	1937,
-	1950,
-	1505,
-	1631,
-	1950,
-	1950,
-	447,
-	1937,
-	1505,
-	1652,
-	1652,
-	1652,
-	1652,
-	1505,
-	1950,
+	1466,
+	2391,
+	2846,
+	2843,
+	2169,
+	1206,
+	2870,
+	2867,
+	2870,
+	2208,
+	2367,
+	2870,
 	2829,
-	3064,
-	3010,
-	2730,
-	3066,
-	3036,
-	3026,
-	2839,
-	1950,
-	1912,
-	1950,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1950,
-	1950,
-	1950,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	305,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1950,
-	1950,
-	1950,
-	1950,
-	1912,
-	1950,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1950,
-	1950,
-	1950,
-	1650,
-	1650,
-	1950,
-	1029,
-	1650,
-	520,
-	1631,
-	1631,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	772,
-	1950,
-	3135,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1950,
-	1950,
-	1950,
-	1950,
-	1505,
-	1505,
-	164,
-	1950,
-	3135,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	3135,
-	1950,
-	1950,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	3135,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1652,
-	1950,
-	1950,
-	1950,
-	1934,
-	1950,
-	1950,
-	1062,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	877,
-	1527,
-	1534,
-	1950,
-	1950,
-	1950,
-	1616,
-	1912,
-	1950,
-	1950,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1950,
-	1950,
-	1616,
-	2704,
-	1950,
-	1950,
-	1950,
-	3135,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	1950,
-	1950,
-	3135,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1937,
-	1855,
-	1534,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1937,
-	1937,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	3135,
-	1950,
-	1950,
-	1950,
-	1032,
-	1950,
-	3135,
-	1950,
-	1950,
-	1934,
-	1934,
-	1251,
-	1950,
-	1950,
-	1505,
-	1505,
-	1950,
-	3127,
-	1950,
-	1950,
-	1934,
-	1950,
-	1950,
-	1950,
-	1631,
-	1631,
-	658,
-	1912,
-	1950,
-	1950,
-	1301,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1950,
-	1950,
-	2704,
-	1950,
-	1950,
-	1950,
-	1950,
-	772,
-	1950,
-	1950,
-	3135,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1950,
-	1950,
-	2704,
-	1950,
-	1950,
-	1950,
-	3135,
-	2704,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	3135,
-	1950,
-	1950,
-	2704,
-	1950,
-	362,
-	1912,
-	1950,
-	1950,
-	1950,
-	3135,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	449,
-	1664,
-	1950,
-	1950,
-	1950,
-	1950,
-	1912,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1950,
-	1950,
-	1950,
-	1912,
-	1950,
-	1950,
-	363,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1950,
-	1927,
-	1647,
+	2870,
+	1899,
+	2367,
+	2870,
+	2846,
+	2870,
+	2169,
+	2367,
+	2870,
+	2870,
+	648,
+	2846,
+	2169,
+	2391,
+	2391,
+	2391,
+	2391,
+	2169,
+	2870,
+	4010,
+	4274,
+	4217,
+	3898,
+	4276,
+	4245,
+	4235,
+	4020,
+	2870,
+	2820,
+	2870,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	459,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2820,
+	2870,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2389,
+	2389,
+	2870,
+	1437,
+	2389,
 	755,
-	1950,
-	1295,
-	1295,
-	1937,
-	1502,
-	1934,
-	1950,
-	1950,
-	1950,
-	3135,
-	1950,
-	1504,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	3127,
-	3036,
-	3010,
-	2885,
-	3117,
-	3029,
-	3010,
-	3135,
-	2716,
-	3127,
-	3127,
-	2777,
-	2957,
-	3129,
-	3135,
-	2526,
-	3135,
-	3111,
-	3084,
-	2506,
-	3135,
-	3127,
-	3127,
-	3127,
-	3086,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1950,
-	1631,
-	1950,
-	1616,
-	1950,
-	1934,
-	1912,
-	1950,
-	1912,
-	1011,
-	1934,
-	1650,
-	1897,
-	1618,
-	1897,
-	1618,
-	1897,
-	1934,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1912,
-	1631,
-	1297,
-	-1,
-	1618,
-	1950,
-	448,
-	1640,
-	1920,
-	1912,
-	2957,
-	2957,
-	2957,
-	2957,
-	2957,
-	2957,
-	2957,
-	2957,
-	2957,
-	2957,
-	2957,
-	2957,
-	2957,
-	2957,
-	2957,
-	2931,
-	2957,
-	2957,
-	2957,
-	2957,
-	2957,
-	1631,
-	3084,
-	1317,
-	1221,
-	1221,
-	1297,
-	1618,
-	1897,
-	1221,
-	743,
-	1618,
-	2585,
-	2580,
-	2580,
-	2580,
-	3084,
-	2868,
-	3084,
-	2866,
-	3084,
-	2580,
-	2384,
-	1631,
-	1317,
-	779,
-	1012,
-	1012,
-	1012,
-	1012,
-	2585,
-	2383,
-	2383,
-	2383,
-	2383,
-	2385,
-	1631,
-	1221,
-	1317,
-	1503,
-	1503,
-	1297,
-	1221,
-	2580,
-	2585,
-	2580,
-	2580,
-	2580,
-	2580,
-	3084,
-	1631,
-	3084,
-	1278,
-	210,
-	1153,
-	2866,
-	3084,
-	2226,
-	1981,
-	1990,
-	1631,
-	1221,
-	1221,
-	1317,
-	477,
-	1118,
-	1118,
-	1618,
-	1118,
-	2580,
-	2580,
-	2585,
-	2196,
-	2585,
-	2585,
-	3084,
-	2866,
-	2383,
-	2383,
-	2383,
-	3084,
-	1631,
-	1897,
-	1618,
-	622,
-	622,
-	1221,
-	622,
-	1221,
-	1221,
-	2866,
-	3084,
-	2383,
-	2383,
-	2580,
-	2383,
-	2580,
-	2580,
-	1631,
-	742,
-	1618,
-	1231,
-	1231,
-	1231,
-	2866,
-	3084,
-	2583,
-	2583,
-	2583,
-	2583,
-	1631,
-	1897,
-	1618,
-	1221,
-	623,
-	2866,
-	3084,
-	2580,
-	2385,
-	1631,
-	1618,
-	565,
-	817,
-	3084,
-	2383,
-	2225,
-	1631,
-	1618,
-	1896,
-	1897,
-	1870,
-	1380,
-	1380,
-	1904,
-	1912,
-	1579,
-	596,
-	1631,
-	1895,
-	1194,
-	785,
-	3084,
-	2580,
-	2580,
-	2434,
-	2434,
-	2194,
-	2024,
-	2385,
-	2585,
-	2434,
-	2580,
-	2434,
-	2384,
-	1631,
-	160,
-	161,
-	99,
-	396,
-	564,
-	2197,
-	2193,
-	2080,
-	2866,
-	3084,
-	2580,
-	2385,
-	2866,
-	3084,
-	2580,
-	2585,
-	2580,
-	1631,
-	705,
-	705,
-	392,
-	1221,
-	1221,
-	1618,
-	3084,
-	2580,
-	2580,
-	2194,
-	2384,
-	2384,
-	1631,
-	1897,
-	1618,
-	1221,
-	1503,
-	1127,
-	394,
-	624,
-	760,
-	738,
-	3135,
-	2866,
-	3084,
-	2580,
-	2580,
-	2580,
-	2586,
-	2586,
-	2586,
-	2580,
-	2580,
-	2860,
-	3088,
-	2868,
-	2846,
-	2858,
-	3111,
-	1631,
-	1950,
-	1317,
-	1503,
-	1503,
-	1012,
-	1297,
-	1221,
-	818,
-	816,
-	818,
-	816,
-	2585,
-	2580,
-	2580,
-	2580,
-	2580,
-	2580,
-	2585,
-	2386,
-	2386,
-	1631,
-	1317,
-	1317,
-	1221,
-	1221,
-	2585,
-	2580,
-	2585,
-	2580,
-	1631,
-	1275,
-	1221,
-	778,
-	1618,
-	705,
-	2580,
-	2580,
-	2580,
-	2580,
-	3084,
-	1631,
-	1897,
-	1279,
-	1618,
-	1317,
-	2571,
-	3084,
-	2580,
-	1631,
-	1278,
-	1618,
-	2866,
-	3084,
-	2586,
-	2583,
-	1631,
-	1950,
-	188,
-	1221,
-	1869,
-	1631,
-	604,
-	1302,
-	704,
-	707,
-	1425,
-	464,
-	1631,
-	1237,
-	1895,
-	1231,
-	1895,
-	1231,
-	1895,
-	1116,
-	2670,
-	2585,
-	2670,
-	2868,
-	2577,
-	2380,
-	2434,
-	2572,
-	2589,
-	2434,
-	2436,
-	2225,
-	2869,
-	2434,
-	2866,
-	2670,
-	2959,
-	2866,
-	2671,
-	1631,
-	2586,
-	1897,
-	1618,
-	2866,
-	3084,
-	2583,
-	2583,
-	2583,
-	2583,
-	2585,
-	2583,
-	2583,
-	2583,
-	2583,
-	1631,
-	1221,
-	1221,
-	568,
-	1618,
-	1012,
-	2580,
-	2580,
-	2227,
-	3084,
-	2585,
-	1631,
-	1897,
-	1618,
-	1221,
-	743,
-	2866,
-	3084,
-	2580,
-	2384,
-	-1,
-	-1,
-	1895,
-	1950,
-	1950,
-	1934,
-	1011,
-	1425,
-	1219,
-	756,
-	1950,
-	1950,
-	3117,
-	1934,
-	1650,
-	1934,
-	1950,
-	1425,
-	1219,
-	756,
-	1950,
-	1950,
-	1011,
-	1295,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	3117,
-	1895,
-	1616,
-	1895,
-	1616,
-	1912,
-	1631,
-	1912,
-	1934,
-	1650,
-	1912,
-	1631,
-	1912,
-	1303,
-	1631,
-	1950,
-	1950,
-	1950,
-	3135,
-	1221,
-	1950,
-	1950,
-	1934,
-	1950,
-	1950,
-	1950,
-	1650,
-	1425,
-	1011,
-	1631,
-	1950,
-	1297,
-	1650,
-	1950,
-	1950,
-	3135,
-	1580,
-	3109,
-	2568,
-	3078,
-	3083,
-	2858,
-	3135,
-	3088,
-	3078,
-	3078,
-	3135,
-	3135,
-	3135,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	3117,
-	1912,
-	1303,
-	1934,
-	3135,
-	3086,
-	2856,
-	2856,
-	2879,
-	3135,
-	2868,
-	2959,
-	1950,
-	1616,
-	1616,
-	1029,
-	1950,
-	1029,
-	1950,
-	764,
-	1631,
-	1029,
-	1011,
-	286,
-	1631,
-	1029,
-	1221,
-	502,
-	1231,
-	1029,
-	1029,
-	297,
-	1631,
-	1029,
-	1045,
-	313,
-	1631,
-	1029,
-	955,
-	281,
-	1631,
-	1029,
-	955,
-	281,
-	1631,
-	1029,
-	395,
-	86,
-	1631,
-	2846,
-	3036,
-	2195,
-	2879,
-	2616,
-	1950,
-	1580,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1895,
-	1895,
-	1912,
-	1912,
-	1934,
-	1912,
-	1303,
-	1631,
-	1950,
-	1950,
-	1950,
-	3117,
-	3135,
-	1950,
-	1631,
-	1897,
-	1618,
-	1934,
-	1950,
-	1631,
-	1297,
-	-1,
-	-1,
-	1950,
-	3117,
-	1950,
-	1950,
-	1934,
-	1912,
-	1912,
-	1934,
-	1912,
-	1912,
-	1950,
-	3135,
-	1631,
-	1631,
-	1631,
-	1631,
-	3086,
-	2882,
-	1950,
-	3109,
-	1950,
-	2889,
-	2851,
-	2872,
-	1950,
-	3135,
-	3117,
-	1950,
-	1442,
-	1301,
-	831,
-	1631,
-	1027,
-	816,
-	1221,
-	1950,
-	-1,
-	-1,
-	1950,
-	3109,
-	2858,
-	2855,
-	2393,
-	3117,
-	3117,
-	1950,
-	1032,
-	1032,
-	1950,
-	1934,
-	1650,
-	1912,
-	1631,
-	1652,
-	1032,
-	1934,
-	3117,
-	1301,
-	1302,
-	1301,
-	1631,
-	763,
-	768,
-	1631,
-	1237,
-	784,
-	625,
-	1029,
-	640,
-	1631,
-	3135,
-	1950,
-	1035,
-	1950,
-	2866,
-	3084,
-	1950,
-	3135,
-	1950,
-	1442,
-	1442,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1650,
-	873,
-	1949,
-	1950,
-	3135,
-	3117,
-	3117,
-	3109,
-	3133,
-	3127,
-	3059,
-	3033,
-	3033,
-	3033,
-	3033,
-	3135,
-	3135,
-	2846,
-	3135,
-	1950,
-	1472,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1650,
-	873,
-	1949,
-	1950,
-	1950,
-	1950,
-	3135,
-	3111,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	1912,
-	1950,
-	1029,
-	1231,
-	510,
-	1231,
-	1934,
-	1650,
-	1934,
-	1650,
-	1934,
-	1650,
-	1442,
-	1895,
-	1631,
-	1950,
-	1950,
-	1895,
-	1912,
-	1631,
-	1897,
-	1618,
-	2487,
-	1950,
-	1950,
-	1934,
-	1950,
-	3135,
-	1950,
-	3036,
-	3010,
-	1301,
-	1631,
-	1631,
-	1950,
-	3117,
-	3117,
-	3117,
-	1035,
-	3135,
-	1032,
-	1912,
-	1631,
-	1912,
-	1631,
-	1934,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	3127,
-	3088,
-	3086,
-	3135,
-	3135,
-	3135,
-	1950,
-	3135,
-	1012,
-	1920,
-	1316,
-	1631,
-	1631,
-	1631,
-	1631,
-	1012,
-	1895,
-	1912,
-	1920,
-	1937,
-	1937,
-	1895,
-	1950,
-	1895,
-	1934,
-	1650,
-	1897,
-	1618,
-	1110,
-	471,
-	471,
-	1036,
-	1631,
-	1895,
-	1616,
-	1912,
-	1631,
-	1895,
-	1616,
-	1895,
-	1616,
-	63,
-	1895,
-	1616,
-	1946,
-	1662,
-	1946,
-	1662,
-	1895,
-	1616,
-	1895,
-	1616,
-	1895,
-	1616,
-	1895,
-	1616,
-	1618,
-	1934,
-	1650,
-	1895,
-	1616,
-	1895,
-	1616,
-	1897,
-	1618,
-	1897,
-	1618,
-	1897,
-	1618,
-	1895,
-	1616,
-	1895,
-	1616,
-	1895,
-	1616,
-	1950,
-	1950,
-	673,
-	1650,
-	1616,
-	1617,
-	1652,
-	1609,
-	1586,
-	1912,
-	1934,
-	1895,
-	1937,
-	1896,
-	1890,
-	1871,
-	1616,
-	1012,
-	1912,
-	1012,
-	1895,
-	1012,
-	1912,
-	1920,
-	1937,
-	1937,
-	1895,
-	1631,
-	2957,
-	448,
-	2915,
-	3135,
-	1950,
-	1950,
-	1012,
-	1920,
-	1895,
-	3123,
-	3112,
-	2355,
-	2357,
-	2183,
-	2356,
-	2184,
-	1950,
-	3135,
-	2767,
-	3036,
-	3127,
-	3109,
-	3073,
-	3020,
-	3086,
-	3117,
-	3106,
-	3106,
-	3106,
-	3101,
-	3101,
-	2545,
-	3100,
-	2698,
-	2953,
-	1301,
-	1012,
-	1920,
-	1895,
-	615,
-	62,
-	1895,
-	1616,
-	1895,
-	1616,
-	1937,
-	1652,
-	1878,
-	1594,
-	1921,
-	1641,
-	1878,
-	1594,
-	1938,
-	1653,
-	1912,
-	1896,
-	1617,
-	1950,
-	617,
-	1895,
-	1616,
-	1948,
-	1664,
-	1937,
-	1652,
-	3067,
-	3109,
-	3109,
-	3109,
-	3109,
-	2719,
-	-1,
-	3099,
-	3117,
-	3015,
-	3033,
-	2961,
-	3109,
-	2961,
-	3033,
-	3033,
-	3033,
-	1950,
-	1012,
-	1950,
-	1895,
-	1302,
-	1631,
-	1934,
-	432,
-	1920,
-	1640,
-	1937,
-	1652,
-	1895,
-	1616,
-	1912,
-	1631,
-	3135,
-	1912,
-	1631,
-	1895,
-	1912,
-	1631,
-	1897,
-	1618,
-	2487,
-	1950,
-	1950,
-	1934,
-	1950,
-	3135,
-	3010,
-	3010,
-	3086,
-	2711,
-	2962,
-	3123,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1662,
-	1950,
-	1950,
-	1046,
-	1046,
-	1950,
-	1950,
-	1631,
-	1950,
-	1950,
-	1650,
-	1950,
-	1593,
-	1950,
-	1593,
-	1652,
-	677,
-	1950,
-	1950,
-	643,
-	1032,
-	1887,
-	1912,
-	1950,
-	1032,
-	1950,
-	1934,
-	1650,
-	1895,
-	1616,
-	1937,
-	1652,
-	1950,
-	1950,
-	3135,
-	1934,
-	1934,
-	966,
-	1950,
-	1950,
-	1950,
-	1950,
-	1442,
-	1950,
-	1950,
-	1912,
-	1631,
-	1912,
-	1950,
-	1631,
-	1631,
-	1631,
-	1950,
-	1650,
-	1950,
-	1950,
-	1032,
-	1912,
-	1912,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1912,
-	1592,
-	1950,
-	1950,
-	1950,
-	1650,
-	1950,
-	1950,
-	1403,
-	3135,
-	1950,
-	693,
-	1631,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1292,
-	1035,
-	1950,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	1950,
-	2765,
-	3054,
-	3054,
-	3041,
-	2794,
-	3083,
-	3083,
-	3033,
-	3117,
-	2090,
-	2552,
-	2766,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1650,
-	1650,
-	1650,
-	1950,
-	1950,
-	173,
-	1950,
-	1631,
-	1950,
-	747,
-	1231,
-	1950,
-	3135,
-	1950,
-	1950,
-	2178,
-	2207,
-	1950,
-	3135,
-	1631,
-	1631,
-	1631,
-	1950,
-	1631,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1029,
-	173,
-	51,
-	1631,
-	381,
-	1950,
-	461,
-	741,
-	1616,
-	1950,
-	2373,
-	3135,
-	2431,
-	2687,
-	3083,
-	1950,
-	1950,
-	1950,
-	1950,
-	1032,
-	1950,
-	1950,
-	3135,
-	1950,
-	1950,
-	1950,
-	1934,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1650,
-	1650,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	3135,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	1950,
-	831,
-	1950,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1934,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1650,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1664,
-	1950,
-	1950,
-	1950,
-	678,
-	3135,
-	1950,
-	1536,
-	1528,
-	1950,
-	1950,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	361,
-	1318,
-	1950,
-	359,
-	1302,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	1912,
-	1631,
-	1631,
-	1631,
-	1631,
-	1950,
-	1593,
-	1950,
-	1912,
-	1631,
-	2882,
-	1631,
-	3135,
-	832,
-	1035,
-	1950,
-	1950,
-	1593,
-	1934,
-	1650,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1934,
-	1631,
-	1650,
-	1950,
-	1950,
-	1950,
-	1650,
-	1046,
-	1046,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1934,
-	1950,
-	1616,
-	1950,
-	1631,
-	1631,
-	1950,
-	1950,
-	1950,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1950,
-	1950,
-	676,
-	1060,
-	1950,
-	1950,
-	2882,
-	1060,
-	3135,
-	832,
-	1035,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1650,
-	1046,
-	1046,
-	1631,
-	1631,
-	666,
-	666,
-	666,
-	1046,
-	1650,
-	1296,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1912,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1912,
-	1631,
-	1950,
-	1950,
-	1950,
-	764,
-	1950,
-	1950,
-	3135,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1479,
-	1950,
-	854,
-	1061,
-	1950,
-	1950,
-	1664,
-	1479,
-	1662,
+	2367,
+	2367,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	1089,
+	2870,
+	4369,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2169,
+	2169,
+	265,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	4369,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2391,
+	2870,
+	2870,
+	2870,
+	2843,
+	2870,
+	2870,
 	1477,
-	1253,
-	1251,
-	1506,
-	1950,
-	592,
-	1535,
-	1950,
-	1950,
-	3135,
-	1631,
-	1950,
-	1950,
-	1442,
-	1631,
-	1631,
-	1631,
-	1506,
-	1253,
-	1301,
-	1479,
-	1950,
-	1950,
-	3135,
-	1442,
-	1950,
-	1631,
-	1950,
-	1038,
-	1895,
-	1616,
-	1946,
-	1662,
-	1946,
-	1662,
-	1946,
-	1662,
-	1934,
-	1950,
-	1934,
-	1950,
-	1950,
-	1306,
-	1950,
-	1950,
-	657,
-	1895,
-	1616,
-	1895,
-	1616,
-	1946,
-	1662,
-	1946,
-	1662,
-	1937,
-	1652,
-	1937,
-	1652,
-	1934,
-	1950,
-	1934,
-	1950,
-	1950,
-	773,
-	1950,
-	1950,
-	1038,
-	1895,
-	1616,
-	1946,
-	1662,
-	1934,
-	1950,
-	1934,
-	1950,
-	1950,
-	1306,
-	1950,
-	1950,
-	657,
-	1895,
-	1616,
-	1895,
-	1616,
-	1946,
-	1662,
-	1946,
-	1662,
-	1937,
-	1652,
-	1934,
-	1950,
-	1934,
-	1950,
-	1950,
-	2363,
-	773,
-	1950,
-	1950,
-	657,
-	1895,
-	1616,
-	1895,
-	1616,
-	1946,
-	1662,
-	1946,
-	1662,
-	1946,
-	1662,
-	1946,
-	1662,
-	1934,
-	1950,
-	1934,
-	1950,
-	1950,
-	773,
-	1950,
-	1950,
-	3117,
-	1912,
-	1912,
-	1912,
-	1912,
-	1912,
-	1912,
-	1631,
-	1950,
-	1950,
-	1950,
-	1631,
-	1950,
-	3135,
-	1442,
-	1631,
-	1631,
-	1631,
-	1062,
-	1664,
-	1950,
-	1950,
-	1950,
-	1950,
-	1934,
-	1442,
-	1442,
-	1442,
-	1442,
-	1442,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1631,
-	1950,
-	1442,
-	1442,
-	1631,
-	1631,
-	1950,
-	1937,
-	1937,
-	1937,
-	1950,
-	1442,
-	1631,
-	1631,
-	1631,
-	1937,
-	1950,
-	1950,
-	1652,
-	1652,
-	1950,
-	1442,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1442,
-	1631,
-	1631,
-	1631,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1950,
-	1631,
-	1950,
-	1950,
-	1950,
-	1442,
-	1631,
-	1950,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	1213,
+	2200,
+	2207,
+	2870,
+	2870,
+	2870,
+	2351,
+	2820,
+	2870,
+	2870,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2351,
+	3866,
+	2870,
+	2870,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2846,
+	2728,
+	2207,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2846,
+	2846,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	1440,
+	2870,
+	4369,
+	2870,
+	2870,
+	2843,
+	2843,
+	1807,
+	2870,
+	2870,
+	2169,
+	2169,
+	2870,
+	4359,
+	2870,
+	2870,
+	2843,
+	2870,
+	2870,
+	2870,
+	2367,
+	2367,
+	944,
+	2820,
+	2870,
+	2870,
+	1879,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	3866,
+	2870,
+	2870,
+	2870,
+	2870,
+	1089,
+	2870,
+	2870,
+	4369,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	3866,
+	2870,
+	2870,
+	2870,
+	4369,
+	3866,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	4369,
+	2870,
+	2870,
+	3866,
+	2870,
+	533,
+	2820,
+	2870,
+	2870,
+	2870,
+	4369,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	651,
+	2413,
+	2870,
+	2870,
+	2870,
+	2870,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2820,
+	2870,
+	2870,
+	535,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2835,
+	2385,
+	1066,
+	2870,
+	1873,
+	1873,
+	2846,
+	2165,
+	2843,
+	2870,
+	2870,
+	2870,
+	4369,
+	2870,
+	2167,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2351,
+	2351,
+	2389,
+	2389,
+	2870,
+	2870,
+	2846,
+	2846,
+	2865,
+	2846,
+	2391,
+	2846,
+	2391,
+	2802,
+	2351,
+	2843,
+	2389,
+	2843,
+	2389,
+	2870,
+	2367,
+	2367,
+	649,
+	2870,
+	1205,
+	2367,
+	2199,
+	2870,
+	2846,
+	2391,
+	2870,
+	2367,
+	2367,
+	649,
+	2870,
+	2870,
+	2870,
+	2367,
+	2367,
+	2870,
+	2846,
+	2391,
+	2351,
+	2870,
+	2367,
+	2367,
+	649,
+	2870,
+	4217,
+	2367,
+	2367,
+	2870,
+	2870,
+	2870,
+	2820,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	1459,
+	2870,
+	2870,
+	2351,
+	1440,
+	927,
+	2367,
+	2367,
+	2367,
+	927,
+	927,
+	591,
+	1440,
+	1440,
+	927,
+	606,
+	927,
+	2367,
+	2367,
+	2870,
+	2870,
+	4369,
+	2367,
+	2820,
+	2870,
+	886,
+	2870,
+	1178,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2820,
+	2870,
+	2367,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2413,
+	2870,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	1231,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	4340,
+	4294,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	1441,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	660,
+	2870,
+	660,
+	2870,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2870,
+	2870,
+	2367,
+	2367,
+	1230,
+	1230,
+	914,
+	914,
+	926,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	1879,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2351,
+	2870,
+	2870,
+	2870,
+	1230,
+	1230,
+	914,
+	914,
+	926,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	2367,
+	2367,
+	2367,
+	2367,
+	2351,
+	2870,
+	2870,
+	2870,
+	2870,
+	2351,
+	2870,
+	2870,
+	2351,
+	2870,
+	2870,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	1879,
+	1879,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2820,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2820,
+	2870,
+	2870,
+	1004,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	1879,
+	2820,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2351,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2870,
+	2870,
+	2367,
+	2870,
+	1231,
+	2870,
+	1231,
+	1231,
+	2870,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2367,
+	2870,
+	2870,
+	2870,
+	2389,
+	2367,
+	2367,
+	2870,
+	4359,
+	4245,
+	4217,
+	4067,
+	4348,
+	4238,
+	4217,
+	4369,
+	3883,
+	4359,
+	4359,
+	3952,
+	4154,
+	4361,
+	4369,
+	3640,
+	4369,
+	4342,
+	4295,
+	3614,
+	4369,
+	4359,
+	4359,
+	4359,
+	4298,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2870,
+	2367,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	1417,
+	2843,
+	2389,
+	2804,
+	2353,
+	2804,
+	2353,
+	2804,
+	2843,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	2820,
+	2367,
+	1875,
+	-1,
+	2353,
+	2870,
+	650,
+	2377,
+	2828,
+	2820,
+	4154,
+	4154,
+	4154,
+	4154,
+	4154,
+	4154,
+	4154,
+	4154,
+	4154,
+	4154,
+	4154,
+	4154,
+	4154,
+	4154,
+	4154,
+	4125,
+	4154,
+	4154,
+	4154,
+	4154,
+	4154,
+	2367,
+	4295,
+	1897,
+	1767,
+	1767,
+	1875,
+	2353,
+	2804,
+	1767,
+	1052,
+	2353,
+	3722,
+	3717,
+	3717,
+	3717,
+	4295,
+	4050,
+	4295,
+	4048,
+	4295,
+	3717,
+	3455,
+	2367,
+	1897,
+	1097,
+	1418,
+	1418,
+	1418,
+	1418,
+	3722,
+	3454,
+	3454,
+	3454,
+	3454,
+	3456,
+	2367,
+	1767,
+	1897,
+	2166,
+	2166,
+	1875,
+	1767,
+	3717,
+	3722,
+	3717,
+	3717,
+	3717,
+	3717,
+	4295,
+	2367,
+	4295,
+	1846,
+	335,
+	1639,
+	4048,
+	4295,
+	3259,
+	2921,
+	2933,
+	2367,
+	1767,
+	1767,
+	1897,
+	693,
+	1598,
+	1598,
+	2353,
+	1598,
+	3717,
+	3717,
+	3722,
+	3217,
+	3722,
+	3722,
+	4295,
+	4048,
+	3454,
+	3454,
+	3454,
+	4295,
+	2367,
+	2804,
+	2353,
+	896,
+	896,
+	1767,
+	896,
+	1767,
+	1767,
+	4048,
+	4295,
+	3454,
+	3454,
+	3717,
+	3454,
+	3717,
+	3717,
+	2367,
+	1051,
+	2353,
+	1778,
+	1778,
+	1778,
+	4048,
+	4295,
+	3720,
+	3720,
+	3720,
+	3720,
+	2367,
+	2804,
+	2353,
+	1767,
+	897,
+	4048,
+	4295,
+	3717,
+	3456,
+	2367,
+	2353,
+	815,
+	1140,
+	4295,
+	3454,
+	3258,
+	2367,
+	2353,
+	2803,
+	2804,
+	2765,
+	2010,
+	2010,
+	2811,
+	2820,
+	2301,
+	863,
+	2367,
+	2802,
+	1732,
+	1105,
+	4295,
+	3717,
+	3717,
+	3519,
+	3519,
+	3215,
+	2988,
+	3456,
+	3722,
+	3519,
+	3717,
+	3519,
+	3455,
+	2367,
+	251,
+	252,
+	149,
+	576,
+	814,
+	3218,
+	3214,
+	3061,
+	4048,
+	4295,
+	3717,
+	3456,
+	4048,
+	4295,
+	3717,
+	3722,
+	3717,
+	2367,
+	1010,
+	1010,
+	571,
+	1767,
+	1767,
+	2353,
+	4295,
+	3717,
+	3717,
+	3215,
+	3455,
+	3455,
+	2367,
+	2804,
+	2353,
+	1767,
+	2166,
+	1609,
+	573,
+	900,
+	1071,
+	1047,
+	4369,
+	4048,
+	4295,
+	3717,
+	3717,
+	3717,
+	3723,
+	3723,
+	3723,
+	3717,
+	3717,
+	4042,
+	4303,
+	4050,
+	4028,
+	4040,
+	4342,
+	2367,
+	2870,
+	1897,
+	2166,
+	2166,
+	1418,
+	1875,
+	1767,
+	1141,
+	1139,
+	1141,
+	1139,
+	3722,
+	3717,
+	3717,
+	3717,
+	3717,
+	3717,
+	3722,
+	3457,
+	3457,
+	2367,
+	1897,
+	1897,
+	1767,
+	1767,
+	3722,
+	3717,
+	3722,
+	3717,
+	2367,
+	1842,
+	1767,
+	1096,
+	2353,
+	1010,
+	3717,
+	3717,
+	3717,
+	3717,
+	4295,
+	2367,
+	2804,
+	1847,
+	2353,
+	1897,
+	3707,
+	4295,
+	3717,
+	2367,
+	1846,
+	2353,
+	4048,
+	4295,
+	3723,
+	3720,
+	2367,
+	2870,
+	296,
+	1767,
+	2764,
+	2367,
+	877,
+	1880,
+	1009,
+	1012,
+	2065,
+	675,
+	2367,
+	1784,
+	2802,
+	1778,
+	2802,
+	1778,
+	2802,
+	1596,
+	3825,
+	3722,
+	3825,
+	4050,
+	3713,
+	3451,
+	3519,
+	3708,
+	3727,
+	3519,
+	3521,
+	3258,
+	4051,
+	3519,
+	4048,
+	3825,
+	4156,
+	4048,
+	3826,
+	2367,
+	3723,
+	2804,
+	2353,
+	4048,
+	4295,
+	3720,
+	3720,
+	3720,
+	3720,
+	3722,
+	3720,
+	3720,
+	3720,
+	3720,
+	2367,
+	1767,
+	1767,
+	818,
+	2353,
+	1418,
+	3717,
+	3717,
+	3260,
+	4295,
+	3722,
+	2367,
+	2804,
+	2353,
+	1767,
+	1052,
+	4048,
+	4295,
+	3717,
+	3455,
+	-1,
+	-1,
+	2802,
+	2870,
+	2870,
+	2843,
+	1417,
+	2065,
+	1765,
+	1067,
+	2870,
+	2870,
+	4348,
+	2843,
+	2389,
+	2843,
+	2870,
+	2065,
+	1765,
+	1067,
+	2870,
+	2870,
+	1417,
+	1873,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	4348,
+	2802,
+	2351,
+	2802,
+	2351,
+	2820,
+	2367,
+	2820,
+	2843,
+	2389,
+	2820,
+	2367,
+	2820,
+	1881,
+	2367,
+	2870,
+	2870,
+	2870,
+	4369,
+	1767,
+	2870,
+	2870,
+	2843,
+	2870,
+	2870,
+	2870,
+	2389,
+	2065,
+	1417,
+	2367,
+	2870,
+	1875,
+	2389,
+	2870,
+	2870,
+	4369,
+	2302,
+	4340,
+	3702,
+	4289,
+	4294,
+	4040,
+	4369,
+	4303,
+	4289,
+	4289,
+	4369,
+	4369,
+	4369,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	4348,
+	2820,
+	1881,
+	2843,
+	4369,
+	4298,
+	4038,
+	4038,
+	4061,
+	4369,
+	4050,
+	4156,
+	2870,
+	2351,
+	2351,
+	1437,
+	2870,
+	1437,
+	2870,
+	1079,
+	2367,
+	1437,
+	1417,
+	428,
+	2367,
+	1437,
+	1767,
+	726,
+	1778,
+	1437,
+	1437,
+	443,
+	2367,
+	1437,
+	1458,
+	468,
+	2367,
+	1437,
+	1339,
+	423,
+	2367,
+	1437,
+	1339,
+	423,
+	2367,
+	1437,
+	574,
+	125,
+	2367,
+	4028,
+	4245,
+	3216,
+	4061,
+	3757,
+	2870,
+	2302,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2802,
+	2802,
+	2820,
+	2820,
+	2843,
+	2820,
+	1881,
+	2367,
+	2870,
+	2870,
+	2870,
+	4348,
+	4369,
+	2870,
+	2367,
+	2804,
+	2353,
+	2843,
+	2870,
+	2367,
+	1875,
+	-1,
+	-1,
+	2870,
+	4348,
+	2870,
+	2870,
+	2843,
+	2820,
+	2820,
+	2843,
+	2820,
+	2820,
+	2870,
+	4369,
+	2367,
+	2367,
+	2367,
+	2367,
+	4298,
+	4064,
+	2870,
+	4340,
+	2870,
+	4071,
+	4033,
+	4054,
+	2870,
+	4369,
+	4348,
+	2870,
+	2083,
+	1879,
+	1154,
+	2367,
+	1435,
+	1139,
+	1767,
+	2870,
+	-1,
+	-1,
+	2870,
+	4340,
+	4040,
+	4037,
+	3467,
+	4348,
+	4348,
+	2870,
+	1440,
+	1440,
+	2870,
+	2843,
+	2389,
+	2820,
+	2367,
+	2391,
+	1440,
+	2843,
+	4348,
+	1879,
+	1880,
+	1879,
+	2367,
+	1078,
+	1083,
+	2367,
+	1784,
+	1104,
+	901,
+	1437,
+	921,
+	2367,
+	4369,
+	2870,
+	1444,
+	2870,
+	4048,
+	4295,
+	2870,
+	4369,
+	2870,
+	2083,
+	2083,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2389,
+	1206,
+	2868,
+	2870,
+	4369,
+	4348,
+	4348,
+	4340,
+	4367,
+	4359,
+	4269,
+	4242,
+	4242,
+	4242,
+	4242,
+	4369,
+	4369,
+	4028,
+	4369,
+	2870,
+	2122,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2389,
+	1206,
+	2868,
+	2870,
+	2870,
+	2870,
+	4369,
+	4342,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2820,
+	2870,
+	1437,
+	1778,
+	739,
+	1778,
+	2843,
+	2389,
+	2843,
+	2389,
+	2843,
+	2389,
+	2083,
+	2802,
+	2367,
+	2870,
+	2870,
+	2802,
+	2820,
+	2367,
+	2804,
+	2353,
+	3590,
+	2870,
+	2870,
+	2843,
+	2870,
+	4369,
+	2870,
+	4245,
+	4217,
+	1879,
+	2367,
+	2367,
+	2870,
+	4348,
+	4348,
+	4348,
+	1444,
+	4369,
+	1440,
+	2820,
+	2367,
+	2820,
+	2367,
+	2843,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	4359,
+	4303,
+	4298,
+	4369,
+	4369,
+	4369,
+	2870,
+	4369,
+	1418,
+	2828,
+	1896,
+	2367,
+	2367,
+	2367,
+	2367,
+	1418,
+	2802,
+	2820,
+	2828,
+	2846,
+	2846,
+	2802,
+	2870,
+	2802,
+	2843,
+	2389,
+	2804,
+	2353,
+	1587,
+	685,
+	685,
+	1445,
+	2367,
+	2802,
+	2351,
+	2820,
+	2367,
+	2802,
+	2351,
+	2802,
+	2351,
+	91,
+	2802,
+	2351,
+	2865,
+	2411,
+	2865,
+	2411,
+	2802,
+	2351,
+	2802,
+	2351,
+	2802,
+	2351,
+	2802,
+	2351,
+	2353,
+	2843,
+	2389,
+	2802,
+	2351,
+	2802,
+	2351,
+	2804,
+	2353,
+	2804,
+	2353,
+	2804,
+	2353,
+	2802,
+	2351,
+	2802,
+	2351,
+	2802,
+	2351,
+	2870,
+	2870,
+	966,
+	2389,
+	2351,
+	2352,
+	2391,
+	2332,
+	2308,
+	2820,
+	2843,
+	2802,
+	2846,
+	2803,
+	2785,
+	2766,
+	2351,
+	1418,
+	2820,
+	1418,
+	2802,
+	1418,
+	2820,
+	2828,
+	2846,
+	2846,
+	2802,
+	2367,
+	4154,
+	650,
+	4106,
+	4369,
+	2870,
+	2870,
+	1418,
+	2828,
+	2802,
+	4355,
+	4343,
+	3417,
+	3419,
+	3193,
+	3418,
+	3194,
+	2870,
+	4369,
+	3942,
+	4245,
+	4359,
+	4340,
+	4283,
+	4229,
+	4298,
+	4348,
+	4333,
+	4333,
+	4333,
+	4328,
+	4328,
+	3670,
+	4327,
+	3860,
+	4149,
+	1879,
+	1418,
+	2828,
+	2802,
+	888,
+	90,
+	2802,
+	2351,
+	2802,
+	2351,
+	2846,
+	2391,
+	2773,
+	2316,
+	2829,
+	2378,
+	2773,
+	2316,
+	2847,
+	2392,
+	2820,
+	2803,
+	2352,
+	2870,
+	890,
+	2802,
+	2351,
+	2867,
+	2413,
+	2846,
+	2391,
+	4277,
+	4340,
+	4340,
+	4340,
+	4340,
+	3887,
+	-1,
+	4326,
+	4348,
+	4222,
+	4242,
+	4158,
+	4340,
+	4158,
+	4242,
+	4242,
+	4242,
+	2870,
+	1418,
+	2870,
+	2802,
+	1880,
+	2367,
+	2843,
+	624,
+	2828,
+	2377,
+	2846,
+	2391,
+	2802,
+	2351,
+	2820,
+	2367,
+	4369,
+	2820,
+	2367,
+	2802,
+	2820,
+	2367,
+	2804,
+	2353,
+	3590,
+	2870,
+	2870,
+	2843,
+	2870,
+	4369,
+	4217,
+	4217,
+	4298,
+	3877,
+	4159,
+	4355,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2411,
+	2870,
+	2870,
+	1459,
+	1459,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	2389,
+	2870,
+	2315,
+	2870,
+	2315,
+	2391,
+	974,
+	2870,
+	2870,
+	925,
+	1440,
+	2782,
+	2820,
+	2870,
+	1440,
+	2870,
+	2843,
+	2389,
+	2802,
+	2351,
+	2846,
+	2391,
+	2870,
+	2870,
+	4369,
+	2843,
+	2843,
+	1351,
+	2870,
+	2870,
+	2870,
+	2870,
+	2083,
+	2870,
+	2870,
+	2820,
+	2367,
+	2820,
+	2870,
+	2367,
+	2367,
+	2367,
+	2870,
+	2389,
+	2870,
+	2870,
+	1440,
+	2820,
+	2820,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2820,
+	2314,
+	2870,
+	2870,
+	2870,
+	2389,
+	2870,
+	2870,
+	2034,
+	4369,
+	2870,
+	997,
+	2367,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	1869,
+	1444,
+	2870,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	2870,
+	3940,
+	4263,
+	4263,
+	4250,
+	3970,
+	4294,
+	4294,
+	4242,
+	4348,
+	3074,
+	3677,
+	3941,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2389,
+	2389,
+	2389,
+	2870,
+	2870,
+	275,
+	2870,
+	2367,
+	2870,
+	1058,
+	1778,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	3183,
+	3229,
+	2870,
+	4369,
+	2367,
+	2367,
+	2367,
+	2870,
+	2367,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	1437,
+	275,
+	73,
+	2367,
+	558,
+	2870,
+	669,
+	1050,
+	2351,
+	2870,
+	3444,
+	4369,
+	3513,
+	3848,
+	4294,
+	2870,
+	2870,
+	2870,
+	2870,
+	1440,
+	2870,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	2843,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2389,
+	2389,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	1154,
+	2870,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2843,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2389,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2413,
+	2870,
+	2870,
+	2870,
+	975,
+	4369,
+	2870,
+	2209,
+	2201,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	531,
+	1898,
+	2870,
+	528,
+	1880,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2820,
+	2367,
+	2367,
+	2367,
+	2367,
+	2870,
+	2315,
+	2870,
+	2820,
+	2367,
+	4064,
+	2367,
+	4369,
+	1155,
+	1444,
+	2870,
+	2870,
+	2315,
+	2843,
+	2389,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2820,
+	2843,
+	2367,
+	2389,
+	2870,
+	2870,
+	2870,
+	2389,
+	1459,
+	1459,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2843,
+	2870,
+	2351,
+	2870,
+	2367,
+	2367,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	2351,
+	2870,
+	2843,
+	2820,
+	2870,
+	2820,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2870,
+	2870,
+	970,
+	1475,
+	2870,
+	2870,
+	4064,
+	1475,
+	4369,
+	1155,
+	1444,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2389,
+	1459,
+	1459,
+	2367,
+	2367,
+	957,
+	957,
+	957,
+	1459,
+	2389,
+	1874,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2820,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2820,
+	2367,
+	2870,
+	2870,
+	2870,
+	1079,
+	2870,
+	2870,
+	4369,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2130,
+	2870,
+	1181,
+	1476,
+	2870,
+	2870,
+	2413,
+	2130,
+	2411,
+	2128,
+	1809,
+	1807,
+	2171,
+	2870,
+	857,
+	2208,
+	2870,
+	2870,
+	4369,
+	2367,
+	2870,
+	2870,
+	2083,
+	2367,
+	2367,
+	2367,
+	2171,
+	1809,
+	1879,
+	2130,
+	2870,
+	2870,
+	4369,
+	2083,
+	2870,
+	2367,
+	2870,
+	1447,
+	2802,
+	2351,
+	2865,
+	2411,
+	2865,
+	2411,
+	2865,
+	2411,
+	2843,
+	2870,
+	2843,
+	2870,
+	2870,
+	1884,
+	2870,
+	2870,
+	943,
+	2802,
+	2351,
+	2802,
+	2351,
+	2865,
+	2411,
+	2865,
+	2411,
+	2846,
+	2391,
+	2846,
+	2391,
+	2843,
+	2870,
+	2843,
+	2870,
+	2870,
+	1090,
+	2870,
+	2870,
+	1447,
+	2802,
+	2351,
+	2865,
+	2411,
+	2843,
+	2870,
+	2843,
+	2870,
+	2870,
+	1884,
+	2870,
+	2870,
+	943,
+	2802,
+	2351,
+	2802,
+	2351,
+	2865,
+	2411,
+	2865,
+	2411,
+	2846,
+	2391,
+	2843,
+	2870,
+	2843,
+	2870,
+	2870,
+	3429,
+	1090,
+	2870,
+	2870,
+	943,
+	2802,
+	2351,
+	2802,
+	2351,
+	2865,
+	2411,
+	2865,
+	2411,
+	2865,
+	2411,
+	2865,
+	2411,
+	2843,
+	2870,
+	2843,
+	2870,
+	2870,
+	1090,
+	2870,
+	2870,
+	4348,
+	2820,
+	2820,
+	2820,
+	2820,
+	2820,
+	2820,
+	2367,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	4369,
+	2083,
+	2367,
+	2367,
+	2367,
+	1477,
+	2413,
+	2870,
+	2870,
+	2870,
+	2870,
+	2843,
+	2083,
+	2083,
+	2083,
+	2083,
+	2083,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2367,
+	2870,
+	2083,
+	2083,
+	2367,
+	2367,
+	2870,
+	2846,
+	2846,
+	2846,
+	2870,
+	2083,
+	2367,
+	2367,
+	2367,
+	2846,
+	2870,
+	2870,
+	2391,
+	2391,
+	2870,
+	2083,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2083,
+	2367,
+	2367,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2870,
+	2367,
+	2870,
+	2870,
+	2870,
+	2870,
+	2083,
+	2367,
+	2870,
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[6] = 
 {
-	{ 0x060004EC, 4,  (void**)&ARPrestoCallbackManager_OnCheckApkAvailabilityResultTrampoline_m64E7790333871FD6C35D540D8A06462925306DC0_RuntimeMethod_var, 0 },
-	{ 0x060004ED, 3,  (void**)&ARPrestoCallbackManager_OnApkInstallationResultTrampoline_mCD75026B955A2BE40EE80793A1C7B385E09B1F44_RuntimeMethod_var, 0 },
-	{ 0x060004EE, 5,  (void**)&ARPrestoCallbackManager_RequestCameraPermissionTrampoline_mD4D344B85E407A2F5896CFDDFA346105E745007D_RuntimeMethod_var, 0 },
-	{ 0x060004EF, 2,  (void**)&ARPrestoCallbackManager_EarlyUpdateTrampoline_m987365E1910F4CE6CEDBFD7BCA2A77930A0E5B8E_RuntimeMethod_var, 0 },
-	{ 0x060004F0, 1,  (void**)&ARPrestoCallbackManager_BeforeSetConfigurationTrampoline_m1C1C3F0CE3AECBC55E20276A4663EEE37B9BEA96_RuntimeMethod_var, 0 },
-	{ 0x060004F1, 0,  (void**)&ARPrestoCallbackManager_BeforeResumeSessionTrampoline_m50A456F0D068CB8297AF6CADA245E8B2FA32C9F8_RuntimeMethod_var, 0 },
+	{ 0x060006A5, 4,  (void**)&ARPrestoCallbackManager_OnCheckApkAvailabilityResultTrampoline_m64E7790333871FD6C35D540D8A06462925306DC0_RuntimeMethod_var, 0 },
+	{ 0x060006A6, 3,  (void**)&ARPrestoCallbackManager_OnApkInstallationResultTrampoline_mCD75026B955A2BE40EE80793A1C7B385E09B1F44_RuntimeMethod_var, 0 },
+	{ 0x060006A7, 5,  (void**)&ARPrestoCallbackManager_RequestCameraPermissionTrampoline_mD4D344B85E407A2F5896CFDDFA346105E745007D_RuntimeMethod_var, 0 },
+	{ 0x060006A8, 2,  (void**)&ARPrestoCallbackManager_EarlyUpdateTrampoline_m987365E1910F4CE6CEDBFD7BCA2A77930A0E5B8E_RuntimeMethod_var, 0 },
+	{ 0x060006A9, 1,  (void**)&ARPrestoCallbackManager_BeforeSetConfigurationTrampoline_m1C1C3F0CE3AECBC55E20276A4663EEE37B9BEA96_RuntimeMethod_var, 0 },
+	{ 0x060006AA, 0,  (void**)&ARPrestoCallbackManager_BeforeResumeSessionTrampoline_m50A456F0D068CB8297AF6CADA245E8B2FA32C9F8_RuntimeMethod_var, 0 },
 };
 static const Il2CppTokenRangePair s_rgctxIndices[14] = 
 {
 	{ 0x0200003B, { 2, 5 } },
-	{ 0x020000D5, { 8, 1 } },
-	{ 0x0200011F, { 18, 16 } },
-	{ 0x02000120, { 34, 3 } },
-	{ 0x02000172, { 39, 13 } },
-	{ 0x02000173, { 52, 20 } },
+	{ 0x02000133, { 8, 1 } },
+	{ 0x0200017D, { 18, 16 } },
+	{ 0x0200017E, { 34, 3 } },
+	{ 0x020001D0, { 39, 13 } },
+	{ 0x020001D1, { 52, 20 } },
 	{ 0x0600011C, { 0, 1 } },
 	{ 0x0600011D, { 1, 1 } },
-	{ 0x0600031C, { 7, 1 } },
-	{ 0x0600053D, { 9, 2 } },
-	{ 0x0600053E, { 11, 2 } },
-	{ 0x06000563, { 13, 4 } },
-	{ 0x06000564, { 17, 1 } },
-	{ 0x060006B6, { 37, 2 } },
+	{ 0x060004D5, { 7, 1 } },
+	{ 0x060006F6, { 9, 2 } },
+	{ 0x060006F7, { 11, 2 } },
+	{ 0x0600071C, { 13, 4 } },
+	{ 0x0600071D, { 17, 1 } },
+	{ 0x0600086F, { 37, 2 } },
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[72] = 
 {
-	{ (Il2CppRGCTXDataType)3, 13214 },
-	{ (Il2CppRGCTXDataType)3, 13213 },
-	{ (Il2CppRGCTXDataType)3, 10929 },
-	{ (Il2CppRGCTXDataType)2, 1813 },
-	{ (Il2CppRGCTXDataType)2, 293 },
-	{ (Il2CppRGCTXDataType)1, 293 },
-	{ (Il2CppRGCTXDataType)3, 13550 },
-	{ (Il2CppRGCTXDataType)3, 13925 },
-	{ (Il2CppRGCTXDataType)3, 800 },
-	{ (Il2CppRGCTXDataType)3, 6488 },
-	{ (Il2CppRGCTXDataType)3, 13927 },
-	{ (Il2CppRGCTXDataType)2, 176 },
-	{ (Il2CppRGCTXDataType)3, 6489 },
-	{ (Il2CppRGCTXDataType)3, 13694 },
-	{ (Il2CppRGCTXDataType)1, 130 },
-	{ (Il2CppRGCTXDataType)2, 130 },
-	{ (Il2CppRGCTXDataType)3, 6479 },
-	{ (Il2CppRGCTXDataType)1, 129 },
-	{ (Il2CppRGCTXDataType)3, 798 },
-	{ (Il2CppRGCTXDataType)3, 795 },
-	{ (Il2CppRGCTXDataType)2, 481 },
-	{ (Il2CppRGCTXDataType)3, 71 },
-	{ (Il2CppRGCTXDataType)3, 799 },
-	{ (Il2CppRGCTXDataType)2, 1922 },
-	{ (Il2CppRGCTXDataType)3, 11680 },
-	{ (Il2CppRGCTXDataType)3, 796 },
-	{ (Il2CppRGCTXDataType)3, 797 },
-	{ (Il2CppRGCTXDataType)3, 72 },
-	{ (Il2CppRGCTXDataType)2, 1472 },
-	{ (Il2CppRGCTXDataType)3, 6541 },
-	{ (Il2CppRGCTXDataType)3, 6542 },
-	{ (Il2CppRGCTXDataType)2, 473 },
-	{ (Il2CppRGCTXDataType)3, 14 },
-	{ (Il2CppRGCTXDataType)3, 15 },
-	{ (Il2CppRGCTXDataType)3, 6544 },
-	{ (Il2CppRGCTXDataType)3, 76 },
-	{ (Il2CppRGCTXDataType)3, 6543 },
-	{ (Il2CppRGCTXDataType)3, 6487 },
-	{ (Il2CppRGCTXDataType)3, 13746 },
-	{ (Il2CppRGCTXDataType)3, 4800 },
-	{ (Il2CppRGCTXDataType)2, 484 },
-	{ (Il2CppRGCTXDataType)3, 13656 },
-	{ (Il2CppRGCTXDataType)3, 4792 },
-	{ (Il2CppRGCTXDataType)3, 4797 },
-	{ (Il2CppRGCTXDataType)3, 4798 },
-	{ (Il2CppRGCTXDataType)2, 245 },
-	{ (Il2CppRGCTXDataType)3, 75 },
-	{ (Il2CppRGCTXDataType)3, 4799 },
-	{ (Il2CppRGCTXDataType)3, 4794 },
-	{ (Il2CppRGCTXDataType)3, 4793 },
-	{ (Il2CppRGCTXDataType)3, 4795 },
-	{ (Il2CppRGCTXDataType)3, 4796 },
-	{ (Il2CppRGCTXDataType)2, 482 },
-	{ (Il2CppRGCTXDataType)3, 13655 },
-	{ (Il2CppRGCTXDataType)3, 4753 },
-	{ (Il2CppRGCTXDataType)3, 6494 },
-	{ (Il2CppRGCTXDataType)2, 244 },
-	{ (Il2CppRGCTXDataType)3, 4789 },
-	{ (Il2CppRGCTXDataType)3, 6493 },
-	{ (Il2CppRGCTXDataType)3, 4528 },
-	{ (Il2CppRGCTXDataType)3, 4751 },
-	{ (Il2CppRGCTXDataType)3, 73 },
-	{ (Il2CppRGCTXDataType)3, 4791 },
-	{ (Il2CppRGCTXDataType)3, 4750 },
-	{ (Il2CppRGCTXDataType)3, 4790 },
-	{ (Il2CppRGCTXDataType)3, 6491 },
-	{ (Il2CppRGCTXDataType)3, 4752 },
-	{ (Il2CppRGCTXDataType)3, 4564 },
-	{ (Il2CppRGCTXDataType)3, 74 },
-	{ (Il2CppRGCTXDataType)3, 6492 },
-	{ (Il2CppRGCTXDataType)2, 1457 },
-	{ (Il2CppRGCTXDataType)3, 6490 },
+	{ (Il2CppRGCTXDataType)3, 21025 },
+	{ (Il2CppRGCTXDataType)3, 21024 },
+	{ (Il2CppRGCTXDataType)3, 16684 },
+	{ (Il2CppRGCTXDataType)2, 2929 },
+	{ (Il2CppRGCTXDataType)2, 399 },
+	{ (Il2CppRGCTXDataType)1, 399 },
+	{ (Il2CppRGCTXDataType)3, 21590 },
+	{ (Il2CppRGCTXDataType)3, 22200 },
+	{ (Il2CppRGCTXDataType)3, 1289 },
+	{ (Il2CppRGCTXDataType)3, 10808 },
+	{ (Il2CppRGCTXDataType)3, 22202 },
+	{ (Il2CppRGCTXDataType)2, 233 },
+	{ (Il2CppRGCTXDataType)3, 10809 },
+	{ (Il2CppRGCTXDataType)3, 21800 },
+	{ (Il2CppRGCTXDataType)1, 146 },
+	{ (Il2CppRGCTXDataType)2, 146 },
+	{ (Il2CppRGCTXDataType)3, 10787 },
+	{ (Il2CppRGCTXDataType)1, 145 },
+	{ (Il2CppRGCTXDataType)3, 1287 },
+	{ (Il2CppRGCTXDataType)3, 1284 },
+	{ (Il2CppRGCTXDataType)2, 728 },
+	{ (Il2CppRGCTXDataType)3, 183 },
+	{ (Il2CppRGCTXDataType)3, 1288 },
+	{ (Il2CppRGCTXDataType)2, 3234 },
+	{ (Il2CppRGCTXDataType)3, 18804 },
+	{ (Il2CppRGCTXDataType)3, 1285 },
+	{ (Il2CppRGCTXDataType)3, 1286 },
+	{ (Il2CppRGCTXDataType)3, 184 },
+	{ (Il2CppRGCTXDataType)2, 2399 },
+	{ (Il2CppRGCTXDataType)3, 10876 },
+	{ (Il2CppRGCTXDataType)3, 10877 },
+	{ (Il2CppRGCTXDataType)2, 706 },
+	{ (Il2CppRGCTXDataType)3, 47 },
+	{ (Il2CppRGCTXDataType)3, 48 },
+	{ (Il2CppRGCTXDataType)3, 10879 },
+	{ (Il2CppRGCTXDataType)3, 190 },
+	{ (Il2CppRGCTXDataType)3, 10878 },
+	{ (Il2CppRGCTXDataType)3, 10803 },
+	{ (Il2CppRGCTXDataType)3, 21855 },
+	{ (Il2CppRGCTXDataType)3, 8064 },
+	{ (Il2CppRGCTXDataType)2, 732 },
+	{ (Il2CppRGCTXDataType)3, 21748 },
+	{ (Il2CppRGCTXDataType)3, 8056 },
+	{ (Il2CppRGCTXDataType)3, 8061 },
+	{ (Il2CppRGCTXDataType)3, 8062 },
+	{ (Il2CppRGCTXDataType)2, 339 },
+	{ (Il2CppRGCTXDataType)3, 188 },
+	{ (Il2CppRGCTXDataType)3, 8063 },
+	{ (Il2CppRGCTXDataType)3, 8058 },
+	{ (Il2CppRGCTXDataType)3, 8057 },
+	{ (Il2CppRGCTXDataType)3, 8059 },
+	{ (Il2CppRGCTXDataType)3, 8060 },
+	{ (Il2CppRGCTXDataType)2, 730 },
+	{ (Il2CppRGCTXDataType)3, 21747 },
+	{ (Il2CppRGCTXDataType)3, 8017 },
+	{ (Il2CppRGCTXDataType)3, 10823 },
+	{ (Il2CppRGCTXDataType)2, 338 },
+	{ (Il2CppRGCTXDataType)3, 8053 },
+	{ (Il2CppRGCTXDataType)3, 10822 },
+	{ (Il2CppRGCTXDataType)3, 7709 },
+	{ (Il2CppRGCTXDataType)3, 8015 },
+	{ (Il2CppRGCTXDataType)3, 186 },
+	{ (Il2CppRGCTXDataType)3, 8055 },
+	{ (Il2CppRGCTXDataType)3, 8014 },
+	{ (Il2CppRGCTXDataType)3, 8054 },
+	{ (Il2CppRGCTXDataType)3, 10820 },
+	{ (Il2CppRGCTXDataType)3, 8016 },
+	{ (Il2CppRGCTXDataType)3, 7770 },
+	{ (Il2CppRGCTXDataType)3, 187 },
+	{ (Il2CppRGCTXDataType)3, 10821 },
+	{ (Il2CppRGCTXDataType)2, 2380 },
+	{ (Il2CppRGCTXDataType)3, 10819 },
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	2419,
+	2875,
 	s_methodPointers,
 	104,
 	s_adjustorThunks,
