@@ -299,6 +299,7 @@
     <Compile Include="Assets\Scripts\SyncronizePhoton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\ARRealismDemos\Common\Scripts\DepthDataSourceConfig.cs" />
+    <Compile Include="Assets\Scripts\SpawnStar.cs" />
     <Compile Include="Assets\ARRealismDemos\Common\Scripts\AttachDepthTexture.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\ObjectManipulation\Scripts\Gestures\PinchGestureRecognizer.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\Common\Scripts\PlaneDiscoveryGuide.cs" />
@@ -437,7 +438,15 @@
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Api\Types\ApiAugmentedFaceMode.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Trackable.cs" />
     <Compile Include="Assets\ARRealismDemos\SceneManager\Scripts\CarouselMovement.cs" />
-    <Compile Include="Assets\Scripts\SpawnStar.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\Menu.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\Launcher.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\RoomListItem.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\PlayerListItem.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\RoomManager.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\PlayerMGR.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\PlayerGroundCheck.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\ARRealismDemos\SnowParticles\Shaders\RenderParticles.shader" />

@@ -89,6 +89,7 @@ public class CharacterMove : MonoBehaviour
         _charTransform = gameObject.transform;
     }
 
+
     void Move(Vector3 movementVelocityVector)
     {
         velocityVector = movementVelocityVector;

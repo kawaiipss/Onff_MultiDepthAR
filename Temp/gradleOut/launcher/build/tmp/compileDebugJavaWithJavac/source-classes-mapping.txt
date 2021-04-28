@@ -1,0 +1,2 @@
+com/caCorp/caAnchor/BuildConfig.java
+ com.caCorp.caAnchor.BuildConfig
