@@ -151,7 +151,7 @@
 85-->C:\Users\kawai\OnffCA_Project\Onff_MultiDepthAR\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:19:5-101
 86            android:name="unity.build-id"
 86-->C:\Users\kawai\OnffCA_Project\Onff_MultiDepthAR\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:19:16-45
-87            android:value="e644cb5d-246e-4191-a6f6-da36728a8028" />
+87            android:value="e3ef0cd4-13fe-49ee-bf03-738d7effe030" />
 87-->C:\Users\kawai\OnffCA_Project\Onff_MultiDepthAR\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:19:46-98
 88        <meta-data
 88-->C:\Users\kawai\OnffCA_Project\Onff_MultiDepthAR\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:20:5-69

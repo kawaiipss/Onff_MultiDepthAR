@@ -8,7 +8,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -18,7 +18,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -27,7 +27,8 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/GameScenes/Lobby.unity"
+                "Assets/Scenes/GameScenes/Lobby.unity",
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -37,7 +38,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -47,7 +48,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -71,7 +72,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -95,7 +96,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -104,7 +105,8 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/GameScenes/Lobby.unity"
+                "Assets/Scenes/GameScenes/Lobby.unity",
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -226,7 +228,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -236,7 +238,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -246,7 +248,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -256,7 +258,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -275,7 +277,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -284,8 +286,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/GameScenes/Lobby.unity"
             ]
         },
         {
@@ -294,8 +295,7 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/GameScenes/Lobby.unity"
             ]
         },
         {
@@ -332,7 +332,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -377,7 +377,8 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/GameScenes/Lobby.unity"
+                "Assets/Scenes/GameScenes/Lobby.unity",
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -386,7 +387,8 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/GameScenes/Lobby.unity"
+                "Assets/Scenes/GameScenes/Lobby.unity",
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -396,7 +398,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -406,7 +408,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -416,7 +418,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -434,7 +436,8 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/GameScenes/Lobby.unity"
+                "Assets/Scenes/GameScenes/Lobby.unity",
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -489,7 +492,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -498,7 +501,8 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/Scenes/GameScenes/Lobby.unity"
+                "Assets/Scenes/GameScenes/Lobby.unity",
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -508,7 +512,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -518,7 +522,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -528,7 +532,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -537,7 +541,8 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/GameScenes/Lobby.unity"
+                "Assets/Scenes/GameScenes/Lobby.unity",
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -546,7 +551,8 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/GameScenes/Lobby.unity"
+                "Assets/Scenes/GameScenes/Lobby.unity",
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -565,7 +571,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -574,7 +580,8 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/GameScenes/Lobby.unity"
+                "Assets/Scenes/GameScenes/Lobby.unity",
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -584,7 +591,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -594,7 +601,7 @@
             "moduleName": "AI",
             "usedInScenes": [
                 "Assets/Scenes/GameScenes/Lobby.unity",
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -603,7 +610,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
         },
         {
@@ -612,8 +619,24 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/GameScenes/Game.unity"
+                "Assets/Scenes/DepthAPImulti.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ComputeShader",
+            "fullManagedTypeName": "UnityEngine.ComputeShader",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/DepthAPImulti.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ARBackgroundMaterialReplacer",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
@@ -639,7 +662,70 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "DepthMeshCollider",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "DepthSource",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "DepthTarget",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "DestroyInDemoScene",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "GoogleARCore.ARCoreCameraConfigFilter",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "GoogleARCore.ARCoreSession",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "GoogleARCore.ARCoreSessionConfig",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "GoogleARCore.DemoARBackgroundRenderer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "GoogleARCore.EnvironmentalLight",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "InstantiatePrefabHere",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -661,6 +747,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "MenuManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PhotonInit",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -703,6 +796,20 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "RoomManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ShadowReceiverMesh",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SpawnStar",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -864,6 +971,13 @@
             "managedAssemblyName": "Unity.TextMeshPro.dll",
             "nativeClass": "",
             "fullManagedTypeName": "TMPro.TextMeshProUGUI",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.SpatialTracking.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.SpatialTracking.TrackedPoseDriver",
             "moduleName": "",
             "usedInScenes": []
         },

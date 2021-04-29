@@ -16,7 +16,7 @@
     <meta-data android:name="com.google.android.ar.API_KEY" android:value="AIzaSyBcawe53Szp6a7GTcFI1K3vc5bLRL_Wh3Y" />
     <meta-data android:name="unity.tango-enable" android:value="True" />
     <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="true" />
-    <meta-data android:name="unity.build-id" android:value="e644cb5d-246e-4191-a6f6-da36728a8028" />
+    <meta-data android:name="unity.build-id" android:value="e3ef0cd4-13fe-49ee-bf03-738d7effe030" />
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="True" />
     <meta-data android:name="unity.arcore-enable" android:value="true" />

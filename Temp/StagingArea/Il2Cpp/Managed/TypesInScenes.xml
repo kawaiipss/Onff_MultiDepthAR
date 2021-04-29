@@ -57,21 +57,35 @@
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.ComputeShader" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="ARBackgroundMaterialReplacer" preserve="nothing"/>
 		<type fullname="BulletScript" preserve="nothing"/>
 		<type fullname="CharacterMove" preserve="nothing"/>
 		<type fullname="DepthDataSourceConfig" preserve="nothing"/>
+		<type fullname="DepthMeshCollider" preserve="nothing"/>
+		<type fullname="DepthSource" preserve="nothing"/>
 		<type fullname="DepthTarget" preserve="nothing"/>
+		<type fullname="DestroyInDemoScene" preserve="nothing"/>
+		<type fullname="GoogleARCore.ARCoreCameraConfigFilter" preserve="nothing"/>
+		<type fullname="GoogleARCore.ARCoreSession" preserve="nothing"/>
+		<type fullname="GoogleARCore.ARCoreSessionConfig" preserve="nothing"/>
+		<type fullname="GoogleARCore.DemoARBackgroundRenderer" preserve="nothing"/>
+		<type fullname="GoogleARCore.EnvironmentalLight" preserve="nothing"/>
+		<type fullname="InstantiatePrefabHere" preserve="nothing"/>
 		<type fullname="Launcher" preserve="nothing"/>
 		<type fullname="Menu" preserve="nothing"/>
 		<type fullname="MenuManager" preserve="nothing"/>
+		<type fullname="PhotonInit" preserve="nothing"/>
 		<type fullname="PlayerController" preserve="nothing"/>
 		<type fullname="PlayerListItem" preserve="nothing"/>
 		<type fullname="PlayerMGR" preserve="nothing"/>
 		<type fullname="PlayerSetting" preserve="nothing"/>
 		<type fullname="RoomListItem" preserve="nothing"/>
 		<type fullname="RoomManager" preserve="nothing"/>
+		<type fullname="ShadowReceiverMesh" preserve="nothing"/>
+		<type fullname="SpawnStar" preserve="nothing"/>
 		<type fullname="SyncronizePhoton" preserve="nothing"/>
 		<type fullname="VariableJoystick" preserve="nothing"/>
 	</assembly>
@@ -101,6 +115,9 @@
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="UnityEngine.SpatialTracking">
+		<type fullname="UnityEngine.SpatialTracking.TrackedPoseDriver" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
